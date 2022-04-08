@@ -56,6 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\OLURFORMU.cs" />
+    <Compile Include="OlurFormu\dsOlurFormu.cs">
+      <DependentUpon>dsOlurFormu.xsd</DependentUpon>
+    </Compile>
     <Compile Include="OlurFormu\dsOlurFormu.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
