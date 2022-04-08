@@ -35,17 +35,16 @@
             // 
             // TopMargin
             // 
-            this.TopMargin.HeightF = 38F;
+            this.TopMargin.HeightF = 0F;
             this.TopMargin.Name = "TopMargin";
             // 
             // BottomMargin
             // 
-            this.BottomMargin.HeightF = 35F;
+            this.BottomMargin.HeightF = 0F;
             this.BottomMargin.Name = "BottomMargin";
             // 
             // Detail
             // 
-            this.Detail.HeightF = 317.7083F;
             this.Detail.Name = "Detail";
             // 
             // rprOlurFormu
@@ -55,7 +54,7 @@
             this.BottomMargin,
             this.Detail});
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(55, 64, 38, 35);
+            this.Margins = new System.Drawing.Printing.Margins(100, 100, 0, 0);
             this.Version = "20.2";
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
