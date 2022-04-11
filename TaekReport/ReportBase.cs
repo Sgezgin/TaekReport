@@ -16,7 +16,7 @@ namespace TaekReport
 
             try
             {
-                OlurFormu.rprOlurFormu rpr = new OlurFormu.rprOlurFormu();
+                OlurFormu.rprOlurFormu rpr = new OlurFormu.rprOlurFormu(form);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);

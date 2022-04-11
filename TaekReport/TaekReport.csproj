@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ButceFormu\rprButceFormu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButceFormu\rprButceFormu.Designer.cs">
+      <DependentUpon>rprButceFormu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\OLURFORMU.cs" />
     <Compile Include="OlurFormu\dsOlurFormu.cs">
       <DependentUpon>dsOlurFormu.xsd</DependentUpon>
@@ -87,6 +93,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ButceFormu\rprButceFormu.resx">
+      <DependentUpon>rprButceFormu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OlurFormu\rprOlurFormu.resx">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
     </EmbeddedResource>
