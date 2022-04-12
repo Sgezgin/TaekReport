@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rprArastirmaButceFormu2));
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
@@ -135,7 +136,7 @@
             this.xrTable2.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow3,
             this.xrTableRow4});
-            this.xrTable2.SizeF = new System.Drawing.SizeF(762F, 50F);
+            this.xrTable2.SizeF = new System.Drawing.SizeF(762F, 245.8333F);
             this.xrTable2.StylePriority.UseFont = false;
             // 
             // xrTableRow3
@@ -157,13 +158,15 @@
             this.xrTableRow4.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell5});
             this.xrTableRow4.Name = "xrTableRow4";
-            this.xrTableRow4.Weight = 1D;
+            this.xrTableRow4.Weight = 8.83333251953125D;
             // 
             // xrTableCell5
             // 
+            this.xrTableCell5.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Italic);
             this.xrTableCell5.Multiline = true;
             this.xrTableCell5.Name = "xrTableCell5";
-            this.xrTableCell5.Text = "Uluslararası ";
+            this.xrTableCell5.StylePriority.UseFont = false;
+            this.xrTableCell5.Text = resources.GetString("xrTableCell5.Text");
             this.xrTableCell5.Weight = 1D;
             // 
             // rprArastirmaButceFormu2

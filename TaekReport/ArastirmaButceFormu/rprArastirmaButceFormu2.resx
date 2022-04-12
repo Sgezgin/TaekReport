@@ -117,4 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="xrTableCell5.Text" xml:space="preserve">
+    <value>Uluslararası araştırmalarda sadece Türkiye için ayrılan bütçe rakamını belirtiniz.
+
+Bu form, araştırma bütçe formunu imzalamaya yetkili kişiler tarafından imzalanmalıdır.Müşterek imza atılan durumlarda ilgili bölümler artırılabilir.
+
+Araştırmacı tarafından başlatılan araştırmalarda bu form araştırmacı tarafından imzalanmalıdır.
+</value>
+  </data>
 </root>
