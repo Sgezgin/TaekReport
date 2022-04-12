@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArastirmaButceFormu\rprArastirmaButceFormu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ArastirmaButceFormu\rprArastirmaButceFormu.Designer.cs">
+      <DependentUpon>rprArastirmaButceFormu.cs</DependentUpon>
+    </Compile>
     <Compile Include="ButceFormu\rprButceFormu.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ArastirmaButceFormu\rprArastirmaButceFormu.resx">
+      <DependentUpon>rprArastirmaButceFormu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ButceFormu\rprButceFormu.resx">
       <DependentUpon>rprButceFormu.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,8 +110,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ArastirmaButceFormu\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
