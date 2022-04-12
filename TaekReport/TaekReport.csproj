@@ -55,11 +55,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArastirmaButceFormu\rprArastirmaButceFormu.cs">
+    <Compile Include="ArastirmaButceFormu\rprArastirmaButceFormu1.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="ArastirmaButceFormu\rprArastirmaButceFormu.Designer.cs">
-      <DependentUpon>rprArastirmaButceFormu.cs</DependentUpon>
+    <Compile Include="ArastirmaButceFormu\rprArastirmaButceFormu1.Designer.cs">
+      <DependentUpon>rprArastirmaButceFormu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArastirmaButceFormu\rprArastirmaButceFormu2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ArastirmaButceFormu\rprArastirmaButceFormu2.Designer.cs">
+      <DependentUpon>rprArastirmaButceFormu2.cs</DependentUpon>
     </Compile>
     <Compile Include="ButceFormu\rprButceFormu.cs">
       <SubType>Component</SubType>
@@ -111,8 +117,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ArastirmaButceFormu\rprArastirmaButceFormu.resx">
-      <DependentUpon>rprArastirmaButceFormu.cs</DependentUpon>
+    <EmbeddedResource Include="ArastirmaButceFormu\rprArastirmaButceFormu1.resx">
+      <DependentUpon>rprArastirmaButceFormu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArastirmaButceFormu\rprArastirmaButceFormu2.resx">
+      <DependentUpon>rprArastirmaButceFormu2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ButceFormu\rprButceFormu.resx">
       <DependentUpon>rprButceFormu.cs</DependentUpon>
