@@ -79,6 +79,7 @@
     <Compile Include="ButceFormu\XtraReport1.Designer.cs">
       <DependentUpon>XtraReport1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\BUTCEFORMU.cs" />
     <Compile Include="Models\OLURFORMU.cs" />
     <Compile Include="OlurFormu\dsOlurFormu.cs">
       <DependentUpon>dsOlurFormu.xsd</DependentUpon>
