@@ -12,15 +12,7 @@ namespace TaekReport.OlurFormu
         public rprOlurFormu(OLURFORMU form)
         {
             InitializeComponent();
-           // string a = "color:red";
-          //  xrRichText2.Html = "<b><h1 style=" + a + " > Bu çalışmanın adı ne? </h1>" + "<b><p>Detay </ p ></b></b>";
-
-            string stly = "color:red";
-            txtCalismaAdi.Text= "<h1 style=" + stly + "> Bu çalışmanın adı ne? </h1>< p>Detay </ p > ";
-
-            txtCalismaAdi.Text = " Bu çalışmanın adı ne? " + form.CALISMANINADI;
-
-        }
+                 }
 
     }
 }

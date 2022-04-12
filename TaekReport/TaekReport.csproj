@@ -89,12 +89,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsOlurFormu.xsd</DependentUpon>
     </Compile>
-    <Compile Include="OlurFormu\rprOlurFormuduzeltme.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="OlurFormu\rprOlurFormuduzeltme.Designer.cs">
-      <DependentUpon>rprOlurFormuduzeltme.cs</DependentUpon>
-    </Compile>
     <Compile Include="OlurFormu\rprOlurFormu.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -129,9 +123,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ButceFormu\XtraReport1.resx">
       <DependentUpon>XtraReport1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OlurFormu\rprOlurFormuduzeltme.resx">
-      <DependentUpon>rprOlurFormuduzeltme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OlurFormu\rprOlurFormu.resx">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
