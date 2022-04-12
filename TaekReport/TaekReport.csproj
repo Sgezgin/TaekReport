@@ -67,6 +67,12 @@
     <Compile Include="ButceFormu\rprButceFormu.Designer.cs">
       <DependentUpon>rprButceFormu.cs</DependentUpon>
     </Compile>
+    <Compile Include="ButceFormu\XtraReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButceFormu\XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\OLURFORMU.cs" />
     <Compile Include="OlurFormu\dsOlurFormu.cs">
       <DependentUpon>dsOlurFormu.xsd</DependentUpon>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ButceFormu\rprButceFormu.resx">
       <DependentUpon>rprButceFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButceFormu\XtraReport1.resx">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OlurFormu\rprOlurFormu.resx">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>

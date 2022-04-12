@@ -902,7 +902,7 @@
             this.xrLabel3,
             this.xrLabel2,
             this.txtbilgi});
-            this.Detail.HeightF = 444.3334F;
+            this.Detail.HeightF = 521.4167F;
             this.Detail.Name = "Detail";
             // 
             // txtgonullusayi
@@ -910,11 +910,11 @@
             this.txtgonullusayi.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.txtgonullusayi.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.txtgonullusayi.LocationFloat = new DevExpress.Utils.PointFloat(27F, 398.4167F);
+            this.txtgonullusayi.LocationFloat = new DevExpress.Utils.PointFloat(0F, 398.4167F);
             this.txtgonullusayi.Multiline = true;
             this.txtgonullusayi.Name = "txtgonullusayi";
             this.txtgonullusayi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.txtgonullusayi.SizeF = new System.Drawing.SizeF(783.0001F, 45.91668F);
+            this.txtgonullusayi.SizeF = new System.Drawing.SizeF(781F, 45.91668F);
             this.txtgonullusayi.StylePriority.UseBorders = false;
             this.txtgonullusayi.StylePriority.UseFont = false;
             this.txtgonullusayi.Text = " Araştırmaya katılması beklenen tahmini gönüllü sayısı kaçtır?";
@@ -924,11 +924,11 @@
             this.xrLabel8.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel8.LocationFloat = new DevExpress.Utils.PointFloat(27F, 348.0834F);
+            this.xrLabel8.LocationFloat = new DevExpress.Utils.PointFloat(0F, 348.0834F);
             this.xrLabel8.Multiline = true;
             this.xrLabel8.Name = "xrLabel8";
             this.xrLabel8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel8.SizeF = new System.Drawing.SizeF(783.0001F, 50.33328F);
+            this.xrLabel8.SizeF = new System.Drawing.SizeF(781F, 50.33328F);
             this.xrLabel8.StylePriority.UseBorders = false;
             this.xrLabel8.StylePriority.UseFont = false;
             this.xrLabel8.Text = " Ne kadar zamanınızı alacak? ";
@@ -938,11 +938,11 @@
             this.txtolasilik.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.txtolasilik.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.txtolasilik.LocationFloat = new DevExpress.Utils.PointFloat(27F, 291.75F);
+            this.txtolasilik.LocationFloat = new DevExpress.Utils.PointFloat(0F, 291.75F);
             this.txtolasilik.Multiline = true;
             this.txtolasilik.Name = "txtolasilik";
             this.txtolasilik.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.txtolasilik.SizeF = new System.Drawing.SizeF(783.0001F, 56.33334F);
+            this.txtolasilik.SizeF = new System.Drawing.SizeF(781F, 56.33334F);
             this.txtolasilik.StylePriority.UseBorders = false;
             this.txtolasilik.StylePriority.UseFont = false;
             this.txtolasilik.Text = " Farklı tedaviler için araştırma gruplarına rastgele atanma olasılığı nedir?";
@@ -953,11 +953,11 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.txtUygulama.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.txtUygulama.LocationFloat = new DevExpress.Utils.PointFloat(27F, 242.7083F);
+            this.txtUygulama.LocationFloat = new DevExpress.Utils.PointFloat(0F, 242.7083F);
             this.txtUygulama.Multiline = true;
             this.txtUygulama.Name = "txtUygulama";
             this.txtUygulama.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.txtUygulama.SizeF = new System.Drawing.SizeF(783.0001F, 49.04167F);
+            this.txtUygulama.SizeF = new System.Drawing.SizeF(781F, 49.04167F);
             this.txtUygulama.StylePriority.UseBorders = false;
             this.txtUygulama.StylePriority.UseFont = false;
             this.txtUygulama.Text = " Size nasıl bir uygulama yapılacak? ";
@@ -966,11 +966,11 @@
             // 
             this.txtcalismaamaci.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right)));
             this.txtcalismaamaci.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.txtcalismaamaci.LocationFloat = new DevExpress.Utils.PointFloat(27F, 187.4167F);
+            this.txtcalismaamaci.LocationFloat = new DevExpress.Utils.PointFloat(0F, 187.4167F);
             this.txtcalismaamaci.Multiline = true;
             this.txtcalismaamaci.Name = "txtcalismaamaci";
             this.txtcalismaamaci.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.txtcalismaamaci.SizeF = new System.Drawing.SizeF(783.0001F, 55.29167F);
+            this.txtcalismaamaci.SizeF = new System.Drawing.SizeF(781F, 55.29167F);
             this.txtcalismaamaci.StylePriority.UseBorders = false;
             this.txtcalismaamaci.StylePriority.UseFont = false;
             this.txtcalismaamaci.Text = " Bu çalışmanın amacı ne? ";
@@ -980,11 +980,11 @@
             this.txtCalismaAdi.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.txtCalismaAdi.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtCalismaAdi.LocationFloat = new DevExpress.Utils.PointFloat(27F, 136.2916F);
+            this.txtCalismaAdi.LocationFloat = new DevExpress.Utils.PointFloat(0F, 136.2916F);
             this.txtCalismaAdi.Multiline = true;
             this.txtCalismaAdi.Name = "txtCalismaAdi";
             this.txtCalismaAdi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.txtCalismaAdi.SizeF = new System.Drawing.SizeF(783.0001F, 51.12503F);
+            this.txtCalismaAdi.SizeF = new System.Drawing.SizeF(781F, 51.12503F);
             this.txtCalismaAdi.StylePriority.UseBorders = false;
             this.txtCalismaAdi.StylePriority.UseFont = false;
             this.txtCalismaAdi.Text = " Bu çalışmanın adı ne? ";
@@ -994,11 +994,11 @@
             this.xrLabel3.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel3.Font = new System.Drawing.Font("Arial", 10F);
-            this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(27F, 68.49998F);
+            this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(0F, 68.49998F);
             this.xrLabel3.Multiline = true;
             this.xrLabel3.Name = "xrLabel3";
             this.xrLabel3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel3.SizeF = new System.Drawing.SizeF(783.0001F, 67.79165F);
+            this.xrLabel3.SizeF = new System.Drawing.SizeF(781F, 67.79165F);
             this.xrLabel3.StylePriority.UseBorders = false;
             this.xrLabel3.StylePriority.UseFont = false;
             this.xrLabel3.StylePriority.UseTextAlignment = false;
@@ -1008,11 +1008,11 @@
             // 
             this.xrLabel2.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right)));
             this.xrLabel2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(27F, 33.00001F);
+            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 33.00001F);
             this.xrLabel2.Multiline = true;
             this.xrLabel2.Name = "xrLabel2";
             this.xrLabel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel2.SizeF = new System.Drawing.SizeF(783.0001F, 35.49997F);
+            this.xrLabel2.SizeF = new System.Drawing.SizeF(781F, 35.49997F);
             this.xrLabel2.StylePriority.UseBorders = false;
             this.xrLabel2.StylePriority.UseFont = false;
             this.xrLabel2.StylePriority.UseTextAlignment = false;
@@ -1025,11 +1025,11 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.txtbilgi.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.txtbilgi.LocationFloat = new DevExpress.Utils.PointFloat(27F, 10.00001F);
+            this.txtbilgi.LocationFloat = new DevExpress.Utils.PointFloat(0F, 10.00001F);
             this.txtbilgi.Multiline = true;
             this.txtbilgi.Name = "txtbilgi";
             this.txtbilgi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.txtbilgi.SizeF = new System.Drawing.SizeF(783.0001F, 23F);
+            this.txtbilgi.SizeF = new System.Drawing.SizeF(781F, 23F);
             this.txtbilgi.StylePriority.UseBorders = false;
             this.txtbilgi.StylePriority.UseFont = false;
             this.txtbilgi.StylePriority.UseTextAlignment = false;
