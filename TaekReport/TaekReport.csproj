@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>\\155.223.130.169\LotusData\teakreportpublish\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -82,6 +82,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsOlurFormu.xsd</DependentUpon>
     </Compile>
+    <Compile Include="OlurFormu\rprOlurFormuduzeltme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OlurFormu\rprOlurFormuduzeltme.Designer.cs">
+      <DependentUpon>rprOlurFormuduzeltme.cs</DependentUpon>
+    </Compile>
     <Compile Include="OlurFormu\rprOlurFormu.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ButceFormu\XtraReport1.resx">
       <DependentUpon>XtraReport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OlurFormu\rprOlurFormuduzeltme.resx">
+      <DependentUpon>rprOlurFormuduzeltme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OlurFormu\rprOlurFormu.resx">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
