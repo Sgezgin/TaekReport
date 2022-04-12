@@ -57,7 +57,7 @@
             // 
             // BottomMargin
             // 
-            this.BottomMargin.HeightF = 345F;
+            this.BottomMargin.HeightF = 54.79158F;
             this.BottomMargin.Name = "BottomMargin";
             // 
             // Detail
@@ -74,7 +74,7 @@
             this.xrLabel3,
             this.xrLabel2,
             this.xrLabel1});
-            this.Detail.HeightF = 910.0001F;
+            this.Detail.HeightF = 931.0418F;
             this.Detail.Name = "Detail";
             // 
             // xrLabel10
@@ -288,7 +288,7 @@
             this.BottomMargin,
             this.Detail});
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(27, 30, 30, 345);
+            this.Margins = new System.Drawing.Printing.Margins(27, 30, 30, 55);
             this.Version = "20.2";
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();

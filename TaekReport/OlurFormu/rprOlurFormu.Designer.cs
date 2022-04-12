@@ -149,7 +149,7 @@
             this.txtyarar,
             this.txtsorumluluk,
             this.txtanaliz});
-            this.BottomMargin.HeightF = 1319.708F;
+            this.BottomMargin.HeightF = 1320F;
             this.BottomMargin.Name = "BottomMargin";
             // 
             // xrTable3
@@ -902,7 +902,7 @@
             this.xrLabel3,
             this.xrLabel2,
             this.txtbilgi});
-            this.Detail.HeightF = 449.5417F;
+            this.Detail.HeightF = 444.3334F;
             this.Detail.Name = "Detail";
             // 
             // txtgonullusayi
@@ -1002,7 +1002,6 @@
             this.xrLabel3.StylePriority.UseBorders = false;
             this.xrLabel3.StylePriority.UseFont = false;
             this.xrLabel3.StylePriority.UseTextAlignment = false;
-            this.xrLabel3.Text = resources.GetString("xrLabel3.Text");
             this.xrLabel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel2
@@ -1053,7 +1052,7 @@
             this.DataMember = "dtOlurFormu";
             this.DataSource = this.dsOlurFormu1;
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(19, 24, 25, 1320);
+            this.Margins = new System.Drawing.Printing.Margins(19, 27, 25, 1320);
             this.PageHeight = 1169;
             this.PageWidth = 827;
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;
