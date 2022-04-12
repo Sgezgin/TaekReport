@@ -122,7 +122,7 @@
                  Bilgilendirilmiş gönüllü olurunun imzalı ve tarihli bir kopyasının bana verileceğini biliyorum.
 </value>
   </data>
-  <data name="xrLabel3.Text" xml:space="preserve">
+  <data name="txtAciklama.Text" xml:space="preserve">
     <value>Bu çalışmaya katılmak üzere davet edilmiş bulunmaktasınız. Bu çalışmada yer almayı kabul etmeden önce çalışmanın ne amaçla yapılmak istendiğini anlamanız ve kararınızı bu bilgilendirme sonrası özgürce vermeniz gerekmektedir. Size özel hazırlanmış bu bilgilendirmeyi lütfen dikkatlice okuyunuz, sorularınıza açık yanıtlar isteyiniz.</value>
   </data>
   <metadata name="dsOlurFormu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
