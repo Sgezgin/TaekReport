@@ -37,6 +37,8 @@
             this.xrLabel3 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel4 = new DevExpress.XtraReports.UI.XRLabel();
             this.lblCaslimaninAdi = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblCalismaAmaci = new DevExpress.XtraReports.UI.XRLabel();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -52,6 +54,8 @@
             // Detail
             // 
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel5,
+            this.lblCalismaAmaci,
             this.lblCaslimaninAdi,
             this.xrLabel4,
             this.xrLabel3,
@@ -130,6 +134,31 @@
             this.lblCaslimaninAdi.StylePriority.UseBorders = false;
             this.lblCaslimaninAdi.Text = "lblCaslimaninAdi";
             // 
+            // xrLabel5
+            // 
+            this.xrLabel5.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right)));
+            this.xrLabel5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel5.LocationFloat = new DevExpress.Utils.PointFloat(0F, 201.4582F);
+            this.xrLabel5.Multiline = true;
+            this.xrLabel5.Name = "xrLabel5";
+            this.xrLabel5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel5.SizeF = new System.Drawing.SizeF(788F, 22.99999F);
+            this.xrLabel5.StylePriority.UseBorders = false;
+            this.xrLabel5.StylePriority.UseFont = false;
+            this.xrLabel5.Text = "Bu çalışmanın amacı ne? ";
+            // 
+            // lblCalismaAmaci
+            // 
+            this.lblCalismaAmaci.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.lblCalismaAmaci.LocationFloat = new DevExpress.Utils.PointFloat(0F, 224.4582F);
+            this.lblCalismaAmaci.Multiline = true;
+            this.lblCalismaAmaci.Name = "lblCalismaAmaci";
+            this.lblCalismaAmaci.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblCalismaAmaci.SizeF = new System.Drawing.SizeF(788F, 51.12497F);
+            this.lblCalismaAmaci.StylePriority.UseBorders = false;
+            this.lblCalismaAmaci.Text = "lblCaslimaninAdi";
+            // 
             // rprOlurFormu2
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -153,5 +182,7 @@
         private DevExpress.XtraReports.UI.XRLabel xrLabel3;
         private DevExpress.XtraReports.UI.XRLabel lblCaslimaninAdi;
         private DevExpress.XtraReports.UI.XRLabel xrLabel4;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel5;
+        private DevExpress.XtraReports.UI.XRLabel lblCalismaAmaci;
     }
 }

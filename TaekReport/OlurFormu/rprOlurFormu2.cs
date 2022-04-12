@@ -13,6 +13,7 @@ namespace TaekReport.OlurFormu
         {
             InitializeComponent();
             lblCaslimaninAdi.Text = form.CALISMANINADI;
+            lblCalismaAmaci.Text = form.CALISMANINAMACI;
         }
 
     }
