@@ -562,7 +562,6 @@
             this.lblVasiImza.StylePriority.UseBorders = false;
             this.lblVasiImza.StylePriority.UseFont = false;
             this.lblVasiImza.StylePriority.UseTextAlignment = false;
-            this.lblVasiImza.Text = "lblVasiImza";
             this.lblVasiImza.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // lblGonulluImza
@@ -577,7 +576,6 @@
             this.lblGonulluImza.StylePriority.UseBorders = false;
             this.lblGonulluImza.StylePriority.UseFont = false;
             this.lblGonulluImza.StylePriority.UseTextAlignment = false;
-            this.lblGonulluImza.Text = "lblGonulluImza";
             this.lblGonulluImza.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel20
