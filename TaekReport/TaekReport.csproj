@@ -95,6 +95,12 @@
     <Compile Include="OlurFormu\rprOlurFormu.Designer.cs">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
     </Compile>
+    <Compile Include="OlurFormu\rprOlurFormu2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OlurFormu\rprOlurFormu2.Designer.cs">
+      <DependentUpon>rprOlurFormu2.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReportBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -126,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OlurFormu\rprOlurFormu.resx">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OlurFormu\rprOlurFormu2.resx">
+      <DependentUpon>rprOlurFormu2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>

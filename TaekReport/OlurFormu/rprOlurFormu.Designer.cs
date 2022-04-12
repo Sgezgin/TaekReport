@@ -100,7 +100,7 @@
             this.xrTableRow10 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell8 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableRow8 = new DevExpress.XtraReports.UI.XRTableRow();
-            this.lblCaslimaAdi = new DevExpress.XtraReports.UI.XRTableCell();
+            this.ldfdd = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableRow11 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell11 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableRow9 = new DevExpress.XtraReports.UI.XRTableRow();
@@ -401,14 +401,14 @@
             this.xrTableCell26.Multiline = true;
             this.xrTableCell26.Name = "xrTableCell26";
             this.xrTableCell26.Text = "ADI & SOYADI";
-            this.xrTableCell26.Weight = 1.8422943115234376D;
+            this.xrTableCell26.Weight = 1.8582536705759003D;
             // 
             // txtvasiadsoyad
             // 
             this.txtvasiadsoyad.Multiline = true;
             this.txtvasiadsoyad.Name = "txtvasiadsoyad";
             this.txtvasiadsoyad.Text = "txtvasiadsoyad";
-            this.txtvasiadsoyad.Weight = 4.4952038574218758D;
+            this.txtvasiadsoyad.Weight = 4.4792444983694137D;
             // 
             // txtvasiimza
             // 
@@ -801,20 +801,20 @@
             // xrTableRow8
             // 
             this.xrTableRow8.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.lblCaslimaAdi});
+            this.ldfdd});
             this.xrTableRow8.Name = "xrTableRow8";
             this.xrTableRow8.Weight = 1D;
             // 
-            // lblCaslimaAdi
+            // ldfdd
             // 
-            this.lblCaslimaAdi.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblCaslimaAdi.Multiline = true;
-            this.lblCaslimaAdi.Name = "lblCaslimaAdi";
-            this.lblCaslimaAdi.StylePriority.UseFont = false;
-            this.lblCaslimaAdi.StylePriority.UseTextAlignment = false;
-            this.lblCaslimaAdi.Text = " Bu çalışmanın adı ne? ";
-            this.lblCaslimaAdi.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
-            this.lblCaslimaAdi.Weight = 1D;
+            this.ldfdd.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.ldfdd.Multiline = true;
+            this.ldfdd.Name = "ldfdd";
+            this.ldfdd.StylePriority.UseFont = false;
+            this.ldfdd.StylePriority.UseTextAlignment = false;
+            this.ldfdd.Text = " Bu çalışmanın adı ne? ";
+            this.ldfdd.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            this.ldfdd.Weight = 1D;
             // 
             // xrTableRow11
             // 
@@ -831,7 +831,7 @@
             this.xrTableCell11.StylePriority.UseFont = false;
             this.xrTableCell11.StylePriority.UseTextAlignment = false;
             this.xrTableCell11.Text = " Bu çalışmanın amacı ne? ";
-            this.xrTableCell11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrTableCell11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             this.xrTableCell11.Weight = 1D;
             // 
             // xrTableRow9
@@ -1339,7 +1339,7 @@
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow10;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell8;
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow8;
-        private DevExpress.XtraReports.UI.XRTableCell lblCaslimaAdi;
+        private DevExpress.XtraReports.UI.XRTableCell ldfdd;
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow7;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell4;
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow38;

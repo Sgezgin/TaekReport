@@ -7,12 +7,12 @@ using TaekReport.Models;
 
 namespace TaekReport.OlurFormu
 {
-    public partial class rprOlurFormu : DevExpress.XtraReports.UI.XtraReport
+    public partial class rprOlurFormu2 : DevExpress.XtraReports.UI.XtraReport
     {
-        public rprOlurFormu(OLURFORMU form)
+        public rprOlurFormu2(OLURFORMU form)
         {
             InitializeComponent();
-
+            lblCaslimaninAdi.Text = form.CALISMANINADI;
         }
 
     }
