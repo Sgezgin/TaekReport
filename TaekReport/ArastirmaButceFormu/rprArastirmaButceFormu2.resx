@@ -120,9 +120,20 @@
   <data name="xrTableCell5.Text" xml:space="preserve">
     <value>Uluslararası araştırmalarda sadece Türkiye için ayrılan bütçe rakamını belirtiniz.
 
-Bu form, araştırma bütçe formunu imzalamaya yetkili kişiler tarafından imzalanmalıdır.Müşterek imza atılan durumlarda ilgili bölümler artırılabilir.
+Bu form, araştırma bütçe formunu imzalamaya yetkili kişiler tarafından imzalanmalıdır. Müşterek imza atılan durumlarda ilgili bölümler artırılabilir.
 
 Araştırmacı tarafından başlatılan araştırmalarda bu form araştırmacı tarafından imzalanmalıdır.
+
+Bir gönüllü için ayrılan toplam miktar değil tüm araştırma boyunca ülkemiz için ayrılan araştırmacı ödemeleri, merkez ödemeleri ve operasyonel giderlerin de dâhil olduğu toplam miktarın belirtilmesi gerekmektedir.
+
+Sadece toplam bütçe rakamı yazılmalıdır. Herhangi bir hesaplama (gönüllü sayısı, merkez üzerinden hesaplama gibi) yapılarak rakam belirtimemelidir.</value>
+  </data>
+  <data name="xrTableCell8.Text" xml:space="preserve">
+    <value>İş bu bütçe formuyla;
+
+*   Formda belirtilen bilgilerin doğru olduğunu,
+*   İlgili mevzuat uyarınca araştırmanın her türlü mali sorumluluğunun üstlenildiğini,
+     kabul, beyan ve taahhüt ederim.
 </value>
   </data>
 </root>
