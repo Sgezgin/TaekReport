@@ -916,7 +916,7 @@
             this.lblUcretOdenecekmi.Multiline = true;
             this.lblUcretOdenecekmi.Name = "lblUcretOdenecekmi";
             this.lblUcretOdenecekmi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblUcretOdenecekmi.SizeF = new System.Drawing.SizeF(787.9951F, 34.62439F);
+            this.lblUcretOdenecekmi.SizeF = new System.Drawing.SizeF(787.9951F, 34.6239F);
             this.lblUcretOdenecekmi.StylePriority.UseBorders = false;
             this.lblUcretOdenecekmi.Text = "lblUcretOdenecekmi";
             // 

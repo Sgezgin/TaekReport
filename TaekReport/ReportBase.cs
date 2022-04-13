@@ -33,13 +33,13 @@ namespace TaekReport
         }
 
 
-        public byte[] ButceFormu(OLURFORMU form)
+        public byte[] ButceFormu(BUTCEFORMU form)
         {
             byte[] resultReport = null;
 
             try
             {
-                ButceFormu.rprButceFormu rpr = new ButceFormu.rprButceFormu();
+                ArastirmaButceFormu.rprArastirmaButce1 rpr = new ArastirmaButceFormu.rprArastirmaButce1(form);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);
