@@ -201,7 +201,7 @@
             this.xrLabel3,
             this.xrLabel2,
             this.xrLabel1});
-            this.Detail.HeightF = 2200.415F;
+            this.Detail.HeightF = 2112.332F;
             this.Detail.Name = "Detail";
             // 
             // lblArastirmaciImza
