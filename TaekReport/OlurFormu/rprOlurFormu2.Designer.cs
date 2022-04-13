@@ -849,7 +849,7 @@
             this.lblBilgilerinGizliligi.Multiline = true;
             this.lblBilgilerinGizliligi.Name = "lblBilgilerinGizliligi";
             this.lblBilgilerinGizliligi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblBilgilerinGizliligi.SizeF = new System.Drawing.SizeF(788.0002F, 42.74951F);
+            this.lblBilgilerinGizliligi.SizeF = new System.Drawing.SizeF(788.0002F, 42.74878F);
             this.lblBilgilerinGizliligi.StylePriority.UseBorders = false;
             this.lblBilgilerinGizliligi.Text = "Tüm kişisel ve tıbbi bilgileriniz gizli kalacak, sadece bilimsel amaçlarla kullan" +
     "ılacaktır. Araştırma sonuçlarının yayımlanması halinde dahi kimliğiniz gizli kal" +
@@ -916,7 +916,7 @@
             this.lblUcretOdenecekmi.Multiline = true;
             this.lblUcretOdenecekmi.Name = "lblUcretOdenecekmi";
             this.lblUcretOdenecekmi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblUcretOdenecekmi.SizeF = new System.Drawing.SizeF(788F, 78.20862F);
+            this.lblUcretOdenecekmi.SizeF = new System.Drawing.SizeF(788F, 78.375F);
             this.lblUcretOdenecekmi.StylePriority.UseBorders = false;
             this.lblUcretOdenecekmi.Text = "lblUcretOdenecekmi";
             // 
