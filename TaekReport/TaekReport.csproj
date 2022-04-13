@@ -89,17 +89,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsOlurFormu.xsd</DependentUpon>
     </Compile>
+    <Compile Include="OlurFormu\rprOlurFormu3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OlurFormu\rprOlurFormu3.Designer.cs">
+      <DependentUpon>rprOlurFormu3.cs</DependentUpon>
+    </Compile>
     <Compile Include="OlurFormu\rprOlurFormu.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="OlurFormu\rprOlurFormu.Designer.cs">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="OlurFormu\rprOlurFormu2.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="OlurFormu\rprOlurFormu2.Designer.cs">
-      <DependentUpon>rprOlurFormu2.cs</DependentUpon>
     </Compile>
     <Compile Include="ReportBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -130,11 +130,11 @@
     <EmbeddedResource Include="ButceFormu\XtraReport1.resx">
       <DependentUpon>XtraReport1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OlurFormu\rprOlurFormu3.resx">
+      <DependentUpon>rprOlurFormu3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OlurFormu\rprOlurFormu.resx">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OlurFormu\rprOlurFormu2.resx">
-      <DependentUpon>rprOlurFormu2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
