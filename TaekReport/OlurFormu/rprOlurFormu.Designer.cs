@@ -113,7 +113,7 @@
             // 
             // TopMargin
             // 
-            this.TopMargin.HeightF = 36F;
+            this.TopMargin.HeightF = 13.08333F;
             this.TopMargin.Name = "TopMargin";
             // 
             // BottomMargin
@@ -734,10 +734,11 @@
             this.xrLabel28.LocationFloat = new DevExpress.Utils.PointFloat(0F, 1331.874F);
             this.xrLabel28.Multiline = true;
             this.xrLabel28.Name = "xrLabel28";
-            this.xrLabel28.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel28.SizeF = new System.Drawing.SizeF(788F, 141.9989F);
+            this.xrLabel28.Padding = new DevExpress.XtraPrinting.PaddingInfo(1, 1, 0, 0, 100F);
+            this.xrLabel28.SizeF = new System.Drawing.SizeF(788F, 140.9572F);
             this.xrLabel28.StylePriority.UseBorders = false;
             this.xrLabel28.StylePriority.UseFont = false;
+            this.xrLabel28.StylePriority.UsePadding = false;
             this.xrLabel28.Text = resources.GetString("xrLabel28.Text");
             // 
             // xrLabel27
@@ -1076,11 +1077,11 @@
             // 
             this.xrLabel8.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right)));
             this.xrLabel8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel8.LocationFloat = new DevExpress.Utils.PointFloat(0F, 481.4994F);
+            this.xrLabel8.LocationFloat = new DevExpress.Utils.PointFloat(0F, 467.9578F);
             this.xrLabel8.Multiline = true;
             this.xrLabel8.Name = "xrLabel8";
             this.xrLabel8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel8.SizeF = new System.Drawing.SizeF(788F, 31.99997F);
+            this.xrLabel8.SizeF = new System.Drawing.SizeF(788F, 33.04163F);
             this.xrLabel8.StylePriority.UseBorders = false;
             this.xrLabel8.StylePriority.UseFont = false;
             this.xrLabel8.Text = " Sizden alınacak biyolojik materyallere ne olacak ve analizler nerede yapılacak? " +
@@ -1091,11 +1092,11 @@
             // 
             this.lblMateryalAnaliz.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.lblMateryalAnaliz.LocationFloat = new DevExpress.Utils.PointFloat(0F, 513.4993F);
+            this.lblMateryalAnaliz.LocationFloat = new DevExpress.Utils.PointFloat(0F, 500.9994F);
             this.lblMateryalAnaliz.Multiline = true;
             this.lblMateryalAnaliz.Name = "lblMateryalAnaliz";
             this.lblMateryalAnaliz.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblMateryalAnaliz.SizeF = new System.Drawing.SizeF(788F, 60.49976F);
+            this.lblMateryalAnaliz.SizeF = new System.Drawing.SizeF(788F, 73.16638F);
             this.lblMateryalAnaliz.StylePriority.UseBorders = false;
             this.lblMateryalAnaliz.Text = "lblMateryalAnaliz";
             // 
@@ -1107,7 +1108,7 @@
             this.lblTahminiGonulluSayisi.Multiline = true;
             this.lblTahminiGonulluSayisi.Name = "lblTahminiGonulluSayisi";
             this.lblTahminiGonulluSayisi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblTahminiGonulluSayisi.SizeF = new System.Drawing.SizeF(788F, 37.58325F);
+            this.lblTahminiGonulluSayisi.SizeF = new System.Drawing.SizeF(788F, 24.04156F);
             this.lblTahminiGonulluSayisi.StylePriority.UseBorders = false;
             this.lblTahminiGonulluSayisi.Text = "lblTahminiGonulluSayisi";
             // 
@@ -1303,7 +1304,7 @@
             this.BottomMargin,
             this.Detail});
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(30, 30, 36, 50);
+            this.Margins = new System.Drawing.Printing.Margins(30, 30, 13, 50);
             this.Version = "20.2";
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
