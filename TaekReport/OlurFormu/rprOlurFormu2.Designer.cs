@@ -700,7 +700,6 @@
             this.lblGonulluAdiSoyadi.StylePriority.UseBorders = false;
             this.lblGonulluAdiSoyadi.StylePriority.UseFont = false;
             this.lblGonulluAdiSoyadi.StylePriority.UseTextAlignment = false;
-            this.lblGonulluAdiSoyadi.Text = "lblGonulluAdiSoyadi";
             this.lblGonulluAdiSoyadi.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel29
@@ -1056,11 +1055,11 @@
             // 
             this.xrLabel11.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right)));
             this.xrLabel11.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(2.384186E-05F, 764.6243F);
+            this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(0F, 764.6243F);
             this.xrLabel11.Multiline = true;
             this.xrLabel11.Name = "xrLabel11";
             this.xrLabel11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel11.SizeF = new System.Drawing.SizeF(788F, 44.99988F);
+            this.xrLabel11.SizeF = new System.Drawing.SizeF(788F, 17.91656F);
             this.xrLabel11.StylePriority.UseBorders = false;
             this.xrLabel11.StylePriority.UseFont = false;
             this.xrLabel11.Text = " Çalışmaya katılmak size ne yarar sağlayacak?";
@@ -1069,11 +1068,11 @@
             // 
             this.lblYararlar.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.lblYararlar.LocationFloat = new DevExpress.Utils.PointFloat(2.384186E-05F, 809.6243F);
+            this.lblYararlar.LocationFloat = new DevExpress.Utils.PointFloat(0F, 782.5409F);
             this.lblYararlar.Multiline = true;
             this.lblYararlar.Name = "lblYararlar";
             this.lblYararlar.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblYararlar.SizeF = new System.Drawing.SizeF(788F, 51.12497F);
+            this.lblYararlar.SizeF = new System.Drawing.SizeF(788F, 78.20837F);
             this.lblYararlar.StylePriority.UseBorders = false;
             this.lblYararlar.Text = "lblYararlar";
             // 
@@ -1081,11 +1080,11 @@
             // 
             this.lblBeklenen.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.lblBeklenen.LocationFloat = new DevExpress.Utils.PointFloat(0F, 713.2076F);
+            this.lblBeklenen.LocationFloat = new DevExpress.Utils.PointFloat(0F, 687.1658F);
             this.lblBeklenen.Multiline = true;
             this.lblBeklenen.Name = "lblBeklenen";
             this.lblBeklenen.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblBeklenen.SizeF = new System.Drawing.SizeF(788F, 51.12497F);
+            this.lblBeklenen.SizeF = new System.Drawing.SizeF(788F, 77.16675F);
             this.lblBeklenen.StylePriority.UseBorders = false;
             this.lblBeklenen.Text = "lblBeklenen";
             // 
@@ -1093,11 +1092,11 @@
             // 
             this.xrLabel12.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right)));
             this.xrLabel12.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel12.LocationFloat = new DevExpress.Utils.PointFloat(0F, 668.2076F);
+            this.xrLabel12.LocationFloat = new DevExpress.Utils.PointFloat(0F, 668.2075F);
             this.xrLabel12.Multiline = true;
             this.xrLabel12.Name = "xrLabel12";
             this.xrLabel12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel12.SizeF = new System.Drawing.SizeF(788F, 44.99988F);
+            this.xrLabel12.SizeF = new System.Drawing.SizeF(788F, 18.95825F);
             this.xrLabel12.StylePriority.UseBorders = false;
             this.xrLabel12.StylePriority.UseFont = false;
             this.xrLabel12.Text = " Sizden beklenen nedir? Sizin sorumluluklarınız nelerdir?";
