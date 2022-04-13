@@ -218,7 +218,6 @@
             this.lblArastirmaciImza.StylePriority.UseBorders = false;
             this.lblArastirmaciImza.StylePriority.UseFont = false;
             this.lblArastirmaciImza.StylePriority.UseTextAlignment = false;
-            this.lblArastirmaciImza.Text = "lblArastirmaciImza";
             this.lblArastirmaciImza.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel36
