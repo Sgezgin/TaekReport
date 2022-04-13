@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArastirmaButceFormu\rprArastirmaButce1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ArastirmaButceFormu\rprArastirmaButce1.Designer.cs">
+      <DependentUpon>rprArastirmaButce1.cs</DependentUpon>
+    </Compile>
     <Compile Include="ArastirmaButceFormu\rprArastirmaButceFormu1.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -124,6 +130,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ArastirmaButceFormu\rprArastirmaButce1.resx">
+      <DependentUpon>rprArastirmaButce1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ArastirmaButceFormu\rprArastirmaButceFormu1.resx">
       <DependentUpon>rprArastirmaButceFormu1.cs</DependentUpon>
     </EmbeddedResource>
