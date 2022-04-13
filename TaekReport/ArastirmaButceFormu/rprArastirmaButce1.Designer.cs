@@ -44,11 +44,11 @@
             this.xrLabel17 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel18 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel14 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel15 = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblGonulluOdeme = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel13 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel11 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel12 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel10 = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblProtokolKodu = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblTitckKodu = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel9 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel7 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel8 = new DevExpress.XtraReports.UI.XRLabel();
@@ -86,11 +86,11 @@
             this.xrLabel17,
             this.xrLabel18,
             this.xrLabel14,
-            this.xrLabel15,
+            this.lblGonulluOdeme,
             this.xrLabel13,
             this.xrLabel11,
-            this.xrLabel12,
-            this.xrLabel10,
+            this.lblProtokolKodu,
+            this.lblTitckKodu,
             this.xrLabel9,
             this.xrLabel7,
             this.xrLabel8,
@@ -269,15 +269,15 @@
     "ir gönüllüye ödenmesi planlanan maksimum ödeme miktarını belirtiniz:\r\n";
             this.xrLabel14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
-            // xrLabel15
+            // lblGonulluOdeme
             // 
-            this.xrLabel15.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic);
-            this.xrLabel15.LocationFloat = new DevExpress.Utils.PointFloat(0F, 310.9167F);
-            this.xrLabel15.Multiline = true;
-            this.xrLabel15.Name = "xrLabel15";
-            this.xrLabel15.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel15.SizeF = new System.Drawing.SizeF(758.9999F, 45.375F);
-            this.xrLabel15.StylePriority.UseFont = false;
+            this.lblGonulluOdeme.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic);
+            this.lblGonulluOdeme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 310.9167F);
+            this.lblGonulluOdeme.Multiline = true;
+            this.lblGonulluOdeme.Name = "lblGonulluOdeme";
+            this.lblGonulluOdeme.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblGonulluOdeme.SizeF = new System.Drawing.SizeF(758.9999F, 45.375F);
+            this.lblGonulluOdeme.StylePriority.UseFont = false;
             // 
             // xrLabel13
             // 
@@ -307,25 +307,25 @@
             this.xrLabel11.Text = "Protokol Kodu";
             this.xrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
-            // xrLabel12
+            // lblProtokolKodu
             // 
-            this.xrLabel12.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel12.LocationFloat = new DevExpress.Utils.PointFloat(507.2917F, 232.4167F);
-            this.xrLabel12.Multiline = true;
-            this.xrLabel12.Name = "xrLabel12";
-            this.xrLabel12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel12.SizeF = new System.Drawing.SizeF(251.7082F, 23F);
-            this.xrLabel12.StylePriority.UseFont = false;
+            this.lblProtokolKodu.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.lblProtokolKodu.LocationFloat = new DevExpress.Utils.PointFloat(507.2917F, 232.4167F);
+            this.lblProtokolKodu.Multiline = true;
+            this.lblProtokolKodu.Name = "lblProtokolKodu";
+            this.lblProtokolKodu.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblProtokolKodu.SizeF = new System.Drawing.SizeF(251.7082F, 23F);
+            this.lblProtokolKodu.StylePriority.UseFont = false;
             // 
-            // xrLabel10
+            // lblTitckKodu
             // 
-            this.xrLabel10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel10.LocationFloat = new DevExpress.Utils.PointFloat(130.2084F, 232.4167F);
-            this.xrLabel10.Multiline = true;
-            this.xrLabel10.Name = "xrLabel10";
-            this.xrLabel10.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel10.SizeF = new System.Drawing.SizeF(246.875F, 23F);
-            this.xrLabel10.StylePriority.UseFont = false;
+            this.lblTitckKodu.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.lblTitckKodu.LocationFloat = new DevExpress.Utils.PointFloat(130.2084F, 232.4167F);
+            this.lblTitckKodu.Multiline = true;
+            this.lblTitckKodu.Name = "lblTitckKodu";
+            this.lblTitckKodu.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblTitckKodu.SizeF = new System.Drawing.SizeF(246.875F, 23F);
+            this.lblTitckKodu.StylePriority.UseFont = false;
             // 
             // xrLabel9
             // 
@@ -470,11 +470,11 @@
         private DevExpress.XtraReports.UI.XRLabel xrLabel8;
         private DevExpress.XtraReports.UI.XRLabel xrLabel9;
         private DevExpress.XtraReports.UI.XRLabel xrLabel11;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel12;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel10;
+        private DevExpress.XtraReports.UI.XRLabel lblProtokolKodu;
+        private DevExpress.XtraReports.UI.XRLabel lblTitckKodu;
         private DevExpress.XtraReports.UI.XRLabel xrLabel13;
         private DevExpress.XtraReports.UI.XRLabel xrLabel14;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel15;
+        private DevExpress.XtraReports.UI.XRLabel lblGonulluOdeme;
         private DevExpress.XtraReports.UI.XRLabel xrLabel16;
         private DevExpress.XtraReports.UI.XRLabel xrLabel17;
         private DevExpress.XtraReports.UI.XRLabel xrLabel18;
