@@ -22,7 +22,9 @@ namespace TaekReport.OlurFormu
             lblTahminiGonulluSayisi.Text = form.TAHMINIGONULLUSAYI.ToString();
             lblMateryalAnaliz.Text = form.MATERYALANALIZ;
             lblBeklenen.Text = form.BEKLENENLER;
+            lblYararlar.Text = form.YARARLAR;
             lblSonaErdirmeDurumlari.Text = form.SONAERDIRMEDURUMLARI;
+            lblZararlar.Text = form.ZARARLAR;
             lblKatilmazIse.Text = form.KATILMAZISE;
             lblAlternatifYontemler.Text = form.ALTERNATIFYONTEMLER;
             lblUcretOdenecekmi.Text = form.UCRETODENECEKMI;
