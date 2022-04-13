@@ -12,7 +12,14 @@ namespace TaekReport.ArastirmaButceFormu
         public rprArastirmaButce1(BUTCEFORMU form)
         {
             InitializeComponent();
+
+            lblTitckKodu.Text = form.TITCKKODU;
+            lblProtokolKodu.Text = form.PROTOKOLKODU;
+            lblGonulluOdeme.Text = form.GONULLUODEMELERI;
+            lblBKAciklama1.Text = form.BKACIKLAMA;
             
+
+
         }
 
     }

@@ -1008,7 +1008,6 @@
             this.xrLabel13.StylePriority.UseBorders = false;
             this.xrLabel13.StylePriority.UseFont = false;
             this.xrLabel13.Text = "Araştırmaya katılımının sona erdirilmesini gerektirecek durumlar nelerdir?";
-            this.xrLabel13.BeforePrint += new System.Drawing.Printing.PrintEventHandler(this.xrLabel13_BeforePrint);
             // 
             // lblSonaErdirmeDurumlari
             // 
@@ -1021,7 +1020,7 @@
             this.lblSonaErdirmeDurumlari.SizeF = new System.Drawing.SizeF(788F, 60.49988F);
             this.lblSonaErdirmeDurumlari.StylePriority.UseBorders = false;
             this.lblSonaErdirmeDurumlari.Text = "lblSonaErdirmeDurumlari";
-            this.lblSonaErdirmeDurumlari.BeforePrint += new System.Drawing.Printing.PrintEventHandler(this.lblSonaErdirmeDurumlari_BeforePrint);
+           
             // 
             // xrLabel11
             // 

@@ -3,16 +3,20 @@ using System.Drawing;
 using System.Collections;
 using System.ComponentModel;
 using DevExpress.XtraReports.UI;
-using TaekReport.Models;
+
+//using TaekReport.Models;
+
 
 namespace TaekReport.OlurFormu
 {
+   
     public partial class rprOlurFormu : DevExpress.XtraReports.UI.XtraReport
     {
-  
-        public rprOlurFormu(OLURFORMU form = null)
+
+        /*public rprOlurFormu(OLURFORMU form = null)
         {
             InitializeComponent();
+
             lblCalismaninAdi.Text = form.CALISMANINADI;
             lblCalismaAmaci.Text = form.CALISMANINAMACI;
             lblUygulama.Text = form.UYGULAMA;
@@ -30,7 +34,7 @@ namespace TaekReport.OlurFormu
             lblUcretOdenecekmi.Text = form.UCRETODENECEKMI;
             lblBilgilerinGizliligi.Text = form.BILGILERINGIZLILIGI;
             lblKisiUcretOdeyecekmi.Text = form.KISIUCRETODEYECEKMI;
-           
+
 
             //calismasorumlusu bilgileri
             lblCalismaSorumlusuAdiSoyadi.Text = "Bilgi gelicek";
@@ -54,22 +58,11 @@ namespace TaekReport.OlurFormu
             lblArastirmaciAdres.Text = "";
             lblArastirmaciTelefon.Text = "";
             lblArastirmaciTarih.Text = "";
-            lblArastirmaciImza.Text = ""; 
+            lblArastirmaciImza.Text = "";
 
+        }*/
+     
 
-
-
-
-        }
-
-        private void lblSonaErdirmeDurumlari_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
-        {
-
-        }
-
-        private void xrLabel13_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
-        {
-
-        }
+        
     }
 }

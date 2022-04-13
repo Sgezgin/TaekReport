@@ -31,15 +31,15 @@
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
-            this.lblButceAciklama = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblBKAciklama1 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel23 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel21 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel22 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrCheckBox3 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.chkBxHibeDestek = new DevExpress.XtraReports.UI.XRCheckBox();
             this.xrLabel20 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel19 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrCheckBox2 = new DevExpress.XtraReports.UI.XRCheckBox();
-            this.xrCheckBox1 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.chkBxFinansKurulus = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.chkBxArastirmacininKendisi = new DevExpress.XtraReports.UI.XRCheckBox();
             this.xrLabel16 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel17 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel18 = new DevExpress.XtraReports.UI.XRLabel();
@@ -51,7 +51,7 @@
             this.lblTitckKodu = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel9 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel7 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel8 = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblArastirmaAdi = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel5 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel6 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel4 = new DevExpress.XtraReports.UI.XRLabel();
@@ -73,15 +73,15 @@
             // Detail
             // 
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.lblButceAciklama,
+            this.lblBKAciklama1,
             this.xrLabel23,
             this.xrLabel21,
             this.xrLabel22,
-            this.xrCheckBox3,
+            this.chkBxHibeDestek,
             this.xrLabel20,
             this.xrLabel19,
-            this.xrCheckBox2,
-            this.xrCheckBox1,
+            this.chkBxFinansKurulus,
+            this.chkBxArastirmacininKendisi,
             this.xrLabel16,
             this.xrLabel17,
             this.xrLabel18,
@@ -93,7 +93,7 @@
             this.lblTitckKodu,
             this.xrLabel9,
             this.xrLabel7,
-            this.xrLabel8,
+            this.lblArastirmaAdi,
             this.xrLabel5,
             this.xrLabel6,
             this.xrLabel4,
@@ -103,13 +103,13 @@
             this.Detail.HeightF = 654.5834F;
             this.Detail.Name = "Detail";
             // 
-            // lblButceAciklama
+            // lblBKAciklama1
             // 
-            this.lblButceAciklama.LocationFloat = new DevExpress.Utils.PointFloat(100.0002F, 517.2917F);
-            this.lblButceAciklama.Multiline = true;
-            this.lblButceAciklama.Name = "lblButceAciklama";
-            this.lblButceAciklama.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblButceAciklama.SizeF = new System.Drawing.SizeF(659.9998F, 128.2083F);
+            this.lblBKAciklama1.LocationFloat = new DevExpress.Utils.PointFloat(100.0002F, 517.2917F);
+            this.lblBKAciklama1.Multiline = true;
+            this.lblBKAciklama1.Name = "lblBKAciklama1";
+            this.lblBKAciklama1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblBKAciklama1.SizeF = new System.Drawing.SizeF(659.9998F, 128.2083F);
             // 
             // xrLabel23
             // 
@@ -152,16 +152,16 @@
             this.xrLabel22.Text = "İlaç,malzeme ve cihaz hibeleri vb.";
             this.xrLabel22.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             // 
-            // xrCheckBox3
+            // chkBxHibeDestek
             // 
-            this.xrCheckBox3.LocationFloat = new DevExpress.Utils.PointFloat(716.7498F, 484.875F);
-            this.xrCheckBox3.Name = "xrCheckBox3";
-            this.xrCheckBox3.Padding = new DevExpress.XtraPrinting.PaddingInfo(15, 0, 0, 0, 100F);
-            this.xrCheckBox3.SizeF = new System.Drawing.SizeF(42.25012F, 32.41669F);
-            this.xrCheckBox3.SnapLineMargin = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 2, 2, 100F);
-            this.xrCheckBox3.StylePriority.UsePadding = false;
-            this.xrCheckBox3.StylePriority.UseTextAlignment = false;
-            this.xrCheckBox3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.chkBxHibeDestek.LocationFloat = new DevExpress.Utils.PointFloat(716.7498F, 484.875F);
+            this.chkBxHibeDestek.Name = "chkBxHibeDestek";
+            this.chkBxHibeDestek.Padding = new DevExpress.XtraPrinting.PaddingInfo(15, 0, 0, 0, 100F);
+            this.chkBxHibeDestek.SizeF = new System.Drawing.SizeF(42.25012F, 32.41669F);
+            this.chkBxHibeDestek.SnapLineMargin = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 2, 2, 100F);
+            this.chkBxHibeDestek.StylePriority.UsePadding = false;
+            this.chkBxHibeDestek.StylePriority.UseTextAlignment = false;
+            this.chkBxHibeDestek.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
             // xrLabel20
             // 
@@ -189,27 +189,27 @@
             this.xrLabel19.Text = "Finanse eden kurum/kuruluş \r\n";
             this.xrLabel19.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             // 
-            // xrCheckBox2
+            // chkBxFinansKurulus
             // 
-            this.xrCheckBox2.LocationFloat = new DevExpress.Utils.PointFloat(716.7498F, 450.5F);
-            this.xrCheckBox2.Name = "xrCheckBox2";
-            this.xrCheckBox2.Padding = new DevExpress.XtraPrinting.PaddingInfo(15, 0, 0, 0, 100F);
-            this.xrCheckBox2.SizeF = new System.Drawing.SizeF(42.25012F, 32.41669F);
-            this.xrCheckBox2.SnapLineMargin = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 2, 2, 100F);
-            this.xrCheckBox2.StylePriority.UsePadding = false;
-            this.xrCheckBox2.StylePriority.UseTextAlignment = false;
-            this.xrCheckBox2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.chkBxFinansKurulus.LocationFloat = new DevExpress.Utils.PointFloat(716.7498F, 450.5F);
+            this.chkBxFinansKurulus.Name = "chkBxFinansKurulus";
+            this.chkBxFinansKurulus.Padding = new DevExpress.XtraPrinting.PaddingInfo(15, 0, 0, 0, 100F);
+            this.chkBxFinansKurulus.SizeF = new System.Drawing.SizeF(42.25012F, 32.41669F);
+            this.chkBxFinansKurulus.SnapLineMargin = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 2, 2, 100F);
+            this.chkBxFinansKurulus.StylePriority.UsePadding = false;
+            this.chkBxFinansKurulus.StylePriority.UseTextAlignment = false;
+            this.chkBxFinansKurulus.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
-            // xrCheckBox1
+            // chkBxArastirmacininKendisi
             // 
-            this.xrCheckBox1.LocationFloat = new DevExpress.Utils.PointFloat(716.7498F, 419.25F);
-            this.xrCheckBox1.Name = "xrCheckBox1";
-            this.xrCheckBox1.Padding = new DevExpress.XtraPrinting.PaddingInfo(15, 0, 0, 0, 100F);
-            this.xrCheckBox1.SizeF = new System.Drawing.SizeF(42.25012F, 27.66669F);
-            this.xrCheckBox1.SnapLineMargin = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 2, 2, 100F);
-            this.xrCheckBox1.StylePriority.UsePadding = false;
-            this.xrCheckBox1.StylePriority.UseTextAlignment = false;
-            this.xrCheckBox1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.chkBxArastirmacininKendisi.LocationFloat = new DevExpress.Utils.PointFloat(716.7498F, 419.25F);
+            this.chkBxArastirmacininKendisi.Name = "chkBxArastirmacininKendisi";
+            this.chkBxArastirmacininKendisi.Padding = new DevExpress.XtraPrinting.PaddingInfo(15, 0, 0, 0, 100F);
+            this.chkBxArastirmacininKendisi.SizeF = new System.Drawing.SizeF(42.25012F, 27.66669F);
+            this.chkBxArastirmacininKendisi.SnapLineMargin = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 2, 2, 100F);
+            this.chkBxArastirmacininKendisi.StylePriority.UsePadding = false;
+            this.chkBxArastirmacininKendisi.StylePriority.UseTextAlignment = false;
+            this.chkBxArastirmacininKendisi.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
             // xrLabel16
             // 
@@ -357,15 +357,15 @@
             this.xrLabel7.Text = "Araştırmanın açık adı\r\n";
             this.xrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
-            // xrLabel8
+            // lblArastirmaAdi
             // 
-            this.xrLabel8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic);
-            this.xrLabel8.LocationFloat = new DevExpress.Utils.PointFloat(0F, 201.7083F);
-            this.xrLabel8.Multiline = true;
-            this.xrLabel8.Name = "xrLabel8";
-            this.xrLabel8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel8.SizeF = new System.Drawing.SizeF(759F, 30.29163F);
-            this.xrLabel8.StylePriority.UseFont = false;
+            this.lblArastirmaAdi.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic);
+            this.lblArastirmaAdi.LocationFloat = new DevExpress.Utils.PointFloat(0F, 201.7083F);
+            this.lblArastirmaAdi.Multiline = true;
+            this.lblArastirmaAdi.Name = "lblArastirmaAdi";
+            this.lblArastirmaAdi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblArastirmaAdi.SizeF = new System.Drawing.SizeF(759F, 30.29163F);
+            this.lblArastirmaAdi.StylePriority.UseFont = false;
             // 
             // xrLabel5
             // 
@@ -467,7 +467,7 @@
         private DevExpress.XtraReports.UI.XRLabel xrLabel6;
         private DevExpress.XtraReports.UI.XRLabel xrLabel4;
         private DevExpress.XtraReports.UI.XRLabel xrLabel7;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel8;
+        private DevExpress.XtraReports.UI.XRLabel lblArastirmaAdi;
         private DevExpress.XtraReports.UI.XRLabel xrLabel9;
         private DevExpress.XtraReports.UI.XRLabel xrLabel11;
         private DevExpress.XtraReports.UI.XRLabel lblProtokolKodu;
@@ -479,13 +479,13 @@
         private DevExpress.XtraReports.UI.XRLabel xrLabel17;
         private DevExpress.XtraReports.UI.XRLabel xrLabel18;
         private DevExpress.XtraReports.UI.XRLabel xrLabel19;
-        private DevExpress.XtraReports.UI.XRCheckBox xrCheckBox2;
-        private DevExpress.XtraReports.UI.XRCheckBox xrCheckBox1;
+        private DevExpress.XtraReports.UI.XRCheckBox chkBxFinansKurulus;
+        private DevExpress.XtraReports.UI.XRCheckBox chkBxArastirmacininKendisi;
         private DevExpress.XtraReports.UI.XRLabel xrLabel20;
         private DevExpress.XtraReports.UI.XRLabel xrLabel21;
         private DevExpress.XtraReports.UI.XRLabel xrLabel22;
-        private DevExpress.XtraReports.UI.XRCheckBox xrCheckBox3;
-        private DevExpress.XtraReports.UI.XRLabel lblButceAciklama;
+        private DevExpress.XtraReports.UI.XRCheckBox chkBxHibeDestek;
+        private DevExpress.XtraReports.UI.XRLabel lblBKAciklama1;
         private DevExpress.XtraReports.UI.XRLabel xrLabel23;
     }
 }
