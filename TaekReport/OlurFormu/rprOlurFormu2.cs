@@ -30,8 +30,8 @@ namespace TaekReport.OlurFormu
             lblBilgilerinGizliligi.Text = form.BILGILERINGIZLILIGI;
 
             //calismasorumlusu bilgileri
-            lblCalismaSorumlusuAdi.Text = "Bilgi gelicek";
-            lblCalismaSorumlusuSoyadi.Text = "";
+            lblCalismaSorumlusuAdiSoyadi.Text = "Bilgi gelicek";
+            
             lblCalismaSorumluTelefon.Text = "";
             lblCalismaSorumluGorevYeri.Text = "";
             lblGonulluAdiSoyadi.Text = "";

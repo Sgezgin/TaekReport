@@ -92,7 +92,7 @@
             // 
             // BottomMargin
             // 
-            this.BottomMargin.HeightF = 54.79158F;
+            this.BottomMargin.HeightF = 55F;
             this.BottomMargin.Name = "BottomMargin";
             // 
             // Detail
@@ -101,7 +101,7 @@
             this.xrTable1,
             this.xrTable3,
             this.xrTable2});
-            this.Detail.HeightF = 1242.083F;
+            this.Detail.HeightF = 1207.916F;
             this.Detail.Name = "Detail";
             // 
             // xrTable1
