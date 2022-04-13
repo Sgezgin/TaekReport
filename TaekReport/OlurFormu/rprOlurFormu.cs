@@ -4,7 +4,7 @@ using System.Collections;
 using System.ComponentModel;
 using DevExpress.XtraReports.UI;
 
-//using TaekReport.Models;
+using TaekReport.Models;
 
 
 namespace TaekReport.OlurFormu
@@ -13,7 +13,7 @@ namespace TaekReport.OlurFormu
     public partial class rprOlurFormu : DevExpress.XtraReports.UI.XtraReport
     {
 
-        /*public rprOlurFormu(OLURFORMU form = null)
+        public rprOlurFormu(OLURFORMU form = null)
         {
             InitializeComponent();
 
@@ -36,7 +36,7 @@ namespace TaekReport.OlurFormu
             lblKisiUcretOdeyecekmi.Text = form.KISIUCRETODEYECEKMI;
 
 
-            //calismasorumlusu bilgileri
+          //  calismasorumlusu bilgileri
             lblCalismaSorumlusuAdiSoyadi.Text = "Bilgi gelicek";
             lblCalismaSorumluTelefon.Text = "dd";
             lblCalismaSorumluGorevYeri.Text = "ddd";
@@ -46,23 +46,22 @@ namespace TaekReport.OlurFormu
             lblGonulluTarih.Text = "";
             lblGonulluImza.Text = "";
 
-            //Vasi Bilgileri
+         //   Vasi Bilgileri
             lblVasiAdiSoyadi.Text = "";
             lblVasiAdres.Text = "";
             lblVasiTelefon.Text = "";
             lblVasiTarih.Text = "";
             lblVasiImza.Text = "";
 
-            //Arastirmacinin bilgileri
+           // Arastirmacinin bilgileri
             lblArastirmaciAdiSoyadi.Text = "";
             lblArastirmaciAdres.Text = "";
             lblArastirmaciTelefon.Text = "";
             lblArastirmaciTarih.Text = "";
             lblArastirmaciImza.Text = "";
 
-        }*/
-     
+        }
 
-        
+
     }
 }
