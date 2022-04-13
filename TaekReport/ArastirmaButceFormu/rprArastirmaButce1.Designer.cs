@@ -100,7 +100,7 @@
             this.xrLabel3,
             this.xrLabel2,
             this.xrLabel1});
-            this.Detail.HeightF = 676.0417F;
+            this.Detail.HeightF = 654.5834F;
             this.Detail.Name = "Detail";
             // 
             // lblButceAciklama
@@ -109,7 +109,7 @@
             this.lblButceAciklama.Multiline = true;
             this.lblButceAciklama.Name = "lblButceAciklama";
             this.lblButceAciklama.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblButceAciklama.SizeF = new System.Drawing.SizeF(658.9999F, 128.2083F);
+            this.lblButceAciklama.SizeF = new System.Drawing.SizeF(659.9998F, 128.2083F);
             // 
             // xrLabel23
             // 
@@ -119,7 +119,7 @@
             this.xrLabel23.Multiline = true;
             this.xrLabel23.Name = "xrLabel23";
             this.xrLabel23.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel23.SizeF = new System.Drawing.SizeF(100F, 128.2083F);
+            this.xrLabel23.SizeF = new System.Drawing.SizeF(100F, 128.2084F);
             this.xrLabel23.StylePriority.UseBackColor = false;
             this.xrLabel23.StylePriority.UseFont = false;
             this.xrLabel23.StylePriority.UseTextAlignment = false;

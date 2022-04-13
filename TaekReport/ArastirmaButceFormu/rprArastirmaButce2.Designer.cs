@@ -95,7 +95,7 @@
             this.xrLabel23,
             this.lblButceAciklama,
             this.xrLabel1});
-            this.Detail.HeightF = 708.1251F;
+            this.Detail.HeightF = 698.9584F;
             this.Detail.Name = "Detail";
             // 
             // xrLabel12
@@ -110,7 +110,7 @@
             this.xrLabel12.StylePriority.UseBackColor = false;
             this.xrLabel12.StylePriority.UseFont = false;
             this.xrLabel12.StylePriority.UseTextAlignment = false;
-            this.xrLabel12.Text = "İmza ";
+            this.xrLabel12.Text = "  İmza ";
             this.xrLabel12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel11
@@ -268,7 +268,7 @@
             this.xrLabel23.StylePriority.UseBackColor = false;
             this.xrLabel23.StylePriority.UseFont = false;
             this.xrLabel23.StylePriority.UseTextAlignment = false;
-            this.xrLabel23.Text = "Açıklayınız:";
+            this.xrLabel23.Text = " Açıklayınız:";
             this.xrLabel23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // lblButceAciklama
