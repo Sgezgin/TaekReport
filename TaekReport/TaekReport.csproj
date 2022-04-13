@@ -61,6 +61,12 @@
     <Compile Include="ArastirmaButceFormu\rprArastirmaButce1.Designer.cs">
       <DependentUpon>rprArastirmaButce1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ArastirmaButceFormu\rprArastirmaButce2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ArastirmaButceFormu\rprArastirmaButce2.Designer.cs">
+      <DependentUpon>rprArastirmaButce2.cs</DependentUpon>
+    </Compile>
     <Compile Include="ArastirmaButceFormu\rprArastirmaButceFormu1.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -132,6 +138,9 @@
   <ItemGroup>
     <EmbeddedResource Include="ArastirmaButceFormu\rprArastirmaButce1.resx">
       <DependentUpon>rprArastirmaButce1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArastirmaButceFormu\rprArastirmaButce2.resx">
+      <DependentUpon>rprArastirmaButce2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ArastirmaButceFormu\rprArastirmaButceFormu1.resx">
       <DependentUpon>rprArastirmaButceFormu1.cs</DependentUpon>

@@ -34,8 +34,8 @@ namespace TaekReport.OlurFormu
 
             //calismasorumlusu bilgileri
             lblCalismaSorumlusuAdiSoyadi.Text = "Bilgi gelicek";
-            lblCalismaSorumluTelefon.Text = "";
-            lblCalismaSorumluGorevYeri.Text = "";
+            lblCalismaSorumluTelefon.Text = "dd";
+            lblCalismaSorumluGorevYeri.Text = "ddd";
             lblGonulluAdiSoyadi.Text = "";
             lblGonulluAdres.Text = "";
             lblGonulluTelefon.Text = "";
