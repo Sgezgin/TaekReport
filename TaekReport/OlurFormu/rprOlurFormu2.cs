@@ -18,7 +18,7 @@ namespace TaekReport.OlurFormu
             lblFTAOlasilik.Text = form.FTAOLASILIK;
             lblZaman.Text = form.ZAMAN;
 
-            //lblTahminiGonulluSayisi.Text = form.TAHMINIGONULLUSAYI.ToString();
+            lblTahminiGonulluSayisi.Text = form.TAHMINIGONULLUSAYI.ToString();
             lblMateryalAnaliz.Text = form.MATERYALANALIZ;
             lblBeklenen.Text = form.BEKLENENLER;
             lblSonaErdirmeDurumlari.Text = form.SONAERDIRMEDURUMLARI;
@@ -31,7 +31,6 @@ namespace TaekReport.OlurFormu
 
             //calismasorumlusu bilgileri
             lblCalismaSorumlusuAdiSoyadi.Text = "Bilgi gelicek";
-            
             lblCalismaSorumluTelefon.Text = "";
             lblCalismaSorumluGorevYeri.Text = "";
             lblGonulluAdiSoyadi.Text = "";
@@ -47,7 +46,7 @@ namespace TaekReport.OlurFormu
             lblVasiTarih.Text = "";
             lblVasiImza.Text = "";
 
-            //ARastirmacinin bilgileri
+            //Arastirmacinin bilgileri
             lblArastirmaciAdiSoyadi.Text = "";
             lblArastirmaciAdres.Text = "";
             lblArastirmaciTelefon.Text = "";
