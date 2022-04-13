@@ -9,7 +9,8 @@ namespace TaekReport.OlurFormu
 {
     public partial class rprOlurFormu : DevExpress.XtraReports.UI.XtraReport
     {
-        public rprOlurFormu(OLURFORMU form)
+  
+        public rprOlurFormu(OLURFORMU form = null)
         {
             InitializeComponent();
             lblCalismaninAdi.Text = form.CALISMANINADI;

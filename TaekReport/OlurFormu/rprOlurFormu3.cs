@@ -9,6 +9,10 @@ namespace TaekReport.OlurFormu
 {
     public partial class rprOlurFormu3 : DevExpress.XtraReports.UI.XtraReport
     {
+        public rprOlurFormu3()
+        {
+
+        }
         public rprOlurFormu3(OLURFORMU form)
         {
             InitializeComponent();
