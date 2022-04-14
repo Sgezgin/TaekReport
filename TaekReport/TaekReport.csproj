@@ -83,6 +83,12 @@
     <Compile Include="ArastirmaButceFormu\rprArastirmaButceFormu2.Designer.cs">
       <DependentUpon>rprArastirmaButceFormu2.cs</DependentUpon>
     </Compile>
+    <Compile Include="BasvuruFormu\rprBasvuruFormu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BasvuruFormu\rprBasvuruFormu.Designer.cs">
+      <DependentUpon>rprBasvuruFormu.cs</DependentUpon>
+    </Compile>
     <Compile Include="ButceFormu\rprButceFormu.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -157,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ArastirmaButceFormu\rprArastirmaButceFormu2.resx">
       <DependentUpon>rprArastirmaButceFormu2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasvuruFormu\rprBasvuruFormu.resx">
+      <DependentUpon>rprBasvuruFormu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ButceFormu\rprButceFormu.resx">
       <DependentUpon>rprButceFormu.cs</DependentUpon>
