@@ -117,4 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="xrLabel9.Text" xml:space="preserve">
+    <value>İyi Klinik Uygulamaları (İKU) / İyi Laboratuvar Uygulamaları (İLU) çerçevesinde yukarıda adı geçen araştırma hakkında bilgilendirildik. İşbu belge ile sunulan araştırmaya katılmayı ve araştırmadaki yükümlülüklerimi kabul ediyorum. </value>
+  </data>
+  <data name="xrLabel21.Text" xml:space="preserve">
+    <value>•Başvuruda sağlanan bilgilerin doğru olduğunu; 
+•Araştırmanın protokole, yönetmeliklere, güncel kılavuzlara, güncel Helsinki Bildirgesi ve İyi Klinik Uygulamaları ilkelerine uygun olarak gerçekleştirileceğini;
+•Araştırma ekibini (laborutuvar ekibi, araştırma hemşiresi gibi dahil) araştırma hakkında bilgilendirdiğimi,
+•Önerilen araştırmanın gerçekleştirilebilir nitelikte olduğunu;
+•Araştırma adı, yöntemi ya da ekibinde bir değişiklik olması durumunda TAEK’e bilgi vereceğimi
+•Araştırma sona erdikten sonra, en kısa süre içerisinde sonuç raporunun bir kopyasını TAEK’e sunacağımı 
+                                                                                                      kabul, beyan ve taahhüt ederim.
+
+
+
+  Yukarıdaki hususlardaki beyana aykırılığın TCK m. 206 kapsamında suç teşkil edeceği; Etik Kurul onayı alınmadan yapılmış bir   klinik araştırmaya sonradan etik kurul onayı alınmasının TCK m. 90 kapsamında suç teşkil edeceği; belgelerdeki hukuka   aykırılıkların somut olaya göre TCK m. 204,  205, 207 kapsamında suç teşkil edeceği, bu gibi durumlarda Kurulun TCK m. 279 ve   280 kapsamında suçu bildirim zorunluluğu bulunduğu, bu bağlamda doğacak hukuki sonuçlardan beyan sahibinin   sorumluluğunun doğacağını bilmekteyim.
+</value>
+  </data>
 </root>
