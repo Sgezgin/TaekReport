@@ -123,6 +123,12 @@
     <Compile Include="OlurFormu\rprOlurFormu.Designer.cs">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
     </Compile>
+    <Compile Include="OnayYazisi\rprOnayYazisi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OnayYazisi\rprOnayYazisi.Designer.cs">
+      <DependentUpon>rprOnayYazisi.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReportBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -166,6 +172,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OlurFormu\rprOlurFormu.resx">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnayYazisi\rprOnayYazisi.resx">
+      <DependentUpon>rprOnayYazisi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
