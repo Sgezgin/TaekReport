@@ -96,7 +96,7 @@
             // 
             // BottomMargin
             // 
-            this.BottomMargin.HeightF = 34F;
+            this.BottomMargin.HeightF = 30.12352F;
             this.BottomMargin.Name = "BottomMargin";
             // 
             // ReportHeader
@@ -221,14 +221,14 @@
             this.xrLabel5,
             this.xrLabel4,
             this.xrLabel3});
-            this.Detail.HeightF = 773.6664F;
+            this.Detail.HeightF = 767.0414F;
             this.Detail.Name = "Detail";
             this.Detail.StylePriority.UseTextAlignment = false;
             this.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrTable2
             // 
-            this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 712.6664F);
+            this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 724.6664F);
             this.xrTable2.Name = "xrTable2";
             this.xrTable2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable2.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -251,7 +251,7 @@
             this.xrTableCell4.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell4.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
             this.xrTableCell4.Multiline = true;
             this.xrTableCell4.Name = "xrTableCell4";
             this.xrTableCell4.StylePriority.UseBorders = false;
@@ -264,7 +264,7 @@
             this.xrTableCell5.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell5.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
             this.xrTableCell5.Multiline = true;
             this.xrTableCell5.Name = "xrTableCell5";
             this.xrTableCell5.StylePriority.UseBorders = false;
@@ -277,7 +277,7 @@
             this.xrTableCell6.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell6.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
             this.xrTableCell6.Multiline = true;
             this.xrTableCell6.Name = "xrTableCell6";
             this.xrTableCell6.StylePriority.UseBorders = false;
@@ -335,7 +335,7 @@
             // 
             this.xrLabel17.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrLabel17.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrLabel17.LocationFloat = new DevExpress.Utils.PointFloat(135.4653F, 4.499893F);
+            this.xrLabel17.LocationFloat = new DevExpress.Utils.PointFloat(135.4653F, 3.499893F);
             this.xrLabel17.Multiline = true;
             this.xrLabel17.Name = "xrLabel17";
             this.xrLabel17.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -383,7 +383,7 @@
             this.lblBasvuruTarih.StylePriority.UseFont = false;
             this.lblBasvuruTarih.StylePriority.UseTextAlignment = false;
             this.lblBasvuruTarih.Text = "Başvuru tarihi:";
-            this.lblBasvuruTarih.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            this.lblBasvuruTarih.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             // 
             // xrTableCell12
             // 
@@ -433,11 +433,11 @@
             // lblTarih
             // 
             this.lblTarih.Borders = DevExpress.XtraPrinting.BorderSide.Right;
-            this.lblTarih.LocationFloat = new DevExpress.Utils.PointFloat(63.64606F, 548.9582F);
+            this.lblTarih.LocationFloat = new DevExpress.Utils.PointFloat(63.64606F, 548.4999F);
             this.lblTarih.Multiline = true;
             this.lblTarih.Name = "lblTarih";
             this.lblTarih.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblTarih.SizeF = new System.Drawing.SizeF(664.5833F, 34.83331F);
+            this.lblTarih.SizeF = new System.Drawing.SizeF(664.5833F, 35.29163F);
             this.lblTarih.StylePriority.UseBorders = false;
             this.lblTarih.StylePriority.UseTextAlignment = false;
             this.lblTarih.Text = "……../……./…..";
@@ -462,11 +462,11 @@
             // 
             this.xrLabel24.Borders = DevExpress.XtraPrinting.BorderSide.Left;
             this.xrLabel24.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.xrLabel24.LocationFloat = new DevExpress.Utils.PointFloat(0F, 548.9583F);
+            this.xrLabel24.LocationFloat = new DevExpress.Utils.PointFloat(0F, 548.4999F);
             this.xrLabel24.Multiline = true;
             this.xrLabel24.Name = "xrLabel24";
             this.xrLabel24.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel24.SizeF = new System.Drawing.SizeF(63.64606F, 34.83325F);
+            this.xrLabel24.SizeF = new System.Drawing.SizeF(63.64606F, 35.29169F);
             this.xrLabel24.StylePriority.UseBorders = false;
             this.xrLabel24.StylePriority.UseFont = false;
             this.xrLabel24.StylePriority.UseTextAlignment = false;
@@ -743,7 +743,7 @@
             // 
             // Detail1
             // 
-            this.Detail1.HeightF = 62.12667F;
+            this.Detail1.HeightF = 79.08522F;
             this.Detail1.MultiColumn.Mode = DevExpress.XtraReports.UI.MultiColumnMode.UseColumnCount;
             this.Detail1.Name = "Detail1";
             // 
@@ -752,12 +752,12 @@
             this.xrTableCell7.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell7.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.xrTableCell7.Multiline = true;
             this.xrTableCell7.Name = "xrTableCell7";
             this.xrTableCell7.StylePriority.UseBorders = false;
             this.xrTableCell7.StylePriority.UseFont = false;
-            this.xrTableCell7.Text = "Araştırmadaki Sorumluluğu (açıklanmalıdır)";
+            this.xrTableCell7.Text = "Araştırmadaki Sorumluluğu ";
             this.xrTableCell7.Weight = 1.3505992564414235D;
             // 
             // xrTableCell8
@@ -765,7 +765,7 @@
             this.xrTableCell8.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell8.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
             this.xrTableCell8.Multiline = true;
             this.xrTableCell8.Name = "xrTableCell8";
             this.xrTableCell8.StylePriority.UseBorders = false;
@@ -782,7 +782,7 @@
             this.ReportHeader,
             this.DetailReport});
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(60, 60, 40, 34);
+            this.Margins = new System.Drawing.Printing.Margins(60, 60, 40, 30);
             this.Version = "20.2";
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
