@@ -16,7 +16,9 @@ namespace TaekReport.ArastirmaButceFormu
             lblTitckKodu.Text = form.TITCKKODU;
             lblProtokolKodu.Text = form.PROTOKOLKODU;
             lblGonulluOdeme.Text = form.GONULLUODEMELERI;
-            lblBKAciklama1.Text = form.BKACIKLAMA;
+            lblBKAciklama1.Text = form.BKACIKLAMA; 
+            lblArastirmaAdi.Text = "";
+
             
 
 

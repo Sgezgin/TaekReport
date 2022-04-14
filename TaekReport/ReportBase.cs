@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TaekReport.Models;
 
+
 namespace TaekReport
 {
     public class ReportBase
@@ -54,5 +55,29 @@ namespace TaekReport
 
             return resultReport;
         }
+
+
+        //public byte[] Butce2Formu(BUTCEFORMU form)
+        //{
+        //    byte[] resultReport = null;
+
+        //    try
+        //    {
+        //        ArastirmaButceFormu.rprArastirmaButce2 rpr = new ArastirmaButceFormu.rprArastirmaButce2(form);
+        //        using (MemoryStream ms = new MemoryStream())
+        //        {
+        //            rpr.ExportToPdf(ms);
+        //            resultReport = ms.ToArray();
+        //        }
+        //    }
+        //    catch (Exception)
+        //    {
+
+        //        throw;
+        //    }
+
+        //    return resultReport;
+        //}
+
     }
 }

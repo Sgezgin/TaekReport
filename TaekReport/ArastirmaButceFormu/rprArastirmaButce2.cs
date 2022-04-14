@@ -13,9 +13,15 @@ namespace TaekReport.ArastirmaButceFormu
         {
             InitializeComponent();
 
-            lblBKAciklama2.Text = "?";
             lblAyrilanButce.Text = form.AYIRILANBUTCE.ToString();
-   
+            lblBKAciklama2.Text = "?";
+            lblAdi.Text = "";
+            lblSoyadi.Text = "";
+            lblTelefon.Text = "";
+            lblEposta.Text="";
+            lblTarih.Text = "";
+           
+            
 
         }
 
