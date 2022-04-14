@@ -110,6 +110,7 @@
             // 
             // BottomMargin
             // 
+            this.BottomMargin.HeightF = 24.33281F;
             this.BottomMargin.Name = "BottomMargin";
             // 
             // ReportHeader
@@ -152,7 +153,7 @@
             this.xrLabel5,
             this.xrLabel4,
             this.xrLabel3});
-            this.Detail.HeightF = 1230.209F;
+            this.Detail.HeightF = 858.2505F;
             this.Detail.Name = "Detail";
             this.Detail.StylePriority.UseTextAlignment = false;
             this.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
@@ -716,7 +717,7 @@
             this.xrTableCell7.Name = "xrTableCell7";
             this.xrTableCell7.StylePriority.UseBorders = false;
             this.xrTableCell7.StylePriority.UseFont = false;
-            this.xrTableCell7.Text = "Soyadı\r\nAraştırmadaki Sorumluluğu (açıklanmalıdır)";
+            this.xrTableCell7.Text = "Soyadı\r\n";
             this.xrTableCell7.Weight = 0.49155965480739339D;
             // 
             // xrTableCell8
@@ -961,7 +962,7 @@
             this.Detail,
             this.ReportHeader});
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(60, 60, 40, 100);
+            this.Margins = new System.Drawing.Printing.Margins(60, 60, 40, 24);
             this.Version = "20.2";
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
