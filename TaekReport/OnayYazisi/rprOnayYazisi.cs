@@ -12,7 +12,7 @@ namespace TaekReport.OnayYazisi
         {
             InitializeComponent();
 
-           // lblKonuOnayKarar.Text = "Konu :Onay Kararı "+
+           //lblKonuOnayKarar.Text = "Konu :Onay Kararı "+
         }
 
     }
