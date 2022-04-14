@@ -59,7 +59,7 @@
             // 
             // BottomMargin
             // 
-            this.BottomMargin.HeightF = 40F;
+            this.BottomMargin.HeightF = 167F;
             this.BottomMargin.Name = "BottomMargin";
             // 
             // Detail
@@ -277,7 +277,7 @@
             this.lblAdSoyad.Multiline = true;
             this.lblAdSoyad.Name = "lblAdSoyad";
             this.lblAdSoyad.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
-            this.lblAdSoyad.SizeF = new System.Drawing.SizeF(158.1251F, 23F);
+            this.lblAdSoyad.SizeF = new System.Drawing.SizeF(168.1249F, 23F);
             this.lblAdSoyad.Text = "Prof. Dr. Güzide AKSU ";
             // 
             // lblUnvan
@@ -286,7 +286,7 @@
             this.lblUnvan.Multiline = true;
             this.lblUnvan.Name = "lblUnvan";
             this.lblUnvan.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
-            this.lblUnvan.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.lblUnvan.SizeF = new System.Drawing.SizeF(110.0001F, 23F);
             this.lblUnvan.Text = "Kurul Başkanı ";
             // 
             // xrLabel8
@@ -295,7 +295,7 @@
             this.xrLabel8.Multiline = true;
             this.xrLabel8.Name = "xrLabel8";
             this.xrLabel8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
-            this.xrLabel8.SizeF = new System.Drawing.SizeF(720.0001F, 23F);
+            this.xrLabel8.SizeF = new System.Drawing.SizeF(729.9999F, 23F);
             this.xrLabel8.Text = "Ek: İlgili Etik Kurul Kararı ( 1 Adet aslı gibidir örneği elden gönderilecektir)";
             // 
             // rprOnayYazisi
@@ -305,7 +305,7 @@
             this.BottomMargin,
             this.Detail});
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(60, 60, 40, 40);
+            this.Margins = new System.Drawing.Printing.Margins(60, 60, 40, 167);
             this.Version = "20.2";
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
