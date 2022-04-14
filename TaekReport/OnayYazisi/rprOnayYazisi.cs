@@ -11,6 +11,8 @@ namespace TaekReport.OnayYazisi
         public rprOnayYazisi()
         {
             InitializeComponent();
+
+           // lblKonuOnayKarar.Text = "Konu :Onay Kararı "+
         }
 
     }
