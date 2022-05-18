@@ -107,6 +107,12 @@
     <Compile Include="ButceFormu\XtraReport2.Designer.cs">
       <DependentUpon>XtraReport2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lbs\TupBarkod\rprTupBarkod.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Lbs\TupBarkod\rprTupBarkod.Designer.cs">
+      <DependentUpon>rprTupBarkod.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\BUTCEFORMU.cs" />
     <Compile Include="Models\OLURFORMU.cs" />
     <Compile Include="OlurFormu\dsOlurFormu.cs">
@@ -180,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ButceFormu\XtraReport2.resx">
       <DependentUpon>XtraReport2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lbs\TupBarkod\rprTupBarkod.resx">
+      <DependentUpon>rprTupBarkod.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OlurFormu\rprOlurFormu3.resx">
       <DependentUpon>rprOlurFormu3.cs</DependentUpon>
