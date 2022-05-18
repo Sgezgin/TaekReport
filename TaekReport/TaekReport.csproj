@@ -115,6 +115,7 @@
     </Compile>
     <Compile Include="Models\BUTCEFORMU.cs" />
     <Compile Include="Models\OLURFORMU.cs" />
+    <Compile Include="Models\TUPBARKOD.cs" />
     <Compile Include="OlurFormu\dsOlurFormu.cs">
       <DependentUpon>dsOlurFormu.xsd</DependentUpon>
     </Compile>

@@ -56,6 +56,28 @@ namespace TaekReport
             return resultReport;
         }
 
+        public byte[] TupBarkod(TUPBARKOD form)
+        {
+            byte[] resultReport = null;
+
+            try
+            {
+                Lbs.TupBarkod.rprTupBarkod rpr = new Lbs.TupBarkod.rprTupBarkod(form);
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
+
 
         //public byte[] Butce2Formu(BUTCEFORMU form)
         //{
