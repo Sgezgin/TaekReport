@@ -13,6 +13,7 @@ namespace TaekReport.Lbs.TupBarkod
         public rprTupBarkod(TUPBARKOD obj)
         {
             InitializeComponent();
+            xrBarCode1.Text = obj.BarkodNo;
             lblAdiSoyadi.Text = obj.AdiSoyadi;
             lblLab.Text = obj.Lab;
             lblTarihSaat.Text = obj.TarihSaat;

@@ -113,6 +113,7 @@
     <Compile Include="Lbs\TupBarkod\rprTupBarkod.Designer.cs">
       <DependentUpon>rprTupBarkod.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\ARASTIRMAEKIBI.cs" />
     <Compile Include="Models\BUTCEFORMU.cs" />
     <Compile Include="Models\OLURFORMU.cs" />
     <Compile Include="Models\TUPBARKOD.cs" />

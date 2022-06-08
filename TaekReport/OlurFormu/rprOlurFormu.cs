@@ -13,7 +13,7 @@ namespace TaekReport.OlurFormu
     public partial class rprOlurFormu : DevExpress.XtraReports.UI.XtraReport
     {
 
-        public rprOlurFormu(OLURFORMU form = null)
+        public rprOlurFormu(OLURFORMU form, string sorumluAdiSoyadi = "", string tel = "", string gorevyeri = "")
         {
             InitializeComponent();
 
@@ -21,9 +21,11 @@ namespace TaekReport.OlurFormu
             lblCalismaAmaci.Text = form.CALISMANINAMACI;
             lblUygulama.Text = form.UYGULAMA;
             lblFTAOlasilik.Text = form.FTAOLASILIK;
+
             lblZaman.Text = form.ZAMAN;
 
-            lblTahminiGonulluSayisi.Text = form.TAHMINIGONULLUSAYI.ToString();
+
+            lblTahminiGonulluSayisi.Text = form.TAHMINIGONULLUSAYI != null ? form.TAHMINIGONULLUSAYI.ToString() : "";
             lblMateryalAnaliz.Text = form.MATERYALANALIZ;
             lblBeklenen.Text = form.BEKLENENLER;
             lblYararlar.Text = form.YARARLAR;
@@ -36,10 +38,10 @@ namespace TaekReport.OlurFormu
             lblKisiUcretOdeyecekmi.Text = form.KISIUCRETODEYECEKMI;
 
 
-          //  calismasorumlusu bilgileri
-            lblCalismaSorumlusuAdiSoyadi.Text = "Bilgi gelicek";
-            lblCalismaSorumluTelefon.Text = "dd";
-            lblCalismaSorumluGorevYeri.Text = "ddd";
+            //  calismasorumlusu bilgileri
+            lblCalismaSorumlusuAdiSoyadi.Text = sorumluAdiSoyadi;
+            lblCalismaSorumluTelefon.Text = tel;
+            lblCalismaSorumluGorevYeri.Text = gorevyeri;
             lblGonulluAdiSoyadi.Text = "";
             lblGonulluAdres.Text = "";
             lblGonulluTelefon.Text = "";

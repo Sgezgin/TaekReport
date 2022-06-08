@@ -11,13 +11,13 @@ namespace TaekReport
 {
     public class ReportBase
     {
-        public byte[] OlurFormu(OLURFORMU form)
+        public byte[] OlurFormu(OLURFORMU form,string sorumluAdiSoyadi="",string tel="",string gorevyeri = "")
         {
             byte[] resultReport = null;
 
             try
             {
-                OlurFormu.rprOlurFormu rpr = new OlurFormu.rprOlurFormu();
+                OlurFormu.rprOlurFormu rpr = new OlurFormu.rprOlurFormu(form,sorumluAdiSoyadi,tel, gorevyeri);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);
