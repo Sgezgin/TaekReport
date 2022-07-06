@@ -107,6 +107,12 @@
     <Compile Include="ButceFormu\XtraReport2.Designer.cs">
       <DependentUpon>XtraReport2.cs</DependentUpon>
     </Compile>
+    <Compile Include="DegerlendirmeFormu\rprDegerlendirmeFormu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DegerlendirmeFormu\rprDegerlendirmeFormu.Designer.cs">
+      <DependentUpon>rprDegerlendirmeFormu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lbs\TupBarkod\rprTupBarkod.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -189,6 +195,9 @@
     <EmbeddedResource Include="ButceFormu\XtraReport2.resx">
       <DependentUpon>XtraReport2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DegerlendirmeFormu\rprDegerlendirmeFormu.resx">
+      <DependentUpon>rprDegerlendirmeFormu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lbs\TupBarkod\rprTupBarkod.resx">
       <DependentUpon>rprTupBarkod.cs</DependentUpon>
     </EmbeddedResource>
@@ -209,6 +218,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ege.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
