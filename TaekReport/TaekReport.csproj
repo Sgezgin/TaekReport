@@ -118,6 +118,12 @@
     <Compile Include="DegerlendirmeFormu\rprDegerlendirmeFormu.Designer.cs">
       <DependentUpon>rprDegerlendirmeFormu.cs</DependentUpon>
     </Compile>
+    <Compile Include="DuzeltmeFormu\rprDuzeltmeFormu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DuzeltmeFormu\rprDuzeltmeFormu.Designer.cs">
+      <DependentUpon>rprDuzeltmeFormu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lbs\TupBarkod\rprTupBarkod.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -214,6 +220,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DegerlendirmeFormu\rprDegerlendirmeFormu.resx">
       <DependentUpon>rprDegerlendirmeFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuzeltmeFormu\rprDuzeltmeFormu.resx">
+      <DependentUpon>rprDuzeltmeFormu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lbs\TupBarkod\rprTupBarkod.resx">
       <DependentUpon>rprTupBarkod.cs</DependentUpon>
