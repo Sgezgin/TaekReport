@@ -107,6 +107,11 @@
     <Compile Include="ButceFormu\XtraReport2.Designer.cs">
       <DependentUpon>XtraReport2.cs</DependentUpon>
     </Compile>
+    <Compile Include="DegerlendirmeFormu\dsDegerlendirmeFormu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDegerlendirmeFormu.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DegerlendirmeFormu\rprDegerlendirmeFormu.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -121,6 +126,7 @@
     </Compile>
     <Compile Include="Models\ARASTIRMAEKIBI.cs" />
     <Compile Include="Models\BUTCEFORMU.cs" />
+    <Compile Include="Models\Degerlendirme.cs" />
     <Compile Include="Models\OLURFORMU.cs" />
     <Compile Include="Models\TUPBARKOD.cs" />
     <Compile Include="OlurFormu\dsOlurFormu.cs">
@@ -158,6 +164,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="DegerlendirmeFormu\dsDegerlendirmeFormu.xsc">
+      <DependentUpon>dsDegerlendirmeFormu.xsd</DependentUpon>
+    </None>
+    <None Include="DegerlendirmeFormu\dsDegerlendirmeFormu.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDegerlendirmeFormu.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DegerlendirmeFormu\dsDegerlendirmeFormu.xss">
+      <DependentUpon>dsDegerlendirmeFormu.xsd</DependentUpon>
+    </None>
     <None Include="OlurFormu\dsOlurFormu.xsc">
       <DependentUpon>dsOlurFormu.xsd</DependentUpon>
     </None>

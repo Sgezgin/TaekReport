@@ -56,6 +56,50 @@ namespace TaekReport
             return resultReport;
         }
 
+   
+        public byte[] DegerlendirmeFrm(Degerlendirme form)
+        {
+            byte[] resultReport = null;
+
+            try
+            {     
+                DegerlendirmeFormu.rprDegerlendirmeFormu rpr = new DegerlendirmeFormu.rprDegerlendirmeFormu(form);
+                DegerlendirmeFormu.dsDegerlendirmeFormu ds = new DegerlendirmeFormu.dsDegerlendirmeFormu();
+                DegerlendirmeFormu.dsDegerlendirmeFormu.dtDegerlendirmeFormuDataTable dt = new DegerlendirmeFormu.dsDegerlendirmeFormu.dtDegerlendirmeFormuDataTable();
+        
+                foreach (DegerlendirmeDetay item in form.DegerlendirmeDetay)
+                {
+                    //ds.dtDegerlendirmeFormu.AdddtDegerlendirmeFormuRow(
+                    //    item.Hakem,
+                    //    item.Tarih,
+                    //    item.Kod,
+                    //    item.Aciklama
+                    //    );
+
+                    dt.AdddtDegerlendirmeFormuRow(
+                        item.Hakem,
+                        item.Tarih,
+                        item.Kod,
+                        item.Aciklama
+                        );
+                }
+                rpr.DataSource = dt;
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
+
+
         public byte[] TupBarkod(TUPBARKOD form)
         {
             byte[] resultReport = null;
