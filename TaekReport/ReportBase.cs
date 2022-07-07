@@ -56,7 +56,27 @@ namespace TaekReport
             return resultReport;
         }
 
-   
+        public byte[] DuzeltmeFrm()
+        {
+            byte[] resultReport = null;
+
+            try
+            {
+                DuzeltmeFormu.rprDuzeltmeFormu rpr = new DuzeltmeFormu.rprDuzeltmeFormu();
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
         public byte[] DegerlendirmeFrm(Degerlendirme form)
         {
             byte[] resultReport = null;

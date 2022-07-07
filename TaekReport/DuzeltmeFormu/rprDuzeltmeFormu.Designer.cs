@@ -55,7 +55,7 @@
             // 
             // Detail
             // 
-            this.Detail.HeightF = 287.5F;
+            this.Detail.HeightF = 57.70829F;
             this.Detail.Name = "Detail";
             // 
             // ReportHeader
