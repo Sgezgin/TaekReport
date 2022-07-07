@@ -133,6 +133,7 @@
     <Compile Include="Models\ARASTIRMAEKIBI.cs" />
     <Compile Include="Models\BUTCEFORMU.cs" />
     <Compile Include="Models\Degerlendirme.cs" />
+    <Compile Include="Models\Duzeltme.cs" />
     <Compile Include="Models\OLURFORMU.cs" />
     <Compile Include="Models\TUPBARKOD.cs" />
     <Compile Include="OlurFormu\dsOlurFormu.cs">
@@ -168,6 +169,18 @@
     </Compile>
     <Compile Include="ReportBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YenidenBasvuruFormu\rprYenidenBasvuru.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="YenidenBasvuruFormu\rprYenidenBasvuru.Designer.cs">
+      <DependentUpon>rprYenidenBasvuru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YetkisizlikFormu\rprYetkisizlik.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="YetkisizlikFormu\rprYetkisizlik.Designer.cs">
+      <DependentUpon>rprYetkisizlik.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="DegerlendirmeFormu\dsDegerlendirmeFormu.xsc">
@@ -240,6 +253,12 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YenidenBasvuruFormu\rprYenidenBasvuru.resx">
+      <DependentUpon>rprYenidenBasvuru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YetkisizlikFormu\rprYetkisizlik.resx">
+      <DependentUpon>rprYetkisizlik.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

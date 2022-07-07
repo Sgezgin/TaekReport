@@ -56,13 +56,13 @@ namespace TaekReport
             return resultReport;
         }
 
-        public byte[] DuzeltmeFrm()
+        public byte[] DuzeltmeFrm(Duzeltme form)
         {
             byte[] resultReport = null;
 
             try
             {
-                DuzeltmeFormu.rprDuzeltmeFormu rpr = new DuzeltmeFormu.rprDuzeltmeFormu();
+                DuzeltmeFormu.rprDuzeltmeFormu rpr = new DuzeltmeFormu.rprDuzeltmeFormu(form);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);
