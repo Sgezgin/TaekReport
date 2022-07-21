@@ -78,13 +78,13 @@ namespace TaekReport
             return resultReport;
         }
 
-        public byte[] OnayOnYaziFrm(string arastirma,string tur)
+        public byte[] OnayOnYaziFrm(string arastirma,string destekleyici)
         {
             byte[] resultReport = null;
 
             try
             {
-                OnYaziFormu.frmOnayOnYazi rpr = new OnYaziFormu.frmOnayOnYazi(arastirma, tur);
+                OnYaziFormu.frmOnayOnYazi rpr = new OnYaziFormu.frmOnayOnYazi(arastirma, destekleyici);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);

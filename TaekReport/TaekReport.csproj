@@ -156,6 +156,12 @@
     <Compile Include="OlurFormu\rprOlurFormu.Designer.cs">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
     </Compile>
+    <Compile Include="OnayFormu\rprOnayFormu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OnayFormu\rprOnayFormu.Designer.cs">
+      <DependentUpon>rprOnayFormu.cs</DependentUpon>
+    </Compile>
     <Compile Include="OnYaziFormu\frmOnayOnYazi.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -245,6 +251,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OlurFormu\rprOlurFormu.resx">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnayFormu\rprOnayFormu.resx">
+      <DependentUpon>rprOnayFormu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OnYaziFormu\frmOnayOnYazi.resx">
       <DependentUpon>frmOnayOnYazi.cs</DependentUpon>

@@ -117,13 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="xrLabel1.Text" xml:space="preserve">
-    <value>Varsa Biyolojik Materyal Transfer Formu'nun imzaları tamamlanarak Kurulumuza iletilmesi gerekmektedir.  10.04.2016 tarih ve 29680 sayılı Resmi Gazete'de yayımlanan Tıbbi Laboratuvarlar Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmeliğin 34. maddesinde "yurtdışına tetkik amaçlı numune gönderme yetkisi sadece ruhsatlı tıbbı laboratuvarlara aittir" ifadesi yer almakta olup bu madde Klinik Araştırmalar için de yürürlüğe girmiştir. Gönderilen insan kaynaklı biyolojik materyal klinik araştırma için gönderilse bile ruhsatlı bir tıbbi laboratuvar aracılığı ile  http://numunetransfer.saglik.gov.tr adresindeki numune transfer yazılımı kullanılarak gönderilmesi konusuna dikkat edilmelidir.</value>
-  </data>
-  <data name="xrLabel3.Text" xml:space="preserve">
-    <value>Ayrıca ilgili mevzuat gereği araştırmaya başlama bildiriminin, bir yıllık süreyi aşması durumunda Yıllık Bildirimlerin, Ciddi Advers Olay bildirimlerinin, bitirme tarihinin ve sonuç raporunun kurulumuza sunulması ve her türlü yazışmanın araştırma tam adı/kodu, karar, tarih ve sayısı bildirilerek Etik Kurul Bilgilendirme formu ile yapılması gerekmektedir. </value>
-  </data>
-  <data name="xrLabel2.Text" xml:space="preserve">
-    <value>Başvuru dosyasının araştırmanın yürütüleceği kuruma iletilerek kurum iznini gösterir belgenin alınmasından sonra çalışmaya başlanması ve süreç içinde bu belgenin (daha öncesinde sunulmamış ise) Kurulumuza iletilmesi gerekmektedir. </value>
-  </data>
 </root>
