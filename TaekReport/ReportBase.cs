@@ -77,6 +77,28 @@ namespace TaekReport
 
             return resultReport;
         }
+
+        public byte[] OnayOnYaziFrm(string arastirma,string tur)
+        {
+            byte[] resultReport = null;
+
+            try
+            {
+                OnYaziFormu.frmOnayOnYazi rpr = new OnYaziFormu.frmOnayOnYazi();
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
         public byte[] DegerlendirmeFrm(Degerlendirme form)
         {
             byte[] resultReport = null;

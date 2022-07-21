@@ -156,11 +156,11 @@
     <Compile Include="OlurFormu\rprOlurFormu.Designer.cs">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
     </Compile>
-    <Compile Include="OnayYazisi\rprOnayYazisi.cs">
+    <Compile Include="OnYaziFormu\frmOnayOnYazi.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="OnayYazisi\rprOnayYazisi.Designer.cs">
-      <DependentUpon>rprOnayYazisi.cs</DependentUpon>
+    <Compile Include="OnYaziFormu\frmOnayOnYazi.Designer.cs">
+      <DependentUpon>frmOnayOnYazi.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -246,8 +246,8 @@
     <EmbeddedResource Include="OlurFormu\rprOlurFormu.resx">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OnayYazisi\rprOnayYazisi.resx">
-      <DependentUpon>rprOnayYazisi.cs</DependentUpon>
+    <EmbeddedResource Include="OnYaziFormu\frmOnayOnYazi.resx">
+      <DependentUpon>frmOnayOnYazi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
