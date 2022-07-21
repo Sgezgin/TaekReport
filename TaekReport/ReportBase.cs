@@ -84,7 +84,7 @@ namespace TaekReport
 
             try
             {
-                OnYaziFormu.frmOnayOnYazi rpr = new OnYaziFormu.frmOnayOnYazi();
+                OnYaziFormu.frmOnayOnYazi rpr = new OnYaziFormu.frmOnayOnYazi(arastirma, tur);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);
