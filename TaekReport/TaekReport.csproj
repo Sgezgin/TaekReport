@@ -135,6 +135,7 @@
     <Compile Include="Models\Degerlendirme.cs" />
     <Compile Include="Models\Duzeltme.cs" />
     <Compile Include="Models\OLURFORMU.cs" />
+    <Compile Include="Models\OnayFormuModel.cs" />
     <Compile Include="Models\TUPBARKOD.cs" />
     <Compile Include="OlurFormu\dsOlurFormu.cs">
       <DependentUpon>dsOlurFormu.xsd</DependentUpon>
@@ -155,6 +156,14 @@
     </Compile>
     <Compile Include="OlurFormu\rprOlurFormu.Designer.cs">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnayFormu\dsOnayFormu.cs">
+      <DependentUpon>dsOnayFormu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OnayFormu\dsOnayFormu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOnayFormu.xsd</DependentUpon>
     </Compile>
     <Compile Include="OnayFormu\rprOnayFormu.cs">
       <SubType>Component</SubType>
@@ -271,6 +280,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="OnayFormu\dsOnayFormu.xsc">
+      <DependentUpon>dsOnayFormu.xsd</DependentUpon>
+    </None>
+    <None Include="OnayFormu\dsOnayFormu.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOnayFormu.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="OnayFormu\dsOnayFormu.xss">
+      <DependentUpon>dsOnayFormu.xsd</DependentUpon>
+    </None>
     <None Include="Resources\111.jpg" />
   </ItemGroup>
   <ItemGroup>

@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblKararMetni.Text" xml:space="preserve">
+    <value>Yukarıda başvuru bilgileri verilen araştırma başvuru dosyası ve ilgili belgeler araştırmanın gerekçe, amaç, yaklaşım ve yöntemleri dikkate alınarak Kurulumuzca incelenmiş, araştırma giderlerinin gönüllüye ve/veya bağlı bulunduğu sosyal güvenlik kurumuna ödetilmediği koşullarda araştırmaya başlanmasının etik açıdan uygun bulunduğuna toplantıya katılan etik kurul üyelerince oy birliği ile karar verilmiştir.</value>
+  </data>
+  <metadata name="dsOnayFormu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

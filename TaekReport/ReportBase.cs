@@ -100,13 +100,29 @@ namespace TaekReport
             return resultReport;
         }
 
-        public byte[] OnayFrm()
+        public byte[] OnayFrm(OnayFormuModel form)
         {
             byte[] resultReport = null;
 
             try
             {
-                OnayFormu.rprOnayFormu rpr = new OnayFormu.rprOnayFormu();
+                OnayFormu.rprOnayFormu rpr = new OnayFormu.rprOnayFormu(form);
+
+                OnayFormu.dsOnayFormu.dtOnayFormuDataTable dt = new OnayFormu.dsOnayFormu.dtOnayFormuDataTable();
+
+                foreach (EtikKurulUyeler item in form.EtikKurulUyeleri)
+                {
+                    dt.AdddtOnayFormuRow(
+                        item.AdiSoyadi,
+                        item.Uzamanlik,
+                        item.Kurum,
+                        item.Cinsiyet,
+                        "",
+                        ""
+                        );
+                }
+                rpr.DataSource = dt;
+
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);
