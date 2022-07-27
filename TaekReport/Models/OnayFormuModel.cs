@@ -16,6 +16,8 @@ namespace TaekReport.Models
         public string ArastirmaTipi { get; set; }
         public string KararOyTuru { get; set; }
         public string Baskan { get; set; }
+        public string DosyaNo { get; set; }
+        public string ToplantiTarihi { get; set; }
         public List<EtikKurulUyeler> EtikKurulUyeleri { get; set; }
     }
 
@@ -25,6 +27,8 @@ namespace TaekReport.Models
         public string Uzamanlik { get; set; }
         public string Kurum { get; set; }
         public string Cinsiyet { get; set; }
-    
+        public int Iliski { get; set; }
+        public int Katilim { get; set; }
+
     }
 }

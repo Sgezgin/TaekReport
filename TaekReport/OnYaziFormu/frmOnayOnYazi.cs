@@ -8,10 +8,12 @@ namespace TaekReport.OnYaziFormu
 {
     public partial class frmOnayOnYazi : DevExpress.XtraReports.UI.XtraReport
     {
-        public frmOnayOnYazi(string arastirmaAdi,string destekleyici)
+        public frmOnayOnYazi(string sorumlu,string yardimci,string arastirmaAdi,string destekleyici)
         {
             InitializeComponent();
-            lblArastirmaAdi.Text = "Kurulumuza başvurusunu yaptığınız '"+ arastirmaAdi + "' konulu araştırmanıza ilişkin Kurulumuz onay kararı ekte sunulmaktadır." ;
+            lblArastirmaAdi.Text = "Kurulumuza başvurusunu yaptığınız " + sorumlu + " sorumlu araştırmacı , " + yardimci +
+                 " yardımcı araştırmacı olduğu '" + arastirmaAdi + "' konulu araştırmanız Tıbbi Araştırmalar Etik Kurulu tarafından onaylanmıştır. " +
+                 " Onay kararı ekte sunulmaktadır.";
             if (!string.IsNullOrEmpty(destekleyici))
             {
                 if(destekleyici == "TÜBİTAK")

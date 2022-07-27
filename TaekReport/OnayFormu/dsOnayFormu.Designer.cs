@@ -409,7 +409,7 @@ namespace TaekReport.OnayFormu {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public dtOnayFormuRow AdddtOnayFormuRow(string ADISOYADI, string UZMANLIK, string KURUMU, string CINSIYET, string KATILIM, string ILISKI) {
+            public dtOnayFormuRow AdddtOnayFormuRow(string ADISOYADI, string UZMANLIK, string KURUMU, string CINSIYET, int KATILIM, int ILISKI) {
                 dtOnayFormuRow rowdtOnayFormuRow = ((dtOnayFormuRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         ADISOYADI,
@@ -459,9 +459,9 @@ namespace TaekReport.OnayFormu {
                 base.Columns.Add(this.columnKURUMU);
                 this.columnCINSIYET = new global::System.Data.DataColumn("CINSIYET", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCINSIYET);
-                this.columnKATILIM = new global::System.Data.DataColumn("KATILIM", typeof(string), null, global::System.Data.MappingType.Element);
+                this.columnKATILIM = new global::System.Data.DataColumn("KATILIM", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnKATILIM);
-                this.columnILISKI = new global::System.Data.DataColumn("ILISKI", typeof(string), null, global::System.Data.MappingType.Element);
+                this.columnILISKI = new global::System.Data.DataColumn("ILISKI", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnILISKI);
             }
             
@@ -669,10 +669,10 @@ namespace TaekReport.OnayFormu {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public string KATILIM {
+            public int KATILIM {
                 get {
                     try {
-                        return ((string)(this[this.tabledtOnayFormu.KATILIMColumn]));
+                        return ((int)(this[this.tabledtOnayFormu.KATILIMColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
                         throw new global::System.Data.StrongTypingException("\'dtOnayFormu\' tablosundaki \'KATILIM\' sütunun değeri DBNull.", e);
@@ -685,10 +685,10 @@ namespace TaekReport.OnayFormu {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public string ILISKI {
+            public int ILISKI {
                 get {
                     try {
-                        return ((string)(this[this.tabledtOnayFormu.ILISKIColumn]));
+                        return ((int)(this[this.tabledtOnayFormu.ILISKIColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
                         throw new global::System.Data.StrongTypingException("\'dtOnayFormu\' tablosundaki \'ILISKI\' sütunun değeri DBNull.", e);

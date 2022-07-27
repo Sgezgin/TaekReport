@@ -78,13 +78,13 @@ namespace TaekReport
             return resultReport;
         }
 
-        public byte[] OnayOnYaziFrm(string arastirma,string destekleyici)
+        public byte[] OnayOnYaziFrm(string sorumlu, string yardimci,string arastirma,string destekleyici)
         {
             byte[] resultReport = null;
 
             try
             {
-                OnYaziFormu.frmOnayOnYazi rpr = new OnYaziFormu.frmOnayOnYazi(arastirma, destekleyici);
+                OnYaziFormu.frmOnayOnYazi rpr = new OnYaziFormu.frmOnayOnYazi(sorumlu,yardimci,arastirma, destekleyici);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);
@@ -117,8 +117,8 @@ namespace TaekReport
                         item.Uzamanlik,
                         item.Kurum,
                         item.Cinsiyet,
-                        "",
-                        ""
+                        1,
+                        1
                         );
                 }
                 rpr.DataSource = dt;
@@ -178,7 +178,6 @@ namespace TaekReport
 
             return resultReport;
         }
-
 
         public byte[] TupBarkod(TUPBARKOD form)
         {
