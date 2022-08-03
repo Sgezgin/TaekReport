@@ -14,24 +14,31 @@ namespace TaekReport.OnayFormu
         {
             InitializeComponent();
             frData = form;
-            chbARastirmaFrm.Checked = true;
+            
             lblArastirmaAdi.Text = form.ArastirmaAdi;
             lblSorumluArastirmaci.Text = form.SorumluAtastirmaci;
             lblYardimciArastirmaci.Text = form.YardimciArastirmaci;
             lblKararNum.Text = "Karar Nu: " + form.DosyaNo;
             lblTarih.Text = "Tarih: " + form.ToplantiTarihi;
             lblBaskan.Text = form.Baskan;
+
+            lblKararMetni.Text = "Yukarıda başvuru bilgileri verilen araştırma başvuru dosyası ve ilgili belgeler " +
+                "araştırmanın gerekçe, amaç, yaklaşım ve yöntemleri dikkate alınarak Kurulumuzca incelenmiş, araştırma" +
+                " giderlerinin gönüllüye ve/veya bağlı bulunduğu sosyal güvenlik kurumuna ödetilmediği koşullarda araştırmaya" +
+                " başlanmasının etik açıdan uygun bulunduğuna toplantıya katılan etik kurul üyelerince "+
+                 form.KararOyTuru +
+                " ile karar verilmiştir.";
         }
 
         private void chkiliskiEvet_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
         {
             
            
-            chkiliskiEvet.Text = "Evet";
-            if (chkiliskiEvet.Text == "1")
-                chkiliskiEvet.Checked = true;
-            else
-                chkiliskiEvet.Checked = false;
+            //chkiliskiEvet.Text = "Evet";
+            //if (chkiliskiEvet.Text == "1")
+            //    chkiliskiEvet.Checked = true;
+            //else
+            //    chkiliskiEvet.Checked = false;
 
      
 

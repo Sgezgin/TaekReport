@@ -117,8 +117,9 @@ namespace TaekReport
                         item.Uzamanlik,
                         item.Kurum,
                         item.Cinsiyet,
-                        1,
-                        1
+                        item.Katilim,
+                        item.Iliski,
+                        item.Mazeret
                         );
                 }
                 rpr.DataSource = dt;

@@ -19,8 +19,9 @@
               <xs:element name="UZMANLIK" msprop:Generator_ColumnVarNameInTable="columnUZMANLIK" msprop:Generator_ColumnPropNameInRow="UZMANLIK" msprop:Generator_ColumnPropNameInTable="UZMANLIKColumn" msprop:Generator_UserColumnName="UZMANLIK" type="xs:string" minOccurs="0" />
               <xs:element name="KURUMU" msprop:Generator_ColumnVarNameInTable="columnKURUMU" msprop:Generator_ColumnPropNameInRow="KURUMU" msprop:Generator_ColumnPropNameInTable="KURUMUColumn" msprop:Generator_UserColumnName="KURUMU" type="xs:string" minOccurs="0" />
               <xs:element name="CINSIYET" msprop:Generator_ColumnVarNameInTable="columnCINSIYET" msprop:Generator_ColumnPropNameInRow="CINSIYET" msprop:Generator_ColumnPropNameInTable="CINSIYETColumn" msprop:Generator_UserColumnName="CINSIYET" type="xs:string" minOccurs="0" />
-              <xs:element name="KATILIM" msprop:Generator_ColumnVarNameInTable="columnKATILIM" msprop:Generator_ColumnPropNameInRow="KATILIM" msprop:Generator_ColumnPropNameInTable="KATILIMColumn" msprop:Generator_UserColumnName="KATILIM" type="xs:int" minOccurs="0" />
-              <xs:element name="ILISKI" msprop:Generator_ColumnVarNameInTable="columnILISKI" msprop:Generator_ColumnPropNameInRow="ILISKI" msprop:Generator_ColumnPropNameInTable="ILISKIColumn" msprop:Generator_UserColumnName="ILISKI" type="xs:int" minOccurs="0" />
+              <xs:element name="KATILIM" msprop:Generator_ColumnVarNameInTable="columnKATILIM" msprop:Generator_ColumnPropNameInRow="KATILIM" msprop:Generator_ColumnPropNameInTable="KATILIMColumn" msprop:Generator_UserColumnName="KATILIM" type="xs:string" minOccurs="0" />
+              <xs:element name="ILISKI" msprop:Generator_ColumnVarNameInTable="columnILISKI" msprop:Generator_ColumnPropNameInRow="ILISKI" msprop:Generator_ColumnPropNameInTable="ILISKIColumn" msprop:Generator_UserColumnName="ILISKI" type="xs:string" minOccurs="0" />
+              <xs:element name="MAZERET" msprop:Generator_ColumnVarNameInTable="columnMAZERET" msprop:Generator_ColumnPropNameInRow="MAZERET" msprop:Generator_ColumnPropNameInTable="MAZERETColumn" msprop:Generator_UserColumnName="MAZERET" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

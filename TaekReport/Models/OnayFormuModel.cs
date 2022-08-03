@@ -27,8 +27,9 @@ namespace TaekReport.Models
         public string Uzamanlik { get; set; }
         public string Kurum { get; set; }
         public string Cinsiyet { get; set; }
-        public int Iliski { get; set; }
-        public int Katilim { get; set; }
+        public string Iliski { get; set; }
+        public string Katilim { get; set; }
+        public string Mazeret { get; set; }
 
     }
 }
