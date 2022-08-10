@@ -9,12 +9,14 @@ namespace TaekReport.DuzeltmeFormu
 {
     public partial class rprDuzeltmeFormu : DevExpress.XtraReports.UI.XtraReport
     {
-        public rprDuzeltmeFormu(Duzeltme form)
-        {
+        public rprDuzeltmeFormu(YetkisizlikFormModel form)
+        {     
             InitializeComponent();
-
-            lblArastirmaAdi.Text = "'" + form.ArastirmaAdi + "' " + " araştırmanız Tıbbi Araştırmalar Etik Kurulunun (TAEK) " +
-                form.ToplantiTarih + " tarihli toplantısında yeniden değerlendirilmiştir ";
+            lblKararNo.Text = "Karar Nu: " + form.KararNo;
+            lblArastirmaAdi.Text = "'" + form.ArastirmaAdi +
+                "' başlıklı araştırmanız Tıbbi Araştırmalar Etik Kurulunun (TAEK) " +
+                form.ToplantiTarih +
+                " tarihli toplantısında yeniden değerlendirilmiştir. ";
 
         }
 

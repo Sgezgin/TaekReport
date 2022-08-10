@@ -56,27 +56,7 @@ namespace TaekReport
             return resultReport;
         }
 
-        public byte[] DuzeltmeFrm(Duzeltme form)
-        {
-            byte[] resultReport = null;
 
-            try
-            {
-                DuzeltmeFormu.rprDuzeltmeFormu rpr = new DuzeltmeFormu.rprDuzeltmeFormu(form);
-                using (MemoryStream ms = new MemoryStream())
-                {
-                    rpr.ExportToPdf(ms);
-                    resultReport = ms.ToArray();
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-
-            return resultReport;
-        }
 
         public byte[] OnayOnYaziFrm(string sorumlu, string yardimci,string arastirma,string destekleyici)
         {
@@ -165,6 +145,108 @@ namespace TaekReport
                         );
                 }
                 rpr.DataSource = dt;
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
+
+        public byte[] YetkisizlikFrm(YetkisizlikFormModel form)
+        {
+            byte[] resultReport = null;
+
+            try
+            {           
+                YetkisizlikFormu.rprYetkisizlik rpr = new YetkisizlikFormu.rprYetkisizlik(form);
+
+                YetkisizlikFormu.dsYetkisizlik ds = new YetkisizlikFormu.dsYetkisizlik();
+                YetkisizlikFormu.dsYetkisizlik.dtYetkisizlikDataTable dt = new YetkisizlikFormu.dsYetkisizlik.dtYetkisizlikDataTable();
+
+                foreach (string item in form.Kararlar)
+                { 
+                    ds.dtYetkisizlik.AdddtYetkisizlikRow(
+                            item.ToString()
+                   );
+                }
+                rpr.DataSource = ds;
+
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
+
+        public byte[] YenidenBavuruFrm(YetkisizlikFormModel form)
+        {
+            byte[] resultReport = null;
+
+            try
+            {
+                YenidenBasvuruFormu.rprYenidenBasvuru rpr = new YenidenBasvuruFormu.rprYenidenBasvuru(form);
+
+                YenidenBasvuruFormu.dsYenidenBasvuru ds = new YenidenBasvuruFormu.dsYenidenBasvuru();
+                YenidenBasvuruFormu.dsYenidenBasvuru.dtYenidenBasvuruDataTable dt = new YenidenBasvuruFormu.dsYenidenBasvuru.dtYenidenBasvuruDataTable();
+
+                foreach (string item in form.Kararlar)
+                {
+                    ds.dtYenidenBasvuru.AdddtYenidenBasvuruRow(
+                            item.ToString()
+                   );
+                }
+                rpr.DataSource = ds;
+
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
+
+        public byte[] DuzeltmeFrm(YetkisizlikFormModel form)
+        {
+            byte[] resultReport = null;
+
+            try
+            {
+                DuzeltmeFormu.rprDuzeltmeFormu rpr = new DuzeltmeFormu.rprDuzeltmeFormu(form);
+
+                DuzeltmeFormu.dsDuzeltmeFormu ds = new DuzeltmeFormu.dsDuzeltmeFormu();
+                DuzeltmeFormu.dsDuzeltmeFormu.dtDuzeltmeFormuDataTable dt = new DuzeltmeFormu.dsDuzeltmeFormu.dtDuzeltmeFormuDataTable();
+
+                foreach (string item in form.Kararlar)
+                {         
+                    ds.dtDuzeltmeFormu.AdddtDuzeltmeFormuRow(
+                            item.ToString()
+                   );
+                }
+                rpr.DataSource = ds;
+
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);

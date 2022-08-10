@@ -31,16 +31,23 @@
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel4 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrCheckBox2 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.xrCheckBox1 = new DevExpress.XtraReports.UI.XRCheckBox();
             this.ReportHeader = new DevExpress.XtraReports.UI.ReportHeaderBand();
+            this.lblKararNo = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel14 = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblArastirmaAdi = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLine1 = new DevExpress.XtraReports.UI.XRLine();
             this.xrLabel3 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel2 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrPictureBox1 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel5 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel14 = new DevExpress.XtraReports.UI.XRLabel();
-            this.lblArastirmaAdi = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel4 = new DevExpress.XtraReports.UI.XRLabel();
+            this.dsYetkisizlik1 = new TaekReport.YetkisizlikFormu.dsYetkisizlik();
+            this.dsYetkisizlik2 = new TaekReport.YetkisizlikFormu.dsYetkisizlik();
+            ((System.ComponentModel.ISupportInitialize)(this.dsYetkisizlik1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dsYetkisizlik2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -54,12 +61,46 @@
             // 
             // Detail
             // 
+            this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel4,
+            this.xrCheckBox2,
+            this.xrCheckBox1});
+            this.Detail.HeightF = 39.66646F;
             this.Detail.Name = "Detail";
+            // 
+            // xrLabel4
+            // 
+            this.xrLabel4.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARAR]")});
+            this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(38.95837F, 8.66647F);
+            this.xrLabel4.Multiline = true;
+            this.xrLabel4.Name = "xrLabel4";
+            this.xrLabel4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel4.SizeF = new System.Drawing.SizeF(723.2081F, 25.20828F);
+            this.xrLabel4.Text = "xrLabel4";
+            // 
+            // xrCheckBox2
+            // 
+            this.xrCheckBox2.LocationFloat = new DevExpress.Utils.PointFloat(104.2501F, 15.74996F);
+            this.xrCheckBox2.Name = "xrCheckBox2";
+            this.xrCheckBox2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox2.SizeF = new System.Drawing.SizeF(4.166664F, 2F);
+            this.xrCheckBox2.Text = "xrCheckBox2";
+            // 
+            // xrCheckBox1
+            // 
+            this.xrCheckBox1.CheckBoxState = DevExpress.XtraPrinting.CheckBoxState.Checked;
+            this.xrCheckBox1.Checked = true;
+            this.xrCheckBox1.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.RadioButton;
+            this.xrCheckBox1.LocationFloat = new DevExpress.Utils.PointFloat(11.00006F, 6.66647F);
+            this.xrCheckBox1.Name = "xrCheckBox1";
+            this.xrCheckBox1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox1.SizeF = new System.Drawing.SizeF(23.95833F, 23F);
             // 
             // ReportHeader
             // 
             this.ReportHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrLabel4,
+            this.lblKararNo,
             this.xrLabel14,
             this.lblArastirmaAdi,
             this.xrLine1,
@@ -68,8 +109,48 @@
             this.xrPictureBox1,
             this.xrLabel1,
             this.xrLabel5});
-            this.ReportHeader.HeightF = 279.3334F;
+            this.ReportHeader.HeightF = 281.875F;
             this.ReportHeader.Name = "ReportHeader";
+            // 
+            // lblKararNo
+            // 
+            this.lblKararNo.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.lblKararNo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.lblKararNo.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 93.66668F);
+            this.lblKararNo.Multiline = true;
+            this.lblKararNo.Name = "lblKararNo";
+            this.lblKararNo.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblKararNo.SizeF = new System.Drawing.SizeF(194.6251F, 23F);
+            this.lblKararNo.StylePriority.UseBorders = false;
+            this.lblKararNo.StylePriority.UseFont = false;
+            this.lblKararNo.StylePriority.UseTextAlignment = false;
+            this.lblKararNo.Text = "Karar Nu: …………          ";
+            this.lblKararNo.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel14
+            // 
+            this.xrLabel14.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel14.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel14.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 153.125F);
+            this.xrLabel14.Multiline = true;
+            this.xrLabel14.Name = "xrLabel14";
+            this.xrLabel14.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel14.SizeF = new System.Drawing.SizeF(194.6251F, 23F);
+            this.xrLabel14.StylePriority.UseBorders = false;
+            this.xrLabel14.StylePriority.UseFont = false;
+            this.xrLabel14.StylePriority.UseTextAlignment = false;
+            this.xrLabel14.Text = "TAEK başvuru formunda;";
+            this.xrLabel14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // lblArastirmaAdi
+            // 
+            this.lblArastirmaAdi.Font = new System.Drawing.Font("Arial", 10F);
+            this.lblArastirmaAdi.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 189.0834F);
+            this.lblArastirmaAdi.Multiline = true;
+            this.lblArastirmaAdi.Name = "lblArastirmaAdi";
+            this.lblArastirmaAdi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblArastirmaAdi.SizeF = new System.Drawing.SizeF(748.1664F, 78.20836F);
+            this.lblArastirmaAdi.StylePriority.UseFont = false;
             // 
             // xrLine1
             // 
@@ -150,45 +231,15 @@
             this.xrLabel5.Text = "Tel : 0 232 390 2134    e-mail: egetaek@gmail.com";
             this.xrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
-            // xrLabel14
+            // dsYetkisizlik1
             // 
-            this.xrLabel14.Borders = DevExpress.XtraPrinting.BorderSide.None;
-            this.xrLabel14.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel14.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 153.125F);
-            this.xrLabel14.Multiline = true;
-            this.xrLabel14.Name = "xrLabel14";
-            this.xrLabel14.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel14.SizeF = new System.Drawing.SizeF(194.6251F, 23F);
-            this.xrLabel14.StylePriority.UseBorders = false;
-            this.xrLabel14.StylePriority.UseFont = false;
-            this.xrLabel14.StylePriority.UseTextAlignment = false;
-            this.xrLabel14.Text = "TAEK başvuru formunda;";
-            this.xrLabel14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.dsYetkisizlik1.DataSetName = "dsYetkisizlik";
+            this.dsYetkisizlik1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // lblArastirmaAdi
+            // dsYetkisizlik2
             // 
-            this.lblArastirmaAdi.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblArastirmaAdi.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 195.3334F);
-            this.lblArastirmaAdi.Multiline = true;
-            this.lblArastirmaAdi.Name = "lblArastirmaAdi";
-            this.lblArastirmaAdi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblArastirmaAdi.SizeF = new System.Drawing.SizeF(748.1664F, 71.95834F);
-            this.lblArastirmaAdi.StylePriority.UseFont = false;
-            // 
-            // xrLabel4
-            // 
-            this.xrLabel4.Borders = DevExpress.XtraPrinting.BorderSide.None;
-            this.xrLabel4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 93.66668F);
-            this.xrLabel4.Multiline = true;
-            this.xrLabel4.Name = "xrLabel4";
-            this.xrLabel4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel4.SizeF = new System.Drawing.SizeF(194.6251F, 23F);
-            this.xrLabel4.StylePriority.UseBorders = false;
-            this.xrLabel4.StylePriority.UseFont = false;
-            this.xrLabel4.StylePriority.UseTextAlignment = false;
-            this.xrLabel4.Text = "Karar Nu: …………          ";
-            this.xrLabel4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.dsYetkisizlik2.DataSetName = "dsYetkisizlik";
+            this.dsYetkisizlik2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // rprYetkisizlik
             // 
@@ -197,9 +248,16 @@
             this.BottomMargin,
             this.Detail,
             this.ReportHeader});
+            this.ComponentStorage.AddRange(new System.ComponentModel.IComponent[] {
+            this.dsYetkisizlik1,
+            this.dsYetkisizlik2});
+            this.DataMember = "dtYetkisizlik";
+            this.DataSource = this.dsYetkisizlik2;
             this.Font = new System.Drawing.Font("Arial", 9.75F);
             this.Margins = new System.Drawing.Printing.Margins(27, 35, 18, 100);
             this.Version = "20.2";
+            ((System.ComponentModel.ISupportInitialize)(this.dsYetkisizlik1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dsYetkisizlik2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -218,6 +276,11 @@
         private DevExpress.XtraReports.UI.XRLabel xrLabel5;
         private DevExpress.XtraReports.UI.XRLabel xrLabel14;
         private DevExpress.XtraReports.UI.XRLabel lblArastirmaAdi;
+        private DevExpress.XtraReports.UI.XRLabel lblKararNo;
+        private dsYetkisizlik dsYetkisizlik1;
+        private dsYetkisizlik dsYetkisizlik2;
         private DevExpress.XtraReports.UI.XRLabel xrLabel4;
+        private DevExpress.XtraReports.UI.XRCheckBox xrCheckBox2;
+        private DevExpress.XtraReports.UI.XRCheckBox xrCheckBox1;
     }
 }

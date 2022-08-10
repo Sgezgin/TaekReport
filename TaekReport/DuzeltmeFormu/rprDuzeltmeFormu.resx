@@ -123,4 +123,7 @@
   <data name="xrLabel18.Text" xml:space="preserve">
     <value>•   Eksikliklerin, Araştırıcıya bildirim tarihinden itibaren en geç 3 ay içerisinde tamamlanmaması durumunda başvuru geçersiz sayılacaktır. Kurulumuza sunulan eksikliklerin uygunluğunun takibi Sorumlu Araştırıcının sorumluluğundadır.</value>
   </data>
+  <metadata name="dsDuzeltmeFormu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
