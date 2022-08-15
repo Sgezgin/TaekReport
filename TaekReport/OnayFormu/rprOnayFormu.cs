@@ -21,7 +21,9 @@ namespace TaekReport.OnayFormu
             lblKararNum.Text = "Karar Nu: " + form.DosyaNo;
             lblTarih.Text = "Tarih: " + form.ToplantiTarihi;
             lblBaskan.Text = form.Baskan;
-
+            lblArastirmaciAdres.Text = form.KoordinatorMerkez;
+            lblDestekleyici.Text = form.Destekleyici;
+            lblArastirmaTipi.Text = form.ArastirmaTipi;
             lblKararMetni.Text = "Yukarıda başvuru bilgileri verilen araştırma başvuru dosyası ve ilgili belgeler " +
                 "araştırmanın gerekçe, amaç, yaklaşım ve yöntemleri dikkate alınarak Kurulumuzca incelenmiş, araştırma" +
                 " giderlerinin gönüllüye ve/veya bağlı bulunduğu sosyal güvenlik kurumuna ödetilmediği koşullarda araştırmaya" +
