@@ -141,6 +141,7 @@
     <Compile Include="Models\Duzeltme.cs" />
     <Compile Include="Models\OLURFORMU.cs" />
     <Compile Include="Models\OnayFormuModel.cs" />
+    <Compile Include="Models\OzgecmisModel.cs" />
     <Compile Include="Models\TUPBARKOD.cs" />
     <Compile Include="Models\YetkisizlikFormModel.cs" />
     <Compile Include="OlurFormu\dsOlurFormu.cs">
@@ -182,6 +183,12 @@
     </Compile>
     <Compile Include="OnYaziFormu\frmOnayOnYazi.Designer.cs">
       <DependentUpon>frmOnayOnYazi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ozgecmis\rprOzgecmis.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ozgecmis\rprOzgecmis.Designer.cs">
+      <DependentUpon>rprOzgecmis.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -315,6 +322,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OnYaziFormu\frmOnayOnYazi.resx">
       <DependentUpon>frmOnayOnYazi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ozgecmis\rprOzgecmis.resx">
+      <DependentUpon>rprOzgecmis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

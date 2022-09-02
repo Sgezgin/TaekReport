@@ -57,6 +57,27 @@ namespace TaekReport
         }
 
 
+        public byte[] OzgecmisFormu(OzgecmisModel form)
+        {
+            byte[] resultReport = null;
+
+            try
+            {            
+                Ozgecmis.rprOzgecmis rpr = new Ozgecmis.rprOzgecmis(form);
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
 
         public byte[] OnayOnYaziFrm(string sorumlu, string yardimci,string arastirma,string destekleyici)
         {
