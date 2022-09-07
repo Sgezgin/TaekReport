@@ -13,9 +13,27 @@ namespace TaekReport.Ozgecmis
         {
             InitializeComponent();
 
-            lblAdi.Text = model.Adi;
-            lblSoyadi.Text = model.Soyadi;
-            lblAdres.Text = model.Adres;
+            txtAdiSoyadi.Text = model.Adi + " " + model.Soyadi;
+
+            txtGorevYeri.Text = model.Adres;
+            txtEposta.Text = model.Email;
+            txtTelefon.Text = model.Telefon;
+
+            foreach (string egitimItem in model.EgitimBilgileri)
+            {
+                txtEgitimBilgileri.Text += Environment.NewLine + egitimItem;
+            }
+
+            foreach (string istecrubeItem in model.IsTecrubeleri)
+            {
+                txtIsTecrubeleri.Text += Environment.NewLine + istecrubeItem;
+            }
+
+            foreach (string klinikItem in model.KlinikArastirmalar)
+            {
+                txtKlinikArastirmalar.Text += Environment.NewLine + klinikItem;
+            }
+
         }
 
     }

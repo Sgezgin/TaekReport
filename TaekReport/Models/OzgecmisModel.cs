@@ -14,5 +14,12 @@ namespace TaekReport.Models
         public string Telefon { get; set; }
         public string Adres { get; set; }
         public string Tckn { get; set; }
+        public string Email { get; set; }
+        public string DogumTarihi { get; set; }
+        public List<string> EgitimBilgileri { get; set; }
+        public List<string> IsTecrubeleri { get; set; }
+        public List<string> KlinikArastirmalar { get; set; }
     }
+
+    
 }
