@@ -83,6 +83,14 @@
     <Compile Include="ArastirmaButceFormu\rprArastirmaButceFormu2.Designer.cs">
       <DependentUpon>rprArastirmaButceFormu2.cs</DependentUpon>
     </Compile>
+    <Compile Include="BasvuruFormu\dsBasvuruFormu.cs">
+      <DependentUpon>dsBasvuruFormu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BasvuruFormu\dsBasvuruFormu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBasvuruFormu.xsd</DependentUpon>
+    </Compile>
     <Compile Include="BasvuruFormu\rprBasvuruFormu.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -136,6 +144,7 @@
       <DependentUpon>rprTupBarkod.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\ARASTIRMAEKIBI.cs" />
+    <Compile Include="Models\BasvuruFormModel.cs" />
     <Compile Include="Models\BUTCEFORMU.cs" />
     <Compile Include="Models\Degerlendirme.cs" />
     <Compile Include="Models\Duzeltme.cs" />
@@ -221,6 +230,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="BasvuruFormu\dsBasvuruFormu.xsc">
+      <DependentUpon>dsBasvuruFormu.xsd</DependentUpon>
+    </None>
+    <None Include="BasvuruFormu\dsBasvuruFormu.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBasvuruFormu.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BasvuruFormu\dsBasvuruFormu.xss">
+      <DependentUpon>dsBasvuruFormu.xsd</DependentUpon>
+    </None>
     <None Include="DegerlendirmeFormu\dsDegerlendirmeFormu.xsc">
       <DependentUpon>dsDegerlendirmeFormu.xsd</DependentUpon>
     </None>

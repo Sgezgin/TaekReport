@@ -283,6 +283,56 @@ namespace TaekReport
             return resultReport;
         }
 
+        public byte[] BasvuruFrm(BasvuruFormModel form)
+        {
+            byte[] resultReport = null;
+
+            try
+            {
+      
+                BasvuruFormu.rprBasvuruFormu rpr = new BasvuruFormu.rprBasvuruFormu(form.ArastirmaAdi,form.SorumluAdiSoyadi,form.BavuruNo);
+
+                BasvuruFormu.dsBasvuruFormu ds = new BasvuruFormu.dsBasvuruFormu();
+                BasvuruFormu.dsBasvuruFormu.dtBasvuruFormDataTable dt = new BasvuruFormu.dsBasvuruFormu.dtBasvuruFormDataTable();
+
+
+             
+                foreach (var item in form.BasvuruFormEkipList)
+                {
+                    // ds.dtBasvuruForm.AdddtBasvuruFormRow(
+                    //   item.Unvan,
+                    //   item.Adi,
+                    //   item.Soyadi,
+                    //   item.Sorumluluk,
+                    //   item.Imza
+                    //);
+
+                    dt.Rows.Add(
+                         item.Unvan,
+                       item.Adi,
+                       item.Soyadi,
+                       item.Sorumluluk,
+                       item.Imza
+                        );
+
+                }
+                rpr.DataSource = dt;
+
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
+
         public byte[] TupBarkod(TUPBARKOD form)
         {
             byte[] resultReport = null;

@@ -16,7 +16,7 @@ namespace TaekReport.YenidenBasvuruFormu
             lblArastirmaAdi.Text = "'" + form.ArastirmaAdi +
                 "' başlıklı araştırmanız Tıbbi Araştırmalar Etik Kurulunun (TAEK) " +
                 form.ToplantiTarih +
-                " tarihli toplantısında yeniden değerlendirilmiştir. ";
+                " tarihli toplantısında değerlendirilmiştir. ";
         }
 
     }

@@ -16,7 +16,10 @@ namespace TaekReport.YetkisizlikFormu
             lblArastirmaAdi.Text = "'" + form.ArastirmaAdi + 
                 "' başlıklı araştırmanız Tıbbi Araştırmalar Etik Kurulunun (TAEK) "+
                 form.ToplantiTarih +
-                " tarihli toplantısında değerlendirilmiştir. Başvuru formunuzda ;";
+                " tarihli toplantısında değerlendirilmiştir. Başvuru formunuzda ;" +Environment.NewLine + Environment.NewLine+
+                
+                " Başvuru dosyasının amaç ve gereç yönetimi göz önüne alındığında,";
+
 
         }
 

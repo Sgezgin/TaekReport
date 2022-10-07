@@ -45,22 +45,12 @@
             this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel5 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel4 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel6 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel7 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel8 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel9 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel10 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel11 = new DevExpress.XtraReports.UI.XRLabel();
             this.dsYenidenBasvuru1 = new TaekReport.YenidenBasvuruFormu.dsYenidenBasvuru();
             this.ReportFooter = new DevExpress.XtraReports.UI.ReportFooterBand();
-            this.xrLabel12 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel15 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel16 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel17 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel18 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel19 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel20 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel21 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel6 = new DevExpress.XtraReports.UI.XRLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dsYenidenBasvuru1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
@@ -106,14 +96,6 @@
             // PageHeader
             // 
             this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrLabel12,
-            this.xrLabel15,
-            this.xrLabel16,
-            this.xrLabel17,
-            this.xrLabel18,
-            this.xrLabel19,
-            this.xrLabel20,
-            this.xrLabel21,
             this.lblArastirmaAdi,
             this.xrLabel14,
             this.lblKararNo,
@@ -123,13 +105,13 @@
             this.xrPictureBox1,
             this.xrLabel1,
             this.xrLabel5});
-            this.PageHeader.HeightF = 333.0832F;
+            this.PageHeader.HeightF = 267.1248F;
             this.PageHeader.Name = "PageHeader";
             // 
             // lblArastirmaAdi
             // 
             this.lblArastirmaAdi.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblArastirmaAdi.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 239.2915F);
+            this.lblArastirmaAdi.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 178.2915F);
             this.lblArastirmaAdi.Multiline = true;
             this.lblArastirmaAdi.Name = "lblArastirmaAdi";
             this.lblArastirmaAdi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -140,7 +122,7 @@
             // 
             this.xrLabel14.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrLabel14.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel14.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 203.3331F);
+            this.xrLabel14.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 142.3331F);
             this.xrLabel14.Multiline = true;
             this.xrLabel14.Name = "xrLabel14";
             this.xrLabel14.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -248,7 +230,7 @@
             // xrLabel4
             // 
             this.xrLabel4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(12.00037F, 35.3748F);
+            this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(12.00037F, 56.3748F);
             this.xrLabel4.Multiline = true;
             this.xrLabel4.Name = "xrLabel4";
             this.xrLabel4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -256,22 +238,10 @@
             this.xrLabel4.StylePriority.UseFont = false;
             this.xrLabel4.Text = "Genel Uyarı:";
             // 
-            // xrLabel6
-            // 
-            this.xrLabel6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel6.LocationFloat = new DevExpress.Utils.PointFloat(12.00037F, 66.12482F);
-            this.xrLabel6.Multiline = true;
-            this.xrLabel6.Name = "xrLabel6";
-            this.xrLabel6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel6.SizeF = new System.Drawing.SizeF(770.9999F, 16.74998F);
-            this.xrLabel6.StylePriority.UseFont = false;
-            this.xrLabel6.Text = "•     Bu belgede istenen düzeltmeler, Tıbbi araştırmalar Etik Kurul Düzeltme Form" +
-    "u ekinde sunulmalıdır.";
-            // 
             // xrLabel7
             // 
             this.xrLabel7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(12.00037F, 84.87482F);
+            this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(12.00037F, 83.87482F);
             this.xrLabel7.Multiline = true;
             this.xrLabel7.Name = "xrLabel7";
             this.xrLabel7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -280,21 +250,10 @@
             this.xrLabel7.Text = "•     Çalışmanıza ancak “Tıbbi araştırmalar Etik Kurul Onay Belgesi” aldıktan son" +
     "ra başlayabilirsiniz. ";
             // 
-            // xrLabel8
-            // 
-            this.xrLabel8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel8.LocationFloat = new DevExpress.Utils.PointFloat(12.00037F, 112.4581F);
-            this.xrLabel8.Multiline = true;
-            this.xrLabel8.Name = "xrLabel8";
-            this.xrLabel8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel8.SizeF = new System.Drawing.SizeF(768.9997F, 35.49995F);
-            this.xrLabel8.StylePriority.UseFont = false;
-            this.xrLabel8.Text = resources.GetString("xrLabel8.Text");
-            // 
             // xrLabel9
             // 
             this.xrLabel9.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel9.LocationFloat = new DevExpress.Utils.PointFloat(12.00037F, 151.4164F);
+            this.xrLabel9.LocationFloat = new DevExpress.Utils.PointFloat(12.00037F, 107.4164F);
             this.xrLabel9.Multiline = true;
             this.xrLabel9.Name = "xrLabel9";
             this.xrLabel9.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -307,25 +266,13 @@
             // xrLabel10
             // 
             this.xrLabel10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel10.LocationFloat = new DevExpress.Utils.PointFloat(12.00037F, 188.8331F);
+            this.xrLabel10.LocationFloat = new DevExpress.Utils.PointFloat(12.00037F, 144.8331F);
             this.xrLabel10.Multiline = true;
             this.xrLabel10.Name = "xrLabel10";
             this.xrLabel10.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel10.SizeF = new System.Drawing.SizeF(768F, 52.16663F);
             this.xrLabel10.StylePriority.UseFont = false;
             this.xrLabel10.Text = resources.GetString("xrLabel10.Text");
-            // 
-            // xrLabel11
-            // 
-            this.xrLabel11.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(12.00037F, 243.9997F);
-            this.xrLabel11.Multiline = true;
-            this.xrLabel11.Name = "xrLabel11";
-            this.xrLabel11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel11.SizeF = new System.Drawing.SizeF(768F, 34.45828F);
-            this.xrLabel11.StylePriority.UseFont = false;
-            this.xrLabel11.Text = "•    Kurulumuza düzeltmeler sunulurken sadece düzeltme istenilen belgeler yeniden" +
-    " düzenlenerek sunulmalıdır.";
             // 
             // dsYenidenBasvuru1
             // 
@@ -335,103 +282,26 @@
             // ReportFooter
             // 
             this.ReportFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrLabel11,
+            this.xrLabel6,
             this.xrLabel10,
             this.xrLabel9,
-            this.xrLabel8,
             this.xrLabel7,
-            this.xrLabel6,
             this.xrLabel4});
-            this.ReportFooter.HeightF = 301.0415F;
+            this.ReportFooter.HeightF = 291.5832F;
             this.ReportFooter.Name = "ReportFooter";
             // 
-            // xrLabel12
+            // xrLabel6
             // 
-            this.xrLabel12.Font = new System.Drawing.Font("Arial", 10F);
-            this.xrLabel12.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 134.8333F);
-            this.xrLabel12.Multiline = true;
-            this.xrLabel12.Name = "xrLabel12";
-            this.xrLabel12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel12.SizeF = new System.Drawing.SizeF(226.0417F, 23F);
-            this.xrLabel12.StylePriority.UseFont = false;
-            this.xrLabel12.Text = "Başvurunuz aşağıdaki eksikliklerin ";
-            // 
-            // xrLabel15
-            // 
-            this.xrLabel15.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.xrLabel15.LocationFloat = new DevExpress.Utils.PointFloat(229.0418F, 134.8333F);
-            this.xrLabel15.Multiline = true;
-            this.xrLabel15.Name = "xrLabel15";
-            this.xrLabel15.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel15.SizeF = new System.Drawing.SizeF(165.625F, 23F);
-            this.xrLabel15.StylePriority.UseFont = false;
-            this.xrLabel15.Text = "en geç 3 ay içerisinde ";
-            // 
-            // xrLabel16
-            // 
-            this.xrLabel16.Font = new System.Drawing.Font("Arial", 10F);
-            this.xrLabel16.LocationFloat = new DevExpress.Utils.PointFloat(383.6668F, 134.8333F);
-            this.xrLabel16.Multiline = true;
-            this.xrLabel16.Name = "xrLabel16";
-            this.xrLabel16.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel16.SizeF = new System.Drawing.SizeF(356.4997F, 23F);
-            this.xrLabel16.StylePriority.UseFont = false;
-            this.xrLabel16.Text = "tamamlanmasıyla onay verilebilecektir. Eksikliklerin";
-            // 
-            // xrLabel17
-            // 
-            this.xrLabel17.Font = new System.Drawing.Font("Arial", 10F);
-            this.xrLabel17.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 157.8334F);
-            this.xrLabel17.Multiline = true;
-            this.xrLabel17.Name = "xrLabel17";
-            this.xrLabel17.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel17.SizeF = new System.Drawing.SizeF(197.9167F, 23F);
-            this.xrLabel17.StylePriority.UseFont = false;
-            this.xrLabel17.Text = "tamamlanmaması durumunda ";
-            // 
-            // xrLabel18
-            // 
-            this.xrLabel18.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.xrLabel18.LocationFloat = new DevExpress.Utils.PointFloat(195.9168F, 157.8334F);
-            this.xrLabel18.Multiline = true;
-            this.xrLabel18.Name = "xrLabel18";
-            this.xrLabel18.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel18.SizeF = new System.Drawing.SizeF(205.2083F, 23F);
-            this.xrLabel18.StylePriority.UseFont = false;
-            this.xrLabel18.Text = "başvuru geçersiz sayılacaktır";
-            // 
-            // xrLabel19
-            // 
-            this.xrLabel19.Font = new System.Drawing.Font("Arial", 10F);
-            this.xrLabel19.LocationFloat = new DevExpress.Utils.PointFloat(392.1251F, 157.8334F);
-            this.xrLabel19.Multiline = true;
-            this.xrLabel19.Name = "xrLabel19";
-            this.xrLabel19.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel19.SizeF = new System.Drawing.SizeF(150F, 23F);
-            this.xrLabel19.StylePriority.UseFont = false;
-            this.xrLabel19.Text = "Yapılan tüm eklemeler ";
-            // 
-            // xrLabel20
-            // 
-            this.xrLabel20.Font = new System.Drawing.Font("Arial", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Strikeout))));
-            this.xrLabel20.LocationFloat = new DevExpress.Utils.PointFloat(537.1251F, 157.8334F);
-            this.xrLabel20.Multiline = true;
-            this.xrLabel20.Name = "xrLabel20";
-            this.xrLabel20.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel20.SizeF = new System.Drawing.SizeF(106.25F, 23F);
-            this.xrLabel20.StylePriority.UseFont = false;
-            this.xrLabel20.Text = "üstü çizilerek ";
-            // 
-            // xrLabel21
-            // 
-            this.xrLabel21.Font = new System.Drawing.Font("Arial", 10F);
-            this.xrLabel21.LocationFloat = new DevExpress.Utils.PointFloat(634.3751F, 157.8334F);
-            this.xrLabel21.Multiline = true;
-            this.xrLabel21.Name = "xrLabel21";
-            this.xrLabel21.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel21.SizeF = new System.Drawing.SizeF(88.79138F, 23F);
-            this.xrLabel21.StylePriority.UseFont = false;
-            this.xrLabel21.Text = "belirtilmelidir";
+            this.xrLabel6.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel6.LocationFloat = new DevExpress.Utils.PointFloat(12.00037F, 10.00001F);
+            this.xrLabel6.Multiline = true;
+            this.xrLabel6.Name = "xrLabel6";
+            this.xrLabel6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel6.SizeF = new System.Drawing.SizeF(768.9998F, 46.37476F);
+            this.xrLabel6.StylePriority.UseFont = false;
+            this.xrLabel6.Text = "Sunulan bilgi ve belgeler, çalışmanın etik yönden incelenmesi için yeterli görülm" +
+    "emiştir. Aşağıdaki maddelerin gözden geçirilerek Çalışmanın YENİDEN BAŞVURU yapı" +
+    "lması uygun görülmüştür";
             // 
             // rprYenidenBasvuru
             // 
@@ -465,12 +335,9 @@
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox1;
         private DevExpress.XtraReports.UI.XRLabel xrLabel1;
         private DevExpress.XtraReports.UI.XRLabel xrLabel5;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel11;
         private DevExpress.XtraReports.UI.XRLabel xrLabel10;
         private DevExpress.XtraReports.UI.XRLabel xrLabel9;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel8;
         private DevExpress.XtraReports.UI.XRLabel xrLabel7;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel6;
         private DevExpress.XtraReports.UI.XRLabel xrLabel4;
         private DevExpress.XtraReports.UI.XRLabel lblArastirmaAdi;
         private DevExpress.XtraReports.UI.XRLabel xrLabel14;
@@ -479,13 +346,6 @@
         private dsYenidenBasvuru dsYenidenBasvuru1;
         private DevExpress.XtraReports.UI.XRCheckBox xrCheckBox1;
         private DevExpress.XtraReports.UI.ReportFooterBand ReportFooter;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel12;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel15;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel16;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel17;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel18;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel19;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel20;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel21;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel6;
     }
 }

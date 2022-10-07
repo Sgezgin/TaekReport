@@ -8,9 +8,14 @@ namespace TaekReport.BasvuruFormu
 {
     public partial class rprBasvuruFormu : DevExpress.XtraReports.UI.XtraReport
     {
-        public rprBasvuruFormu()
+        public rprBasvuruFormu(string arastirma,string sorumlu,string basvuruno)
         {
             InitializeComponent();
+            string arastmaedit = " isimli araştırma başvurusu dosyası kapsamında, aşağıda özellikleri belirtilmiş olan belgelerin tarafınızdan değerlendirilmesi/ onaylanması için gereğini bilgilerinize arz ederim.";
+            lblArastirmaADi.Text = arastirma + arastmaedit;
+            lblBasvuruNo.Text = "Başvuru No : " + basvuruno;
+            lblSorumlu.Text = sorumlu;
+            lblSorumlu2.Text = sorumlu;
         }
 
     }

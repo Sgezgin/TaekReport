@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsBasvuruFormu" targetNamespace="http://tempuri.org/dsBasvuruFormu.xsd" xmlns:mstns="http://tempuri.org/dsBasvuruFormu.xsd" xmlns="http://tempuri.org/dsBasvuruFormu.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsBasvuruFormu" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsBasvuruFormu" msprop:Generator_UserDSName="dsBasvuruFormu">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtBasvuruForm" msprop:Generator_TableClassName="dtBasvuruFormDataTable" msprop:Generator_TableVarName="tabledtBasvuruForm" msprop:Generator_TablePropName="dtBasvuruForm" msprop:Generator_RowDeletingName="dtBasvuruFormRowDeleting" msprop:Generator_RowChangingName="dtBasvuruFormRowChanging" msprop:Generator_RowEvHandlerName="dtBasvuruFormRowChangeEventHandler" msprop:Generator_RowDeletedName="dtBasvuruFormRowDeleted" msprop:Generator_UserTableName="dtBasvuruForm" msprop:Generator_RowChangedName="dtBasvuruFormRowChanged" msprop:Generator_RowEvArgName="dtBasvuruFormRowChangeEvent" msprop:Generator_RowClassName="dtBasvuruFormRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UNVAN" msprop:Generator_ColumnVarNameInTable="columnUNVAN" msprop:Generator_ColumnPropNameInRow="UNVAN" msprop:Generator_ColumnPropNameInTable="UNVANColumn" msprop:Generator_UserColumnName="UNVAN" type="xs:string" minOccurs="0" />
+              <xs:element name="ADI" msprop:Generator_ColumnVarNameInTable="columnADI" msprop:Generator_ColumnPropNameInRow="ADI" msprop:Generator_ColumnPropNameInTable="ADIColumn" msprop:Generator_UserColumnName="ADI" type="xs:string" minOccurs="0" />
+              <xs:element name="SOYADI" msprop:Generator_ColumnVarNameInTable="columnSOYADI" msprop:Generator_ColumnPropNameInRow="SOYADI" msprop:Generator_ColumnPropNameInTable="SOYADIColumn" msprop:Generator_UserColumnName="SOYADI" type="xs:string" minOccurs="0" />
+              <xs:element name="SORUMLULUK" msprop:Generator_ColumnVarNameInTable="columnSORUMLULUK" msprop:Generator_ColumnPropNameInRow="SORUMLULUK" msprop:Generator_ColumnPropNameInTable="SORUMLULUKColumn" msprop:Generator_UserColumnName="SORUMLULUK" type="xs:string" minOccurs="0" />
+              <xs:element name="IMZA" msprop:Generator_ColumnVarNameInTable="columnIMZA" msprop:Generator_ColumnPropNameInRow="IMZA" msprop:Generator_ColumnPropNameInTable="IMZAColumn" msprop:Generator_UserColumnName="IMZA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
