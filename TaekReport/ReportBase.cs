@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TaekReport.BasvuruFormuTum;
 using TaekReport.Models;
 
 
@@ -317,6 +318,71 @@ namespace TaekReport
 
                 }
                 rpr.DataSource = dt;
+
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
+
+
+        public byte[] BasvuruFrmTum(BasvuruFormModel form)
+        {
+            byte[] resultReport = null;
+
+            try
+            {
+
+                BasvuruFormuTum.rprBasvuruFormu rpr = new BasvuruFormuTum.rprBasvuruFormu(form.ArastirmaAdi, form.SorumluAdiSoyadi, form.BavuruNo);
+
+
+                List<BasvuruFormObj> reportData = new List<BasvuruFormObj>();
+                BasvuruFormObj basvuruFormObj = new BasvuruFormObj();
+
+
+                List<ArastirmaEkipList> aratirmaEkipList = new List<ArastirmaEkipList>();
+      
+
+
+              
+                foreach (var item in form.ArastirmaEkipList)
+                {
+                    string arastirmaciTipi = "Yardımcı Araştırmacı ";
+                    if (item.Sorumlu)
+                        arastirmaciTipi = "Sorumlu Araştırmacı";
+
+
+                    aratirmaEkipList.Add(new ArastirmaEkipList() {
+
+                        AdiSoyadi = item.AdiSoyadi,
+                        Eposta = item.Eposta,
+                        IsAdresi = item.IsAdresi,
+                        ArastirmaciTuru = arastirmaciTipi,
+                        TelefonNumarasi = item.TelefonNumarasi,
+                        Unvani = item.Unvani,
+                        UzmanlikAlani = item.UzmanlikAlani
+                    });  
+
+                }
+
+
+                basvuruFormObj.ArastirmaEkipList = aratirmaEkipList;
+                basvuruFormObj.BasvuruFormEkipList = form.BasvuruFormEkipList;
+                reportData.Add(basvuruFormObj);
+                rpr.DataSource = reportData;
+
+
+
+
 
                 using (MemoryStream ms = new MemoryStream())
                 {

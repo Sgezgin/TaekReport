@@ -12,7 +12,7 @@
   <xs:element name="dsBasvuruFormu" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsBasvuruFormu" msprop:Generator_UserDSName="dsBasvuruFormu">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="dtBasvuruForm" msprop:Generator_TableClassName="dtBasvuruFormDataTable" msprop:Generator_TableVarName="tabledtBasvuruForm" msprop:Generator_TablePropName="dtBasvuruForm" msprop:Generator_RowDeletingName="dtBasvuruFormRowDeleting" msprop:Generator_RowChangingName="dtBasvuruFormRowChanging" msprop:Generator_RowEvHandlerName="dtBasvuruFormRowChangeEventHandler" msprop:Generator_RowDeletedName="dtBasvuruFormRowDeleted" msprop:Generator_UserTableName="dtBasvuruForm" msprop:Generator_RowChangedName="dtBasvuruFormRowChanged" msprop:Generator_RowEvArgName="dtBasvuruFormRowChangeEvent" msprop:Generator_RowClassName="dtBasvuruFormRow">
+        <xs:element name="dtBasvuruForm" msprop:Generator_TableClassName="dtBasvuruFormDataTable" msprop:Generator_TableVarName="tabledtBasvuruForm" msprop:Generator_RowChangedName="dtBasvuruFormRowChanged" msprop:Generator_TablePropName="dtBasvuruForm" msprop:Generator_RowDeletingName="dtBasvuruFormRowDeleting" msprop:Generator_RowChangingName="dtBasvuruFormRowChanging" msprop:Generator_RowEvHandlerName="dtBasvuruFormRowChangeEventHandler" msprop:Generator_RowDeletedName="dtBasvuruFormRowDeleted" msprop:Generator_RowClassName="dtBasvuruFormRow" msprop:Generator_UserTableName="dtBasvuruForm" msprop:Generator_RowEvArgName="dtBasvuruFormRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="UNVAN" msprop:Generator_ColumnVarNameInTable="columnUNVAN" msprop:Generator_ColumnPropNameInRow="UNVAN" msprop:Generator_ColumnPropNameInTable="UNVANColumn" msprop:Generator_UserColumnName="UNVAN" type="xs:string" minOccurs="0" />
@@ -20,6 +20,20 @@
               <xs:element name="SOYADI" msprop:Generator_ColumnVarNameInTable="columnSOYADI" msprop:Generator_ColumnPropNameInRow="SOYADI" msprop:Generator_ColumnPropNameInTable="SOYADIColumn" msprop:Generator_UserColumnName="SOYADI" type="xs:string" minOccurs="0" />
               <xs:element name="SORUMLULUK" msprop:Generator_ColumnVarNameInTable="columnSORUMLULUK" msprop:Generator_ColumnPropNameInRow="SORUMLULUK" msprop:Generator_ColumnPropNameInTable="SORUMLULUKColumn" msprop:Generator_UserColumnName="SORUMLULUK" type="xs:string" minOccurs="0" />
               <xs:element name="IMZA" msprop:Generator_ColumnVarNameInTable="columnIMZA" msprop:Generator_ColumnPropNameInRow="IMZA" msprop:Generator_ColumnPropNameInTable="IMZAColumn" msprop:Generator_UserColumnName="IMZA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtEkipList" msprop:Generator_TableClassName="dtEkipListDataTable" msprop:Generator_TableVarName="tabledtEkipList" msprop:Generator_TablePropName="dtEkipList" msprop:Generator_RowDeletingName="dtEkipListRowDeleting" msprop:Generator_RowChangingName="dtEkipListRowChanging" msprop:Generator_RowEvHandlerName="dtEkipListRowChangeEventHandler" msprop:Generator_RowDeletedName="dtEkipListRowDeleted" msprop:Generator_UserTableName="dtEkipList" msprop:Generator_RowChangedName="dtEkipListRowChanged" msprop:Generator_RowEvArgName="dtEkipListRowChangeEvent" msprop:Generator_RowClassName="dtEkipListRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AdiSoyadi" msprop:Generator_ColumnVarNameInTable="columnAdiSoyadi" msprop:Generator_ColumnPropNameInRow="AdiSoyadi" msprop:Generator_ColumnPropNameInTable="AdiSoyadiColumn" msprop:Generator_UserColumnName="AdiSoyadi" type="xs:string" minOccurs="0" />
+              <xs:element name="Unvani" msprop:Generator_ColumnVarNameInTable="columnUnvani" msprop:Generator_ColumnPropNameInRow="Unvani" msprop:Generator_ColumnPropNameInTable="UnvaniColumn" msprop:Generator_UserColumnName="Unvani" type="xs:string" minOccurs="0" />
+              <xs:element name="UzmanlikAlani" msprop:Generator_ColumnVarNameInTable="columnUzmanlikAlani" msprop:Generator_ColumnPropNameInRow="UzmanlikAlani" msprop:Generator_ColumnPropNameInTable="UzmanlikAlaniColumn" msprop:Generator_UserColumnName="UzmanlikAlani" type="xs:string" minOccurs="0" />
+              <xs:element name="IsAdresi" msprop:Generator_ColumnVarNameInTable="columnIsAdresi" msprop:Generator_ColumnPropNameInRow="IsAdresi" msprop:Generator_ColumnPropNameInTable="IsAdresiColumn" msprop:Generator_UserColumnName="IsAdresi" type="xs:string" minOccurs="0" />
+              <xs:element name="Eposta" msprop:Generator_ColumnVarNameInTable="columnEposta" msprop:Generator_ColumnPropNameInRow="Eposta" msprop:Generator_ColumnPropNameInTable="EpostaColumn" msprop:Generator_UserColumnName="Eposta" type="xs:string" minOccurs="0" />
+              <xs:element name="TelefonNumarasi" msprop:Generator_ColumnVarNameInTable="columnTelefonNumarasi" msprop:Generator_ColumnPropNameInRow="TelefonNumarasi" msprop:Generator_ColumnPropNameInTable="TelefonNumarasiColumn" msprop:Generator_UserColumnName="TelefonNumarasi" type="xs:string" minOccurs="0" />
+              <xs:element name="ArastirmaciTuru" msprop:Generator_ColumnVarNameInTable="columnArastirmaciTuru" msprop:Generator_ColumnPropNameInRow="ArastirmaciTuru" msprop:Generator_ColumnPropNameInTable="ArastirmaciTuruColumn" msprop:Generator_UserColumnName="ArastirmaciTuru" type="xs:string" minOccurs="0" />
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
