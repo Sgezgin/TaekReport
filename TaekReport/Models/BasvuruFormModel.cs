@@ -14,6 +14,21 @@ namespace TaekReport.Models
         public List<BasvuruFormEkipList> BasvuruFormEkipList { get; set; }
         public List<ArastirmaEkipList> ArastirmaEkipList { get; set; }
         public BasvuruBilgi BasvuruBilgi { get; set; }
+        public ArastirmaYontemi ArastirmaYontemi { get; set; }
+        public List<string> GuncelKaynakListesi { get; set; }
+        public EtikIlkelerList EtikIlkelerList { get; set; }
+        public List<OLURFORMU> OlurFormList { get; set; }
+    }
+
+    public class EtikIlkelerList
+    {
+        public string G1 { get; set; }
+        public string G2 { get; set; }
+        public string G3 { get; set; }
+        public string G4 { get; set; }
+        public string G5 { get; set; }
+        public string G6 { get; set; }
+        public string G7 { get; set; }
     }
 
     public class BasvuruFormEkipList
@@ -45,6 +60,7 @@ namespace TaekReport.Models
         public string GirisGerekce { get; set; }
         public string ArastirmaninAmaci { get; set; }
         public string ArastirmaHipotez { get; set; }
+ 
     }
 
     public class ArastirmaYontemi

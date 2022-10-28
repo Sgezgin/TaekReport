@@ -12,6 +12,7 @@ namespace TaekReport.BasvuruFormuTum
         public List<OzgecmisModel> OzgecmisList { get; set; }
         public List<BasvuruFormEkipList> BasvuruFormEkipList { get; set; }
         public List<ArastirmaEkipList> ArastirmaEkipList { get; set; }
+        public List<OLURFORMU> OlurFormList { get; set; }
 
     }
     

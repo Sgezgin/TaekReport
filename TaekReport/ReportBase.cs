@@ -342,7 +342,7 @@ namespace TaekReport
             try
             {
 
-                BasvuruFormuTum.rprBasvuruFormu rpr = new BasvuruFormuTum.rprBasvuruFormu(form.ArastirmaAdi, form.SorumluAdiSoyadi, form.BavuruNo);
+                BasvuruFormuTum.rprBasvuruFormu rpr = new BasvuruFormuTum.rprBasvuruFormu(form.ArastirmaAdi, form.SorumluAdiSoyadi, form.BavuruNo,form);
 
 
                 List<BasvuruFormObj> reportData = new List<BasvuruFormObj>();
@@ -374,7 +374,7 @@ namespace TaekReport
 
                 }
 
-
+                basvuruFormObj.OlurFormList = form.OlurFormList;             
                 basvuruFormObj.ArastirmaEkipList = aratirmaEkipList;
                 basvuruFormObj.BasvuruFormEkipList = form.BasvuruFormEkipList;
                 reportData.Add(basvuruFormObj);
