@@ -374,6 +374,10 @@ namespace TaekReport
 
                 }
 
+
+                basvuruFormObj.SorumluBilgi = form.SorumluBilgi;
+                basvuruFormObj.CokMerkezliArastirmaciList = form.CokMerkezliArastirmaciList;
+                basvuruFormObj.OzgecmisList = form.OzgecmisModelList;
                 basvuruFormObj.OlurFormList = form.OlurFormList;             
                 basvuruFormObj.ArastirmaEkipList = aratirmaEkipList;
                 basvuruFormObj.BasvuruFormEkipList = form.BasvuruFormEkipList;

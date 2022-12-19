@@ -11,6 +11,9 @@ namespace TaekReport.Models
         public string ArastirmaAdi { get; set; }
         public string SorumluAdiSoyadi { get; set; }
         public string BavuruNo { get; set; }
+        public string ArsivTaahhutnameTarih { get; set; }
+        public string Destekleyici { get; set; }
+        public string ToplamButce { get; set; }
         public List<BasvuruFormEkipList> BasvuruFormEkipList { get; set; }
         public List<ArastirmaEkipList> ArastirmaEkipList { get; set; }
         public BasvuruBilgi BasvuruBilgi { get; set; }
@@ -18,6 +21,23 @@ namespace TaekReport.Models
         public List<string> GuncelKaynakListesi { get; set; }
         public EtikIlkelerList EtikIlkelerList { get; set; }
         public List<OLURFORMU> OlurFormList { get; set; }
+        public List<OzgecmisModel> OzgecmisModelList { get; set; }
+        public VeriKullanimTaahhutname VeriKullanimTaahhutname { get; set; }
+        public List<CokMerkezliArastirmaciList> CokMerkezliArastirmaciList { get; set; }
+        public SorumluBilgi SorumluBilgi { get; set; }
+    }
+
+    public class CokMerkezliArastirmaciList
+    {
+        public string AdiSoyadi { get; set; }
+        public string MerkezAdi { get; set; }
+    }
+    public class VeriKullanimTaahhutname
+    {
+        public string EklemeTarih { get; set; }
+        public string AnabilimDali { get; set; }
+        public int Secim1 { get; set; } = 0;
+        public int Secim2 { get; set; } = 0;
     }
 
     public class EtikIlkelerList
@@ -49,6 +69,7 @@ namespace TaekReport.Models
         public string Eposta { get; set; }
         public string TelefonNumarasi { get; set; }
         public string ArastirmaciTuru { get; set; }
+        public string YabanciDil { get; set; }
         public bool Sorumlu { get; set; }
     }
     

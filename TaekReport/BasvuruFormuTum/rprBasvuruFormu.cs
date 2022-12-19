@@ -18,6 +18,8 @@ namespace TaekReport.BasvuruFormuTum
             lblSorumlu.Text = sorumlu;
             lblSorumlu2.Text = sorumlu;
 
+            lblDestekleyici.Text = reportData.Destekleyici;
+            lblToplamButce.Text = reportData.ToplamButce;
 
             lblArastirmaAdiTarih.Text = reportData.BasvuruBilgi.ArastirmaAdi + " " + reportData.BasvuruBilgi.ArastirmaTarih;
             lblArastirmaOzeti.Text = reportData.BasvuruBilgi.ArastirmaOzeti;
@@ -44,6 +46,59 @@ namespace TaekReport.BasvuruFormuTum
             lblG5.Text = reportData.EtikIlkelerList.G5;
             lblG6.Text = reportData.EtikIlkelerList.G6;
             lblG7.Text = reportData.EtikIlkelerList.G7;
+
+
+
+            lblE4.Text = reportData.ArastirmaYontemi.E4;
+            lblE5.Text = reportData.ArastirmaYontemi.E5;
+            lblE6.Text = reportData.ArastirmaYontemi.E6;
+            lblE7.Text = reportData.ArastirmaYontemi.E7;
+            lblE8.Text = reportData.ArastirmaYontemi.E8;
+            lblE9.Text = reportData.ArastirmaYontemi.E9;
+            lblE10.Text = reportData.ArastirmaYontemi.E10;
+            lblE11.Text = reportData.ArastirmaYontemi.E11;
+            lblE12.Text = reportData.ArastirmaYontemi.E12;
+            lblE13.Text = reportData.ArastirmaYontemi.E13;
+            lblE14.Text = reportData.ArastirmaYontemi.E14;
+            lblE15.Text = reportData.ArastirmaYontemi.E15;
+
+            
+
+       
+
+            if (string.IsNullOrEmpty(reportData.ArsivTaahhutnameTarih))
+                bandArsivKullanim.Visible = false;
+            else
+            {
+                llbArsivTarih.Text = reportData.ArsivTaahhutnameTarih;
+                lblarsivSorumluAdSoyad.Text = reportData.SorumluAdiSoyadi;
+                lblArsivMetin.Text = reportData.ArastirmaAdi + " " + "isimli araştırma için arşivden alınacak ve tekrar kullanılacak olan materyalin her türlü istismarının önlenmesi için gereken dikkat ve özenin gösterileceğini taahhüt ederim. ";
+            }
+
+
+            if (string.IsNullOrEmpty(reportData.VeriKullanimTaahhutname.EklemeTarih))
+                bandVeriKullanim.Visible = false;
+            else
+            {
+                lblVeriKullanimTarih.Text = reportData.VeriKullanimTaahhutname.EklemeTarih;
+                lblVeriKullanimSorumlu.Text = sorumlu;
+                lblVeriKullanimtitle.Text = arastirma + "  başlıklı araştırma için "+ reportData.VeriKullanimTaahhutname.AnabilimDali +
+                     "  anabilim/bilim/bilim dalına/dallarına ait verilerin kullanımı ile ilgili";
+
+
+                veriCheck1Text.Text = reportData.VeriKullanimTaahhutname.AnabilimDali +
+                    "  Anabilim /Bilim dalının/dallarının çalışmaya yönelik olarak bilgilendirildiğini ve/veya ";
+                veriCheck2Text.Text = "İzinsiz veri kullanımından doğacak anlaşmazlıklardan sorumlu olduğumu taahhüt ederim. Yalnızca restrospektif çalışmalar için geçerlidir.";
+
+                if (reportData.VeriKullanimTaahhutname.Secim1 == 1)
+                    veriCheck1.Checked = true;
+                if(reportData.VeriKullanimTaahhutname.Secim2 == 1)
+                    veriCheck2.Checked = true;
+
+            }
+
+
+
  
         }
 

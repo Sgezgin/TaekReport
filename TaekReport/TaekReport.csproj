@@ -160,6 +160,8 @@
     <Compile Include="Models\OLURFORMU.cs" />
     <Compile Include="Models\OnayFormuModel.cs" />
     <Compile Include="Models\OzgecmisModel.cs" />
+    <Compile Include="Models\SABITLER.cs" />
+    <Compile Include="Models\SorumluBilgi.cs" />
     <Compile Include="Models\TUPBARKOD.cs" />
     <Compile Include="Models\YetkisizlikFormModel.cs" />
     <Compile Include="OlurFormu\dsOlurFormu.cs">
