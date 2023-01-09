@@ -18,6 +18,8 @@ namespace TaekReport.BasvuruFormuTum
             lblSorumlu.Text = sorumlu;
             lblSorumlu2.Text = sorumlu;
 
+            lblTarih.Text = reportData.IletmeTarih;
+
             lblDestekleyici.Text = reportData.Destekleyici;
             lblToplamButce.Text = reportData.ToplamButce;
 

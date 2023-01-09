@@ -14,6 +14,7 @@ namespace TaekReport.Models
         public string ArsivTaahhutnameTarih { get; set; }
         public string Destekleyici { get; set; }
         public string ToplamButce { get; set; }
+        public string IletmeTarih { get; set; }
         public List<BasvuruFormEkipList> BasvuruFormEkipList { get; set; }
         public List<ArastirmaEkipList> ArastirmaEkipList { get; set; }
         public BasvuruBilgi BasvuruBilgi { get; set; }

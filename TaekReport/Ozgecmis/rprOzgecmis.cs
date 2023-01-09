@@ -9,30 +9,32 @@ namespace TaekReport.Ozgecmis
 {
     public partial class rprOzgecmis : DevExpress.XtraReports.UI.XtraReport
     {
-        public rprOzgecmis(OzgecmisModel model)
+        public rprOzgecmis()
         {
             InitializeComponent();
 
-            txtAdiSoyadi.Text = model.Adi + " " + model.Soyadi;
+            //txtAdiSoyadi.Text = model.Adi + " " + model.Soyadi;
 
-            txtGorevYeri.Text = model.Adres;
-            txtEposta.Text = model.Email;
-            txtTelefon.Text = model.Telefon;
+            //txtGorevYeri.Text = model.Adres;
+            //txtEposta.Text = model.Email;
+            //txtTelefon.Text = model.Telefon;
 
-            foreach (string egitimItem in model.EgitimBilgileri)
-            {
-                txtEgitimBilgileri.Text += Environment.NewLine + egitimItem;
-            }
+            //txtYabanciDil.Text = model.YabanciDil;
 
-            foreach (string istecrubeItem in model.IsTecrubeleri)
-            {
-                txtIsTecrubeleri.Text += Environment.NewLine + istecrubeItem;
-            }
+            //foreach (string egitimItem in model.EgitimBilgileri)
+            //{
+            //    txtEgitimBilgileri.Text += Environment.NewLine + egitimItem;
+            //}
 
-            foreach (string klinikItem in model.KlinikArastirmalar)
-            {
-                txtKlinikArastirmalar.Text += Environment.NewLine + klinikItem;
-            }
+            //foreach (string istecrubeItem in model.IsTecrubeleri)
+            //{
+            //    txtIsTecrubeleri.Text += Environment.NewLine + istecrubeItem;
+            //}
+
+            //foreach (string klinikItem in model.KlinikArastirmalar)
+            //{
+            //    txtKlinikArastirmalar.Text += Environment.NewLine + klinikItem;
+            //}
 
         }
 

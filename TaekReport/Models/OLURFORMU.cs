@@ -30,6 +30,8 @@ namespace TaekReport.Models
         public string SORUMLUGUID { get; set; } = "";
         public string KISIUCRETODEYECEKMI { get; set; } = "";
         public string BILGILERINGIZLILIGI { get; set; } = "";
+        public string KISISELSAGLIKVERILERI { get; set; } = "";
+        
         public string FORMTURU { get; set; }
         public SABITLER FormTuru { get; set; }
 

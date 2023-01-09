@@ -117,6 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblBilgilerinGizliligi.Text" xml:space="preserve">
+    <value>Tüm kişisel ve tıbbi bilgileriniz gizli kalacak, sadece bilimsel amaçlarla kullanılacaktır. Araştırma sonuçlarının yayımlanması halinde dahi kimliğiniz gizli kalacaktır. Kimliğinizi ortaya çıkaracak kayıtlar gizli tutulacak, kamuoyuna açıklanamayacak; araştırma sonuçlarının yayımlanması halinde dahi kimliğiniz gizli kalacaktır. Araştırma kapsamında toplanacak kişisel verilerin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’na uygun toplanıp işlenecek, toplama/işleme amacından başka bir amaç için kullanılmayacak ve paylaşılmayacak, gönüllünün olurunu geri çekmesi, araştırmanın sonlanması veya kişisel verilerin işlenmesinin son bulmasıyla veriler imha edilecek ve toplanan kişisel verilerin destekleyici, sözleşmeli araştırma kuruluşları ve iştirakleri ile paylaşılmayacak, söz konusu hizmet, Kişisel Sağlık Verileri Hakkında Yönetmelik, İyi Klinik Uygulamalar Kılavuzu ve yürürlükteki mevzuata uygun yürütülecektir. </value>
+  </data>
+  <data name="lblKatilmazIse.Text" xml:space="preserve">
+    <value>Çalışmaya katılmak istemezseniz veya çalışmaya katılmanız halinde, çalışmanın herhangi bir aşamasında çalışmadan ayrılmak isterseniz, ceza almayacaksınız, hiçbir hukuki yaptırımla karşılaşmayacaksınız veya çalışmaya başlamadan önce sahip olduğunuz haklarınızı kaybetmeyeceksiniz.</value>
+  </data>
+  <data name="xrLabel8.Text" xml:space="preserve">
+    <value>Sizden alınacak biyolojik materyallere (kan, idrar ve doku örnekleriniz) ne olacak ve analizler nerede yapılacak? (Analizlerin yurtdışında yapılması durumunda biyolojik materyallerin nereye gönderileceği açıklanmalı),</value>
+  </data>
   <data name="xrLabel2.Text" xml:space="preserve">
     <value>Bu çalışmaya katılmak üzere davet edilmiş bulunmaktasınız. Bu çalışmada yer almayı kabul etmeden önce çalışmanın ne amaçla yapılmak istendiğini anlamanız ve kararınızı bu bilgilendirme sonrası özgürce vermeniz gerekmektedir. Size özel hazırlanmış bu bilgilendirmeyi lütfen dikkatlice okuyunuz, sorularınıza açık yanıtlar isteyiniz.</value>
   </data>

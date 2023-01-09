@@ -62,6 +62,8 @@ namespace TaekReport.OlurFormu
             lblArastirmaciTarih.Text = "";
             lblArastirmaciImza.Text = "";
 
+            lblKisiselSaglikVerileri.Text = form.KISISELSAGLIKVERILERI;
+
         }
 
 

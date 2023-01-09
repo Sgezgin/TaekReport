@@ -64,7 +64,8 @@ namespace TaekReport
 
             try
             {            
-                Ozgecmis.rprOzgecmis rpr = new Ozgecmis.rprOzgecmis(form);
+                Ozgecmis.rprOzgecmis rpr = new Ozgecmis.rprOzgecmis();
+                //rpr.DataSource = form;
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);
@@ -101,7 +102,6 @@ namespace TaekReport
 
             return resultReport;
         }
-
         public byte[] OnayFrm(OnayFormuModel form)
         {
             byte[] resultReport = null;
@@ -181,7 +181,6 @@ namespace TaekReport
 
             return resultReport;
         }
-
         public byte[] YetkisizlikFrm(YetkisizlikFormModel form)
         {
             byte[] resultReport = null;
@@ -215,7 +214,6 @@ namespace TaekReport
 
             return resultReport;
         }
-
         public byte[] YenidenBavuruFrm(YetkisizlikFormModel form)
         {
             byte[] resultReport = null;
@@ -249,7 +247,6 @@ namespace TaekReport
 
             return resultReport;
         }
-
         public byte[] DuzeltmeFrm(YetkisizlikFormModel form)
         {
             byte[] resultReport = null;
@@ -283,7 +280,6 @@ namespace TaekReport
 
             return resultReport;
         }
-
         public byte[] BasvuruFrm(BasvuruFormModel form)
         {
             byte[] resultReport = null;
@@ -291,7 +287,7 @@ namespace TaekReport
             try
             {
       
-                BasvuruFormu.rprBasvuruFormu rpr = new BasvuruFormu.rprBasvuruFormu(form.ArastirmaAdi,form.SorumluAdiSoyadi,form.BavuruNo);
+                BasvuruFormu.rprBasvuruFormu rpr = new BasvuruFormu.rprBasvuruFormu(form.ArastirmaAdi,form.SorumluAdiSoyadi,form.BavuruNo,form.IletmeTarih);
 
                 BasvuruFormu.dsBasvuruFormu ds = new BasvuruFormu.dsBasvuruFormu();
                 BasvuruFormu.dsBasvuruFormu.dtBasvuruFormDataTable dt = new BasvuruFormu.dsBasvuruFormu.dtBasvuruFormDataTable();
@@ -333,7 +329,6 @@ namespace TaekReport
 
             return resultReport;
         }
-
 
         public byte[] BasvuruFrmTum(BasvuruFormModel form)
         {
