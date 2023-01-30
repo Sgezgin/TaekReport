@@ -30,6 +30,8 @@ namespace TaekReport.Models
         public string Iliski { get; set; }
         public string Katilim { get; set; }
         public string Mazeret { get; set; }
+        public string UyeUnvan { get; set; }
+        public int SiraNo { get; set; }
 
     }
 }

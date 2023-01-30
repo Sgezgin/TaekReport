@@ -76,7 +76,6 @@ namespace TaekReport.BasvuruFormuTum
             this.xrTableCell13 = new DevExpress.XtraReports.UI.XRTableCell();
             this.DetailReport1 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail2 = new DevExpress.XtraReports.UI.DetailBand();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.DetailReport2 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail3 = new DevExpress.XtraReports.UI.DetailBand();
             this.xrTable4 = new DevExpress.XtraReports.UI.XRTable();
@@ -166,6 +165,8 @@ namespace TaekReport.BasvuruFormuTum
             this.lblG7 = new DevExpress.XtraReports.UI.XRLabel();
             this.DetailReport4 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail5 = new DevExpress.XtraReports.UI.DetailBand();
+            this.lblKisiselSaglikVerileri = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel81 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel88 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel59 = new DevExpress.XtraReports.UI.XRLabel();
             this.lblKisiUcretOdeyecekmi = new DevExpress.XtraReports.UI.XRLabel();
@@ -289,16 +290,15 @@ namespace TaekReport.BasvuruFormuTum
             this.xrTableRow13 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell31 = new DevExpress.XtraReports.UI.XRTableCell();
             this.lblToplamButce = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrLabel81 = new DevExpress.XtraReports.UI.XRLabel();
-            this.lblKisiselSaglikVerileri = new DevExpress.XtraReports.UI.XRLabel();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -789,11 +789,6 @@ namespace TaekReport.BasvuruFormuTum
             // 
             this.Detail2.HeightF = 36.45833F;
             this.Detail2.Name = "Detail2";
-            // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.BasvuruFormuTum.BasvuruFormObj);
-            this.objectDataSource1.Name = "objectDataSource1";
             // 
             // DetailReport2
             // 
@@ -1828,6 +1823,33 @@ namespace TaekReport.BasvuruFormuTum
             this.Detail5.Name = "Detail5";
             this.Detail5.PageBreak = DevExpress.XtraReports.UI.PageBreak.BeforeBand;
             // 
+            // lblKisiselSaglikVerileri
+            // 
+            this.lblKisiselSaglikVerileri.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.lblKisiselSaglikVerileri.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KISISELSAGLIKVERILERI]")});
+            this.lblKisiselSaglikVerileri.LocationFloat = new DevExpress.Utils.PointFloat(0F, 1191.29F);
+            this.lblKisiselSaglikVerileri.Multiline = true;
+            this.lblKisiselSaglikVerileri.Name = "lblKisiselSaglikVerileri";
+            this.lblKisiselSaglikVerileri.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblKisiselSaglikVerileri.SizeF = new System.Drawing.SizeF(730.3542F, 37.58337F);
+            this.lblKisiselSaglikVerileri.StylePriority.UseBorders = false;
+            // 
+            // xrLabel81
+            // 
+            this.xrLabel81.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right)));
+            this.xrLabel81.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel81.LocationFloat = new DevExpress.Utils.PointFloat(0.9793099F, 1170.248F);
+            this.xrLabel81.Multiline = true;
+            this.xrLabel81.Name = "xrLabel81";
+            this.xrLabel81.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel81.SizeF = new System.Drawing.SizeF(729.3749F, 21.04163F);
+            this.xrLabel81.StylePriority.UseBorders = false;
+            this.xrLabel81.StylePriority.UseFont = false;
+            this.xrLabel81.Text = "Bu çalışmada size ait hangi kişisel veriler ve kişisel sağlık verileri kullanılac" +
+    "aktır?  ";
+            // 
             // xrLabel88
             // 
             this.xrLabel88.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right)));
@@ -2555,6 +2577,7 @@ namespace TaekReport.BasvuruFormuTum
             this.txtTelefon});
             this.Detail7.HeightF = 238.4628F;
             this.Detail7.Name = "Detail7";
+            this.Detail7.PageBreak = DevExpress.XtraReports.UI.PageBreak.BeforeBand;
             // 
             // lblYabanciDil
             // 
@@ -2740,6 +2763,7 @@ namespace TaekReport.BasvuruFormuTum
             this.GroupHeader3});
             this.DetailReport6.DataMember = "OzgecmisList.EgitimBilgileriList";
             this.DetailReport6.DataSource = this.objectDataSource1;
+            this.DetailReport6.Expanded = false;
             this.DetailReport6.Level = 0;
             this.DetailReport6.Name = "DetailReport6";
             // 
@@ -2818,6 +2842,7 @@ namespace TaekReport.BasvuruFormuTum
             this.GroupHeader4});
             this.DetailReport7.DataMember = "OzgecmisList.IsTecrubleriList";
             this.DetailReport7.DataSource = this.objectDataSource1;
+            this.DetailReport7.Expanded = false;
             this.DetailReport7.Level = 1;
             this.DetailReport7.Name = "DetailReport7";
             // 
@@ -2878,6 +2903,7 @@ namespace TaekReport.BasvuruFormuTum
             this.GroupHeader5});
             this.DetailReport8.DataMember = "OzgecmisList.KlinikArastirmalarList";
             this.DetailReport8.DataSource = this.objectDataSource1;
+            this.DetailReport8.Expanded = false;
             this.DetailReport8.Level = 2;
             this.DetailReport8.Name = "DetailReport8";
             // 
@@ -3234,32 +3260,10 @@ namespace TaekReport.BasvuruFormuTum
             this.lblToplamButce.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.lblToplamButce.Weight = 1D;
             // 
-            // xrLabel81
+            // objectDataSource1
             // 
-            this.xrLabel81.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right)));
-            this.xrLabel81.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel81.LocationFloat = new DevExpress.Utils.PointFloat(0.9793099F, 1170.248F);
-            this.xrLabel81.Multiline = true;
-            this.xrLabel81.Name = "xrLabel81";
-            this.xrLabel81.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel81.SizeF = new System.Drawing.SizeF(729.3749F, 21.04163F);
-            this.xrLabel81.StylePriority.UseBorders = false;
-            this.xrLabel81.StylePriority.UseFont = false;
-            this.xrLabel81.Text = "Bu çalışmada size ait hangi kişisel veriler ve kişisel sağlık verileri kullanılac" +
-    "aktır?  ";
-            // 
-            // lblKisiselSaglikVerileri
-            // 
-            this.lblKisiselSaglikVerileri.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.lblKisiselSaglikVerileri.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KISISELSAGLIKVERILERI]")});
-            this.lblKisiselSaglikVerileri.LocationFloat = new DevExpress.Utils.PointFloat(0F, 1191.29F);
-            this.lblKisiselSaglikVerileri.Multiline = true;
-            this.lblKisiselSaglikVerileri.Name = "lblKisiselSaglikVerileri";
-            this.lblKisiselSaglikVerileri.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblKisiselSaglikVerileri.SizeF = new System.Drawing.SizeF(730.3542F, 37.58337F);
-            this.lblKisiselSaglikVerileri.StylePriority.UseBorders = false;
+            this.objectDataSource1.DataSource = typeof(TaekReport.BasvuruFormuTum.BasvuruFormObj);
+            this.objectDataSource1.Name = "objectDataSource1";
             // 
             // rprBasvuruFormu
             // 
@@ -3286,11 +3290,11 @@ namespace TaekReport.BasvuruFormuTum
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }

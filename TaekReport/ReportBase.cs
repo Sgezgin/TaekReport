@@ -63,9 +63,11 @@ namespace TaekReport
             byte[] resultReport = null;
 
             try
-            {            
+            {
+                List<OzgecmisModel> ozgecmisList = new List<OzgecmisModel>();
                 Ozgecmis.rprOzgecmis rpr = new Ozgecmis.rprOzgecmis();
-                //rpr.DataSource = form;
+                ozgecmisList.Add(form);
+                rpr.DataSource = ozgecmisList;
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);
@@ -115,13 +117,15 @@ namespace TaekReport
                 foreach (EtikKurulUyeler item in form.EtikKurulUyeleri)
                 {
                     dt.AdddtOnayFormuRow(
-                        item.AdiSoyadi,
+                        item.AdiSoyadi + Environment.NewLine + item.UyeUnvan,
                         item.Uzamanlik,
                         item.Kurum,
                         item.Cinsiyet,
                         item.Katilim,
                         item.Iliski,
-                        item.Mazeret
+                        item.Mazeret,
+                        item.UyeUnvan,
+                        item.SiraNo
                         );
                 }
                 rpr.DataSource = dt;
@@ -345,9 +349,6 @@ namespace TaekReport
 
 
                 List<ArastirmaEkipList> aratirmaEkipList = new List<ArastirmaEkipList>();
-      
-
-
               
                 foreach (var item in form.ArastirmaEkipList)
                 {
@@ -378,9 +379,6 @@ namespace TaekReport
                 basvuruFormObj.BasvuruFormEkipList = form.BasvuruFormEkipList;
                 reportData.Add(basvuruFormObj);
                 rpr.DataSource = reportData;
-
-
-
 
 
                 using (MemoryStream ms = new MemoryStream())

@@ -22,6 +22,8 @@
               <xs:element name="KATILIM" msprop:Generator_ColumnVarNameInTable="columnKATILIM" msprop:Generator_ColumnPropNameInRow="KATILIM" msprop:Generator_ColumnPropNameInTable="KATILIMColumn" msprop:Generator_UserColumnName="KATILIM" type="xs:string" minOccurs="0" />
               <xs:element name="ILISKI" msprop:Generator_ColumnVarNameInTable="columnILISKI" msprop:Generator_ColumnPropNameInRow="ILISKI" msprop:Generator_ColumnPropNameInTable="ILISKIColumn" msprop:Generator_UserColumnName="ILISKI" type="xs:string" minOccurs="0" />
               <xs:element name="MAZERET" msprop:Generator_ColumnVarNameInTable="columnMAZERET" msprop:Generator_ColumnPropNameInRow="MAZERET" msprop:Generator_ColumnPropNameInTable="MAZERETColumn" msprop:Generator_UserColumnName="MAZERET" type="xs:string" minOccurs="0" />
+              <xs:element name="UYEUNVAN" msprop:Generator_ColumnVarNameInTable="columnUYEUNVAN" msprop:Generator_ColumnPropNameInRow="UYEUNVAN" msprop:Generator_ColumnPropNameInTable="UYEUNVANColumn" msprop:Generator_UserColumnName="UYEUNVAN" type="xs:string" minOccurs="0" />
+              <xs:element name="SIRANO" msprop:Generator_ColumnVarNameInTable="columnSIRANO" msprop:Generator_ColumnPropNameInRow="SIRANO" msprop:Generator_ColumnPropNameInTable="SIRANOColumn" msprop:Generator_UserColumnName="SIRANO" type="xs:int" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

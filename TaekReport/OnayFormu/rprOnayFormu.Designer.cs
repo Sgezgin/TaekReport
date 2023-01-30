@@ -88,7 +88,7 @@
             // 
             // TopMargin
             // 
-            this.TopMargin.HeightF = 13.375F;
+            this.TopMargin.HeightF = 13F;
             this.TopMargin.Name = "TopMargin";
             // 
             // BottomMargin
@@ -561,6 +561,8 @@
             this.xrTable1});
             this.Detail1.HeightF = 54.5831F;
             this.Detail1.Name = "Detail1";
+            this.Detail1.SortFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
+            new DevExpress.XtraReports.UI.GroupField("dtOnayFormu.SIRANO", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
             // 
             // xrTable1
             // 
