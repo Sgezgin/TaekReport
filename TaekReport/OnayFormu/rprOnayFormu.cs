@@ -14,7 +14,10 @@ namespace TaekReport.OnayFormu
         {
             InitializeComponent();
             frData = form;
-            
+
+            lblFooterBaskan.Text = "Etik Kurul Başkanı "+Environment.NewLine + form.Baskan;
+
+
             lblArastirmaAdi.Text = form.ArastirmaAdi;
             lblSorumluArastirmaci.Text = form.SorumluAtastirmaci;
             lblYardimciArastirmaci.Text = form.YardimciArastirmaci;

@@ -9,6 +9,7 @@ namespace TaekReport.Models
     public class BasvuruFormModel
     {
         public string ArastirmaAdi { get; set; }
+        public string DosyaNo { get; set; }
         public string SorumluAdiSoyadi { get; set; }
         public string BavuruNo { get; set; }
         public string ArsivTaahhutnameTarih { get; set; }

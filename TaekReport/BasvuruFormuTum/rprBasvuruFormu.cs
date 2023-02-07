@@ -15,6 +15,7 @@ namespace TaekReport.BasvuruFormuTum
             string arastmaedit = " isimli araştırma başvurusu dosyası kapsamında, aşağıda özellikleri belirtilmiş olan belgelerin tarafınızdan değerlendirilmesi/ onaylanması için gereğini bilgilerinize arz ederim.";
             lblArastirmaADi.Text = arastirma + arastmaedit;
             lblBasvuruNo.Text = "Başvuru No : " + basvuruno;
+            lblDosyaNo.Text = "Dosya No : " + reportData.DosyaNo;
             lblSorumlu.Text = sorumlu;
             lblSorumlu2.Text = sorumlu;
 

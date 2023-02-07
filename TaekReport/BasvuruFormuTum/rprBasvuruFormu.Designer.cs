@@ -76,6 +76,7 @@ namespace TaekReport.BasvuruFormuTum
             this.xrTableCell13 = new DevExpress.XtraReports.UI.XRTableCell();
             this.DetailReport1 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail2 = new DevExpress.XtraReports.UI.DetailBand();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.DetailReport2 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail3 = new DevExpress.XtraReports.UI.DetailBand();
             this.xrTable4 = new DevExpress.XtraReports.UI.XRTable();
@@ -290,15 +291,15 @@ namespace TaekReport.BasvuruFormuTum
             this.xrTableRow13 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell31 = new DevExpress.XtraReports.UI.XRTableCell();
             this.lblToplamButce = new DevExpress.XtraReports.UI.XRTableCell();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
+            this.lblDosyaNo = new DevExpress.XtraReports.UI.XRLabel();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -409,6 +410,7 @@ namespace TaekReport.BasvuruFormuTum
             // SubBand1
             // 
             this.SubBand1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.lblDosyaNo,
             this.xrLabel12,
             this.lblArastirmaADi,
             this.xrLabel16,
@@ -789,6 +791,11 @@ namespace TaekReport.BasvuruFormuTum
             // 
             this.Detail2.HeightF = 36.45833F;
             this.Detail2.Name = "Detail2";
+            // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(TaekReport.BasvuruFormuTum.BasvuruFormObj);
+            this.objectDataSource1.Name = "objectDataSource1";
             // 
             // DetailReport2
             // 
@@ -3260,10 +3267,18 @@ namespace TaekReport.BasvuruFormuTum
             this.lblToplamButce.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.lblToplamButce.Weight = 1D;
             // 
-            // objectDataSource1
+            // lblDosyaNo
             // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.BasvuruFormuTum.BasvuruFormObj);
-            this.objectDataSource1.Name = "objectDataSource1";
+            this.lblDosyaNo.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.lblDosyaNo.LocationFloat = new DevExpress.Utils.PointFloat(251.3542F, 10.00004F);
+            this.lblDosyaNo.Multiline = true;
+            this.lblDosyaNo.Name = "lblDosyaNo";
+            this.lblDosyaNo.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblDosyaNo.SizeF = new System.Drawing.SizeF(251.7708F, 31.41664F);
+            this.lblDosyaNo.StylePriority.UseFont = false;
+            this.lblDosyaNo.StylePriority.UseTextAlignment = false;
+            this.lblDosyaNo.Text = "Dosya No :";
+            this.lblDosyaNo.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // rprBasvuruFormu
             // 
@@ -3290,11 +3305,11 @@ namespace TaekReport.BasvuruFormuTum
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -3560,5 +3575,6 @@ namespace TaekReport.BasvuruFormuTum
         private DevExpress.XtraReports.UI.XRLabel xrLabel87;
         private DevExpress.XtraReports.UI.XRLabel xrLabel81;
         private DevExpress.XtraReports.UI.XRLabel lblKisiselSaglikVerileri;
+        private DevExpress.XtraReports.UI.XRLabel lblDosyaNo;
     }
 }

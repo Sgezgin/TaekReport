@@ -144,6 +144,52 @@ namespace TaekReport
 
             return resultReport;
         }
+
+
+        public byte[] DegerlendirmeFrmDoc(Degerlendirme form)
+        {
+            byte[] resultReport = null;
+
+            try
+            {
+                DegerlendirmeFormu.rprDegerlendirmeFormu rpr = new DegerlendirmeFormu.rprDegerlendirmeFormu(form);
+                DegerlendirmeFormu.dsDegerlendirmeFormu ds = new DegerlendirmeFormu.dsDegerlendirmeFormu();
+                DegerlendirmeFormu.dsDegerlendirmeFormu.dtDegerlendirmeFormuDataTable dt = new DegerlendirmeFormu.dsDegerlendirmeFormu.dtDegerlendirmeFormuDataTable();
+
+                foreach (DegerlendirmeDetay item in form.DegerlendirmeDetay)
+                {
+                    //ds.dtDegerlendirmeFormu.AdddtDegerlendirmeFormuRow(
+                    //    item.Hakem,
+                    //    item.Tarih,
+                    //    item.Kod,
+                    //    item.Aciklama
+                    //    );
+
+                    dt.AdddtDegerlendirmeFormuRow(
+                        item.Hakem,
+                        item.Tarih,
+                        item.Kod,
+                        item.Aciklama
+                        );
+                }
+                rpr.DataSource = dt;
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    //rpr.ExportToPdf(ms);
+                    rpr.ExportToDocx(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
+
+
         public byte[] DegerlendirmeFrm(Degerlendirme form)
         {
             byte[] resultReport = null;
@@ -173,7 +219,7 @@ namespace TaekReport
                 rpr.DataSource = dt;
                 using (MemoryStream ms = new MemoryStream())
                 {
-                    rpr.ExportToPdf(ms);
+                    rpr.ExportToPdf(ms);         
                     resultReport = ms.ToArray();
                 }
             }
@@ -291,7 +337,7 @@ namespace TaekReport
             try
             {
       
-                BasvuruFormu.rprBasvuruFormu rpr = new BasvuruFormu.rprBasvuruFormu(form.ArastirmaAdi,form.SorumluAdiSoyadi,form.BavuruNo,form.IletmeTarih);
+                BasvuruFormu.rprBasvuruFormu rpr = new BasvuruFormu.rprBasvuruFormu(form.ArastirmaAdi,form.SorumluAdiSoyadi,form.BavuruNo,form.IletmeTarih,form.DosyaNo);
 
                 BasvuruFormu.dsBasvuruFormu ds = new BasvuruFormu.dsBasvuruFormu();
                 BasvuruFormu.dsBasvuruFormu.dtBasvuruFormDataTable dt = new BasvuruFormu.dsBasvuruFormu.dtBasvuruFormDataTable();
