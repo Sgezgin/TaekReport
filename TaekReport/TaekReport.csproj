@@ -135,6 +135,12 @@
     <Compile Include="DegerlendirmeFormu\rprDegerlendirmeFormu.Designer.cs">
       <DependentUpon>rprDegerlendirmeFormu.cs</DependentUpon>
     </Compile>
+    <Compile Include="DuzeltmeBasvuruFormu\rprDuzeltmeBasvuruFormu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DuzeltmeBasvuruFormu\rprDuzeltmeBasvuruFormu.Designer.cs">
+      <DependentUpon>rprDuzeltmeBasvuruFormu.cs</DependentUpon>
+    </Compile>
     <Compile Include="DuzeltmeFormu\dsDuzeltmeFormu.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -338,6 +344,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DegerlendirmeFormu\rprDegerlendirmeFormu.resx">
       <DependentUpon>rprDegerlendirmeFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuzeltmeBasvuruFormu\rprDuzeltmeBasvuruFormu.resx">
+      <DependentUpon>rprDuzeltmeBasvuruFormu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DuzeltmeFormu\rprDuzeltmeFormu.resx">
       <DependentUpon>rprDuzeltmeFormu.cs</DependentUpon>
