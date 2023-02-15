@@ -442,6 +442,30 @@ namespace TaekReport
             return resultReport;
         }
 
+
+
+        public byte[] DuzeltmeBasvuruFrm(DuzeltmeBasvuruFormModel form)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                DuzeltmeBasvuruFormu.rprDuzeltmeBasvuruFormu rpr = new DuzeltmeBasvuruFormu.rprDuzeltmeBasvuruFormu(form);
+                rpr.DataSource = form.DegisikliList;
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
+
         public byte[] TupBarkod(TUPBARKOD form)
         {
             byte[] resultReport = null;

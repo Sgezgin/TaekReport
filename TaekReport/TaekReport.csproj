@@ -163,6 +163,7 @@
     <Compile Include="Models\BUTCEFORMU.cs" />
     <Compile Include="Models\Degerlendirme.cs" />
     <Compile Include="Models\Duzeltme.cs" />
+    <Compile Include="Models\DuzeltmeBasvuruFormModel.cs" />
     <Compile Include="Models\OLURFORMU.cs" />
     <Compile Include="Models\OnayFormuModel.cs" />
     <Compile Include="Models\OzgecmisModel.cs" />
