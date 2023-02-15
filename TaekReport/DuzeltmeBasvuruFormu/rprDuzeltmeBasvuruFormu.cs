@@ -18,7 +18,7 @@ namespace TaekReport.DuzeltmeBasvuruFormu
             lblTelEposta.Text = model.TelEposta;
             lblArastirmaAdi.Text = model.ArastirmaAdi;
             lblKararNum.Text = model.KararNumarasi;
-
+            lblEkBilgiler.Text = model.EkBilgiler;
         }
 
     }
