@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="xrLabel20.Text" xml:space="preserve">
-    <value>•   Başvuru Dosyasında eksiklikler olarak saptanan tüm değişiklik/ düzeltmelerin araştırıcı için hazırlanmış olan dosyada da eşdeğer olarak yapılması gerektiğinden, düzeltmeler çift kopya olarak hazırlanmalı; bir nüshası Tıbbi araştırmalar Etik Kurula sunulmalı, diğer nüshası ise araştırıcı dosyasına konulmalıdır.  </value>
-  </data>
   <data name="xrLabel18.Text" xml:space="preserve">
     <value>•   Eksikliklerin, Araştırıcıya bildirim tarihinden itibaren en geç 3 ay içerisinde tamamlanmaması durumunda başvuru geçersiz sayılacaktır. Kurulumuza sunulan eksikliklerin uygunluğunun takibi Sorumlu Araştırıcının sorumluluğundadır.</value>
   </data>
