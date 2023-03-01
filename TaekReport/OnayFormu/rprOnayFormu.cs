@@ -21,6 +21,7 @@ namespace TaekReport.OnayFormu
             lblArastirmaAdi.Text = form.ArastirmaAdi;
             lblSorumluArastirmaci.Text = form.SorumluAtastirmaci;
             lblYardimciArastirmaci.Text = form.YardimciArastirmaci;
+            lblYardimciArastirmaci.Text = form.YardimciArastirmaci;
             lblKararNum.Text = "Karar Nu: " + form.DosyaNo;
             lblTarih.Text = "Tarih: " + form.ToplantiTarihi;
             lblBaskan.Text = form.Baskan;

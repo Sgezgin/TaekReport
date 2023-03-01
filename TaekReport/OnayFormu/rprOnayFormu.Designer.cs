@@ -41,19 +41,6 @@
             this.lblKararNum = new DevExpress.XtraReports.UI.XRLabel();
             this.lblTarih = new DevExpress.XtraReports.UI.XRLabel();
             this.lblKararMetni = new DevExpress.XtraReports.UI.XRLabel();
-            this.lblArastirmaAdi = new DevExpress.XtraReports.UI.XRLabel();
-            this.lblSorumluArastirmaci = new DevExpress.XtraReports.UI.XRLabel();
-            this.lblYardimciArastirmaci = new DevExpress.XtraReports.UI.XRLabel();
-            this.lblArastirmaciAdres = new DevExpress.XtraReports.UI.XRLabel();
-            this.lblDestekleyici = new DevExpress.XtraReports.UI.XRLabel();
-            this.lblArastirmaTipi = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel11 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel10 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel9 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel8 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel7 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel5 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel4 = new DevExpress.XtraReports.UI.XRLabel();
             this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
             this.xrLabel3 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel2 = new DevExpress.XtraReports.UI.XRLabel();
@@ -89,10 +76,41 @@
             this.xrTableCell15 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell22 = new DevExpress.XtraReports.UI.XRTableCell();
             this.PageFooter = new DevExpress.XtraReports.UI.PageFooterBand();
+            this.xrTable4 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow4 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell19 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.lblArastirmaAdi = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTable5 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow5 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell18 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.lblSorumluArastirmaci = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTable6 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow6 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell23 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.lblYardimciArastirmaci = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTable7 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow7 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell24 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.lblArastirmaciAdres = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTable8 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow8 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell20 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.lblDestekleyici = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTable9 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow9 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell21 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.lblArastirmaTipi = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrLabel5 = new DevExpress.XtraReports.UI.XRLabel();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsOnayFormu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -108,6 +126,13 @@
             // Detail
             // 
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel5,
+            this.xrTable9,
+            this.xrTable8,
+            this.xrTable7,
+            this.xrTable6,
+            this.xrTable5,
+            this.xrTable4,
             this.xrLabel34,
             this.lblBaskan,
             this.xrLabel33,
@@ -116,21 +141,8 @@
             this.xrLabel30,
             this.lblKararNum,
             this.lblTarih,
-            this.lblKararMetni,
-            this.lblArastirmaAdi,
-            this.lblSorumluArastirmaci,
-            this.lblYardimciArastirmaci,
-            this.lblArastirmaciAdres,
-            this.lblDestekleyici,
-            this.lblArastirmaTipi,
-            this.xrLabel11,
-            this.xrLabel10,
-            this.xrLabel9,
-            this.xrLabel8,
-            this.xrLabel7,
-            this.xrLabel5,
-            this.xrLabel4});
-            this.Detail.HeightF = 523.9166F;
+            this.lblKararMetni});
+            this.Detail.HeightF = 464.9166F;
             this.Detail.Name = "Detail";
             // 
             // xrLabel34
@@ -139,7 +151,7 @@
             this.xrLabel34.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel34.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.xrLabel34.LocationFloat = new DevExpress.Utils.PointFloat(0F, 487.375F);
+            this.xrLabel34.LocationFloat = new DevExpress.Utils.PointFloat(0F, 428.375F);
             this.xrLabel34.Multiline = true;
             this.xrLabel34.Name = "xrLabel34";
             this.xrLabel34.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -157,7 +169,7 @@
             this.lblBaskan.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.lblBaskan.Font = new System.Drawing.Font("Arial", 9F);
-            this.lblBaskan.LocationFloat = new DevExpress.Utils.PointFloat(205.3335F, 487.375F);
+            this.lblBaskan.LocationFloat = new DevExpress.Utils.PointFloat(205.3335F, 428.375F);
             this.lblBaskan.Multiline = true;
             this.lblBaskan.Name = "lblBaskan";
             this.lblBaskan.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -174,7 +186,7 @@
             this.xrLabel33.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel33.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrLabel33.LocationFloat = new DevExpress.Utils.PointFloat(205.3335F, 463.3333F);
+            this.xrLabel33.LocationFloat = new DevExpress.Utils.PointFloat(205.3335F, 404.3333F);
             this.xrLabel33.Multiline = true;
             this.xrLabel33.Name = "xrLabel33";
             this.xrLabel33.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -193,7 +205,7 @@
             this.xrLabel32.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel32.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.xrLabel32.LocationFloat = new DevExpress.Utils.PointFloat(0F, 463.3333F);
+            this.xrLabel32.LocationFloat = new DevExpress.Utils.PointFloat(0F, 404.3333F);
             this.xrLabel32.Multiline = true;
             this.xrLabel32.Name = "xrLabel32";
             this.xrLabel32.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -212,7 +224,7 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel31.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.xrLabel31.LocationFloat = new DevExpress.Utils.PointFloat(0F, 446.5834F);
+            this.xrLabel31.LocationFloat = new DevExpress.Utils.PointFloat(0F, 387.5834F);
             this.xrLabel31.Multiline = true;
             this.xrLabel31.Name = "xrLabel31";
             this.xrLabel31.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -231,7 +243,7 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel30.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel30.LocationFloat = new DevExpress.Utils.PointFloat(0F, 330.9584F);
+            this.xrLabel30.LocationFloat = new DevExpress.Utils.PointFloat(0F, 271.9584F);
             this.xrLabel30.Multiline = true;
             this.xrLabel30.Name = "xrLabel30";
             this.xrLabel30.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -248,11 +260,11 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.lblKararNum.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.lblKararNum.LocationFloat = new DevExpress.Utils.PointFloat(37.66658F, 330.9584F);
+            this.lblKararNum.LocationFloat = new DevExpress.Utils.PointFloat(37.66652F, 271.9584F);
             this.lblKararNum.Multiline = true;
             this.lblKararNum.Name = "lblKararNum";
             this.lblKararNum.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblKararNum.SizeF = new System.Drawing.SizeF(290.625F, 25.08328F);
+            this.lblKararNum.SizeF = new System.Drawing.SizeF(268.4899F, 25.08328F);
             this.lblKararNum.StylePriority.UseBorders = false;
             this.lblKararNum.StylePriority.UseFont = false;
             this.lblKararNum.StylePriority.UseTextAlignment = false;
@@ -265,11 +277,11 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.lblTarih.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.lblTarih.LocationFloat = new DevExpress.Utils.PointFloat(328.375F, 330.9584F);
+            this.lblTarih.LocationFloat = new DevExpress.Utils.PointFloat(306.1564F, 271.9584F);
             this.lblTarih.Multiline = true;
             this.lblTarih.Name = "lblTarih";
             this.lblTarih.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblTarih.SizeF = new System.Drawing.SizeF(442.6249F, 25.08328F);
+            this.lblTarih.SizeF = new System.Drawing.SizeF(464.8434F, 25.08328F);
             this.lblTarih.StylePriority.UseBorders = false;
             this.lblTarih.StylePriority.UseFont = false;
             this.lblTarih.StylePriority.UseTextAlignment = false;
@@ -281,7 +293,7 @@
             this.lblKararMetni.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.lblKararMetni.Font = new System.Drawing.Font("Arial", 9F);
-            this.lblKararMetni.LocationFloat = new DevExpress.Utils.PointFloat(37.66658F, 356.0417F);
+            this.lblKararMetni.LocationFloat = new DevExpress.Utils.PointFloat(37.66658F, 297.0417F);
             this.lblKararMetni.Multiline = true;
             this.lblKararMetni.Name = "lblKararMetni";
             this.lblKararMetni.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -291,211 +303,6 @@
             this.lblKararMetni.StylePriority.UseTextAlignment = false;
             this.lblKararMetni.Text = resources.GetString("lblKararMetni.Text");
             this.lblKararMetni.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // lblArastirmaAdi
-            // 
-            this.lblArastirmaAdi.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.lblArastirmaAdi.Font = new System.Drawing.Font("Arial", 9F);
-            this.lblArastirmaAdi.LocationFloat = new DevExpress.Utils.PointFloat(328.375F, 0F);
-            this.lblArastirmaAdi.Multiline = true;
-            this.lblArastirmaAdi.Name = "lblArastirmaAdi";
-            this.lblArastirmaAdi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblArastirmaAdi.SizeF = new System.Drawing.SizeF(443.6251F, 43.83332F);
-            this.lblArastirmaAdi.StylePriority.UseBorders = false;
-            this.lblArastirmaAdi.StylePriority.UseFont = false;
-            this.lblArastirmaAdi.StylePriority.UseTextAlignment = false;
-            this.lblArastirmaAdi.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // lblSorumluArastirmaci
-            // 
-            this.lblSorumluArastirmaci.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.lblSorumluArastirmaci.Font = new System.Drawing.Font("Arial", 9F);
-            this.lblSorumluArastirmaci.LocationFloat = new DevExpress.Utils.PointFloat(328.375F, 41.66667F);
-            this.lblSorumluArastirmaci.Multiline = true;
-            this.lblSorumluArastirmaci.Name = "lblSorumluArastirmaci";
-            this.lblSorumluArastirmaci.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblSorumluArastirmaci.SizeF = new System.Drawing.SizeF(443.6251F, 43.83332F);
-            this.lblSorumluArastirmaci.StylePriority.UseBorders = false;
-            this.lblSorumluArastirmaci.StylePriority.UseFont = false;
-            this.lblSorumluArastirmaci.StylePriority.UseTextAlignment = false;
-            this.lblSorumluArastirmaci.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // lblYardimciArastirmaci
-            // 
-            this.lblYardimciArastirmaci.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.lblYardimciArastirmaci.Font = new System.Drawing.Font("Arial", 9F);
-            this.lblYardimciArastirmaci.LocationFloat = new DevExpress.Utils.PointFloat(328.375F, 85.49998F);
-            this.lblYardimciArastirmaci.Multiline = true;
-            this.lblYardimciArastirmaci.Name = "lblYardimciArastirmaci";
-            this.lblYardimciArastirmaci.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblYardimciArastirmaci.SizeF = new System.Drawing.SizeF(443.6251F, 112.8333F);
-            this.lblYardimciArastirmaci.StylePriority.UseBorders = false;
-            this.lblYardimciArastirmaci.StylePriority.UseFont = false;
-            this.lblYardimciArastirmaci.StylePriority.UseTextAlignment = false;
-            this.lblYardimciArastirmaci.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // lblArastirmaciAdres
-            // 
-            this.lblArastirmaciAdres.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.lblArastirmaciAdres.Font = new System.Drawing.Font("Arial", 9F);
-            this.lblArastirmaciAdres.LocationFloat = new DevExpress.Utils.PointFloat(328.375F, 196.1667F);
-            this.lblArastirmaciAdres.Multiline = true;
-            this.lblArastirmaciAdres.Name = "lblArastirmaciAdres";
-            this.lblArastirmaciAdres.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblArastirmaciAdres.SizeF = new System.Drawing.SizeF(443.6251F, 43.83331F);
-            this.lblArastirmaciAdres.StylePriority.UseBorders = false;
-            this.lblArastirmaciAdres.StylePriority.UseFont = false;
-            this.lblArastirmaciAdres.StylePriority.UseTextAlignment = false;
-            this.lblArastirmaciAdres.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // lblDestekleyici
-            // 
-            this.lblDestekleyici.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.lblDestekleyici.Font = new System.Drawing.Font("Arial", 9F);
-            this.lblDestekleyici.LocationFloat = new DevExpress.Utils.PointFloat(328.375F, 240F);
-            this.lblDestekleyici.Multiline = true;
-            this.lblDestekleyici.Name = "lblDestekleyici";
-            this.lblDestekleyici.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblDestekleyici.SizeF = new System.Drawing.SizeF(443.6251F, 40.4584F);
-            this.lblDestekleyici.StylePriority.UseBorders = false;
-            this.lblDestekleyici.StylePriority.UseFont = false;
-            this.lblDestekleyici.StylePriority.UseTextAlignment = false;
-            this.lblDestekleyici.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // lblArastirmaTipi
-            // 
-            this.lblArastirmaTipi.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.lblArastirmaTipi.Font = new System.Drawing.Font("Arial", 9F);
-            this.lblArastirmaTipi.LocationFloat = new DevExpress.Utils.PointFloat(328.375F, 280.125F);
-            this.lblArastirmaTipi.Multiline = true;
-            this.lblArastirmaTipi.Name = "lblArastirmaTipi";
-            this.lblArastirmaTipi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.lblArastirmaTipi.SizeF = new System.Drawing.SizeF(443.6251F, 43.83333F);
-            this.lblArastirmaTipi.StylePriority.UseBorders = false;
-            this.lblArastirmaTipi.StylePriority.UseFont = false;
-            this.lblArastirmaTipi.StylePriority.UseTextAlignment = false;
-            this.lblArastirmaTipi.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // xrLabel11
-            // 
-            this.xrLabel11.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel11.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(37.66658F, 280.125F);
-            this.xrLabel11.Multiline = true;
-            this.xrLabel11.Name = "xrLabel11";
-            this.xrLabel11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel11.SizeF = new System.Drawing.SizeF(290.625F, 43.83332F);
-            this.xrLabel11.StylePriority.UseBorders = false;
-            this.xrLabel11.StylePriority.UseFont = false;
-            this.xrLabel11.StylePriority.UseTextAlignment = false;
-            this.xrLabel11.Text = "ARAŞTIRMA TİPİ";
-            this.xrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // xrLabel10
-            // 
-            this.xrLabel10.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel10.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrLabel10.LocationFloat = new DevExpress.Utils.PointFloat(37.66658F, 240F);
-            this.xrLabel10.Multiline = true;
-            this.xrLabel10.Name = "xrLabel10";
-            this.xrLabel10.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel10.SizeF = new System.Drawing.SizeF(290.625F, 40.4584F);
-            this.xrLabel10.StylePriority.UseBorders = false;
-            this.xrLabel10.StylePriority.UseFont = false;
-            this.xrLabel10.StylePriority.UseTextAlignment = false;
-            this.xrLabel10.Text = "DESTEKLEYİCİ";
-            this.xrLabel10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // xrLabel9
-            // 
-            this.xrLabel9.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel9.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrLabel9.LocationFloat = new DevExpress.Utils.PointFloat(37.66658F, 196.1667F);
-            this.xrLabel9.Multiline = true;
-            this.xrLabel9.Name = "xrLabel9";
-            this.xrLabel9.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel9.SizeF = new System.Drawing.SizeF(290.625F, 43.83332F);
-            this.xrLabel9.StylePriority.UseBorders = false;
-            this.xrLabel9.StylePriority.UseFont = false;
-            this.xrLabel9.StylePriority.UseTextAlignment = false;
-            this.xrLabel9.Text = "KOORDİNATÖR/SORUMLU ARAŞTIRMACININ BULUNDUĞU MERKEZ";
-            this.xrLabel9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // xrLabel8
-            // 
-            this.xrLabel8.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel8.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrLabel8.LocationFloat = new DevExpress.Utils.PointFloat(37.66658F, 85.49998F);
-            this.xrLabel8.Multiline = true;
-            this.xrLabel8.Name = "xrLabel8";
-            this.xrLabel8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel8.SizeF = new System.Drawing.SizeF(290.625F, 112.8333F);
-            this.xrLabel8.StylePriority.UseBorders = false;
-            this.xrLabel8.StylePriority.UseFont = false;
-            this.xrLabel8.StylePriority.UseTextAlignment = false;
-            this.xrLabel8.Text = "YARDIMCI ARAŞTIRMACILAR  ";
-            this.xrLabel8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // xrLabel7
-            // 
-            this.xrLabel7.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel7.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(37.66658F, 41.66667F);
-            this.xrLabel7.Multiline = true;
-            this.xrLabel7.Name = "xrLabel7";
-            this.xrLabel7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel7.SizeF = new System.Drawing.SizeF(290.625F, 43.83332F);
-            this.xrLabel7.StylePriority.UseBorders = false;
-            this.xrLabel7.StylePriority.UseFont = false;
-            this.xrLabel7.StylePriority.UseTextAlignment = false;
-            this.xrLabel7.Text = "SORUMLU ARAŞTIRMACI UNVANI/ADI/SOYADI";
-            this.xrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // xrLabel5
-            // 
-            this.xrLabel5.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel5.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrLabel5.LocationFloat = new DevExpress.Utils.PointFloat(37.66658F, 0F);
-            this.xrLabel5.Multiline = true;
-            this.xrLabel5.Name = "xrLabel5";
-            this.xrLabel5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel5.SizeF = new System.Drawing.SizeF(290.625F, 43.83332F);
-            this.xrLabel5.StylePriority.UseBorders = false;
-            this.xrLabel5.StylePriority.UseFont = false;
-            this.xrLabel5.StylePriority.UseTextAlignment = false;
-            this.xrLabel5.Text = "ARAŞTIRMANIN AÇIK ADI";
-            this.xrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // xrLabel4
-            // 
-            this.xrLabel4.Angle = 90F;
-            this.xrLabel4.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
-            this.xrLabel4.Multiline = true;
-            this.xrLabel4.Name = "xrLabel4";
-            this.xrLabel4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel4.SizeF = new System.Drawing.SizeF(37.66658F, 323.9583F);
-            this.xrLabel4.StylePriority.UseBorders = false;
-            this.xrLabel4.StylePriority.UseFont = false;
-            this.xrLabel4.StylePriority.UseTextAlignment = false;
-            this.xrLabel4.Text = "BAŞVURU BİLGİLERİ";
-            this.xrLabel4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
             // PageHeader
             // 
@@ -865,6 +672,276 @@
             this.PageFooter.HeightF = 50F;
             this.PageFooter.Name = "PageFooter";
             // 
+            // xrTable4
+            // 
+            this.xrTable4.Borders = DevExpress.XtraPrinting.BorderSide.Left;
+            this.xrTable4.LocationFloat = new DevExpress.Utils.PointFloat(1.000607F, 45F);
+            this.xrTable4.Name = "xrTable4";
+            this.xrTable4.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 2, 0, 0, 100F);
+            this.xrTable4.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow4});
+            this.xrTable4.SizeF = new System.Drawing.SizeF(769.9993F, 28.47217F);
+            this.xrTable4.StylePriority.UseBorders = false;
+            this.xrTable4.StylePriority.UsePadding = false;
+            // 
+            // xrTableRow4
+            // 
+            this.xrTableRow4.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell19,
+            this.lblArastirmaAdi});
+            this.xrTableRow4.Name = "xrTableRow4";
+            this.xrTableRow4.Weight = 1D;
+            // 
+            // xrTableCell19
+            // 
+            this.xrTableCell19.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTableCell19.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrTableCell19.Multiline = true;
+            this.xrTableCell19.Name = "xrTableCell19";
+            this.xrTableCell19.StylePriority.UseBorders = false;
+            this.xrTableCell19.StylePriority.UseFont = false;
+            this.xrTableCell19.StylePriority.UseTextAlignment = false;
+            this.xrTableCell19.Text = "ARAŞTIRMANIN AÇIK ADI";
+            this.xrTableCell19.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrTableCell19.Weight = 0.81023296672385747D;
+            // 
+            // lblArastirmaAdi
+            // 
+            this.lblArastirmaAdi.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.lblArastirmaAdi.Multiline = true;
+            this.lblArastirmaAdi.Name = "lblArastirmaAdi";
+            this.lblArastirmaAdi.StylePriority.UseBorders = false;
+            this.lblArastirmaAdi.StylePriority.UseTextAlignment = false;
+            this.lblArastirmaAdi.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.lblArastirmaAdi.Weight = 1.234226482137964D;
+            // 
+            // xrTable5
+            // 
+            this.xrTable5.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable5.LocationFloat = new DevExpress.Utils.PointFloat(1.000412F, 73.47217F);
+            this.xrTable5.Name = "xrTable5";
+            this.xrTable5.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 2, 0, 0, 100F);
+            this.xrTable5.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow5});
+            this.xrTable5.SizeF = new System.Drawing.SizeF(769.9995F, 28.47217F);
+            this.xrTable5.StylePriority.UseBorders = false;
+            this.xrTable5.StylePriority.UsePadding = false;
+            // 
+            // xrTableRow5
+            // 
+            this.xrTableRow5.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell18,
+            this.lblSorumluArastirmaci});
+            this.xrTableRow5.Name = "xrTableRow5";
+            this.xrTableRow5.Weight = 1D;
+            // 
+            // xrTableCell18
+            // 
+            this.xrTableCell18.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrTableCell18.Multiline = true;
+            this.xrTableCell18.Name = "xrTableCell18";
+            this.xrTableCell18.StylePriority.UseFont = false;
+            this.xrTableCell18.StylePriority.UseTextAlignment = false;
+            this.xrTableCell18.Text = "SORUMLU ARAŞTIRMACI UNVANI/ADI/SOYADI";
+            this.xrTableCell18.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrTableCell18.Weight = 0.81134026132979564D;
+            // 
+            // lblSorumluArastirmaci
+            // 
+            this.lblSorumluArastirmaci.Multiline = true;
+            this.lblSorumluArastirmaci.Name = "lblSorumluArastirmaci";
+            this.lblSorumluArastirmaci.StylePriority.UseTextAlignment = false;
+            this.lblSorumluArastirmaci.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.lblSorumluArastirmaci.Weight = 1.2359123439262463D;
+            // 
+            // xrTable6
+            // 
+            this.xrTable6.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable6.LocationFloat = new DevExpress.Utils.PointFloat(1.000412F, 101.9443F);
+            this.xrTable6.Name = "xrTable6";
+            this.xrTable6.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 2, 0, 0, 100F);
+            this.xrTable6.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow6});
+            this.xrTable6.SizeF = new System.Drawing.SizeF(769.9995F, 55.25787F);
+            this.xrTable6.StylePriority.UseBorders = false;
+            this.xrTable6.StylePriority.UsePadding = false;
+            // 
+            // xrTableRow6
+            // 
+            this.xrTableRow6.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell23,
+            this.lblYardimciArastirmaci});
+            this.xrTableRow6.Name = "xrTableRow6";
+            this.xrTableRow6.Weight = 1D;
+            // 
+            // xrTableCell23
+            // 
+            this.xrTableCell23.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrTableCell23.Multiline = true;
+            this.xrTableCell23.Name = "xrTableCell23";
+            this.xrTableCell23.StylePriority.UseFont = false;
+            this.xrTableCell23.StylePriority.UseTextAlignment = false;
+            this.xrTableCell23.Text = "ARAŞTIRMANIN AÇIK ADI";
+            this.xrTableCell23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrTableCell23.Weight = 0.81134026132979564D;
+            // 
+            // lblYardimciArastirmaci
+            // 
+            this.lblYardimciArastirmaci.Multiline = true;
+            this.lblYardimciArastirmaci.Name = "lblYardimciArastirmaci";
+            this.lblYardimciArastirmaci.StylePriority.UseTextAlignment = false;
+            this.lblYardimciArastirmaci.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.lblYardimciArastirmaci.Weight = 1.2359123439262463D;
+            // 
+            // xrTable7
+            // 
+            this.xrTable7.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable7.LocationFloat = new DevExpress.Utils.PointFloat(1.000214F, 157.2021F);
+            this.xrTable7.Name = "xrTable7";
+            this.xrTable7.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 2, 0, 0, 100F);
+            this.xrTable7.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow7});
+            this.xrTable7.SizeF = new System.Drawing.SizeF(769.9996F, 46.80923F);
+            this.xrTable7.StylePriority.UseBorders = false;
+            this.xrTable7.StylePriority.UsePadding = false;
+            // 
+            // xrTableRow7
+            // 
+            this.xrTableRow7.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell24,
+            this.lblArastirmaciAdres});
+            this.xrTableRow7.Name = "xrTableRow7";
+            this.xrTableRow7.Weight = 1D;
+            // 
+            // xrTableCell24
+            // 
+            this.xrTableCell24.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrTableCell24.Multiline = true;
+            this.xrTableCell24.Name = "xrTableCell24";
+            this.xrTableCell24.StylePriority.UseFont = false;
+            this.xrTableCell24.StylePriority.UseTextAlignment = false;
+            this.xrTableCell24.Text = "KOORDİNATÖR/SORUMLU ARAŞTIRMACININ BULUNDUĞU MERKEZ";
+            this.xrTableCell24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrTableCell24.Weight = 0.81134026132979564D;
+            // 
+            // lblArastirmaciAdres
+            // 
+            this.lblArastirmaciAdres.Multiline = true;
+            this.lblArastirmaciAdres.Name = "lblArastirmaciAdres";
+            this.lblArastirmaciAdres.StylePriority.UseTextAlignment = false;
+            this.lblArastirmaciAdres.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.lblArastirmaciAdres.Weight = 1.2359123439262463D;
+            // 
+            // xrTable8
+            // 
+            this.xrTable8.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable8.LocationFloat = new DevExpress.Utils.PointFloat(1.000214F, 204.0113F);
+            this.xrTable8.Name = "xrTable8";
+            this.xrTable8.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 2, 0, 0, 100F);
+            this.xrTable8.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow8});
+            this.xrTable8.SizeF = new System.Drawing.SizeF(769.9996F, 24.8092F);
+            this.xrTable8.StylePriority.UseBorders = false;
+            this.xrTable8.StylePriority.UsePadding = false;
+            // 
+            // xrTableRow8
+            // 
+            this.xrTableRow8.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell20,
+            this.lblDestekleyici});
+            this.xrTableRow8.Name = "xrTableRow8";
+            this.xrTableRow8.Weight = 1D;
+            // 
+            // xrTableCell20
+            // 
+            this.xrTableCell20.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrTableCell20.Multiline = true;
+            this.xrTableCell20.Name = "xrTableCell20";
+            this.xrTableCell20.StylePriority.UseFont = false;
+            this.xrTableCell20.StylePriority.UseTextAlignment = false;
+            this.xrTableCell20.Text = "DESTEKLEYİCİ";
+            this.xrTableCell20.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrTableCell20.Weight = 0.81134026132979564D;
+            // 
+            // lblDestekleyici
+            // 
+            this.lblDestekleyici.Multiline = true;
+            this.lblDestekleyici.Name = "lblDestekleyici";
+            this.lblDestekleyici.StylePriority.UseTextAlignment = false;
+            this.lblDestekleyici.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.lblDestekleyici.Weight = 1.2359123439262463D;
+            // 
+            // xrTable9
+            // 
+            this.xrTable9.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable9.LocationFloat = new DevExpress.Utils.PointFloat(1.000214F, 228.8205F);
+            this.xrTable9.Name = "xrTable9";
+            this.xrTable9.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 2, 0, 0, 100F);
+            this.xrTable9.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow9});
+            this.xrTable9.SizeF = new System.Drawing.SizeF(769.9996F, 24.8092F);
+            this.xrTable9.StylePriority.UseBorders = false;
+            this.xrTable9.StylePriority.UsePadding = false;
+            // 
+            // xrTableRow9
+            // 
+            this.xrTableRow9.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell21,
+            this.lblArastirmaTipi});
+            this.xrTableRow9.Name = "xrTableRow9";
+            this.xrTableRow9.Weight = 1D;
+            // 
+            // xrTableCell21
+            // 
+            this.xrTableCell21.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrTableCell21.Multiline = true;
+            this.xrTableCell21.Name = "xrTableCell21";
+            this.xrTableCell21.StylePriority.UseFont = false;
+            this.xrTableCell21.StylePriority.UseTextAlignment = false;
+            this.xrTableCell21.Text = "ARAŞTIRMA TİPİ";
+            this.xrTableCell21.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrTableCell21.Weight = 0.81134026132979564D;
+            // 
+            // lblArastirmaTipi
+            // 
+            this.lblArastirmaTipi.Multiline = true;
+            this.lblArastirmaTipi.Name = "lblArastirmaTipi";
+            this.lblArastirmaTipi.StylePriority.UseTextAlignment = false;
+            this.lblArastirmaTipi.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.lblArastirmaTipi.Weight = 1.2359123439262463D;
+            // 
+            // xrLabel5
+            // 
+            this.xrLabel5.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel5.LocationFloat = new DevExpress.Utils.PointFloat(1.000624F, 21.99999F);
+            this.xrLabel5.Multiline = true;
+            this.xrLabel5.Name = "xrLabel5";
+            this.xrLabel5.Padding = new DevExpress.XtraPrinting.PaddingInfo(3, 2, 0, 0, 100F);
+            this.xrLabel5.SizeF = new System.Drawing.SizeF(769.9992F, 22.99999F);
+            this.xrLabel5.StylePriority.UseBorders = false;
+            this.xrLabel5.StylePriority.UseFont = false;
+            this.xrLabel5.StylePriority.UsePadding = false;
+            this.xrLabel5.StylePriority.UseTextAlignment = false;
+            this.xrLabel5.Text = "BAŞVURU BİLGİLERİ";
+            this.xrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
             // rprOnayFormu
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -885,6 +962,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsOnayFormu1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -901,19 +984,6 @@
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox1;
         private DevExpress.XtraReports.UI.DetailReportBand DetailReport;
         private DevExpress.XtraReports.UI.DetailBand Detail1;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel4;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel11;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel10;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel9;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel8;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel7;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel5;
-        private DevExpress.XtraReports.UI.XRLabel lblArastirmaAdi;
-        private DevExpress.XtraReports.UI.XRLabel lblSorumluArastirmaci;
-        private DevExpress.XtraReports.UI.XRLabel lblYardimciArastirmaci;
-        private DevExpress.XtraReports.UI.XRLabel lblArastirmaciAdres;
-        private DevExpress.XtraReports.UI.XRLabel lblDestekleyici;
-        private DevExpress.XtraReports.UI.XRLabel lblArastirmaTipi;
         private DevExpress.XtraReports.UI.XRLabel xrLabel30;
         private DevExpress.XtraReports.UI.XRLabel lblKararNum;
         private DevExpress.XtraReports.UI.XRLabel lblTarih;
@@ -951,5 +1021,30 @@
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell15;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell22;
         private DevExpress.XtraReports.UI.PageFooterBand PageFooter;
+        private DevExpress.XtraReports.UI.XRTable xrTable6;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow6;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell23;
+        private DevExpress.XtraReports.UI.XRTableCell lblYardimciArastirmaci;
+        private DevExpress.XtraReports.UI.XRTable xrTable5;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow5;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell18;
+        private DevExpress.XtraReports.UI.XRTableCell lblSorumluArastirmaci;
+        private DevExpress.XtraReports.UI.XRTable xrTable4;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow4;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell19;
+        private DevExpress.XtraReports.UI.XRTableCell lblArastirmaAdi;
+        private DevExpress.XtraReports.UI.XRTable xrTable7;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow7;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell24;
+        private DevExpress.XtraReports.UI.XRTableCell lblArastirmaciAdres;
+        private DevExpress.XtraReports.UI.XRTable xrTable9;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow9;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell21;
+        private DevExpress.XtraReports.UI.XRTableCell lblArastirmaTipi;
+        private DevExpress.XtraReports.UI.XRTable xrTable8;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow8;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell20;
+        private DevExpress.XtraReports.UI.XRTableCell lblDestekleyici;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel5;
     }
 }
