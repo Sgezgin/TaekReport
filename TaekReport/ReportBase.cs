@@ -466,6 +466,30 @@ namespace TaekReport
             return resultReport;
         }
 
+
+
+        public byte[] BasvuruBilgilendirmeFrm(BilgilendirmeFormModel form)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                BilgilendirmeFormu.rprBilgilendirmeFormu rpr = new BilgilendirmeFormu.rprBilgilendirmeFormu(form);
+                rpr.DataSource = form.BilgilendirmeList;
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
+
         public byte[] TupBarkod(TUPBARKOD form)
         {
             byte[] resultReport = null;
