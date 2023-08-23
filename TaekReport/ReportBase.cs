@@ -12,13 +12,13 @@ namespace TaekReport
 {
     public class ReportBase
     {
-        public byte[] OlurFormu(OLURFORMU form,string sorumluAdiSoyadi="",string tel="",string gorevyeri = "")
+        public byte[] OlurFormu(OLURFORMU form, string sorumluAdiSoyadi = "", string tel = "", string gorevyeri = "")
         {
             byte[] resultReport = null;
 
             try
             {
-                OlurFormu.rprOlurFormu rpr = new OlurFormu.rprOlurFormu(form,sorumluAdiSoyadi,tel, gorevyeri);
+                OlurFormu.rprOlurFormu rpr = new OlurFormu.rprOlurFormu(form, sorumluAdiSoyadi, tel, gorevyeri);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);
@@ -83,16 +83,20 @@ namespace TaekReport
             return resultReport;
         }
 
-        public byte[] OnayOnYaziFrm(string sorumlu, string yardimci,string arastirma,string destekleyici)
+        public byte[] OnayOnYaziFrm(string sorumlu, string yardimci, string arastirma, string destekleyici, string format = "pdf")
         {
             byte[] resultReport = null;
 
             try
             {
-                OnYaziFormu.frmOnayOnYazi rpr = new OnYaziFormu.frmOnayOnYazi(sorumlu,yardimci,arastirma, destekleyici);
+                OnYaziFormu.frmOnayOnYazi rpr = new OnYaziFormu.frmOnayOnYazi(sorumlu, yardimci, arastirma, destekleyici);
                 using (MemoryStream ms = new MemoryStream())
                 {
-                    rpr.ExportToPdf(ms);
+                    if (format =="docx")
+                        rpr.ExportToDocx(ms);
+                    else
+                        rpr.ExportToPdf(ms);
+
                     resultReport = ms.ToArray();
                 }
             }
@@ -195,11 +199,11 @@ namespace TaekReport
             byte[] resultReport = null;
 
             try
-            {     
+            {
                 DegerlendirmeFormu.rprDegerlendirmeFormu rpr = new DegerlendirmeFormu.rprDegerlendirmeFormu(form);
                 DegerlendirmeFormu.dsDegerlendirmeFormu ds = new DegerlendirmeFormu.dsDegerlendirmeFormu();
                 DegerlendirmeFormu.dsDegerlendirmeFormu.dtDegerlendirmeFormuDataTable dt = new DegerlendirmeFormu.dsDegerlendirmeFormu.dtDegerlendirmeFormuDataTable();
-        
+
                 foreach (DegerlendirmeDetay item in form.DegerlendirmeDetay)
                 {
                     //ds.dtDegerlendirmeFormu.AdddtDegerlendirmeFormuRow(
@@ -219,7 +223,7 @@ namespace TaekReport
                 rpr.DataSource = dt;
                 using (MemoryStream ms = new MemoryStream())
                 {
-                    rpr.ExportToPdf(ms);         
+                    rpr.ExportToPdf(ms);
                     resultReport = ms.ToArray();
                 }
             }
@@ -236,14 +240,14 @@ namespace TaekReport
             byte[] resultReport = null;
 
             try
-            {           
+            {
                 YetkisizlikFormu.rprYetkisizlik rpr = new YetkisizlikFormu.rprYetkisizlik(form);
 
                 YetkisizlikFormu.dsYetkisizlik ds = new YetkisizlikFormu.dsYetkisizlik();
                 YetkisizlikFormu.dsYetkisizlik.dtYetkisizlikDataTable dt = new YetkisizlikFormu.dsYetkisizlik.dtYetkisizlikDataTable();
 
                 foreach (string item in form.Kararlar)
-                { 
+                {
                     ds.dtYetkisizlik.AdddtYetkisizlikRow(
                             item.ToString()
                    );
@@ -309,7 +313,7 @@ namespace TaekReport
                 DuzeltmeFormu.dsDuzeltmeFormu.dtDuzeltmeFormuDataTable dt = new DuzeltmeFormu.dsDuzeltmeFormu.dtDuzeltmeFormuDataTable();
 
                 foreach (string item in form.Kararlar)
-                {         
+                {
                     ds.dtDuzeltmeFormu.AdddtDuzeltmeFormuRow(
                             item.ToString()
                    );
@@ -336,14 +340,14 @@ namespace TaekReport
 
             try
             {
-      
-                BasvuruFormu.rprBasvuruFormu rpr = new BasvuruFormu.rprBasvuruFormu(form.ArastirmaAdi,form.SorumluAdiSoyadi,form.BavuruNo,form.IletmeTarih,form.DosyaNo);
+
+                BasvuruFormu.rprBasvuruFormu rpr = new BasvuruFormu.rprBasvuruFormu(form.ArastirmaAdi, form.SorumluAdiSoyadi, form.BavuruNo, form.IletmeTarih, form.DosyaNo);
 
                 BasvuruFormu.dsBasvuruFormu ds = new BasvuruFormu.dsBasvuruFormu();
                 BasvuruFormu.dsBasvuruFormu.dtBasvuruFormDataTable dt = new BasvuruFormu.dsBasvuruFormu.dtBasvuruFormDataTable();
 
 
-             
+
                 foreach (var item in form.BasvuruFormEkipList)
                 {
                     // ds.dtBasvuruForm.AdddtBasvuruFormRow(
@@ -387,7 +391,7 @@ namespace TaekReport
             try
             {
 
-                BasvuruFormuTum.rprBasvuruFormu rpr = new BasvuruFormuTum.rprBasvuruFormu(form.ArastirmaAdi, form.SorumluAdiSoyadi, form.BavuruNo,form);
+                BasvuruFormuTum.rprBasvuruFormu rpr = new BasvuruFormuTum.rprBasvuruFormu(form.ArastirmaAdi, form.SorumluAdiSoyadi, form.BavuruNo, form);
 
 
                 List<BasvuruFormObj> reportData = new List<BasvuruFormObj>();
@@ -395,7 +399,7 @@ namespace TaekReport
 
 
                 List<ArastirmaEkipList> aratirmaEkipList = new List<ArastirmaEkipList>();
-              
+
                 foreach (var item in form.ArastirmaEkipList)
                 {
                     string arastirmaciTipi = "Yardımcı Araştırmacı ";
@@ -403,7 +407,8 @@ namespace TaekReport
                         arastirmaciTipi = "Sorumlu Araştırmacı";
 
 
-                    aratirmaEkipList.Add(new ArastirmaEkipList() {
+                    aratirmaEkipList.Add(new ArastirmaEkipList()
+                    {
 
                         AdiSoyadi = item.AdiSoyadi,
                         Eposta = item.Eposta,
@@ -412,7 +417,7 @@ namespace TaekReport
                         TelefonNumarasi = item.TelefonNumarasi,
                         Unvani = item.Unvani,
                         UzmanlikAlani = item.UzmanlikAlani
-                    });  
+                    });
 
                 }
 
@@ -420,7 +425,7 @@ namespace TaekReport
                 basvuruFormObj.SorumluBilgi = form.SorumluBilgi;
                 basvuruFormObj.CokMerkezliArastirmaciList = form.CokMerkezliArastirmaciList;
                 basvuruFormObj.OzgecmisList = form.OzgecmisModelList;
-                basvuruFormObj.OlurFormList = form.OlurFormList;             
+                basvuruFormObj.OlurFormList = form.OlurFormList;
                 basvuruFormObj.ArastirmaEkipList = aratirmaEkipList;
                 basvuruFormObj.BasvuruFormEkipList = form.BasvuruFormEkipList;
                 reportData.Add(basvuruFormObj);
