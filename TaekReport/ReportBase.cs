@@ -518,6 +518,54 @@ namespace TaekReport
             return resultReport;
         }
 
+        public byte[] ToplantiGundemiFrm2(ToplantiGundemiModel form)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                List<ToplantiGundemi2> rprModel = new List<ToplantiGundemi2>();
+                ToplantiGundemi.rprToplantiGundemi2 rpr = new ToplantiGundemi.rprToplantiGundemi2();
+                foreach (var item in form.GundemDetayList)
+                {
+                    string destekleyici = (!string.IsNullOrEmpty(item.Destekleyici) ? item.Destekleyici : "Yoktur");
+                    destekleyici += " / " + item.ArastirmaTipi;
+
+                    string yardimci = "", sorumlu = "";
+
+                    foreach (var itemSorumlu in item.SorumluArastirmaci)
+                    {
+                        sorumlu += itemSorumlu.ArastirmaciAdi + " ";
+                    }
+
+                    foreach (var itemYardimci in item.YardimciArastirmaci)
+                    {
+                        yardimci += itemYardimci.ArastirmaciAdi + " ";
+                    }
+
+                    rprModel.Add(new ToplantiGundemi2() {
+                        ArastirmaAdi  =item.ArastirmaAdi,
+                        DestekleyiciArastirmaTipi = destekleyici,
+                        Sorumlu = sorumlu,
+                        Yardimci = yardimci,
+                        SiraNo = item.DosyaNo
+                    });
+                }
+                rpr.DataSource = rprModel;
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
+
         public byte[] TupBarkod(TUPBARKOD form)
         {
             byte[] resultReport = null;

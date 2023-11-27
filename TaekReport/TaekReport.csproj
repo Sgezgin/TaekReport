@@ -180,6 +180,7 @@
     <Compile Include="Models\OzgecmisModel.cs" />
     <Compile Include="Models\SABITLER.cs" />
     <Compile Include="Models\SorumluBilgi.cs" />
+    <Compile Include="Models\ToplantiGundemi2.cs" />
     <Compile Include="Models\ToplantiGundemiModel.cs" />
     <Compile Include="Models\TUPBARKOD.cs" />
     <Compile Include="Models\YetkisizlikFormModel.cs" />
@@ -241,6 +242,12 @@
     </Compile>
     <Compile Include="ToplantiGundemi\rprToplantiGundemi.Designer.cs">
       <DependentUpon>rprToplantiGundemi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToplantiGundemi\rprToplantiGundemi2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToplantiGundemi\rprToplantiGundemi2.Designer.cs">
+      <DependentUpon>rprToplantiGundemi2.cs</DependentUpon>
     </Compile>
     <Compile Include="YenidenBasvuruFormu\dsYenidenBasvuru.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -398,6 +405,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ToplantiGundemi\rprToplantiGundemi.resx">
       <DependentUpon>rprToplantiGundemi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToplantiGundemi\rprToplantiGundemi2.resx">
+      <DependentUpon>rprToplantiGundemi2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="YenidenBasvuruFormu\rprYenidenBasvuru.resx">
       <DependentUpon>rprYenidenBasvuru.cs</DependentUpon>
