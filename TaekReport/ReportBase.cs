@@ -495,6 +495,29 @@ namespace TaekReport
             return resultReport;
         }
 
+
+        public byte[] ToplantiGundemiFrm(ToplantiGundemiModel form)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                ToplantiGundemi.rprToplantiGundemi rpr = new ToplantiGundemi.rprToplantiGundemi(form);
+                rpr.DataSource = form.GundemDetayList;
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+        }
+
         public byte[] TupBarkod(TUPBARKOD form)
         {
             byte[] resultReport = null;
@@ -516,6 +539,9 @@ namespace TaekReport
 
             return resultReport;
         }
+
+
+     
 
 
         //public byte[] Butce2Formu(BUTCEFORMU form)

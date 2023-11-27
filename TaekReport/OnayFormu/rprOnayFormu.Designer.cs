@@ -538,7 +538,7 @@
             this.lblKararNum.StylePriority.UseBorders = false;
             this.lblKararNum.StylePriority.UseFont = false;
             this.lblKararNum.StylePriority.UseTextAlignment = false;
-            this.lblKararNum.Text = "Karar Nu: 22-";
+            this.lblKararNum.Text = "Karar No: 22-";
             this.lblKararNum.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // lblTarih
