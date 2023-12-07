@@ -524,9 +524,20 @@ namespace TaekReport
             try
             {
                 List<ToplantiGundemi2> rprModel = new List<ToplantiGundemi2>();
-                ToplantiGundemi.rprToplantiGundemi2 rpr = new ToplantiGundemi.rprToplantiGundemi2();
+                ToplantiGundemi.rprToplantiGundemi2 rpr = new ToplantiGundemi.rprToplantiGundemi2(form.ToplantiTarihi.ToShortDateString());
                 foreach (var item in form.GundemDetayList)
                 {
+                    int sirano = 0;
+
+                    if (item.DosyaNo.Contains('/'))
+                    {
+                        string[] dosyaNoSplit = item.DosyaNo.Split('/');
+                        if (dosyaNoSplit[1] != null)
+                            sirano = Convert.ToInt32(dosyaNoSplit[1]);
+                    }
+                    else
+                        sirano = 99;
+
                     string destekleyici = (!string.IsNullOrEmpty(item.Destekleyici) ? item.Destekleyici : "Yoktur");
                     destekleyici += " / " + item.ArastirmaTipi;
 
@@ -534,7 +545,7 @@ namespace TaekReport
 
                     foreach (var itemSorumlu in item.SorumluArastirmaci)
                     {
-                        sorumlu += itemSorumlu.ArastirmaciAdi + " ";
+                        sorumlu += itemSorumlu.ArastirmaciAdi + Environment.NewLine + itemSorumlu.Bolumu;
                     }
 
                     foreach (var itemYardimci in item.YardimciArastirmaci)
@@ -543,14 +554,16 @@ namespace TaekReport
                     }
 
                     rprModel.Add(new ToplantiGundemi2() {
-                        ArastirmaAdi  =item.ArastirmaAdi,
+                        ArastirmaAdi = item.ArastirmaAdi,
                         DestekleyiciArastirmaTipi = destekleyici,
                         Sorumlu = sorumlu,
                         Yardimci = yardimci,
-                        SiraNo = item.DosyaNo
+                        DosyaNo = item.DosyaNo,
+                        SiraNo = sirano
                     });
                 }
-                rpr.DataSource = rprModel;
+
+                rpr.DataSource = rprModel.OrderBy(x=> x.SiraNo);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);

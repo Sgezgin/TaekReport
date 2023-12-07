@@ -8,7 +8,8 @@ namespace TaekReport.Models
 {
     public class ToplantiGundemi2
     {
-        public string SiraNo { get; set; }
+        public int SiraNo { get; set; }
+        public string DosyaNo { get; set; }
         public string ArastirmaAdi { get; set; }
         public string Sorumlu { get; set; }
         public string Yardimci { get; set; }

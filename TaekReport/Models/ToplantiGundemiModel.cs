@@ -17,5 +17,6 @@ namespace TaekReport.Models
     public class Arastirmaci
     {
         public string ArastirmaciAdi { get; set; }
+        public string Bolumu { get; set; }
     }
 }
