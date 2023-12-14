@@ -243,6 +243,12 @@
     <Compile Include="ToplantiGundemi\rprToplantiGundemi.Designer.cs">
       <DependentUpon>rprToplantiGundemi.cs</DependentUpon>
     </Compile>
+    <Compile Include="ToplantiGundemi\rprToplantiGundemiYatay.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToplantiGundemi\rprToplantiGundemiYatay.Designer.cs">
+      <DependentUpon>rprToplantiGundemiYatay.cs</DependentUpon>
+    </Compile>
     <Compile Include="ToplantiGundemi\rprToplantiGundemi2.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -405,6 +411,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ToplantiGundemi\rprToplantiGundemi.resx">
       <DependentUpon>rprToplantiGundemi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToplantiGundemi\rprToplantiGundemiYatay.resx">
+      <DependentUpon>rprToplantiGundemiYatay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ToplantiGundemi\rprToplantiGundemi2.resx">
       <DependentUpon>rprToplantiGundemi2.cs</DependentUpon>

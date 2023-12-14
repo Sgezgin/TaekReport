@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevExpress.XtraReports.UI;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -518,13 +519,18 @@ namespace TaekReport
             return resultReport;
         }
 
-        public byte[] ToplantiGundemiFrm2(ToplantiGundemiModel form)
+        public byte[] ToplantiGundemiFrm2(ToplantiGundemiModel form,bool landscape)
         {
             byte[] resultReport = null;
             try
             {
                 List<ToplantiGundemi2> rprModel = new List<ToplantiGundemi2>();
-                ToplantiGundemi.rprToplantiGundemi2 rpr = new ToplantiGundemi.rprToplantiGundemi2(form.ToplantiTarihi.ToShortDateString());
+                XtraReport rpr = new XtraReport();
+                if(landscape)
+                     rpr = new ToplantiGundemi.rprToplantiGundemiYatay(form.ToplantiTarihi.ToShortDateString());
+                else
+                    rpr = new ToplantiGundemi.rprToplantiGundemi2(form.ToplantiTarihi.ToShortDateString());
+
                 foreach (var item in form.GundemDetayList)
                 {
                     int sirano = 0;
