@@ -18,6 +18,7 @@ namespace TaekReport.Models
         public string Baskan { get; set; }
         public string DosyaNo { get; set; }
         public string ToplantiTarihi { get; set; }
+        public string BilgilendirmeNot { get; set; }
         public List<EtikKurulUyeler> EtikKurulUyeleri { get; set; }
     }
 

@@ -34,6 +34,8 @@ namespace TaekReport.OnayFormu
                 " başlanmasının etik açıdan uygun bulunduğuna toplantıya katılan etik kurul üyelerince "+
                  form.KararOyTuru +
                 " ile karar verilmiştir.";
+            if (form.BilgilendirmeNot.Length > 0)
+                lblKararMetni.Text = form.BilgilendirmeNot;
         }
 
         private void chkiliskiEvet_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
