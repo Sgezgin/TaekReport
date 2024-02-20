@@ -14,5 +14,7 @@ namespace TaekReport.Models
         public string Sorumlu { get; set; }
         public string Yardimci { get; set; }
         public string DestekleyiciArastirmaTipi { get; set; }
+        public string BasvuruTuru { get; set; }
+        public int BaşvuruTuruOrder { get; set; }
     }
 }

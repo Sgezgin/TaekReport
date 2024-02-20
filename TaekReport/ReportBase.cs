@@ -93,7 +93,7 @@ namespace TaekReport
                 OnYaziFormu.frmOnayOnYazi rpr = new OnYaziFormu.frmOnayOnYazi(sorumlu, yardimci, arastirma, destekleyici);
                 using (MemoryStream ms = new MemoryStream())
                 {
-                    if (format =="docx")
+                    if (format == "docx")
                         rpr.ExportToDocx(ms);
                     else
                         rpr.ExportToPdf(ms);
@@ -130,7 +130,8 @@ namespace TaekReport
                         item.Iliski,
                         item.Mazeret,
                         item.UyeUnvan,
-                        item.SiraNo
+                        item.SiraNo,
+                          item.TcKimlikNo = item.TcKimlikNo
                         );
                 }
                 rpr.DataSource = dt;
@@ -519,15 +520,15 @@ namespace TaekReport
             return resultReport;
         }
 
-        public byte[] ToplantiGundemiFrm2(ToplantiGundemiModel form,bool landscape)
+        public byte[] ToplantiGundemiFrm2(ToplantiGundemiModel form, bool landscape)
         {
             byte[] resultReport = null;
             try
             {
                 List<ToplantiGundemi2> rprModel = new List<ToplantiGundemi2>();
                 XtraReport rpr = new XtraReport();
-                if(landscape)
-                     rpr = new ToplantiGundemi.rprToplantiGundemiYatay(form.ToplantiTarihi.ToShortDateString());
+                if (landscape)
+                    rpr = new ToplantiGundemi.rprToplantiGundemiYatay(form.ToplantiTarihi.ToShortDateString());
                 else
                     rpr = new ToplantiGundemi.rprToplantiGundemi2(form.ToplantiTarihi.ToShortDateString());
 
@@ -559,17 +560,22 @@ namespace TaekReport
                         yardimci += itemYardimci.ArastirmaciAdi + " ";
                     }
 
-                    rprModel.Add(new ToplantiGundemi2() {
+                    rprModel.Add(new ToplantiGundemi2()
+                    {
                         ArastirmaAdi = item.ArastirmaAdi,
                         DestekleyiciArastirmaTipi = destekleyici,
                         Sorumlu = sorumlu,
                         Yardimci = yardimci,
                         DosyaNo = item.DosyaNo,
-                        SiraNo = sirano
+                        SiraNo = sirano,
+                        BasvuruTuru = item.BaşvuruTuru,
+                        BaşvuruTuruOrder = item.BaşvuruTuruOrder
+
                     });
                 }
 
-                rpr.DataSource = rprModel.OrderBy(x=> x.SiraNo);
+                rpr.DataSource = rprModel.OrderBy(x => x.SiraNo);
+
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.ExportToPdf(ms);
@@ -608,7 +614,7 @@ namespace TaekReport
         }
 
 
-     
+
 
 
         //public byte[] Butce2Formu(BUTCEFORMU form)

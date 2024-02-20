@@ -12,7 +12,7 @@
   <xs:element name="dsOnayFormu" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsOnayFormu" msprop:Generator_UserDSName="dsOnayFormu">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="dtOnayFormu" msprop:Generator_TableClassName="dtOnayFormuDataTable" msprop:Generator_TableVarName="tabledtOnayFormu" msprop:Generator_RowChangedName="dtOnayFormuRowChanged" msprop:Generator_TablePropName="dtOnayFormu" msprop:Generator_RowDeletingName="dtOnayFormuRowDeleting" msprop:Generator_RowChangingName="dtOnayFormuRowChanging" msprop:Generator_RowEvHandlerName="dtOnayFormuRowChangeEventHandler" msprop:Generator_RowDeletedName="dtOnayFormuRowDeleted" msprop:Generator_RowClassName="dtOnayFormuRow" msprop:Generator_UserTableName="dtOnayFormu" msprop:Generator_RowEvArgName="dtOnayFormuRowChangeEvent">
+        <xs:element name="dtOnayFormu" msprop:Generator_TableClassName="dtOnayFormuDataTable" msprop:Generator_TableVarName="tabledtOnayFormu" msprop:Generator_TablePropName="dtOnayFormu" msprop:Generator_RowDeletingName="dtOnayFormuRowDeleting" msprop:Generator_RowChangingName="dtOnayFormuRowChanging" msprop:Generator_RowEvHandlerName="dtOnayFormuRowChangeEventHandler" msprop:Generator_RowDeletedName="dtOnayFormuRowDeleted" msprop:Generator_UserTableName="dtOnayFormu" msprop:Generator_RowChangedName="dtOnayFormuRowChanged" msprop:Generator_RowEvArgName="dtOnayFormuRowChangeEvent" msprop:Generator_RowClassName="dtOnayFormuRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ADISOYADI" msprop:Generator_ColumnVarNameInTable="columnADISOYADI" msprop:Generator_ColumnPropNameInRow="ADISOYADI" msprop:Generator_ColumnPropNameInTable="ADISOYADIColumn" msprop:Generator_UserColumnName="ADISOYADI" type="xs:string" minOccurs="0" />
@@ -24,6 +24,7 @@
               <xs:element name="MAZERET" msprop:Generator_ColumnVarNameInTable="columnMAZERET" msprop:Generator_ColumnPropNameInRow="MAZERET" msprop:Generator_ColumnPropNameInTable="MAZERETColumn" msprop:Generator_UserColumnName="MAZERET" type="xs:string" minOccurs="0" />
               <xs:element name="UYEUNVAN" msprop:Generator_ColumnVarNameInTable="columnUYEUNVAN" msprop:Generator_ColumnPropNameInRow="UYEUNVAN" msprop:Generator_ColumnPropNameInTable="UYEUNVANColumn" msprop:Generator_UserColumnName="UYEUNVAN" type="xs:string" minOccurs="0" />
               <xs:element name="SIRANO" msprop:Generator_ColumnVarNameInTable="columnSIRANO" msprop:Generator_ColumnPropNameInRow="SIRANO" msprop:Generator_ColumnPropNameInTable="SIRANOColumn" msprop:Generator_UserColumnName="SIRANO" type="xs:int" minOccurs="0" />
+              <xs:element name="TCKIMLIKNO" msprop:Generator_ColumnVarNameInTable="columnTCKIMLIKNO" msprop:Generator_ColumnPropNameInRow="TCKIMLIKNO" msprop:Generator_ColumnPropNameInTable="TCKIMLIKNOColumn" msprop:Generator_UserColumnName="TCKIMLIKNO" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

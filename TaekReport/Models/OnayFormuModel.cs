@@ -25,6 +25,7 @@ namespace TaekReport.Models
     public class EtikKurulUyeler
     {
         public string AdiSoyadi { get; set; }
+        public string TcKimlikNo { get; set; }
         public string Uzamanlik { get; set; }
         public string Kurum { get; set; }
         public string Cinsiyet { get; set; }
