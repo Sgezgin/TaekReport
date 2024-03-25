@@ -16,6 +16,7 @@ namespace TaekReport.Models
         public string ArastirmaTipi { get; set; }
         public string KararOyTuru { get; set; }
         public string Baskan { get; set; }
+        public string BaskanTckn { get; set; }
         public string DosyaNo { get; set; }
         public string ToplantiTarihi { get; set; }
         public string BilgilendirmeNot { get; set; }

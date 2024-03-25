@@ -97,7 +97,7 @@
             this.xrTable3 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow3 = new DevExpress.XtraReports.UI.XRTableRow();
             this.lblFooterBaskan = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableCell16 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.lblFooterBaslanTckn = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell17 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell15 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell22 = new DevExpress.XtraReports.UI.XRTableCell();
@@ -898,7 +898,7 @@
             // 
             this.xrTableRow3.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.lblFooterBaskan,
-            this.xrTableCell16,
+            this.lblFooterBaslanTckn,
             this.xrTableCell17,
             this.xrTableCell15,
             this.xrTableCell22});
@@ -915,15 +915,17 @@
             this.lblFooterBaskan.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.lblFooterBaskan.Weight = 0.88591452596410447D;
             // 
-            // xrTableCell16
+            // lblFooterBaslanTckn
             // 
-            this.xrTableCell16.Font = new System.Drawing.Font("Arial", 9.3F);
-            this.xrTableCell16.Multiline = true;
-            this.xrTableCell16.Name = "xrTableCell16";
-            this.xrTableCell16.StylePriority.UseFont = false;
-            this.xrTableCell16.StylePriority.UseTextAlignment = false;
-            this.xrTableCell16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell16.Weight = 0.92800842990821641D;
+            this.lblFooterBaslanTckn.Font = new System.Drawing.Font("Arial", 9.3F);
+            this.lblFooterBaslanTckn.ForeColor = System.Drawing.Color.White;
+            this.lblFooterBaslanTckn.Multiline = true;
+            this.lblFooterBaslanTckn.Name = "lblFooterBaslanTckn";
+            this.lblFooterBaslanTckn.StylePriority.UseFont = false;
+            this.lblFooterBaslanTckn.StylePriority.UseForeColor = false;
+            this.lblFooterBaslanTckn.StylePriority.UseTextAlignment = false;
+            this.lblFooterBaslanTckn.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.lblFooterBaslanTckn.Weight = 0.92800842990821641D;
             // 
             // xrTableCell17
             // 
@@ -1030,7 +1032,7 @@
         private DevExpress.XtraReports.UI.XRTable xrTable3;
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow3;
         private DevExpress.XtraReports.UI.XRTableCell lblFooterBaskan;
-        private DevExpress.XtraReports.UI.XRTableCell xrTableCell16;
+        private DevExpress.XtraReports.UI.XRTableCell lblFooterBaslanTckn;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell17;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell15;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell22;
