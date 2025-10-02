@@ -38,6 +38,7 @@ namespace TaekReport
 
         public byte[] ButceFormu(BUTCEFORMU form)
         {
+            //sdfsd
             byte[] resultReport = null;
 
             try
