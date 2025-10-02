@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TaekReport</RootNamespace>
     <AssemblyName>TaekReport</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Core">
+      <HintPath>\\155.223.130.169\LotusData\core\Core.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.Charts.v20.2.Core, Version=20.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.Desktop.v20.2, Version=20.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v20.2, Version=20.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -160,6 +164,14 @@
     </Compile>
     <Compile Include="DuzeltmeFormu\rprDuzeltmeFormu.Designer.cs">
       <DependentUpon>rprDuzeltmeFormu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KAEK\Models\UstBasvuruModel.cs" />
+    <Compile Include="KAEK\ReportBase.cs" />
+    <Compile Include="KAEK\UstBasvuru\frmUstBasvuru.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\UstBasvuru\frmUstBasvuru.Designer.cs">
+      <DependentUpon>frmUstBasvuru.cs</DependentUpon>
     </Compile>
     <Compile Include="Lbs\TupBarkod\rprTupBarkod.cs">
       <SubType>Component</SubType>
@@ -386,6 +398,9 @@
     <EmbeddedResource Include="DuzeltmeFormu\rprDuzeltmeFormu.resx">
       <DependentUpon>rprDuzeltmeFormu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KAEK\UstBasvuru\frmUstBasvuru.resx">
+      <DependentUpon>frmUstBasvuru.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lbs\TupBarkod\rprTupBarkod.resx">
       <DependentUpon>rprTupBarkod.cs</DependentUpon>
     </EmbeddedResource>
@@ -442,5 +457,6 @@
   <ItemGroup>
     <None Include="Resources\ege.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
