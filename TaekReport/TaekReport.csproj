@@ -165,7 +165,14 @@
     <Compile Include="DuzeltmeFormu\rprDuzeltmeFormu.Designer.cs">
       <DependentUpon>rprDuzeltmeFormu.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\Models\UstBasvuruModel.cs" />
     <Compile Include="KAEK\ReportBase.cs" />
+    <Compile Include="KAEK\UstBasvuru\frmUstBasvuru.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\UstBasvuru\frmUstBasvuru.Designer.cs">
+      <DependentUpon>frmUstBasvuru.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lbs\TupBarkod\rprTupBarkod.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -390,6 +397,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DuzeltmeFormu\rprDuzeltmeFormu.resx">
       <DependentUpon>rprDuzeltmeFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KAEK\UstBasvuru\frmUstBasvuru.resx">
+      <DependentUpon>frmUstBasvuru.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lbs\TupBarkod\rprTupBarkod.resx">
       <DependentUpon>rprTupBarkod.cs</DependentUpon>
