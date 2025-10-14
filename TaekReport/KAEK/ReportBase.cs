@@ -10,28 +10,28 @@ namespace TaekReport.KAEK
 {
     public class ReportBase
     {
-        public byte[] UstBasvuruFrm(UstBasvuruModel form)
+        public byte[] UstBasvuruFrm(List<UstBasvuruModel> form)
         {
             byte[] resultReport = null;
             try
             {
-                KAEK.UstBasvuru.frmUstBasvuru rpr = new KAEK.UstBasvuru.frmUstBasvuru(form);                
+                KAEK.UstBasvuru.frmUstBasvuru rpr = new KAEK.UstBasvuru.frmUstBasvuru(form);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.DataSource = form;
                     rpr.ExportToPdf(ms);
-                 
+
                     resultReport = ms.ToArray();
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                var data = ex.Message;
             }
 
             return resultReport;
         }
-       
+
     }
 }

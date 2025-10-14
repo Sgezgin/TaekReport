@@ -9,6 +9,6 @@ namespace TaekReport.KAEK.Models.RaporModel
     public class UstBasvuruModel
     {
         public BASVURUFORMU BASVURUFORMU { get; set; }
-        public List<ARASTIRMAEKIBI> ARASTIRMAEKIBI { get; set; }
+        public List<ARASTIRMAEKIBI> listArastirmaEkibi { get; set; }
     }
 }
