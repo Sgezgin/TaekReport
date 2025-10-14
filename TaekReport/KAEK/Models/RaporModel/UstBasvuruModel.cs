@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TaekReport.KAEK.Models
+namespace TaekReport.KAEK.Models.RaporModel
 {
     public class UstBasvuruModel
     {
-        public string Adi { get; set; }
-        public string Soyadi { get; set; }
+        public BASVURUFORMU BASVURUFORMU { get; set; }
+        public List<ARASTIRMAEKIBI> ARASTIRMAEKIBI { get; set; }
     }
 }

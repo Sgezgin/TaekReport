@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TaekReport.KAEK.Models;
+using TaekReport.KAEK.Models.RaporModel;
 
 namespace TaekReport.KAEK
 {
@@ -18,7 +18,9 @@ namespace TaekReport.KAEK
                 KAEK.UstBasvuru.frmUstBasvuru rpr = new KAEK.UstBasvuru.frmUstBasvuru(form);                
                 using (MemoryStream ms = new MemoryStream())
                 {
+                    rpr.DataSource = form;
                     rpr.ExportToPdf(ms);
+                 
                     resultReport = ms.ToArray();
                 }
             }
@@ -30,5 +32,6 @@ namespace TaekReport.KAEK
 
             return resultReport;
         }
+       
     }
 }

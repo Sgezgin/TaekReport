@@ -9,11 +9,11 @@ namespace TaekReport.KAEK.UstBasvuru
 {
     public partial class frmUstBasvuru : DevExpress.XtraReports.UI.XtraReport
     {
-        public frmUstBasvuru(UstBasvuruModel model)
+        public frmUstBasvuru(object obj)
         {
             InitializeComponent();
-            xrLabel1.Text = model.Adi;
-            xrLabel2.Text = model.Soyadi;
+            objectDataSource1.DataSource = obj;
+           
         }
 
     }
