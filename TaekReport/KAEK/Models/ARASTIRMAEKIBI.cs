@@ -17,6 +17,7 @@ namespace TaekReport.KAEK.Models
         public string EGITIMIGCP { get; set; }
         public string GOREVI { get; set; }
         public long TCKIMLIKNO { get; set; }
+        public string UZMANLIKALANI { get; set; }
 
     }
 }

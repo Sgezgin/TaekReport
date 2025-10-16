@@ -30,5 +30,7 @@ namespace TaekReport.KAEK.Models
         public string DESTEKLEYICITEMSILCI { get; set; }
         public string ARASTIRMASURESI { get; set; }
         public string GONULLUYASARALIGI { get; set; }
+        public string ACIKLAMA { get; set; }
+        
     }
 }
