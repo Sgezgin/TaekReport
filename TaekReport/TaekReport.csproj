@@ -167,6 +167,8 @@
     </Compile>
     <Compile Include="KAEK\Models\ARASTIRMAEKIBI.cs" />
     <Compile Include="KAEK\Models\BASVURUFORMU.cs" />
+    <Compile Include="KAEK\Models\KLINIKARASTIRMALARBASVURUFORMU.cs" />
+    <Compile Include="KAEK\Models\RaporModel\KlinikArastirmaBasvuruFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\UstBasvuruModel.cs" />
     <Compile Include="KAEK\ReportBase.cs" />
     <Compile Include="KAEK\UstBasvuru\frmUstBasvuru.cs">

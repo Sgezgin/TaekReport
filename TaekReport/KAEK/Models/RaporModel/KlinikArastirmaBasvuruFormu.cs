@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TaekReport.KAEK.Models.RaporModel
+{
+    public class KlinikArastirmaBasvuruFormu
+    {
+        public KLINIKARASTIRMALARBASVURUFORMU KlinkFormu { get; set; }
+
+    }
+}
+
+
