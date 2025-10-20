@@ -6,9 +6,9 @@ using DevExpress.XtraReports.UI;
 
 namespace TaekReport.KAEK.ArastirmaProtokolu
 {
-    public partial class frmaArastirmaProtokolu : DevExpress.XtraReports.UI.XtraReport
+    public partial class frmArastirmaProtokolu : DevExpress.XtraReports.UI.XtraReport
     {
-        public frmaArastirmaProtokolu()
+        public frmArastirmaProtokolu()
         {
             InitializeComponent();
         }

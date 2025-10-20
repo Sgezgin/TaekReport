@@ -98,40 +98,15 @@ namespace TaekReport.KAEK.Models
         public string DIGERSAGLIKOTORITELERI { get; set; }
 
         public string ARASTIRMAYAOZGUBILGI { get; set; }
-        [Column(TypeName = "BLOB")]
+      
         public byte[] ARASTIRMATASARIMSEMASI { get; set; }
-        [NotMapped]
-        public string ARASTIRMATASARIMSEMASI_HTML
-        {
-            get
-            {
-                if (ARASTIRMATASARIMSEMASI == null) return null;
-                return Encoding.UTF8.GetString(ARASTIRMATASARIMSEMASI);
-            }
-            set
-            {
-                ARASTIRMATASARIMSEMASI = value != null
-                    Encoding.UTF8.GetBytes(value) : null;
-            }
-        }
+   
+        
 
-        [Column(TypeName = "BLOB")]
         public byte[] DEGERLENDIRMESEMASI { get; set; }
 
-        [NotMapped]
-        public string DEGERLENDIRMESEMASI_HTML
-        {
-            get
-            {
-                if (DEGERLENDIRMESEMASI == null) return null;
-                return Encoding.UTF8.GetString(DEGERLENDIRMESEMASI);
-            }
-            set
-            {
-                DEGERLENDIRMESEMASI = value != null
-                    Encoding.UTF8.GetBytes(value) : null;
-            }
-        }
+
+  
         public int ETIKKURULRED { get; set; }
         public string REDETIKKURULADI { get; set; }
         public DateTime REDETIKKARARTARIH { get; set; }
