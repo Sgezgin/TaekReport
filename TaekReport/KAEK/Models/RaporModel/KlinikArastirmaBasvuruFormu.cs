@@ -9,6 +9,7 @@ namespace TaekReport.KAEK.Models.RaporModel
     public class KlinikArastirmaBasvuruFormu
     {
         public KLINIKARASTIRMALARBASVURUFORMU KlinikFormu { get; set; }
+        public BASVURUFORMU BASVURUFORMU { get; set; }
 
     }
 }
