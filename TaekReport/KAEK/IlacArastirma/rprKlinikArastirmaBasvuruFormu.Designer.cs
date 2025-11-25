@@ -391,7 +391,7 @@
             this.xrTable10,
             this.xrTable9});
             this.BottomMargin.ForeColor = System.Drawing.Color.Red;
-            this.BottomMargin.HeightF = 1741.143F;
+            this.BottomMargin.HeightF = 1741F;
             this.BottomMargin.Name = "BottomMargin";
             this.BottomMargin.StylePriority.UseForeColor = false;
             // 
@@ -774,6 +774,8 @@
             // 
             // xrTableCell24
             // 
+            this.xrTableCell24.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[NCTNUMARASI]")});
             this.xrTableCell24.Multiline = true;
             this.xrTableCell24.Name = "xrTableCell24";
             this.xrTableCell24.Weight = 2.4596221129841562D;
@@ -797,6 +799,8 @@
             // 
             // xrTableCell26
             // 
+            this.xrTableCell26.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[CTISNUMARASI]")});
             this.xrTableCell26.Multiline = true;
             this.xrTableCell26.Name = "xrTableCell26";
             this.xrTableCell26.Weight = 2.4596221129841562D;
@@ -820,6 +824,8 @@
             // 
             // xrTableCell28
             // 
+            this.xrTableCell28.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMASTATUSU]")});
             this.xrTableCell28.Multiline = true;
             this.xrTableCell28.Name = "xrTableCell28";
             this.xrTableCell28.Weight = 2.4596221129841562D;
@@ -843,6 +849,8 @@
             // 
             // xrTableCell30
             // 
+            this.xrTableCell30.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMANITELIGI]")});
             this.xrTableCell30.Multiline = true;
             this.xrTableCell30.Name = "xrTableCell30";
             this.xrTableCell30.Weight = 2.4596221129841562D;
@@ -889,6 +897,8 @@
             // 
             // xrTableCell34
             // 
+            this.xrTableCell34.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TIBBIDURUMVEHASTALIK]")});
             this.xrTableCell34.Multiline = true;
             this.xrTableCell34.Name = "xrTableCell34";
             this.xrTableCell34.Weight = 2.4596221129841562D;
@@ -912,6 +922,8 @@
             // 
             // xrTableCell36
             // 
+            this.xrTableCell36.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMAYONTEMI]")});
             this.xrTableCell36.Multiline = true;
             this.xrTableCell36.Name = "xrTableCell36";
             this.xrTableCell36.Weight = 2.4596221129841562D;
@@ -935,6 +947,8 @@
             // 
             // xrTableCell38
             // 
+            this.xrTableCell38.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[URETIMYERIPLASEBO]")});
             this.xrTableCell38.Multiline = true;
             this.xrTableCell38.Name = "xrTableCell38";
             this.xrTableCell38.Weight = 2.4596221129841562D;
@@ -958,6 +972,8 @@
             // 
             // xrTableCell40
             // 
+            this.xrTableCell40.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[PLASEBO]")});
             this.xrTableCell40.Multiline = true;
             this.xrTableCell40.Name = "xrTableCell40";
             this.xrTableCell40.Weight = 2.4596221129841562D;
@@ -981,6 +997,8 @@
             // 
             // xrTableCell42
             // 
+            this.xrTableCell42.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[URETIMYERI]")});
             this.xrTableCell42.Multiline = true;
             this.xrTableCell42.Name = "xrTableCell42";
             this.xrTableCell42.Weight = 2.4596221129841562D;
@@ -1027,6 +1045,8 @@
             // 
             // xrTableCell46
             // 
+            this.xrTableCell46.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[YARDIMCIBESERITIBBIURUNTURU]")});
             this.xrTableCell46.Multiline = true;
             this.xrTableCell46.Name = "xrTableCell46";
             this.xrTableCell46.Weight = 2.4596221129841562D;
@@ -1050,6 +1070,8 @@
             // 
             // xrTableCell48
             // 
+            this.xrTableCell48.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[URETIMYERI]")});
             this.xrTableCell48.Multiline = true;
             this.xrTableCell48.Name = "xrTableCell48";
             this.xrTableCell48.Text = "";
@@ -1074,6 +1096,8 @@
             // 
             // xrTableCell50
             // 
+            this.xrTableCell50.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[CEBELGESIOLMAYAN]")});
             this.xrTableCell50.Multiline = true;
             this.xrTableCell50.Name = "xrTableCell50";
             this.xrTableCell50.Weight = 2.4596221129841562D;
@@ -1097,6 +1121,8 @@
             // 
             // xrTableCell52
             // 
+            this.xrTableCell52.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMAKOLLARI]")});
             this.xrTableCell52.Multiline = true;
             this.xrTableCell52.Name = "xrTableCell52";
             this.xrTableCell52.Weight = 2.4596221129841562D;
@@ -1120,6 +1146,8 @@
             // 
             // xrTableCell54
             // 
+            this.xrTableCell54.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMAAMACI]")});
             this.xrTableCell54.Multiline = true;
             this.xrTableCell54.Name = "xrTableCell54";
             this.xrTableCell54.Weight = 2.4596221129841562D;
@@ -1143,6 +1171,8 @@
             // 
             // xrTableCell56
             // 
+            this.xrTableCell56.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMAKAPSAM]")});
             this.xrTableCell56.Multiline = true;
             this.xrTableCell56.Name = "xrTableCell56";
             this.xrTableCell56.Weight = 2.4596221129841562D;
@@ -1166,6 +1196,8 @@
             // 
             // xrTableCell58
             // 
+            this.xrTableCell58.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMATASARIM]")});
             this.xrTableCell58.Multiline = true;
             this.xrTableCell58.Name = "xrTableCell58";
             this.xrTableCell58.Weight = 2.4596221129841562D;
@@ -1189,6 +1221,8 @@
             // 
             // xrTableCell60
             // 
+            this.xrTableCell60.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GONULLUGRUBU]")});
             this.xrTableCell60.Multiline = true;
             this.xrTableCell60.Name = "xrTableCell60";
             this.xrTableCell60.Weight = 2.4596221129841562D;
@@ -1212,6 +1246,8 @@
             // 
             // xrTableCell62
             // 
+            this.xrTableCell62.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GONULLUYASARALIGI]")});
             this.xrTableCell62.Multiline = true;
             this.xrTableCell62.Name = "xrTableCell62";
             this.xrTableCell62.Weight = 2.4596221129841562D;
@@ -1271,6 +1307,8 @@
             // 
             // xrTableCell66
             // 
+            this.xrTableCell66.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GONULLUSAYI]")});
             this.xrTableCell66.Multiline = true;
             this.xrTableCell66.Name = "xrTableCell66";
             this.xrTableCell66.Weight = 1.6509845707207163D;
@@ -1294,6 +1332,8 @@
             // 
             // xrTableCell68
             // 
+            this.xrTableCell68.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GONULLUSAYITR]")});
             this.xrTableCell68.Multiline = true;
             this.xrTableCell68.Name = "xrTableCell68";
             this.xrTableCell68.Weight = 1.6509845246535404D;
@@ -1317,6 +1357,8 @@
             // 
             // xrTableCell70
             // 
+            this.xrTableCell70.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DAHILEDILMEKRITERLERI]")});
             this.xrTableCell70.Multiline = true;
             this.xrTableCell70.Name = "xrTableCell70";
             this.xrTableCell70.Text = "\r\n";
@@ -1341,6 +1383,8 @@
             // 
             // xrTableCell72
             // 
+            this.xrTableCell72.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GONULLUSAYIDAGILIM]")});
             this.xrTableCell72.Multiline = true;
             this.xrTableCell72.Name = "xrTableCell72";
             this.xrTableCell72.Weight = 1.6509845246535404D;
@@ -1364,6 +1408,8 @@
             // 
             // xrTableCell74
             // 
+            this.xrTableCell74.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DAHILEDILMEMEKRITERLERI]")});
             this.xrTableCell74.Multiline = true;
             this.xrTableCell74.Name = "xrTableCell74";
             this.xrTableCell74.Weight = 2.4596221129841562D;
@@ -1424,6 +1470,8 @@
             // 
             // xrTableCell78
             // 
+            this.xrTableCell78.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMASURESITOPLAM]")});
             this.xrTableCell78.Multiline = true;
             this.xrTableCell78.Name = "xrTableCell78";
             this.xrTableCell78.Weight = 1.5157559416292024D;
@@ -1447,6 +1495,8 @@
             // 
             // xrTableCell80
             // 
+            this.xrTableCell80.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMASURETR]")});
             this.xrTableCell80.Multiline = true;
             this.xrTableCell80.Name = "xrTableCell80";
             this.xrTableCell80.Weight = 1.5157558955620265D;
@@ -1470,6 +1520,8 @@
             // 
             // xrTableCell82
             // 
+            this.xrTableCell82.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMAGONULLUBASLAMA]")});
             this.xrTableCell82.Multiline = true;
             this.xrTableCell82.Name = "xrTableCell82";
             this.xrTableCell82.Weight = 1.5157558955620265D;
@@ -1493,6 +1545,8 @@
             // 
             // xrTableCell84
             // 
+            this.xrTableCell84.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMAGONULLUBITIS]")});
             this.xrTableCell84.Multiline = true;
             this.xrTableCell84.Name = "xrTableCell84";
             this.xrTableCell84.Weight = 1.5157558955620265D;
@@ -1516,6 +1570,8 @@
             // 
             // xrTableCell86
             // 
+            this.xrTableCell86.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[SONNOKTASI]")});
             this.xrTableCell86.Multiline = true;
             this.xrTableCell86.Name = "xrTableCell86";
             this.xrTableCell86.Weight = 2.4596221129841562D;
@@ -1539,6 +1595,8 @@
             // 
             // xrTableCell88
             // 
+            this.xrTableCell88.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[SONUCDEGERLENDIRME]")});
             this.xrTableCell88.Multiline = true;
             this.xrTableCell88.Name = "xrTableCell88";
             this.xrTableCell88.Weight = 2.4596221129841562D;
@@ -1562,6 +1620,8 @@
             // 
             // xrTableCell90
             // 
+            this.xrTableCell90.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ISTATIKSELANALIZ]")});
             this.xrTableCell90.Multiline = true;
             this.xrTableCell90.Name = "xrTableCell90";
             this.xrTableCell90.Weight = 2.4596221129841562D;
@@ -1621,6 +1681,8 @@
             // 
             // xrTableCell94
             // 
+            this.xrTableCell94.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KORDINATOR]")});
             this.xrTableCell94.Multiline = true;
             this.xrTableCell94.Name = "xrTableCell94";
             this.xrTableCell94.Weight = 1.5157558955620263D;
@@ -3301,7 +3363,7 @@
             this.objectDataSource2});
             this.DataSource = this.objectDataSource1;
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(7, 7, 100, 1741);
+            this.Margins = new System.Drawing.Printing.Margins(7, 8, 100, 1741);
             this.PageHeight = 1169;
             this.PageWidth = 827;
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;
