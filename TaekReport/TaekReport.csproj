@@ -171,6 +171,12 @@
     <Compile Include="KAEK\ArastirmaProtokolu\frmArastirmaProtokolu.Designer.cs">
       <DependentUpon>frmArastirmaProtokolu.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruFormu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruFormu.Designer.cs">
+      <DependentUpon>rprKlinikArastirmaBasvuruFormu.cs</DependentUpon>
+    </Compile>
     <Compile Include="KAEK\IlacArastirma\rprUstBasvuruForm.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -416,6 +422,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\ArastirmaProtokolu\frmArastirmaProtokolu.resx">
       <DependentUpon>frmArastirmaProtokolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruFormu.resx">
+      <DependentUpon>rprKlinikArastirmaBasvuruFormu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprUstBasvuruForm.resx">
       <DependentUpon>rprUstBasvuruForm.cs</DependentUpon>
