@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>\\155.223.130.169\LotusData\ç\TaekReportDll\</OutputPath>
+    <OutputPath>\\155.223.130.169\LotusData\ç\KAEKReportDll\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -170,6 +170,12 @@
     </Compile>
     <Compile Include="KAEK\ArastirmaProtokolu\frmArastirmaProtokolu.Designer.cs">
       <DependentUpon>frmArastirmaProtokolu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KAEK\IlacArastirma\rprArastirmaProtokolFormu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\IlacArastirma\rprArastirmaProtokolFormu.Designer.cs">
+      <DependentUpon>rprArastirmaProtokolFormu.cs</DependentUpon>
     </Compile>
     <Compile Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruForm.cs">
       <SubType>Component</SubType>
@@ -428,6 +434,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\ArastirmaProtokolu\frmArastirmaProtokolu.resx">
       <DependentUpon>frmArastirmaProtokolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KAEK\IlacArastirma\rprArastirmaProtokolFormu.resx">
+      <DependentUpon>rprArastirmaProtokolFormu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruForm.resx">
       <DependentUpon>rprKlinikArastirmaBasvuruForm.cs</DependentUpon>
