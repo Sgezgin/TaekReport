@@ -33,12 +33,12 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
-        public byte[] KlinikArastirmaBasvuruFormu(List<KlinikArastirmaBasvuruFormu> list)
+        public byte[] ArastirmaProtokolFormu(List<KlinikArastirmaBasvuruFormu> list)
         {
             byte[] resultReport = null;
             try
             {
-                IlacArastirma.rprKlinikArastirmaBasvuruFormu rpr = new IlacArastirma.rprKlinikArastirmaBasvuruFormu(list);
+                IlacArastirma.rprArastirmaProtokolFormu rpr = new IlacArastirma.rprArastirmaProtokolFormu(list);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.DataSource = list;
@@ -56,12 +56,12 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
-        public byte[] ArastirmaProtokolFormu(List<KlinikArastirmaBasvuruFormu> list)
+        public byte[] KlinikArastirmaBasvuruForm(List<KlinikArastirmaBasvuruFormu> list)
         {
             byte[] resultReport = null;
             try
             {
-                IlacArastirma.rprArastirmaProtokolFormu rpr = new IlacArastirma.rprArastirmaProtokolFormu(list);
+                IlacArastirma.rprKlinikArastirmaBasvuruForm rpr = new IlacArastirma.rprKlinikArastirmaBasvuruForm(list);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.DataSource = list;

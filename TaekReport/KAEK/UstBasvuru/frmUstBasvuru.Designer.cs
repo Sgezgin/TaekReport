@@ -71,8 +71,12 @@
             this.xrTableCell18 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell19 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrPictureBox2 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.ReportFooter = new DevExpress.XtraReports.UI.ReportFooterBand();
+            this.xrTable5 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow16 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell31 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableRow15 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell30 = new DevExpress.XtraReports.UI.XRTableCell();
             this.GroupHeader1 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.xrTable2 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow11 = new DevExpress.XtraReports.UI.XRTableRow();
@@ -85,21 +89,17 @@
             this.xrTableCell24 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell26 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell25 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTable5 = new DevExpress.XtraReports.UI.XRTable();
-            this.xrTableRow16 = new DevExpress.XtraReports.UI.XRTableRow();
-            this.xrTableCell31 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableRow15 = new DevExpress.XtraReports.UI.XRTableRow();
-            this.xrTableCell30 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.DetailReport = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail1 = new DevExpress.XtraReports.UI.DetailBand();
             this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
+            this.xrPictureBox2 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -128,7 +128,7 @@
             this.xrTable4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable4.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow14});
-            this.xrTable4.SizeF = new System.Drawing.SizeF(740.7916F, 24.99999F);
+            this.xrTable4.SizeF = new System.Drawing.SizeF(757F, 24.99999F);
             this.xrTable4.StylePriority.UseBorders = false;
             // 
             // xrTableRow14
@@ -201,7 +201,7 @@
             // 
             // xrTable1
             // 
-            this.xrTable1.LocationFloat = new DevExpress.Utils.PointFloat(10F, 120F);
+            this.xrTable1.LocationFloat = new DevExpress.Utils.PointFloat(9.999974F, 120F);
             this.xrTable1.Name = "xrTable1";
             this.xrTable1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable1.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -215,7 +215,7 @@
             this.xrTableRow8,
             this.xrTableRow9,
             this.xrTableRow10});
-            this.xrTable1.SizeF = new System.Drawing.SizeF(730.7916F, 299.9999F);
+            this.xrTable1.SizeF = new System.Drawing.SizeF(747.0001F, 299.9999F);
             // 
             // xrTableRow1
             // 
@@ -525,19 +525,52 @@
             this.xrLabel1.Text = "Ege Üniversitesi Tıp Fakültesi Klinik Araştırmalar Etik Kurulu Başkanlığına,";
             this.xrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
-            // xrPictureBox2
-            // 
-            this.xrPictureBox2.ImageSource = new DevExpress.XtraPrinting.Drawing.ImageSource("img", resources.GetString("xrPictureBox2.ImageSource"));
-            this.xrPictureBox2.LocationFloat = new DevExpress.Utils.PointFloat(14.00001F, 5.416672F);
-            this.xrPictureBox2.Name = "xrPictureBox2";
-            this.xrPictureBox2.SizeF = new System.Drawing.SizeF(104.7917F, 94.58333F);
-            // 
             // ReportFooter
             // 
             this.ReportFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable5});
             this.ReportFooter.HeightF = 462.3334F;
             this.ReportFooter.Name = "ReportFooter";
+            // 
+            // xrTable5
+            // 
+            this.xrTable5.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrTable5.Name = "xrTable5";
+            this.xrTable5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrTable5.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow16,
+            this.xrTableRow15});
+            this.xrTable5.SizeF = new System.Drawing.SizeF(757F, 319.5834F);
+            // 
+            // xrTableRow16
+            // 
+            this.xrTableRow16.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell31});
+            this.xrTableRow16.Name = "xrTableRow16";
+            this.xrTableRow16.Weight = 1D;
+            // 
+            // xrTableCell31
+            // 
+            this.xrTableCell31.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[ACIKLAMA]")});
+            this.xrTableCell31.Multiline = true;
+            this.xrTableCell31.Name = "xrTableCell31";
+            this.xrTableCell31.Text = "xrTableCell30";
+            this.xrTableCell31.Weight = 1D;
+            // 
+            // xrTableRow15
+            // 
+            this.xrTableRow15.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell30});
+            this.xrTableRow15.Name = "xrTableRow15";
+            this.xrTableRow15.Weight = 10.621202706379618D;
+            // 
+            // xrTableCell30
+            // 
+            this.xrTableCell30.Multiline = true;
+            this.xrTableCell30.Name = "xrTableCell30";
+            this.xrTableCell30.Text = resources.GetString("xrTableCell30.Text");
+            this.xrTableCell30.Weight = 1D;
             // 
             // GroupHeader1
             // 
@@ -553,14 +586,14 @@
             this.xrTable2.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 33F);
+            this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 32.99999F);
             this.xrTable2.Name = "xrTable2";
             this.xrTable2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable2.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow11,
             this.xrTableRow12,
             this.xrTableRow13});
-            this.xrTable2.SizeF = new System.Drawing.SizeF(740.7916F, 74.99998F);
+            this.xrTable2.SizeF = new System.Drawing.SizeF(757.0001F, 74.99998F);
             this.xrTable2.StylePriority.UseBorders = false;
             // 
             // xrTableRow11
@@ -665,51 +698,6 @@
             this.xrTableCell25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell25.Weight = 0.384699850667611D;
             // 
-            // xrTable5
-            // 
-            this.xrTable5.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
-            this.xrTable5.Name = "xrTable5";
-            this.xrTable5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
-            this.xrTable5.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
-            this.xrTableRow16,
-            this.xrTableRow15});
-            this.xrTable5.SizeF = new System.Drawing.SizeF(757F, 319.5834F);
-            // 
-            // xrTableRow16
-            // 
-            this.xrTableRow16.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.xrTableCell31});
-            this.xrTableRow16.Name = "xrTableRow16";
-            this.xrTableRow16.Weight = 1D;
-            // 
-            // xrTableCell31
-            // 
-            this.xrTableCell31.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[ACIKLAMA]")});
-            this.xrTableCell31.Multiline = true;
-            this.xrTableCell31.Name = "xrTableCell31";
-            this.xrTableCell31.Text = "xrTableCell30";
-            this.xrTableCell31.Weight = 1D;
-            // 
-            // xrTableRow15
-            // 
-            this.xrTableRow15.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.xrTableCell30});
-            this.xrTableRow15.Name = "xrTableRow15";
-            this.xrTableRow15.Weight = 10.621202706379618D;
-            // 
-            // xrTableCell30
-            // 
-            this.xrTableCell30.Multiline = true;
-            this.xrTableCell30.Name = "xrTableCell30";
-            this.xrTableCell30.Text = resources.GetString("xrTableCell30.Text");
-            this.xrTableCell30.Weight = 1D;
-            // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.UstBasvuruModel);
-            this.objectDataSource1.Name = "objectDataSource1";
-            // 
             // DetailReport
             // 
             this.DetailReport.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -735,6 +723,18 @@
             this.xrRichText1.SerializableRtfString = resources.GetString("xrRichText1.SerializableRtfString");
             this.xrRichText1.SizeF = new System.Drawing.SizeF(757F, 23F);
             // 
+            // xrPictureBox2
+            // 
+            this.xrPictureBox2.ImageSource = new DevExpress.XtraPrinting.Drawing.ImageSource("img", resources.GetString("xrPictureBox2.ImageSource"));
+            this.xrPictureBox2.LocationFloat = new DevExpress.Utils.PointFloat(14.00001F, 5.416672F);
+            this.xrPictureBox2.Name = "xrPictureBox2";
+            this.xrPictureBox2.SizeF = new System.Drawing.SizeF(104.7917F, 94.58333F);
+            // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.UstBasvuruModel);
+            this.objectDataSource1.Name = "objectDataSource1";
+            // 
             // frmUstBasvuru
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -757,10 +757,10 @@
             this.Version = "20.2";
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }

@@ -171,11 +171,11 @@
     <Compile Include="KAEK\ArastirmaProtokolu\frmArastirmaProtokolu.Designer.cs">
       <DependentUpon>frmArastirmaProtokolu.cs</DependentUpon>
     </Compile>
-    <Compile Include="KAEK\IlacArastirma\rprArastirmaProtokolFormu.cs">
+    <Compile Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruForm.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="KAEK\IlacArastirma\rprArastirmaProtokolFormu.Designer.cs">
-      <DependentUpon>rprArastirmaProtokolFormu.cs</DependentUpon>
+    <Compile Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruForm.Designer.cs">
+      <DependentUpon>rprKlinikArastirmaBasvuruForm.cs</DependentUpon>
     </Compile>
     <Compile Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruFormu.cs">
       <SubType>Component</SubType>
@@ -429,8 +429,8 @@
     <EmbeddedResource Include="KAEK\ArastirmaProtokolu\frmArastirmaProtokolu.resx">
       <DependentUpon>frmArastirmaProtokolu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KAEK\IlacArastirma\rprArastirmaProtokolFormu.resx">
-      <DependentUpon>rprArastirmaProtokolFormu.cs</DependentUpon>
+    <EmbeddedResource Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruForm.resx">
+      <DependentUpon>rprKlinikArastirmaBasvuruForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruFormu.resx">
       <DependentUpon>rprKlinikArastirmaBasvuruFormu.cs</DependentUpon>
