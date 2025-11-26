@@ -13,7 +13,7 @@ namespace TaekReport.KAEK.IlacArastirma
         public rprKlinikArastirmaBasvuruForm(List<KlinikArastirmaBasvuruFormu> o)
         {
             InitializeComponent(); InitializeComponent();
-            objectDataSource1.DataSource = o;
+            objectDataSource1.DataSource = o; 
         }
 
     }
