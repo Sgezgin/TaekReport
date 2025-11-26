@@ -16,7 +16,7 @@ namespace TaekReport.KAEK.Models
 
         public string KULLANICI { get; set; }
 
-        public DateTime EKLEMETARIH { get; set; }
+        public string EKLEMETARIH { get; set; }
         public string DURUMU { get; set; }
 
 
@@ -99,24 +99,24 @@ namespace TaekReport.KAEK.Models
 
         public string ARASTIRMAYAOZGUBILGI { get; set; }
       
-        public byte[] ARASTIRMATASARIMSEMASI { get; set; }
+        public string ARASTIRMATASARIMSEMASI { get; set; }
    
         
 
-        public byte[] DEGERLENDIRMESEMASI { get; set; }
+        public string DEGERLENDIRMESEMASI { get; set; }
 
 
   
         public int ETIKKURULRED { get; set; }
         public string REDETIKKURULADI { get; set; }
-        public DateTime REDETIKKARARTARIH { get; set; }
+        public string REDETIKKARARTARIH { get; set; }
         public string REDETIKARARNO { get; set; }
 
         public int ETIKKURULBASVURU { get; set; }
         public string ETIKKURULADI { get; set; }
-        public DateTime ETIKKURULBASVURUTARIH { get; set; }
+        public string ETIKKURULBASVURUTARIH { get; set; }
         public int ETIKKURULONAY { get; set; }
-        public DateTime ETIKKURULKARARTARIH { get; set; }
+        public string ETIKKURULKARARTARIH { get; set; }
         public string ETIKKURULARARNO { get; set; }
 
 

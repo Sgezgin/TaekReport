@@ -15,7 +15,7 @@ namespace TaekReport.KAEK
             byte[] resultReport = null;
             try
             {
-                KAEK.UstBasvuru.frmUstBasvuru rpr = new KAEK.UstBasvuru.frmUstBasvuru(form);
+                KAEK.IlacArastirma.rprUstBasvuruForm rpr = new KAEK.IlacArastirma.rprUstBasvuruForm(form);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.DataSource = form;
@@ -56,14 +56,15 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
-        public byte[] ArastirmaProtokolFormu()
+        public byte[] ArastirmaProtokolFormu(List<KlinikArastirmaBasvuruFormu> list)
         {
             byte[] resultReport = null;
             try
             {
-                IlacArastirma.rprArastirmaProtokolFormu rpr = new IlacArastirma.rprArastirmaProtokolFormu();
+                IlacArastirma.rprArastirmaProtokolFormu rpr = new IlacArastirma.rprArastirmaProtokolFormu(list);
                 using (MemoryStream ms = new MemoryStream())
                 {
+                    rpr.DataSource = list;
                     rpr.ExportToPdf(ms);
 
                     resultReport = ms.ToArray();
