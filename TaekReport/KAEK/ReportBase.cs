@@ -56,5 +56,27 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
+        public byte[] ArastirmaProtokolFormu()
+        {
+            byte[] resultReport = null;
+            try
+            {
+                IlacArastirma.rprArastirmaProtokolFormu rpr = new IlacArastirma.rprArastirmaProtokolFormu();
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.ExportToPdf(ms);
+
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                var data = ex.Message;
+            }
+
+            return resultReport;
+        }
+
     }
 }
