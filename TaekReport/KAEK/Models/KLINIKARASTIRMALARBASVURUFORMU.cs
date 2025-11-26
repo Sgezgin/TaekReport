@@ -37,6 +37,7 @@ namespace TaekReport.KAEK.Models
         public string PLASEBO { get; set; }
         public string URETIMYERIPLASEBO { get; set; }
         public string YARDIMCIBESERITIBBIURUNTURU { get; set; }
+        public string YARDIMCIBESERITIBBIURUN { get; set; }
         public string URETIMYERIYARDIMCI { get; set; }
         public string CEBELGESIOLMAYAN { get; set; }
 
