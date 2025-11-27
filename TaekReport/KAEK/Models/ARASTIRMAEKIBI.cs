@@ -18,6 +18,7 @@ namespace TaekReport.KAEK.Models
         public string GOREVI { get; set; }
         public long TCKIMLIKNO { get; set; }
         public string UZMANLIKALANI { get; set; }
+        public string ISADRESI { get; set; }
 
     }
 }
