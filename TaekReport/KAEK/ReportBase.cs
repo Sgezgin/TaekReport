@@ -79,5 +79,28 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
+        public byte[] FaydaRiskDegerlendirmeForm(List<FaydaRiskDegerlendirmeFormu> list)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                IlacArastirma.rprFaydaRiskDegerlendirmeForm rpr = new IlacArastirma.rprFaydaRiskDegerlendirmeForm(list);
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.DataSource = list;
+                    rpr.ExportToPdf(ms);
+
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                var data = ex.Message;
+            }
+
+            return resultReport;
+        }
+
     }
 }

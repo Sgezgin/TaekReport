@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TaekReport.KAEK.Models.RaporModel
 {
-    class FaydaRiskDegerlendirmeFormu
+    public class FaydaRiskDegerlendirmeFormu
     {
         public BASVURUFORMU BASVURUFORMU { get; set; }
         public List<ARASTIRMAEKIBI> listArastirmaEkibi { get; set; }
