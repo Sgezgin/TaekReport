@@ -33,7 +33,7 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
-        public byte[] ArastirmaProtokolFormu(List<KlinikArastirmaBasvuruFormu> list)
+        public byte[] ArastirmaProtokolFormu(List<ArastirmaProtokolFormu> list)
         {
             byte[] resultReport = null;
             try

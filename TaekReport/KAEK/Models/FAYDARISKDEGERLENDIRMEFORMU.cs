@@ -25,6 +25,10 @@ namespace TaekReport.KAEK.Models
         public string ARASURUNRUHSATLI { get; set; }
         public string ARASOZETBILGI { get; set; }
         public string ARASTASARIM { get; set; }
+        public string GONULLU { get; set; }
+        public string GONULLUDOKUMANIDESTEKLEYICI { get; set; }
+        public string ILGILIDOKUMANTARIHI { get; set; }
+        public string ILGILIDOKUMANVERSION { get; set; }
 
     }
 

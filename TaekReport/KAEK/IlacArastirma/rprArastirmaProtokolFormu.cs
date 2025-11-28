@@ -10,10 +10,10 @@ namespace TaekReport.KAEK.IlacArastirma
 {
     public partial class rprArastirmaProtokolFormu : DevExpress.XtraReports.UI.XtraReport
     {
-        public rprArastirmaProtokolFormu(List<KlinikArastirmaBasvuruFormu> o)
+        public rprArastirmaProtokolFormu(List<ArastirmaProtokolFormu> o)
         {
             InitializeComponent();
-            objectDataSource1.DataSource = o; 
+            objectDataSource1.DataSource = o;
         }
 
     }

@@ -202,11 +202,13 @@
     <Compile Include="KAEK\IlacArastirma\rprUstBasvuruForm.Designer.cs">
       <DependentUpon>rprUstBasvuruForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\Models\ARASTIRMAPROTOKOLFORMU.cs" />
     <Compile Include="KAEK\Models\ARASTIRMAEKIBI.cs" />
     <Compile Include="KAEK\Models\BASVURUFORMU.cs" />
     <Compile Include="KAEK\Models\FAYDARISKDEGERLENDIRMEFORMU.cs" />
     <Compile Include="KAEK\Models\PEDIATRIKARASTIRMAPLANIFORMU.cs" />
     <Compile Include="KAEK\Models\KLINIKARASTIRMALARBASVURUFORMU.cs" />
+    <Compile Include="KAEK\Models\RaporModel\ArastirmaProtokolFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\PediatrikArastirmaPlaniFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\FaydaRiskDegerlendirmeFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\KlinikArastirmaBasvuruFormu.cs" />
