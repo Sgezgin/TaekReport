@@ -10,7 +10,7 @@ namespace TaekReport.KAEK.IlacArastirma
 {
     public partial class rprArastirmaButceFormu : DevExpress.XtraReports.UI.XtraReport
     {
-        public rprArastirmaButceFormu(List<ArastirmaButceFormu> o)
+        public rprArastirmaButceFormu(List<ArastirmaButceFormModel> o)
         {
             InitializeComponent();
             objectDataSource1.DataSource = o;

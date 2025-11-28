@@ -215,7 +215,7 @@
     <Compile Include="KAEK\Models\FAYDARISKDEGERLENDIRMEFORMU.cs" />
     <Compile Include="KAEK\Models\PEDIATRIKARASTIRMAPLANIFORMU.cs" />
     <Compile Include="KAEK\Models\KLINIKARASTIRMALARBASVURUFORMU.cs" />
-    <Compile Include="KAEK\Models\RaporModel\ArastirmaButceFormu.cs" />
+    <Compile Include="KAEK\Models\RaporModel\ArastirmaButceFormModel.cs" />
     <Compile Include="KAEK\Models\RaporModel\ArastirmaProtokolFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\PediatrikArastirmaPlaniFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\FaydaRiskDegerlendirmeFormu.cs" />

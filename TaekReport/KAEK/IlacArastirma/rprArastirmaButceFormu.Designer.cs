@@ -50,7 +50,7 @@
             // 
             // objectDataSource1
             // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.ArastirmaButceFormu);
+            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.ArastirmaButceFormModel);
             this.objectDataSource1.Name = "objectDataSource1";
             // 
             // rprArastirmaButceFormu

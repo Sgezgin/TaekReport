@@ -125,7 +125,7 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
-        public byte[] ArastirmaButceForm(List<ArastirmaButceFormu> list)
+        public byte[] ArastirmaButceForm(List<ArastirmaButceFormModel> list)
         {
             byte[] resultReport = null;
             try
