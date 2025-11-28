@@ -172,6 +172,12 @@
     <Compile Include="KAEK\ArastirmaProtokolu\frmArastirmaProtokolu.Designer.cs">
       <DependentUpon>frmArastirmaProtokolu.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\IlacArastirma\rprArastirmaButceFormu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\IlacArastirma\rprArastirmaButceFormu.Designer.cs">
+      <DependentUpon>rprArastirmaButceFormu.cs</DependentUpon>
+    </Compile>
     <Compile Include="KAEK\IlacArastirma\rprArastirmaProtokolFormu.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -202,12 +208,14 @@
     <Compile Include="KAEK\IlacArastirma\rprUstBasvuruForm.Designer.cs">
       <DependentUpon>rprUstBasvuruForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\Models\ARASTIRMABUTCEFORMU.cs" />
     <Compile Include="KAEK\Models\ARASTIRMAPROTOKOLFORMU.cs" />
     <Compile Include="KAEK\Models\ARASTIRMAEKIBI.cs" />
     <Compile Include="KAEK\Models\BASVURUFORMU.cs" />
     <Compile Include="KAEK\Models\FAYDARISKDEGERLENDIRMEFORMU.cs" />
     <Compile Include="KAEK\Models\PEDIATRIKARASTIRMAPLANIFORMU.cs" />
     <Compile Include="KAEK\Models\KLINIKARASTIRMALARBASVURUFORMU.cs" />
+    <Compile Include="KAEK\Models\RaporModel\ArastirmaButceFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\ArastirmaProtokolFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\PediatrikArastirmaPlaniFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\FaydaRiskDegerlendirmeFormu.cs" />
@@ -447,6 +455,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\ArastirmaProtokolu\frmArastirmaProtokolu.resx">
       <DependentUpon>frmArastirmaProtokolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KAEK\IlacArastirma\rprArastirmaButceFormu.resx">
+      <DependentUpon>rprArastirmaButceFormu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprArastirmaProtokolFormu.resx">
       <DependentUpon>rprArastirmaProtokolFormu.cs</DependentUpon>

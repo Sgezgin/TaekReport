@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace TaekReport.KAEK.Models.RaporModel
 {
-    public class PediatrikArastirmaPlaniFormu
+    public class ArastirmaButceFormu
     {
         public BASVURUFORMU BASVURUFORMU { get; set; }
         public List<ARASTIRMAEKIBI> listArastirmaEkibi { get; set; }
         public KLINIKARASTIRMALARBASVURUFORMU KlinikFormu { get; set; }
-        public PEDIATRIKARASTIRMAPLANIFORMU listPediatrikArastirmaPlaniFormu { get; set; }
-        public FAYDARISKDEGERLENDIRMEFORMU listFaydaRiskDegerlendirmeFormu { get; set; }
+        public ARASTIRMABUTCEFORMU listArastirmaButceFormu { get; set; }
     }
 }

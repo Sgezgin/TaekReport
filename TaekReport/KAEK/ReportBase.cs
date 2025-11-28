@@ -125,5 +125,27 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
+        public byte[] ArastirmaButceForm(List<ArastirmaButceFormu> list)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                IlacArastirma.rprArastirmaButceFormu rpr = new IlacArastirma.rprArastirmaButceFormu(list);
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.DataSource = list;
+                    rpr.ExportToPdf(ms);
+
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                var data = ex.Message;
+            }
+
+            return resultReport;
+        }
     }
 }
