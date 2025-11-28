@@ -117,6 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="xrTableCell43.Text" xml:space="preserve">
+    <value>Uluslararası araştırmalarda sadece Türkiye için ayrılan bütçe rakamını belirtiniz.
+Bu form, araştırma bütçe formunu imzalamaya yetkili kişiler tarafından imzalanmalıdır. Müşterek imza atılan durumlarda ilgili bölüm artırılabilir.
+Araştırmacı tarafından başlatılan araştırmalarda bu form araştırmacı tarafından imzalanmalıdır.
+Bir gönüllü için ayrılan toplam miktar değil tüm araştırma boyunca ülkemiz için ayrılan araştırmacı ödemeleri, merkez ödemeleri ve operasyonel giderlerin de dâhil olduğu toplam miktarın belirtilmesi gerekmektedir.
+Sadece toplam bütçe rakamı yazılmalıdır. Herhangi bir hesaplama (gönüllü sayısı, merkez üzerinden hesaplama gibi) yapılarak rakam belirtilmemelidir. 
+</value>
+  </data>
+  <data name="xrTableCell51.Text" xml:space="preserve">
+    <value>İş bu araştırma bütçe formuyla;
+•	Formda belirtilen bilgilerin doğru olduğunu,
+•	İlgili mevzuat uyarınca araştırmanın her türlü mali sorumlululuğunun üstlenildiğini,
+•	Formu imzalamaya yetkili olduğumu,
+	kabul, beyan ve taahhüt ederim
+</value>
+  </data>
   <metadata name="objectDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
