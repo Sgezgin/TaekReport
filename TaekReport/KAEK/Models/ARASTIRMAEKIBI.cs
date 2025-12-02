@@ -19,6 +19,9 @@ namespace TaekReport.KAEK.Models
         public long TCKIMLIKNO { get; set; }
         public string UZMANLIKALANI { get; set; }
         public string ISADRESI { get; set; }
+        public string ARASTIRMAGUID { get; set; }
+        public string EPOSTA { get; set; }
+        public string TELEFON { get; set; }
 
     }
 }
