@@ -196,6 +196,12 @@
     <Compile Include="KAEK\IlacArastirma\rprFaydaRiskDegerlendirmeForm.Designer.cs">
       <DependentUpon>rprFaydaRiskDegerlendirmeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\IlacArastirma\rprKararFormu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\IlacArastirma\rprKararFormu.Designer.cs">
+      <DependentUpon>rprKararFormu.cs</DependentUpon>
+    </Compile>
     <Compile Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruForm.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -478,6 +484,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprFaydaRiskDegerlendirmeForm.resx">
       <DependentUpon>rprFaydaRiskDegerlendirmeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KAEK\IlacArastirma\rprKararFormu.resx">
+      <DependentUpon>rprKararFormu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruForm.resx">
       <DependentUpon>rprKlinikArastirmaBasvuruForm.cs</DependentUpon>
