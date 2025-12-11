@@ -220,6 +220,7 @@
     <Compile Include="KAEK\IlacArastirma\rprUstBasvuruForm.Designer.cs">
       <DependentUpon>rprUstBasvuruForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\Models\DOSYABILGILERI.cs" />
     <Compile Include="KAEK\Models\ARASTIRMAGOREVALINANKLINIK.cs" />
     <Compile Include="KAEK\Models\ARASTIRMABUTCEFORMU.cs" />
     <Compile Include="KAEK\Models\ARASTIRMAISTECRUBE.cs" />
@@ -234,6 +235,7 @@
     <Compile Include="KAEK\Models\RaporModel\ArastirmaOzgecmisFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\ArastirmaButceFormModel.cs" />
     <Compile Include="KAEK\Models\RaporModel\ArastirmaProtokolFormu.cs" />
+    <Compile Include="KAEK\Models\RaporModel\KararFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\PediatrikArastirmaPlaniFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\FaydaRiskDegerlendirmeFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\KlinikArastirmaBasvuruFormu.cs" />
