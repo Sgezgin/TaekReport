@@ -26,5 +26,9 @@ namespace TaekReport.KAEK.Models
         public string BUTCEONAYLANMAMAACIKLAMA { get; set; }
 
         public string ARASTIRMABUTCESI { get; set; }
+        public string ADSOYAD { get; set; }
+        public string TELEFON { get; set; }
+        public string EPOSTA { get; set; }
+        public string TARIH { get; set; }
     }
 }
