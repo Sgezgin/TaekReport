@@ -170,5 +170,30 @@ namespace TaekReport.KAEK
 
             return resultReport;
         }
+
+        public byte[] KararForm(List<KararFormu> list)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                IlacArastirma.rprKararFormu rpr = new IlacArastirma.rprKararFormu(list);
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.DataSource = list;
+                    rpr.ExportToPdf(ms);
+
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                var data = ex.Message;
+            }
+
+            return resultReport;
+        }
+
+
     }
 }
