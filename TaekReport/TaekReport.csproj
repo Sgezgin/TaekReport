@@ -220,6 +220,8 @@
     <Compile Include="KAEK\IlacArastirma\rprUstBasvuruForm.Designer.cs">
       <DependentUpon>rprUstBasvuruForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\Models\BASVURUKARAR.cs" />
+    <Compile Include="KAEK\Models\BASVURUETIKKURULUYE.cs" />
     <Compile Include="KAEK\Models\DOSYABILGILERI.cs" />
     <Compile Include="KAEK\Models\ARASTIRMAGOREVALINANKLINIK.cs" />
     <Compile Include="KAEK\Models\ARASTIRMABUTCEFORMU.cs" />
