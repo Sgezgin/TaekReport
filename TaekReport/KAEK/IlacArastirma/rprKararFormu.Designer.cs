@@ -1956,6 +1956,7 @@
             this.DetailReport.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
             this.Detail1,
             this.GroupHeader1});
+            this.DetailReport.DataMember = "listUygunlukDegerlendirilenBelgeler";
             this.DetailReport.DataSource = this.objectDataSource1;
             this.DetailReport.Level = 0;
             this.DetailReport.Name = "DetailReport";
@@ -1996,6 +1997,8 @@
             // xrTableCell58
             // 
             this.xrTableCell58.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.xrTableCell58.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BELGEADI]")});
             this.xrTableCell58.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell58.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell58.Multiline = true;
@@ -2172,6 +2175,7 @@
             this.Detail2,
             this.GroupHeader2,
             this.DetailReport2});
+            this.DetailReport1.DataMember = "listGonulluDokumanlari";
             this.DetailReport1.Level = 1;
             this.DetailReport1.Name = "DetailReport1";
             // 
@@ -2211,6 +2215,8 @@
             // xrTableCell83
             // 
             this.xrTableCell83.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.xrTableCell83.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BELGEADI]")});
             this.xrTableCell83.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell83.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell83.Multiline = true;
@@ -2591,6 +2597,7 @@
             this.DetailReport3.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
             this.Detail4,
             this.GroupHeader4});
+            this.DetailReport3.DataMember = "listArastirmayaIliskinDegerlendirme";
             this.DetailReport3.Level = 0;
             this.DetailReport3.Name = "DetailReport3";
             // 
@@ -2627,6 +2634,8 @@
             // xrTableCell105
             // 
             this.xrTableCell105.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.xrTableCell105.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BELGEADI]")});
             this.xrTableCell105.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell105.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell105.Multiline = true;
