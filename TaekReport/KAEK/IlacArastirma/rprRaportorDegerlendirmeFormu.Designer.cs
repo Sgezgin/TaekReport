@@ -128,6 +128,7 @@
             this.xrTableRow21 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell50 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrRichText3 = new DevExpress.XtraReports.UI.XRRichText();
+            this.xrPictureBox1 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).BeginInit();
@@ -144,7 +145,7 @@
             this.TopMargin.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
             this.TopMargin.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable1});
-            this.TopMargin.HeightF = 123.9583F;
+            this.TopMargin.HeightF = 124F;
             this.TopMargin.Name = "TopMargin";
             this.TopMargin.StylePriority.UseBorders = false;
             // 
@@ -165,7 +166,7 @@
             this.xrTableCell2,
             this.xrTableCell3});
             this.xrTableRow1.Name = "xrTableRow1";
-            this.xrTableRow1.Weight = 0.86111111111111116D;
+            this.xrTableRow1.Weight = 0.84444471058288284D;
             // 
             // xrTableCell1
             // 
@@ -179,9 +180,9 @@
             // 
             this.xrPictureBox2.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrPictureBox2.ImageSource = new DevExpress.XtraPrinting.Drawing.ImageSource("img", resources.GetString("xrPictureBox2.ImageSource"));
-            this.xrPictureBox2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 1.589457E-05F);
+            this.xrPictureBox2.LocationFloat = new DevExpress.Utils.PointFloat(5.000093F, 3.000016F);
             this.xrPictureBox2.Name = "xrPictureBox2";
-            this.xrPictureBox2.SizeF = new System.Drawing.SizeF(104.7917F, 94.58331F);
+            this.xrPictureBox2.SizeF = new System.Drawing.SizeF(94.79154F, 86.87495F);
             this.xrPictureBox2.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
             this.xrPictureBox2.StylePriority.UseBorders = false;
             // 
@@ -200,6 +201,8 @@
             // 
             // xrTableCell3
             // 
+            this.xrTableCell3.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrPictureBox1});
             this.xrTableCell3.Multiline = true;
             this.xrTableCell3.Name = "xrTableCell3";
             this.xrTableCell3.Weight = 0.40822958219157179D;
@@ -209,7 +212,7 @@
             this.xrTableRow2.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell5});
             this.xrTableRow2.Name = "xrTableRow2";
-            this.xrTableRow2.Weight = 0.24074076334635425D;
+            this.xrTableRow2.Weight = 0.25740716387458251D;
             // 
             // xrTableCell5
             // 
@@ -226,7 +229,7 @@
             // 
             this.BottomMargin.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable4});
-            this.BottomMargin.HeightF = 53.545F;
+            this.BottomMargin.HeightF = 54F;
             this.BottomMargin.Name = "BottomMargin";
             // 
             // xrTable4
@@ -1463,6 +1466,16 @@
             this.xrRichText3.SizeF = new System.Drawing.SizeF(747.87F, 60.5F);
             this.xrRichText3.StylePriority.UseBorders = false;
             // 
+            // xrPictureBox1
+            // 
+            this.xrPictureBox1.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrPictureBox1.ImageSource = new DevExpress.XtraPrinting.Drawing.ImageSource("img", resources.GetString("xrPictureBox1.ImageSource"));
+            this.xrPictureBox1.LocationFloat = new DevExpress.Utils.PointFloat(5.00042F, 3.000016F);
+            this.xrPictureBox1.Name = "xrPictureBox1";
+            this.xrPictureBox1.SizeF = new System.Drawing.SizeF(94.91461F, 86.87495F);
+            this.xrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            this.xrPictureBox1.StylePriority.UseBorders = false;
+            // 
             // objectDataSource1
             // 
             this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.RaportorDegerlendirmeFormu);
@@ -1596,5 +1609,6 @@
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell50;
         private DevExpress.XtraReports.UI.XRRichText xrRichText3;
         private DevExpress.DataAccess.ObjectBinding.ObjectDataSource objectDataSource1;
+        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox1;
     }
 }
