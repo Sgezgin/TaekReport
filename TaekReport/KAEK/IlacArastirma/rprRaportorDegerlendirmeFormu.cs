@@ -10,7 +10,7 @@ namespace TaekReport.KAEK.IlacArastirma
 {
     public partial class rprRaportorDegerlendirmeFormu : DevExpress.XtraReports.UI.XtraReport
     {
-        public rprRaportorDegerlendirmeFormu(List<KlinikArastirmaBasvuruFormu> o)
+        public rprRaportorDegerlendirmeFormu(List<RaportorDegerlendirmeFormu> o)
         {
             InitializeComponent();
             objectDataSource1.DataSource = o;
