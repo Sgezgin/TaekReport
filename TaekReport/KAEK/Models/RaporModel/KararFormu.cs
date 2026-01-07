@@ -14,6 +14,7 @@ namespace TaekReport.KAEK.Models.RaporModel
         public BASVURUKARAR BasvuruKararFormu { get; set; }
         public List<DOSYABILGILERI> listUygunlukDegerlendirilenBelgeler{ get; set; }
         public List<DOSYABILGILERI> listGonulluDokumanlari { get; set; }
+        public List<DOSYABILGILERI> listDigerDokumanlar { get; set; }
         public List<DOSYABILGILERI> listArastirmayaIliskinDegerlendirme { get; set; }
         public List<BASVURUETIKKURULUYE> listEtikKurulUyeleri { get; set; }
     }

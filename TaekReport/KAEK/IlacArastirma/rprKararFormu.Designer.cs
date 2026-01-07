@@ -1965,18 +1965,18 @@
             // 
             this.Detail1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable3});
-            this.Detail1.HeightF = 50.62497F;
+            this.Detail1.HeightF = 58.04138F;
             this.Detail1.Name = "Detail1";
             // 
             // xrTable3
             // 
-            this.xrTable3.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrTable3.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 4F);
             this.xrTable3.Name = "xrTable3";
             this.xrTable3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable3.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow37,
             this.xrTableRow38});
-            this.xrTable3.SizeF = new System.Drawing.SizeF(797F, 50F);
+            this.xrTable3.SizeF = new System.Drawing.SizeF(774.9998F, 50F);
             // 
             // xrTableRow37
             // 
@@ -2009,13 +2009,13 @@
             this.xrTableCell58.StylePriority.UseTextAlignment = false;
             this.xrTableCell58.Text = "Araştırma Protokolü";
             this.xrTableCell58.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            this.xrTableCell58.Weight = 0.56760993372963453D;
+            this.xrTableCell58.Weight = 0.58372268845895492D;
             // 
             // xrTableCell65
             // 
             this.xrTableCell65.Multiline = true;
             this.xrTableCell65.Name = "xrTableCell65";
-            this.xrTableCell65.Weight = 0.0566037791301822D;
+            this.xrTableCell65.Weight = 0.040491024400861782D;
             // 
             // xrTableCell70
             // 
@@ -2130,7 +2130,7 @@
             // 
             this.GroupHeader1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable4});
-            this.GroupHeader1.HeightF = 28.16683F;
+            this.GroupHeader1.HeightF = 34.08368F;
             this.GroupHeader1.Name = "GroupHeader1";
             // 
             // xrTable4
@@ -2183,18 +2183,18 @@
             // 
             this.Detail2.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable6});
-            this.Detail2.HeightF = 50.25012F;
+            this.Detail2.HeightF = 60.70824F;
             this.Detail2.Name = "Detail2";
             // 
             // xrTable6
             // 
-            this.xrTable6.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrTable6.LocationFloat = new DevExpress.Utils.PointFloat(9.999974F, 5F);
             this.xrTable6.Name = "xrTable6";
             this.xrTable6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable6.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow39,
             this.xrTableRow42});
-            this.xrTable6.SizeF = new System.Drawing.SizeF(797F, 50F);
+            this.xrTable6.SizeF = new System.Drawing.SizeF(774.9999F, 50F);
             // 
             // xrTableRow39
             // 
@@ -2227,13 +2227,13 @@
             this.xrTableCell83.StylePriority.UseTextAlignment = false;
             this.xrTableCell83.Text = "Gönüllü Kartı";
             this.xrTableCell83.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            this.xrTableCell83.Weight = 0.56760993372963453D;
+            this.xrTableCell83.Weight = 0.58372315845134959D;
             // 
             // xrTableCell84
             // 
             this.xrTableCell84.Multiline = true;
             this.xrTableCell84.Name = "xrTableCell84";
-            this.xrTableCell84.Weight = 0.0566037791301822D;
+            this.xrTableCell84.Weight = 0.040490554408467119D;
             // 
             // xrTableCell86
             // 
@@ -2348,7 +2348,7 @@
             // 
             this.GroupHeader2.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable5});
-            this.GroupHeader2.HeightF = 25.83326F;
+            this.GroupHeader2.HeightF = 32.29154F;
             this.GroupHeader2.Name = "GroupHeader2";
             // 
             // xrTable5
@@ -2388,6 +2388,7 @@
             this.Detail3,
             this.GroupHeader3,
             this.DetailReport3});
+            this.DetailReport2.DataSource = this.objectDataSource1;
             this.DetailReport2.Level = 0;
             this.DetailReport2.Name = "DetailReport2";
             // 
@@ -2395,18 +2396,18 @@
             // 
             this.Detail3.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable8});
-            this.Detail3.HeightF = 50.16658F;
+            this.Detail3.HeightF = 58.75041F;
             this.Detail3.Name = "Detail3";
             // 
             // xrTable8
             // 
-            this.xrTable8.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrTable8.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 4F);
             this.xrTable8.Name = "xrTable8";
             this.xrTable8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable8.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow43,
             this.xrTableRow44});
-            this.xrTable8.SizeF = new System.Drawing.SizeF(797F, 50F);
+            this.xrTable8.SizeF = new System.Drawing.SizeF(774.9998F, 50F);
             // 
             // xrTableRow43
             // 
@@ -2427,6 +2428,8 @@
             // xrTableCell79
             // 
             this.xrTableCell79.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.xrTableCell79.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[listDigerDokumanlar].[BELGEADI]")});
             this.xrTableCell79.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell79.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell79.Multiline = true;
@@ -2435,15 +2438,14 @@
             this.xrTableCell79.StylePriority.UseFont = false;
             this.xrTableCell79.StylePriority.UseForeColor = false;
             this.xrTableCell79.StylePriority.UseTextAlignment = false;
-            this.xrTableCell79.Text = "Yıllık Bildirim";
             this.xrTableCell79.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            this.xrTableCell79.Weight = 0.56760993372963453D;
+            this.xrTableCell79.Weight = 0.58372268845895492D;
             // 
             // xrTableCell81
             // 
             this.xrTableCell81.Multiline = true;
             this.xrTableCell81.Name = "xrTableCell81";
-            this.xrTableCell81.Weight = 0.0566037791301822D;
+            this.xrTableCell81.Weight = 0.040491024400861782D;
             // 
             // xrTableCell95
             // 
@@ -2598,6 +2600,7 @@
             this.Detail4,
             this.GroupHeader4});
             this.DetailReport3.DataMember = "listArastirmayaIliskinDegerlendirme";
+            this.DetailReport3.DataSource = this.objectDataSource1;
             this.DetailReport3.Level = 0;
             this.DetailReport3.Name = "DetailReport3";
             // 
@@ -2605,19 +2608,19 @@
             // 
             this.Detail4.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable10});
-            this.Detail4.HeightF = 75F;
+            this.Detail4.HeightF = 81.99984F;
             this.Detail4.Name = "Detail4";
             // 
             // xrTable10
             // 
-            this.xrTable10.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrTable10.LocationFloat = new DevExpress.Utils.PointFloat(9.999974F, 3F);
             this.xrTable10.Name = "xrTable10";
             this.xrTable10.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable10.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow46,
             this.xrTableRow48,
             this.xrTableRow47});
-            this.xrTable10.SizeF = new System.Drawing.SizeF(797F, 75F);
+            this.xrTable10.SizeF = new System.Drawing.SizeF(774.9999F, 75F);
             // 
             // xrTableRow46
             // 
