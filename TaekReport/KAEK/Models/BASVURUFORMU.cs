@@ -23,6 +23,7 @@ namespace TaekReport.KAEK.Models
         public string ARASTIRMAADI { get; set; }
         public string SORUMLUARASTIRMACI { get; set; }
         public string KURUMANABILIMDALI { get; set; }
+        public string BILIMDALIGUID { get; set; }
         public string ARASTIRMANITELIGIFAZ { get; set; }
 
         public string DESTEKLEYICI { get; set; }
@@ -31,6 +32,7 @@ namespace TaekReport.KAEK.Models
         public string ARASTIRMASURESI { get; set; }
         public string GONULLUYASARALIGI { get; set; }
         public string ACIKLAMA { get; set; }
-        
+        public string ARASTIRMABUTCESI { get; set; }
+
     }
 }
