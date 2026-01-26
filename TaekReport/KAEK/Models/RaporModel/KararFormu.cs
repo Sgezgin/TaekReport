@@ -14,6 +14,7 @@ namespace TaekReport.KAEK.Models.RaporModel
         public BASVURUKARAR BasvuruKararFormu { get; set; }
         public ARASTIRMAPROTOKOLFORMU ArastirmaProtokolFormu { get; set; }
         public List<DOSYABILGILERI> listBGOF { get; set; }
+        public FAYDARISKDEGERLENDIRMEFORMU FaydaRiskDegerlendirmeForm { get; set; }
         public List<DOSYABILGILERI> listArastirmaciBrosuru { get; set; }
         public List<DOSYABILGILERI> listArastirmaUrunDosyasi { get; set; }
         public List<DOSYABILGILERI> listOlguRaporFormu { get; set; }

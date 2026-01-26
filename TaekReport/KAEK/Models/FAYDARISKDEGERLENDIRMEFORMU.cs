@@ -29,7 +29,9 @@ namespace TaekReport.KAEK.Models
         public string GONULLUDOKUMANIDESTEKLEYICI { get; set; }
         public string ILGILIDOKUMANTARIHI { get; set; }
         public string ILGILIDOKUMANVERSION { get; set; }
-
+        public string DIL { get; set; }
+        public string UYGUN { get; set; }
+        public string UYGUNDEGIL { get; set; }
     }
 
 }
