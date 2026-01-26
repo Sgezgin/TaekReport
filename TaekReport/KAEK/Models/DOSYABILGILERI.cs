@@ -23,6 +23,9 @@ namespace TaekReport.KAEK.Models
         public string BELGEADI { get; set; }
         public string BELGEYOLU { get; set; }
         public string BELGETURU { get; set; }
+        public string UYGUN { get; set; }
+        public string UYGUNDEGIL { get; set; }
+        public string DIL { get; set; }
 
     }
 }

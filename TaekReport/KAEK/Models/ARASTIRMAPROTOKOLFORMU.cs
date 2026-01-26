@@ -50,5 +50,11 @@ namespace TaekReport.KAEK.Models
         public string ARSIVLEME { get; set; }
         public string KAYNAKLAR { get; set; }
 
+        public string TARIH { get; set; }
+        public string VERSIYON { get; set; }
+        public string DIL { get; set; }
+        public string UYGUN { get; set; }
+        public string UYGUNDEGIL { get; set; }
+
     }
 }

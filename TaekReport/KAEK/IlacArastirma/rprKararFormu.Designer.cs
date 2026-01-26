@@ -150,7 +150,9 @@
             this.xrTableCell75 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell76 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell77 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrCheckBox1 = new DevExpress.XtraReports.UI.XRCheckBox();
             this.xrTableCell78 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrCheckBox2 = new DevExpress.XtraReports.UI.XRCheckBox();
             this.xrTableRow38 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell80 = new DevExpress.XtraReports.UI.XRTableCell();
             this.GroupHeader1 = new DevExpress.XtraReports.UI.GroupHeaderBand();
@@ -170,10 +172,11 @@
             this.xrTableCell261 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell262 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell263 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrCheckBox3 = new DevExpress.XtraReports.UI.XRCheckBox();
             this.xrTableCell264 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrCheckBox4 = new DevExpress.XtraReports.UI.XRCheckBox();
             this.xrTableRow90 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell265 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.DetailReport6 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail8 = new DevExpress.XtraReports.UI.DetailBand();
             this.xrTable19 = new DevExpress.XtraReports.UI.XRTable();
@@ -780,12 +783,14 @@
             this.xrTableCell150 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell151 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell152 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
+            this.xrCheckBox5 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.xrCheckBox6 = new DevExpress.XtraReports.UI.XRCheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable34)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable33)).BeginInit();
@@ -818,6 +823,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -829,6 +835,7 @@
             // 
             // xrTable1
             // 
+            this.xrTable1.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTable1.LocationFloat = new DevExpress.Utils.PointFloat(10.00004F, 10.00001F);
             this.xrTable1.Name = "xrTable1";
             this.xrTable1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -837,6 +844,7 @@
             this.xrTableRow2,
             this.xrTableRow3});
             this.xrTable1.SizeF = new System.Drawing.SizeF(774.9999F, 93.54166F);
+            this.xrTable1.StylePriority.UseFont = false;
             // 
             // xrTableRow1
             // 
@@ -872,7 +880,7 @@
             // 
             this.xrTableCell5.BorderColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell5.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Right | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic);
+            this.xrTableCell5.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Italic);
             this.xrTableCell5.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell5.Multiline = true;
             this.xrTableCell5.Name = "xrTableCell5";
@@ -911,7 +919,7 @@
             // 
             this.xrTableCell8.BorderColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell8.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Right | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic);
+            this.xrTableCell8.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Italic);
             this.xrTableCell8.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell8.Multiline = true;
             this.xrTableCell8.Name = "xrTableCell8";
@@ -949,6 +957,7 @@
             // 
             // xrTable2
             // 
+            this.xrTable2.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(10.00004F, 0F);
             this.xrTable2.Name = "xrTable2";
             this.xrTable2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -986,6 +995,7 @@
             this.xrTableRow34,
             this.xrTableRow40});
             this.xrTable2.SizeF = new System.Drawing.SizeF(774.9999F, 907.9167F);
+            this.xrTable2.StylePriority.UseFont = false;
             // 
             // xrTableRow4
             // 
@@ -1126,7 +1136,7 @@
             this.xrTableCell1.StylePriority.UseTextAlignment = false;
             this.xrTableCell1.Text = "   Açık Adresi";
             this.xrTableCell1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.BottomLeft;
-            this.xrTableCell1.Weight = 1.0604836394660124D;
+            this.xrTableCell1.Weight = 1.0552418016002996D;
             // 
             // xrTableCell2
             // 
@@ -1143,7 +1153,7 @@
             this.xrTableCell2.StylePriority.UseTextAlignment = false;
             this.xrTableCell2.Text = "Telefon";
             this.xrTableCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.BottomLeft;
-            this.xrTableCell2.Weight = 0.96975818026699367D;
+            this.xrTableCell2.Weight = 0.97500001813270643D;
             // 
             // xrTableCell14
             // 
@@ -1323,7 +1333,7 @@
             this.xrTableCell22.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell22.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrTableCell22.BorderWidth = 2F;
-            this.xrTableCell22.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell22.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell22.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell22.Multiline = true;
             this.xrTableCell22.Name = "xrTableCell22";
@@ -1352,7 +1362,7 @@
             this.xrTableCell23.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell23.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrTableCell23.BorderWidth = 2F;
-            this.xrTableCell23.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell23.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Bold);
             this.xrTableCell23.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell23.Multiline = true;
             this.xrTableCell23.Name = "xrTableCell23";
@@ -1397,7 +1407,7 @@
             this.xrTableCell25.BorderWidth = 2F;
             this.xrTableCell25.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KlinikFormu].[EKLEMETARIH]")});
-            this.xrTableCell25.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell25.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell25.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell25.Multiline = true;
             this.xrTableCell25.Name = "xrTableCell25";
@@ -1453,7 +1463,7 @@
             this.xrTableCell32.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell32.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrTableCell32.BorderWidth = 2F;
-            this.xrTableCell32.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell32.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Bold);
             this.xrTableCell32.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell32.Multiline = true;
             this.xrTableCell32.Name = "xrTableCell32";
@@ -1498,7 +1508,7 @@
             this.xrTableCell34.BorderWidth = 2F;
             this.xrTableCell34.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[SORUMLUARASTIRMACI]")});
-            this.xrTableCell34.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell34.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell34.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell34.Multiline = true;
             this.xrTableCell34.Name = "xrTableCell34";
@@ -1554,7 +1564,7 @@
             this.xrTableCell35.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell35.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrTableCell35.BorderWidth = 2F;
-            this.xrTableCell35.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell35.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Bold);
             this.xrTableCell35.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell35.Multiline = true;
             this.xrTableCell35.Name = "xrTableCell35";
@@ -1599,7 +1609,7 @@
             this.xrTableCell37.BorderWidth = 2F;
             this.xrTableCell37.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[KURUMANABILIMDALI]")});
-            this.xrTableCell37.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell37.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell37.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell37.Multiline = true;
             this.xrTableCell37.Name = "xrTableCell37";
@@ -1655,7 +1665,7 @@
             this.xrTableCell26.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell26.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrTableCell26.BorderWidth = 2F;
-            this.xrTableCell26.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell26.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Bold);
             this.xrTableCell26.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell26.Multiline = true;
             this.xrTableCell26.Name = "xrTableCell26";
@@ -1700,7 +1710,7 @@
             this.xrTableCell29.BorderWidth = 2F;
             this.xrTableCell29.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[BILIMDALIGUID]")});
-            this.xrTableCell29.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell29.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell29.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell29.Multiline = true;
             this.xrTableCell29.Name = "xrTableCell29";
@@ -1756,7 +1766,7 @@
             this.xrTableCell41.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell41.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrTableCell41.BorderWidth = 2F;
-            this.xrTableCell41.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell41.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Bold);
             this.xrTableCell41.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell41.Multiline = true;
             this.xrTableCell41.Name = "xrTableCell41";
@@ -1801,7 +1811,7 @@
             this.xrTableCell43.BorderWidth = 2F;
             this.xrTableCell43.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[DESTEKLEYICI]")});
-            this.xrTableCell43.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell43.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell43.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell43.Multiline = true;
             this.xrTableCell43.Name = "xrTableCell43";
@@ -1857,7 +1867,7 @@
             this.xrTableCell45.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell45.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrTableCell45.BorderWidth = 2F;
-            this.xrTableCell45.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell45.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Bold);
             this.xrTableCell45.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell45.Multiline = true;
             this.xrTableCell45.Name = "xrTableCell45";
@@ -1902,7 +1912,7 @@
             this.xrTableCell47.BorderWidth = 2F;
             this.xrTableCell47.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[DESTEKLEYICITEMSILCI]")});
-            this.xrTableCell47.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell47.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell47.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell47.Multiline = true;
             this.xrTableCell47.Name = "xrTableCell47";
@@ -1958,7 +1968,7 @@
             this.xrTableCell49.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell49.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrTableCell49.BorderWidth = 2F;
-            this.xrTableCell49.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell49.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Bold);
             this.xrTableCell49.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell49.Multiline = true;
             this.xrTableCell49.Name = "xrTableCell49";
@@ -2003,7 +2013,7 @@
             this.xrTableCell51.BorderWidth = 2F;
             this.xrTableCell51.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KlinikFormu].[SOZLEMELIARASTIRMAKURULUS]")});
-            this.xrTableCell51.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell51.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell51.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell51.Multiline = true;
             this.xrTableCell51.Name = "xrTableCell51";
@@ -2060,7 +2070,7 @@
             this.xrTableCell53.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell53.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrTableCell53.BorderWidth = 2F;
-            this.xrTableCell53.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell53.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Bold);
             this.xrTableCell53.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell53.Multiline = true;
             this.xrTableCell53.Name = "xrTableCell53";
@@ -2105,7 +2115,7 @@
             this.xrTableCell55.BorderWidth = 2F;
             this.xrTableCell55.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[KULLANICI]")});
-            this.xrTableCell55.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell55.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell55.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell55.Multiline = true;
             this.xrTableCell55.Name = "xrTableCell55";
@@ -2128,7 +2138,7 @@
             this.xrTableCell31.BorderWidth = 2F;
             this.xrTableCell31.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[KULLANICIFIRMA]")});
-            this.xrTableCell31.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell31.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell31.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell31.Multiline = true;
             this.xrTableCell31.Name = "xrTableCell31";
@@ -2184,7 +2194,7 @@
             this.xrTableCell52.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell52.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrTableCell52.BorderWidth = 2F;
-            this.xrTableCell52.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell52.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Bold);
             this.xrTableCell52.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell52.Multiline = true;
             this.xrTableCell52.Name = "xrTableCell52";
@@ -2229,7 +2239,7 @@
             this.xrTableCell61.BorderWidth = 2F;
             this.xrTableCell61.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[ARASTIRMANITELIGIFAZ]")});
-            this.xrTableCell61.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell61.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell61.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell61.Multiline = true;
             this.xrTableCell61.Name = "xrTableCell61";
@@ -2285,7 +2295,7 @@
             this.xrTableCell62.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell62.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrTableCell62.BorderWidth = 2F;
-            this.xrTableCell62.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell62.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Bold);
             this.xrTableCell62.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell62.Multiline = true;
             this.xrTableCell62.Name = "xrTableCell62";
@@ -2330,7 +2340,7 @@
             this.xrTableCell64.BorderWidth = 2F;
             this.xrTableCell64.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KlinikFormu].[YARDIMCIBESERITIBBIURUNTURU]")});
-            this.xrTableCell64.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell64.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell64.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell64.Multiline = true;
             this.xrTableCell64.Name = "xrTableCell64";
@@ -2386,7 +2396,7 @@
             this.xrTableCell66.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell66.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrTableCell66.BorderWidth = 2F;
-            this.xrTableCell66.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell66.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Bold);
             this.xrTableCell66.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell66.Multiline = true;
             this.xrTableCell66.Name = "xrTableCell66";
@@ -2431,7 +2441,7 @@
             this.xrTableCell68.BorderWidth = 2F;
             this.xrTableCell68.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KlinikFormu].[ARASTIRMASTATUSU]")});
-            this.xrTableCell68.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTableCell68.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell68.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell68.Multiline = true;
             this.xrTableCell68.Name = "xrTableCell68";
@@ -2489,11 +2499,12 @@
             // 
             this.Detail1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable3});
-            this.Detail1.HeightF = 58.29086F;
+            this.Detail1.HeightF = 58.4156F;
             this.Detail1.Name = "Detail1";
             // 
             // xrTable3
             // 
+            this.xrTable3.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTable3.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 3.999964F);
             this.xrTable3.Name = "xrTable3";
             this.xrTable3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -2501,6 +2512,7 @@
             this.xrTableRow37,
             this.xrTableRow38});
             this.xrTable3.SizeF = new System.Drawing.SizeF(774.9998F, 50F);
+            this.xrTable3.StylePriority.UseFont = false;
             // 
             // xrTableRow37
             // 
@@ -2521,7 +2533,7 @@
             // xrTableCell58
             // 
             this.xrTableCell58.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.xrTableCell58.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell58.Font = new System.Drawing.Font("Arial", 8.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell58.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell58.Multiline = true;
             this.xrTableCell58.Name = "xrTableCell58";
@@ -2547,7 +2559,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell70.BorderWidth = 2F;
             this.xrTableCell70.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[ARASTIRMAPROTOKOLKODU]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ArastirmaProtokolFormu].[TARIH]")});
             this.xrTableCell70.Multiline = true;
             this.xrTableCell70.Name = "xrTableCell70";
             this.xrTableCell70.StylePriority.UseBorderColor = false;
@@ -2569,7 +2581,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell74.BorderWidth = 2F;
             this.xrTableCell74.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[ARASTIRMAADI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ArastirmaProtokolFormu].[VERSIYON]")});
             this.xrTableCell74.Multiline = true;
             this.xrTableCell74.Name = "xrTableCell74";
             this.xrTableCell74.StylePriority.UseBorderColor = false;
@@ -2591,7 +2603,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell75.BorderWidth = 2F;
             this.xrTableCell75.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[ARASTIRMANITELIGIFAZ]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ArastirmaProtokolFormu].[DIL]")});
             this.xrTableCell75.Multiline = true;
             this.xrTableCell75.Name = "xrTableCell75";
             this.xrTableCell75.StylePriority.UseBorderColor = false;
@@ -2610,7 +2622,9 @@
             this.xrTableCell77.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell77.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell77.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell77.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrCheckBox1});
+            this.xrTableCell77.Font = new System.Drawing.Font("Tahoma", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell77.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell77.Multiline = true;
             this.xrTableCell77.Name = "xrTableCell77";
@@ -2619,16 +2633,31 @@
             this.xrTableCell77.StylePriority.UseFont = false;
             this.xrTableCell77.StylePriority.UseForeColor = false;
             this.xrTableCell77.StylePriority.UseTextAlignment = false;
-            this.xrTableCell77.Text = "Uygun ☐";
             this.xrTableCell77.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell77.Weight = 0.28914203785525028D;
+            // 
+            // xrCheckBox1
+            // 
+            this.xrCheckBox1.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[ArastirmaProtokolFormu].[UYGUN]")});
+            this.xrCheckBox1.Font = new System.Drawing.Font("Tahoma", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrCheckBox1.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
+            this.xrCheckBox1.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
+            this.xrCheckBox1.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 2F);
+            this.xrCheckBox1.Name = "xrCheckBox1";
+            this.xrCheckBox1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrCheckBox1.SizeF = new System.Drawing.SizeF(67.81006F, 21.875F);
+            this.xrCheckBox1.StylePriority.UseFont = false;
+            this.xrCheckBox1.Text = "Uygun";
             // 
             // xrTableCell78
             // 
             this.xrTableCell78.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell78.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell78.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell78.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrCheckBox2});
+            this.xrTableCell78.Font = new System.Drawing.Font("Tahoma", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell78.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell78.Multiline = true;
             this.xrTableCell78.Name = "xrTableCell78";
@@ -2637,9 +2666,22 @@
             this.xrTableCell78.StylePriority.UseFont = false;
             this.xrTableCell78.StylePriority.UseForeColor = false;
             this.xrTableCell78.StylePriority.UseTextAlignment = false;
-            this.xrTableCell78.Text = "Uygun Değil ☐   ";
             this.xrTableCell78.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell78.Weight = 0.423010503955355D;
+            // 
+            // xrCheckBox2
+            // 
+            this.xrCheckBox2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[ArastirmaProtokolFormu].[UYGUNDEGIL]")});
+            this.xrCheckBox2.Font = new System.Drawing.Font("Tahoma", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrCheckBox2.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
+            this.xrCheckBox2.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
+            this.xrCheckBox2.LocationFloat = new DevExpress.Utils.PointFloat(4F, 1.99996F);
+            this.xrCheckBox2.Name = "xrCheckBox2";
+            this.xrCheckBox2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrCheckBox2.SizeF = new System.Drawing.SizeF(106.5433F, 20.79169F);
+            this.xrCheckBox2.StylePriority.UseFont = false;
+            this.xrCheckBox2.Text = "Uygun Değil";
             // 
             // xrTableRow38
             // 
@@ -2652,6 +2694,7 @@
             // 
             this.xrTableCell80.Multiline = true;
             this.xrTableCell80.Name = "xrTableCell80";
+            this.xrTableCell80.StylePriority.UseFont = false;
             this.xrTableCell80.Weight = 2.8798946859787722D;
             // 
             // GroupHeader1
@@ -2663,12 +2706,14 @@
             // 
             // xrTable4
             // 
+            this.xrTable4.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTable4.LocationFloat = new DevExpress.Utils.PointFloat(10.00004F, 0F);
             this.xrTable4.Name = "xrTable4";
             this.xrTable4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable4.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow35});
             this.xrTable4.SizeF = new System.Drawing.SizeF(774.9998F, 25F);
+            this.xrTable4.StylePriority.UseFont = false;
             // 
             // xrTableRow35
             // 
@@ -2705,11 +2750,12 @@
             // 
             this.Detail7.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable18});
-            this.Detail7.HeightF = 90.58399F;
+            this.Detail7.HeightF = 90.62646F;
             this.Detail7.Name = "Detail7";
             // 
             // xrTable18
             // 
+            this.xrTable18.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTable18.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 3.999964F);
             this.xrTable18.Name = "xrTable18";
             this.xrTable18.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -2717,6 +2763,7 @@
             this.xrTableRow89,
             this.xrTableRow90});
             this.xrTable18.SizeF = new System.Drawing.SizeF(774.9998F, 80F);
+            this.xrTable18.StylePriority.UseFont = false;
             // 
             // xrTableRow89
             // 
@@ -2737,7 +2784,9 @@
             // xrTableCell213
             // 
             this.xrTableCell213.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.xrTableCell213.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell213.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "\'Bilgilendirilmiş Gönüllü Olur Formu (BGOF) - \' + [ACIKLAMA]")});
+            this.xrTableCell213.Font = new System.Drawing.Font("Arial", 8.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell213.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell213.Multiline = true;
             this.xrTableCell213.Name = "xrTableCell213";
@@ -2745,7 +2794,6 @@
             this.xrTableCell213.StylePriority.UseFont = false;
             this.xrTableCell213.StylePriority.UseForeColor = false;
             this.xrTableCell213.StylePriority.UseTextAlignment = false;
-            this.xrTableCell213.Text = "Bilgilendirilmiş Gönüllü Olur Formu (BGOF)  ";
             this.xrTableCell213.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell213.Weight = 0.58372268845895492D;
             // 
@@ -2763,7 +2811,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell215.BorderWidth = 2F;
             this.xrTableCell215.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[EKLEMETARIH]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TARIH]")});
             this.xrTableCell215.Multiline = true;
             this.xrTableCell215.Name = "xrTableCell215";
             this.xrTableCell215.StylePriority.UseBorderColor = false;
@@ -2807,7 +2855,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell261.BorderWidth = 2F;
             this.xrTableCell261.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BELGEADI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DIL]")});
             this.xrTableCell261.Multiline = true;
             this.xrTableCell261.Name = "xrTableCell261";
             this.xrTableCell261.StylePriority.UseBorderColor = false;
@@ -2826,7 +2874,9 @@
             this.xrTableCell263.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell263.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell263.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell263.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrCheckBox3});
+            this.xrTableCell263.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell263.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell263.Multiline = true;
             this.xrTableCell263.Name = "xrTableCell263";
@@ -2835,16 +2885,31 @@
             this.xrTableCell263.StylePriority.UseFont = false;
             this.xrTableCell263.StylePriority.UseForeColor = false;
             this.xrTableCell263.StylePriority.UseTextAlignment = false;
-            this.xrTableCell263.Text = "Uygun ☐";
             this.xrTableCell263.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell263.Weight = 0.28914203785525028D;
+            // 
+            // xrCheckBox3
+            // 
+            this.xrCheckBox3.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[UYGUN]")});
+            this.xrCheckBox3.Font = new System.Drawing.Font("Tahoma", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrCheckBox3.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
+            this.xrCheckBox3.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
+            this.xrCheckBox3.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox3.Name = "xrCheckBox3";
+            this.xrCheckBox3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox3.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox3.StylePriority.UseFont = false;
+            this.xrCheckBox3.Text = "Uygun";
             // 
             // xrTableCell264
             // 
             this.xrTableCell264.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell264.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell264.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell264.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrCheckBox4});
+            this.xrTableCell264.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell264.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell264.Multiline = true;
             this.xrTableCell264.Name = "xrTableCell264";
@@ -2853,9 +2918,22 @@
             this.xrTableCell264.StylePriority.UseFont = false;
             this.xrTableCell264.StylePriority.UseForeColor = false;
             this.xrTableCell264.StylePriority.UseTextAlignment = false;
-            this.xrTableCell264.Text = "Uygun Değil ☐   ";
             this.xrTableCell264.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell264.Weight = 0.423010503955355D;
+            // 
+            // xrCheckBox4
+            // 
+            this.xrCheckBox4.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[UYGUNDEGIL]")});
+            this.xrCheckBox4.Font = new System.Drawing.Font("Tahoma", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrCheckBox4.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
+            this.xrCheckBox4.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
+            this.xrCheckBox4.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox4.Name = "xrCheckBox4";
+            this.xrCheckBox4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox4.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox4.StylePriority.UseFont = false;
+            this.xrCheckBox4.Text = "Uygun Değil";
             // 
             // xrTableRow90
             // 
@@ -2869,11 +2947,6 @@
             this.xrTableCell265.Multiline = true;
             this.xrTableCell265.Name = "xrTableCell265";
             this.xrTableCell265.Weight = 2.8798946859787722D;
-            // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.KararFormu);
-            this.objectDataSource1.Name = "objectDataSource1";
             // 
             // DetailReport6
             // 
@@ -2896,6 +2969,7 @@
             // 
             // xrTable19
             // 
+            this.xrTable19.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTable19.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 3.999964F);
             this.xrTable19.Name = "xrTable19";
             this.xrTable19.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -2903,6 +2977,7 @@
             this.xrTableRow91,
             this.xrTableRow94});
             this.xrTable19.SizeF = new System.Drawing.SizeF(774.9998F, 79.99999F);
+            this.xrTable19.StylePriority.UseFont = false;
             // 
             // xrTableRow91
             // 
@@ -2923,7 +2998,7 @@
             // xrTableCell266
             // 
             this.xrTableCell266.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.xrTableCell266.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell266.Font = new System.Drawing.Font("Arial", 8.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell266.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell266.Multiline = true;
             this.xrTableCell266.Name = "xrTableCell266";
@@ -3006,7 +3081,7 @@
             this.xrTableCell274.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell274.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell274.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell274.Font = new System.Drawing.Font("Tahoma", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell274.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell274.Multiline = true;
             this.xrTableCell274.Name = "xrTableCell274";
@@ -3024,7 +3099,7 @@
             this.xrTableCell275.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell275.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell275.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell275.Font = new System.Drawing.Font("Tahoma", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell275.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell275.Multiline = true;
             this.xrTableCell275.Name = "xrTableCell275";
@@ -3078,6 +3153,7 @@
             // 
             // xrTable34
             // 
+            this.xrTable34.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTable34.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 0F);
             this.xrTable34.Name = "xrTable34";
             this.xrTable34.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -3085,6 +3161,7 @@
             this.xrTableRow112,
             this.xrTableRow92});
             this.xrTable34.SizeF = new System.Drawing.SizeF(774.9998F, 80F);
+            this.xrTable34.StylePriority.UseFont = false;
             // 
             // xrTableRow112
             // 
@@ -3105,7 +3182,9 @@
             // xrTableCell377
             // 
             this.xrTableCell377.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.xrTableCell377.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell377.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", " \'Araştırmacı Broşürü (AB) - \' + [ACIKLAMA]")});
+            this.xrTableCell377.Font = new System.Drawing.Font("Arial", 8.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell377.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell377.Multiline = true;
             this.xrTableCell377.Name = "xrTableCell377";
@@ -3113,7 +3192,6 @@
             this.xrTableCell377.StylePriority.UseFont = false;
             this.xrTableCell377.StylePriority.UseForeColor = false;
             this.xrTableCell377.StylePriority.UseTextAlignment = false;
-            this.xrTableCell377.Text = "Araştırmacı Broşürü (AB)";
             this.xrTableCell377.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell377.Weight = 0.58372268845895492D;
             // 
@@ -3131,7 +3209,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell379.BorderWidth = 2F;
             this.xrTableCell379.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[EKLEMETARIH]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TARIH]")});
             this.xrTableCell379.Multiline = true;
             this.xrTableCell379.Name = "xrTableCell379";
             this.xrTableCell379.StylePriority.UseBorderColor = false;
@@ -3153,7 +3231,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell381.BorderWidth = 2F;
             this.xrTableCell381.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "\'Versiyon: \' + [VERSION] + \n\' Belge Adı: \' + [BELGEADI]\n")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[VERSION]")});
             this.xrTableCell381.Multiline = true;
             this.xrTableCell381.Name = "xrTableCell381";
             this.xrTableCell381.StylePriority.UseBorderColor = false;
@@ -3175,7 +3253,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell383.BorderWidth = 2F;
             this.xrTableCell383.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ACIKLAMA]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DIL]")});
             this.xrTableCell383.Multiline = true;
             this.xrTableCell383.Name = "xrTableCell383";
             this.xrTableCell383.StylePriority.UseBorderColor = false;
@@ -3194,6 +3272,8 @@
             this.xrTableCell385.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell385.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTableCell385.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrCheckBox5});
             this.xrTableCell385.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell385.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell385.Multiline = true;
@@ -3203,7 +3283,6 @@
             this.xrTableCell385.StylePriority.UseFont = false;
             this.xrTableCell385.StylePriority.UseForeColor = false;
             this.xrTableCell385.StylePriority.UseTextAlignment = false;
-            this.xrTableCell385.Text = "Uygun ☐";
             this.xrTableCell385.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell385.Weight = 0.28914203785525028D;
             // 
@@ -3212,6 +3291,8 @@
             this.xrTableCell386.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell386.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTableCell386.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrCheckBox6});
             this.xrTableCell386.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell386.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell386.Multiline = true;
@@ -3221,7 +3302,6 @@
             this.xrTableCell386.StylePriority.UseFont = false;
             this.xrTableCell386.StylePriority.UseForeColor = false;
             this.xrTableCell386.StylePriority.UseTextAlignment = false;
-            this.xrTableCell386.Text = "Uygun Değil ☐   ";
             this.xrTableCell386.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell386.Weight = 0.423010503955355D;
             // 
@@ -3264,6 +3344,7 @@
             // 
             // xrTable33
             // 
+            this.xrTable33.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTable33.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 0F);
             this.xrTable33.Name = "xrTable33";
             this.xrTable33.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -3273,6 +3354,7 @@
             this.xrTableRow128,
             this.xrTableRow150});
             this.xrTable33.SizeF = new System.Drawing.SizeF(774.9998F, 160F);
+            this.xrTable33.StylePriority.UseFont = false;
             // 
             // xrTableRow114
             // 
@@ -3293,7 +3375,7 @@
             // xrTableCell388
             // 
             this.xrTableCell388.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.xrTableCell388.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell388.Font = new System.Drawing.Font("Arial", 8.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell388.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell388.Multiline = true;
             this.xrTableCell388.Name = "xrTableCell388";
@@ -3376,7 +3458,7 @@
             this.xrTableCell396.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell396.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell396.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell396.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell396.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell396.Multiline = true;
             this.xrTableCell396.Name = "xrTableCell396";
@@ -3394,7 +3476,7 @@
             this.xrTableCell397.BorderColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell397.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableCell397.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell397.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell397.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell397.Multiline = true;
             this.xrTableCell397.Name = "xrTableCell397";
@@ -3439,7 +3521,7 @@
             // xrTableCell465
             // 
             this.xrTableCell465.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.xrTableCell465.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell465.Font = new System.Drawing.Font("Arial", 8.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell465.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell465.Multiline = true;
             this.xrTableCell465.Name = "xrTableCell465";
@@ -3584,6 +3666,7 @@
             // 
             // xrTable35
             // 
+            this.xrTable35.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTable35.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 0F);
             this.xrTable35.Name = "xrTable35";
             this.xrTable35.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -3591,6 +3674,7 @@
             this.xrTableRow98,
             this.xrTableRow99});
             this.xrTable35.SizeF = new System.Drawing.SizeF(774.9998F, 80F);
+            this.xrTable35.StylePriority.UseFont = false;
             // 
             // xrTableRow98
             // 
@@ -3613,7 +3697,7 @@
             this.xrTableCell304.BackColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell304.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ACIKLAMA]")});
-            this.xrTableCell304.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell304.Font = new System.Drawing.Font("Arial", 8.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell304.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell304.Multiline = true;
             this.xrTableCell304.Name = "xrTableCell304";
@@ -3764,6 +3848,7 @@
             // 
             // xrTable36
             // 
+            this.xrTable36.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTable36.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 0F);
             this.xrTable36.Name = "xrTable36";
             this.xrTable36.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -3771,6 +3856,7 @@
             this.xrTableRow106,
             this.xrTableRow110});
             this.xrTable36.SizeF = new System.Drawing.SizeF(774.9998F, 79.99999F);
+            this.xrTable36.StylePriority.UseFont = false;
             // 
             // xrTableRow106
             // 
@@ -3791,7 +3877,7 @@
             // xrTableCell353
             // 
             this.xrTableCell353.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.xrTableCell353.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell353.Font = new System.Drawing.Font("Arial", 8.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell353.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell353.Multiline = true;
             this.xrTableCell353.Name = "xrTableCell353";
@@ -3942,6 +4028,7 @@
             // 
             // xrTable37
             // 
+            this.xrTable37.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTable37.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 0F);
             this.xrTable37.Name = "xrTable37";
             this.xrTable37.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -3949,6 +4036,7 @@
             this.xrTableRow111,
             this.xrTableRow113});
             this.xrTable37.SizeF = new System.Drawing.SizeF(774.9998F, 80F);
+            this.xrTable37.StylePriority.UseFont = false;
             // 
             // xrTableRow111
             // 
@@ -3969,7 +4057,7 @@
             // xrTableCell367
             // 
             this.xrTableCell367.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.xrTableCell367.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell367.Font = new System.Drawing.Font("Arial", 8.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell367.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell367.Multiline = true;
             this.xrTableCell367.Name = "xrTableCell367";
@@ -4120,6 +4208,7 @@
             // 
             // xrTable20
             // 
+            this.xrTable20.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTable20.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 0F);
             this.xrTable20.Name = "xrTable20";
             this.xrTable20.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -4127,6 +4216,7 @@
             this.xrTableRow107,
             this.xrTableRow108});
             this.xrTable20.SizeF = new System.Drawing.SizeF(774.9998F, 80F);
+            this.xrTable20.StylePriority.UseFont = false;
             // 
             // xrTableRow107
             // 
@@ -4149,7 +4239,7 @@
             this.xrTableCell287.BackColor = System.Drawing.Color.LightSkyBlue;
             this.xrTableCell287.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BELGETURU] + \' - \' + [ACIKLAMA]")});
-            this.xrTableCell287.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrTableCell287.Font = new System.Drawing.Font("Arial", 8.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell287.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell287.Multiline = true;
             this.xrTableCell287.Name = "xrTableCell287";
@@ -6806,8 +6896,10 @@
             // 
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable29});
+            this.Detail.Font = new System.Drawing.Font("Arial", 8F);
             this.Detail.HeightF = 150F;
             this.Detail.Name = "Detail";
+            this.Detail.StylePriority.UseFont = false;
             // 
             // xrTable29
             // 
@@ -9912,6 +10004,39 @@
             this.xrTableCell152.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell152.Weight = 0.26783542874574973D;
             // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.KararFormu);
+            this.objectDataSource1.Name = "objectDataSource1";
+            // 
+            // xrCheckBox5
+            // 
+            this.xrCheckBox5.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[UYGUN]")});
+            this.xrCheckBox5.Font = new System.Drawing.Font("Tahoma", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrCheckBox5.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
+            this.xrCheckBox5.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
+            this.xrCheckBox5.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox5.Name = "xrCheckBox5";
+            this.xrCheckBox5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox5.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox5.StylePriority.UseFont = false;
+            this.xrCheckBox5.Text = "Uygun";
+            // 
+            // xrCheckBox6
+            // 
+            this.xrCheckBox6.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[UYGUNDEGIL]")});
+            this.xrCheckBox6.Font = new System.Drawing.Font("Tahoma", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.xrCheckBox6.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
+            this.xrCheckBox6.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
+            this.xrCheckBox6.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox6.Name = "xrCheckBox6";
+            this.xrCheckBox6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox6.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox6.StylePriority.UseFont = false;
+            this.xrCheckBox6.Text = "Uygun Değil";
+            // 
             // rprKararFormu
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -9935,7 +10060,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable34)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable33)).EndInit();
@@ -9968,6 +10092,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -10094,8 +10219,6 @@
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell71;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell75;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell76;
-        private DevExpress.XtraReports.UI.XRTableCell xrTableCell77;
-        private DevExpress.XtraReports.UI.XRTableCell xrTableCell78;
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow38;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell80;
         private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader1;
@@ -10724,5 +10847,13 @@
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell376;
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow113;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell387;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell77;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell78;
+        private DevExpress.XtraReports.UI.XRCheckBox xrCheckBox1;
+        private DevExpress.XtraReports.UI.XRCheckBox xrCheckBox2;
+        private DevExpress.XtraReports.UI.XRCheckBox xrCheckBox3;
+        private DevExpress.XtraReports.UI.XRCheckBox xrCheckBox4;
+        private DevExpress.XtraReports.UI.XRCheckBox xrCheckBox5;
+        private DevExpress.XtraReports.UI.XRCheckBox xrCheckBox6;
     }
 }
