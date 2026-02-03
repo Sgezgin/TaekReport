@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="objectDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="xrTableCell186.Text" xml:space="preserve">
+    <value>Araştırmaya kısıtlılar, çocuklar, gebeler, lohusalar ve emziren kadınlar, yoğun bakımdaki ve bilinci kapalı kişiler ile şahsen olur veremeyecek kişiler veya etkilenebilir özneler gibi hassas bir popülasyon dahil edilecek mi?</value>
+  </data>
+  <data name="xrTableCell137.Text" xml:space="preserve">
+    <value>•   Biyoloji ve Tıbbın Uygulanması Bakımından İnsan Hakları ve İnsan Haysiyetinin Korunması Sözleşmesi: İnsan Hakları ve Biyotıp Sözleşmesi
+•   Biyotıp Araştırmalarına İlişkin İnsan Hakları ve Biyotıp Sözleşmesine Ek Protokol
+•   Sağlık Hizmetleri Temel Kanununun Ek 10 uncu maddesi
+•   Beşeri Tıbbi Ürünlerin Klinik Araştırmaları Hakkında Yönetmelik 
+•   İyi Klinik Uygulamaları Kılavuzu
+•   Klinik Araştırmalar ve Biyoyararlanım / Biyoeşdeğerlik Çalışmaları Etik Kurullarının Standart Çalışma Yöntemi Esasları</value>
+  </data>
+  <data name="xrTableCell126.Text" xml:space="preserve">
+    <value>İlk Uygunluk Başvurusu:
+
+Uygun ☐
+
+Yukarıda bilgileri verilen başvuru dosyası ile ilgili belgeler araştırmanın/çalışmanın gerekçe, amaç, yaklaşım ve yöntemleri dikkate alınarak incelenmiş ve uygun bulunmuş olup araştırmanın/çalışmanın başvuru dosyasında belirtilen merkezlerde gerçekleştirilmesinde etik ve bilimsel sakınca bulunmadığına toplantıya katılan etik kurul üye tam sayısının salt çoğunluğu ile karar verilmiştir.
+
+☐ Uygun bulunan araştırmanın 27 Mayıs 2023 tarih ve 32203 sayılı Resmi Gazete’de yayımlanarak yürürlüğe giren Beşeri Tıbbi Ürünlerin Klinik Araştırmaları Hakkında Yönetmelik kapsamında yer alması nedeni ile araştırmanın başlatılabilmesi için Türkiye İlaç ve Tıbbi Cihaz Kurumu’ndan izin alınması gerekmektedir.
+
+☐ Uygun bulunan araştırmanın 02.06.2021 tarihli ve 31499 sayılı Resmi Gazete' de yayımlanan Tıbbi Cihaz Yönetmeliği kapsamında CE işareti taşımayan tıbbi cihaz ile yapılan Tıbbi Cihaz Klinik Araştırması olması nedeniyle araştırmanın başlatılabilmesi için etik kurul onayı alındıktan sonra Türkiye İlaç ve Tıbbi Cihaz Kurumu’ndan izin alınması.
+
+☐ Uygun bulunan araştırmanın/çalışmanın 02.06.2021 tarihli ve 31499 sayılı Resmi Gazete' de yayımlanan Tıbbi Cihaz Yönetmeliği kapsamında CE işareti taşıyan ve teknik dokümantasyonunda belirtilen kullanım amacına uygun olarak kullanılan tıbbi cihazla yapılan Tıbbi Cihaz Klinik Araştırması ve Tıbbi Cihazlar ile Yürütülen Piyasaya Arz Sonrası Çalışma olması nedeni ile araştırmanın/çalışmanın başlatılabilmesi için etik kurul onayı alındıktan sonra Türkiye İlaç ve Tıbbi Cihaz Kurumu’na bildirim yapılması gerekmektedir. 
+
+☐ Uygun bulunan çalışmanın 02.06.2021 tarihli ve 31499 sayılı Resmi Gazete' de yayımlanan İn Vitro Tanı Amaçlı Tıbbi Cihaz Yönetmeliği kapsamındaki İn Vitro Tanı Amaçlı Tıbbi Cihazlar İle Yürütülen; 
+•	 Amacı yalnızca performans değerlendirmek olan ve cerrahi prosedürler yoluyla numune alımının yapıldığı Performans Değerlendirme Çalışması,
+•	 Yürütülmesinde ilave girişimsel prosedürler veya gönüllüler için başka riskler bulunan Performans Değerlendirme Çalışması,
+•	 Test sonuçlarının hasta yönetimi kararlarını etkileyebildiği veya tedaviye yön vermek üzere kullanılabildiği Performans Değerlendirme Çalışması,
+olması nedeni ile çalışmanın başlatılabilmesi için etik kurul onayı alındıktan sonra Türkiye İlaç ve Tıbbi Cihaz Kurumu’ndan izin alınması gerekmektedir.
+
+☐ Uygun bulunan çalışmanın 02.06.2021 tarihli ve 31499 sayılı Resmi Gazete' de yayımlanan İn Vitro Tanı Amaçlı Tıbbi Cihaz Yönetmeliği kapsamındaki; 
+
+•	 Destek tanı cihazına ilişkin sadece artık numune kullanılarak yapılan Performans Değerlendirme Çalışması,
+•	 Teknik dokümantasyonunda belirtilen kullanım amacına uygun olarak kullanılan ve gönüllülerin ilave olarak girişimsel veya külfetli prosedürlere tabi tutulduğu İn-Vitro Tanı Amaçlı Tıbbi Cihazlar İle Yürütülen Piyasaya
+Arz Sonrası Çalışması,
+olması nedeni ile çalışmanın başlatılabilmesi için etik kurul onayı alındıktan sonra Türkiye İlaç ve Tıbbi Cihaz Kurumu’na bildirim yapılması gerekmektedir. 
+</value>
+  </data>
+  <data name="xrTableCell128.Text" xml:space="preserve">
+    <value>☐ Uygun bulunan 02.06.2021 tarihli ve 31499 sayılı Resmi Gazete' de yayımlanan İn Vitro Tanı Amaçlı Tıbbi Cihaz Yönetmeliği kapsamındaki İn Vitro Tanı Amaçlı Tıbbi Cihazlar ile yürütülen yukarıda yer alan çalışmalar dışında kalan Performans Değerlendirme Çalışmaları etik kurul kararı ile başlatılabilir, Türkiye İlaç ve Tıbbi Cihaz Kurumu izni veya Türkiye İlaç ve Tıbbi Cihaz Kurumu’ na bildirim yapılması gerekmemektedir.
+
+☐ Uygun bulunan çalışmanın Sağlık Hizmetleri Genel Müdürlüğünün 5/4/2018 tarihinde yayımladığı 2018/10 sayılı Genelge kapsamında yer alan kök hücreler ile yapılan klinik araştırma olması nedeni ile araştırmanın başlatılabilmesi için Sağlık Hizmetleri Genel Müdürlüğü’nden izin alınması gerekmektedir.
+
+☐ Uygun bulunan beşeri tıbbi ürünlerin gözlemsel çalışması etik kurul kararı ile başlatılabilir, Bakanlık izni gerektirmemektedir.
+
+☐ Uygun bulunan çalışmanın 3359 sayılı Sağlık Hizmetleri Temel Kanunu Ek 10. Madde kapsamında yer alan
+•	Geleneksel ve tamamlayıcı tıp uygulamalarına ilişkin araştırmalar dışındaki tedavi yöntemlerine ilişkin çalışma, 
+•	Özel tıbbi amaçlı gıdalarda kullanım amacına ilişkin çalışma,
+•	Gıda ve takviye edici gıdalarda sağlık beyanı kullanımına ilişkin çalışma
+•	Düşük riskli bilimsel çalışma
+olması nedeni ile çalışmanın başlatılabilmesi için Türkiye İlaç ve Tıbbi Cihaz Kurumu’na başvuru yapılması gerekmektedir.
+
+
+Uygun Değil ☐
+
+Yukarıda bilgileri verilen başvuru dosyası ile ilgili belgeler araştırmanın/çalışmanın gerekçe, amaç, yaklaşım ve yöntemleri dikkate alınarak incelenmiş ve araştırmanın/çalışmanın yürütülmesi uygun bulunmamıştır.
+
+Gerekçe:
+
+Revizyon ☐
+
+Yukarıda bilgileri verilen başvuru dosyası ile ilgili belgeler araştırmanın/çalışmanın gerekçe, amaç, yaklaşım ve yöntemleri dikkate alınarak incelenmiş olup aşağıda belirtilen eksiklikler tespit edilmiştir;
+
+Talep edilen revizyonları belirtiniz.
+</value>
+  </data>
+  <data name="xrTableCell130.Text" xml:space="preserve">
+    <value>Değişiklik/Önemli Değişiklik Başvurusu:
+
+
+Uygun ☐
+
+Araştırmanın yürütülmesine ilişkin yukarıda belirtilen bilgi/belge değişikliği/önemli değişikliği talebi/talepleri araştırmanın gerekçe, amaç, yaklaşım ve yöntemleri dikkate alınarak incelenmiş ve uygun bulunmuş olup değişikliğin/değişikliklerin uygulanmasında etik ve bilimsel sakınca bulunmadığına toplantıya katılan etik kurul üye tam sayısının salt çoğunluğu ile karar verilmiştir.
+
+
+
+
+Uygun Değil ☐
+
+Araştırmanın yürütülmesine ilişkin yukarıda belirtilen bilgi/belge değişikliği/önemli değişikliği talebi/talepleri araştırmanın gerekçe, amaç, yaklaşım ve yöntemleri dikkate alınarak incelenmiş ve değişikliklerin uygulanması uygun bulunmamıştır.
+
+Gerekçe:
+
+
+
+Revizyon ☐ 
+
+Yukarıda belirtilen bilgi/belge değişikliği/önemli değişikliği talebi/talepleri araştırmanın gerekçe, amaç, yaklaşım ve yöntemleri dikkate alınarak incelenmiş olup aşağıda belirtilen eksiklikler tespit edilmiştir;
+
+Revizyon talep edilen dokümanı belirtiniz.
+
+
+
+
+
+
+
+
+
+</value>
+  </data>
+</root>
