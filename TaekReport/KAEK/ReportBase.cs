@@ -217,6 +217,29 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
+        public byte[] DuzeltmeAciklamaRapor(List<DuzeltmeAciklamaRaporu> list)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                IlacArastirma.rprDuzeltmeAciklamaRaporu rpr = new IlacArastirma.rprDuzeltmeAciklamaRaporu(list);
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.DataSource = list;
+                    rpr.ExportToPdf(ms);
+
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                var data = ex.Message;
+            }
+
+            return resultReport;
+        }
+
 
 
     }

@@ -190,6 +190,12 @@
     <Compile Include="KAEK\IlacArastirma\rprArastirmaProtokolFormu.Designer.cs">
       <DependentUpon>rprArastirmaProtokolFormu.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\IlacArastirma\rprDuzeltmeAciklamaRaporu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\IlacArastirma\rprDuzeltmeAciklamaRaporu.Designer.cs">
+      <DependentUpon>rprDuzeltmeAciklamaRaporu.cs</DependentUpon>
+    </Compile>
     <Compile Include="KAEK\IlacArastirma\rprFaydaRiskDegerlendirmeForm.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -496,6 +502,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprArastirmaProtokolFormu.resx">
       <DependentUpon>rprArastirmaProtokolFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KAEK\IlacArastirma\rprDuzeltmeAciklamaRaporu.resx">
+      <DependentUpon>rprDuzeltmeAciklamaRaporu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprFaydaRiskDegerlendirmeForm.resx">
       <DependentUpon>rprFaydaRiskDegerlendirmeForm.cs</DependentUpon>
