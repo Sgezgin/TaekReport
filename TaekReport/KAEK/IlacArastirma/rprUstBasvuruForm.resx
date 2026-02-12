@@ -129,4 +129,19 @@
   <metadata name="directorySearcher1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
   </metadata>
+  <data name="xrLabel3.Text" xml:space="preserve">
+    <value>-Başvuru dosyasına eklenen tüm dokümanların aslı ile birebir aynı olduğunu ve arama yapılabilir pdf olarak hazırlandığını, 
+-Başvuruda sağlanan bilgilerin doğru olduğunu,
+-Araştırmanın protokole, ilgili mevzuata, güncel Helsinki Bildirgesi ve iyi klinik uygulamaları ilkelerine uygun olarak gerçekleştirileceğini,
+-Araştırma ekibinin araştırma hakkında bilgilendirdiğini,
+-Araştırma başvurusunun ilgili Yönetmelik kapsamında kurulan etik kurullardan, aynı anda birden fazlasına yapılmadığını,
+-Araştırmaya ait ilerlemenin asgari yıllık olarak (yıllık bildirim formu ile) bildirileceğini,
+-Ciddi advers olaylara/reaksiyonlara ilişkin raporlar ile periyodik güvenlilik raporlarının mevzuatta belirtilen sürelere uygun şekilde sunulacağını,
+-Kişisel verilerin gizliliğine riayet edilmek kaydıyla araştırmanın kamuya açık bir veri tabanına kaydedildiğini,
+-Klinik Araştırmalar Portalında (KAP) araştırmaya ait bilgilerin yayımlanmasını,
+-Araştırma sona erdikten sonra (uluslararası bir araştırma ise, bütün ülkelerde), 1 (bir) yıllık azami süre içerisinde sonuç raporu özetinin bir kopyasını sunacağımı kabul ve taahhüt ederim.
+Yukarıda detayları verilen başvurunun değerlendirilmesini ve gereğini saygılarımla arz ederim.
+
+</value>
+  </data>
 </root>

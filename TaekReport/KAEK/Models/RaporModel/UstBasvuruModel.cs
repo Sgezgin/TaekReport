@@ -10,5 +10,10 @@ namespace TaekReport.KAEK.Models.RaporModel
     {
         public BASVURUFORMU BASVURUFORMU { get; set; }
         public List<ARASTIRMAEKIBI> listArastirmaEkibi { get; set; }
+
+        public string BasvuruSahibi { get; set; }
+        public string Telefon { get; set; }
+        public string Email { get; set; }
+
     }
 }
