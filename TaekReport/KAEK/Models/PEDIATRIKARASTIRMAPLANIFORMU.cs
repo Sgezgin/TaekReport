@@ -23,6 +23,8 @@ namespace TaekReport.KAEK.Models
         public string URUNDEGERLENDIRME { get; set; }
         public string RISKPLAN { get; set; }
         public string URUNRUHSAT { get; set; }
+        public string DOKUMANTARIHI { get; set; }
+        public string DOKUMANVERSIYON { get; set; }
     }
 
 }
