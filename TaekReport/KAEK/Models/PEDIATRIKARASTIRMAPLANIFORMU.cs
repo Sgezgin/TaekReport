@@ -25,6 +25,8 @@ namespace TaekReport.KAEK.Models
         public string URUNRUHSAT { get; set; }
         public string DOKUMANTARIHI { get; set; }
         public string DOKUMANVERSIYON { get; set; }
+        public string OZETBILGI { get; set; }
+        public string TASARIMI { get; set; }
     }
 
 }
