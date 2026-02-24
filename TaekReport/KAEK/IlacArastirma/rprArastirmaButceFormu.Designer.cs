@@ -121,7 +121,6 @@
             this.xrTableRow37 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell60 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell61 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
             this.xrTable1 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow1 = new DevExpress.XtraReports.UI.XRTableRow();
@@ -139,9 +138,10 @@
             this.xrTableCell14 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell15 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrPageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -683,6 +683,9 @@
             // 
             // xrCheckBox1
             // 
+            this.xrCheckBox1.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[listArastirmaButceFormu].[ARASTIRMACININKENDISI]")});
+            this.xrCheckBox1.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNo;
             this.xrCheckBox1.LocationFloat = new DevExpress.Utils.PointFloat(30.20825F, 0F);
             this.xrCheckBox1.Name = "xrCheckBox1";
             this.xrCheckBox1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -744,6 +747,9 @@
             // 
             // xrCheckBox2
             // 
+            this.xrCheckBox2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[listArastirmaButceFormu].[FINANSEEDENKURUM]")});
+            this.xrCheckBox2.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNo;
             this.xrCheckBox2.LocationFloat = new DevExpress.Utils.PointFloat(30.20825F, 0F);
             this.xrCheckBox2.Name = "xrCheckBox2";
             this.xrCheckBox2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -857,10 +863,13 @@
             // 
             // xrCheckBox3
             // 
-            this.xrCheckBox3.LocationFloat = new DevExpress.Utils.PointFloat(30.20825F, 0F);
+            this.xrCheckBox3.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[listArastirmaButceFormu].[HIBEDESTEKSAGLAYANKURUM]")});
+            this.xrCheckBox3.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNo;
+            this.xrCheckBox3.LocationFloat = new DevExpress.Utils.PointFloat(30.20819F, 0F);
             this.xrCheckBox3.Name = "xrCheckBox3";
             this.xrCheckBox3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox3.SizeF = new System.Drawing.SizeF(23.95837F, 23F);
+            this.xrCheckBox3.SizeF = new System.Drawing.SizeF(23.9585F, 23F);
             // 
             // xrTableRow24
             // 
@@ -1535,11 +1544,6 @@
             this.xrTableCell61.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell61.Weight = 0.75000005952714022D;
             // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.ArastirmaButceFormModel);
-            this.objectDataSource1.Name = "objectDataSource1";
-            // 
             // PageHeader
             // 
             this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
@@ -1756,6 +1760,11 @@
             this.xrPageInfo1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             this.xrPageInfo1.TextFormatString = "{0} / {1}";
             // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.ArastirmaButceFormModel);
+            this.objectDataSource1.Name = "objectDataSource1";
+            // 
             // rprArastirmaButceFormu
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -1773,8 +1782,8 @@
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;
             this.Version = "20.2";
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }

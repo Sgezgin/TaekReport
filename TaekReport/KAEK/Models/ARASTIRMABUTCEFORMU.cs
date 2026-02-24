@@ -9,7 +9,6 @@ namespace TaekReport.KAEK.Models
     public class ARASTIRMABUTCEFORMU
     {
         public string ARASBUTCEFORMUGUID { get; set; }
-        public string KOPYAARASBUTCEFORMUGUID { get; set; }
         public string KAEKID { get; set; }
         public string ARASTIRMAGUID { get; set; }
         
@@ -19,9 +18,10 @@ namespace TaekReport.KAEK.Models
         public string DURUMU { get; set; }
         public string TITCKKODU { get; set; }
         public string GONULLUODEME { get; set; }
-        public string ARASTIRMACININKENDISI { get; set; }
-        public string FINANSEEDENKURUM { get; set; }
-        public string HIBEDESTEKSAGLAYANKURUM { get; set; }
+        public bool ARASTIRMACININKENDISI2 { get; set; } = true;
+        public bool ARASTIRMACININKENDISI { get; set; }
+        public bool FINANSEEDENKURUM { get; set; }
+        public bool HIBEDESTEKSAGLAYANKURUM { get; set; }
         public string BUTCEACIKLAMA { get; set; }
         public string BUTCEONAYLANMAMAACIKLAMA { get; set; }
 

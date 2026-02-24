@@ -3971,7 +3971,6 @@
             // 
             this.EtikKurulBilgi.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
             this.EtikDetay});
-            this.EtikKurulBilgi.Expanded = false;
             this.EtikKurulBilgi.Level = 5;
             this.EtikKurulBilgi.Name = "EtikKurulBilgi";
             // 
