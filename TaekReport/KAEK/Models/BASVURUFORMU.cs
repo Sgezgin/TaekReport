@@ -25,6 +25,7 @@ namespace TaekReport.KAEK.Models
         public string KURUMANABILIMDALI { get; set; }
         public string BILIMDALIGUID { get; set; }
         public string ARASTIRMANITELIGIFAZ { get; set; }
+        public string ARASTIRMANITELIGI { get; set; }
 
         public string DESTEKLEYICI { get; set; }
         public string DESTEKLEYICI2 { get; set; }
