@@ -120,4 +120,7 @@
   <metadata name="objectDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>*Yetkili Otorite: Uluslararası Harmonizasyon Konseyi (ICH) kurucu üyesi (Amerikan Gıda ve İlaç Ajansı (US FDA), Avrupa İlaç Ajansı (EMA), Japonya İlaç ve Tıbbi Cihazlar Ajansı (PMDA)) veya daimi üyesi otoriteleri (İsviçre Ulusal İlaç Otoritesi (Swissmedic) ve Kanada Ulusal İlaç Otoritesi (Health Canada)), Avustralya Ulusal İlaç Otoritesi (TGA) veya İngiltere Ulusal İlaç Otoritesini (MHRA)</value>
+  </data>
 </root>
