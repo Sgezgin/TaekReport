@@ -15,22 +15,22 @@ namespace TaekReport.KAEK.Models
         public string KULLANICI { get; set; }
         public string EKLEMETARIH { get; set; }
         public string DURUMU { get; set; }
-        public string CALISMAADI { get; set; }
+     //   public string CALISMAADI { get; set; }
         public string CALISMATIPI { get; set; }
-        public string CALISMATASARIMI { get; set; }
+     //   public string CALISMATASARIMI { get; set; }
         public string OZETGENELBILGI { get; set; }
         public string OZETBILGI { get; set; }
-        public string GEREKCESI { get; set; }
+     //   public string GEREKCESI { get; set; }
         public string BIRINCILAMAC { get; set; }
         public string IKINCILAMAC { get; set; }
         public string KABULREDBIRIKIHIPOTEZ { get; set; }
         public string FAYDAVERISK { get; set; }
-        public string KATILIMCIGRUP { get; set; }
-        public string KATILIMCIYASARALIGI { get; set; }
-        public string KATILIMCITOPSAYI { get; set; }
+     //   public string KATILIMCIGRUP { get; set; }
+     //   public string KATILIMCIYASARALIGI { get; set; }
+     //   public string KATILIMCITOPSAYI { get; set; }
         public string KATILIMCIYAILISKINDUZENLEME { get; set; }
-        public string KATILIMCIDAHILEDILMEKRITER { get; set; }
-        public string KATILIMCIDAHILEDILMEMEKRITER { get; set; }
+     //   public string KATILIMCIDAHILEDILMEKRITER { get; set; }
+     //   public string KATILIMCIDAHILEDILMEMEKRITER { get; set; }
         public string KATILIMCICIKARILMADURUMU { get; set; }
         public string CIKARILMADURUMYUGULAMA { get; set; }
         public string ARASTIRMAYONTEMIAYRINTI { get; set; }
