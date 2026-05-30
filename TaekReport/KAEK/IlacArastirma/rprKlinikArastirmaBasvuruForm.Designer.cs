@@ -475,6 +475,12 @@
             this.xrTableRow164 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell310 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell311 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableRow109 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell197 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell198 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableRow116 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell210 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell211 = new DevExpress.XtraReports.UI.XRTableCell();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
@@ -510,8 +516,7 @@
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable2,
             this.xrLabel1});
-            this.Detail.Expanded = false;
-            this.Detail.HeightF = 2529.88F;
+            this.Detail.HeightF = 2546.969F;
             this.Detail.Name = "Detail";
             // 
             // xrTable2
@@ -541,6 +546,8 @@
             this.xrTableRow104,
             this.xrTableRow18,
             this.xrTableRow19,
+            this.xrTableRow109,
+            this.xrTableRow116,
             this.xrTableRow20,
             this.xrTableRow21,
             this.xrTableRow22,
@@ -561,7 +568,7 @@
             this.xrTableRow44,
             this.xrTableRow110,
             this.xrTableRow51});
-            this.xrTable2.SizeF = new System.Drawing.SizeF(784.9999F, 2383.973F);
+            this.xrTable2.SizeF = new System.Drawing.SizeF(784.9999F, 2501.469F);
             this.xrTable2.StylePriority.UseBorders = false;
             // 
             // xrTableRow4
@@ -3138,6 +3145,7 @@
             // 
             this.DigerBilgiler.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
             this.DigerBilgilerDetay});
+            this.DigerBilgiler.Expanded = false;
             this.DigerBilgiler.Level = 3;
             this.DigerBilgiler.Name = "DigerBilgiler";
             // 
@@ -5915,6 +5923,70 @@
             this.xrTableCell311.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell311.Weight = 0.78512057136086855D;
             // 
+            // xrTableRow109
+            // 
+            this.xrTableRow109.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell197,
+            this.xrTableCell198});
+            this.xrTableRow109.Name = "xrTableRow109";
+            this.xrTableRow109.Weight = 2.0416662597656252D;
+            // 
+            // xrTableCell197
+            // 
+            this.xrTableCell197.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTableCell197.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell197.Multiline = true;
+            this.xrTableCell197.Name = "xrTableCell197";
+            this.xrTableCell197.StylePriority.UseBorders = false;
+            this.xrTableCell197.StylePriority.UseFont = false;
+            this.xrTableCell197.Text = "Karşılatırma Ürünü";
+            this.xrTableCell197.Weight = 0.555229144987758D;
+            // 
+            // xrTableCell198
+            // 
+            this.xrTableCell198.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTableCell198.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KlinikFormu].[KARSILASTIRMAURUNUVEYONTEMI]")});
+            this.xrTableCell198.Multiline = true;
+            this.xrTableCell198.Name = "xrTableCell198";
+            this.xrTableCell198.StylePriority.UseBorders = false;
+            this.xrTableCell198.Text = "xrTableCell198";
+            this.xrTableCell198.Weight = 2.4447706289547377D;
+            // 
+            // xrTableRow116
+            // 
+            this.xrTableRow116.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell210,
+            this.xrTableCell211});
+            this.xrTableRow116.Name = "xrTableRow116";
+            this.xrTableRow116.Weight = 2.0416662597656252D;
+            // 
+            // xrTableCell210
+            // 
+            this.xrTableCell210.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTableCell210.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell210.Multiline = true;
+            this.xrTableCell210.Name = "xrTableCell210";
+            this.xrTableCell210.StylePriority.UseBorders = false;
+            this.xrTableCell210.StylePriority.UseFont = false;
+            this.xrTableCell210.Text = "Karşılatırma Ürünü\r\nÜretim Yeri";
+            this.xrTableCell210.Weight = 0.555229144987758D;
+            // 
+            // xrTableCell211
+            // 
+            this.xrTableCell211.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTableCell211.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KlinikFormu].[URETIMYERIKARSILASTIRMA]")});
+            this.xrTableCell211.Multiline = true;
+            this.xrTableCell211.Name = "xrTableCell211";
+            this.xrTableCell211.StylePriority.UseBorders = false;
+            this.xrTableCell211.Text = "xrTableCell211";
+            this.xrTableCell211.Weight = 2.4447706289547377D;
+            // 
             // rprKlinikArastirmaBasvuruForm
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -6407,5 +6479,11 @@
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell253;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell256;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell257;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow109;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell197;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell198;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow116;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell210;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell211;
     }
 }
