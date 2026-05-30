@@ -26,6 +26,7 @@ namespace TaekReport.KAEK.Models
         public string NCTNUMARASI { get; set; }
         public string CTISNUMARASI { get; set; }
         public string ARASTIRMASTATUSU { get; set; }
+        public string ARASTIRMASTATUSUACIKLAMA { get; set; }
 
         public string ARASTIRMANITELIGI { get; set; }
 
