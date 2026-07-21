@@ -190,6 +190,12 @@
     <Compile Include="KAEK\IlacArastirma\rprArastirmaProtokolFormu.Designer.cs">
       <DependentUpon>rprArastirmaProtokolFormu.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\IlacArastirma\rprBildirimKarar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\IlacArastirma\rprBildirimKarar.Designer.cs">
+      <DependentUpon>rprBildirimKarar.cs</DependentUpon>
+    </Compile>
     <Compile Include="KAEK\IlacArastirma\rprDuzeltmeAciklamaRaporu.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -235,6 +241,7 @@
     <Compile Include="KAEK\Models\ARASTIRMADOSYALARI.cs" />
     <Compile Include="KAEK\Models\HAKEMDUZELTMEDETAY.cs" />
     <Compile Include="KAEK\Models\RaporModel\DuzeltmeAciklamaRaporu.cs" />
+    <Compile Include="KAEK\Models\RaporModel\BildirimKararFormu.cs" />
     <Compile Include="KAEK\Models\SIGORTABELGELERI.cs" />
     <Compile Include="KAEK\Models\BASVURUKARAR.cs" />
     <Compile Include="KAEK\Models\BASVURUETIKKURULUYE.cs" />
@@ -496,6 +503,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprArastirmaProtokolFormu.resx">
       <DependentUpon>rprArastirmaProtokolFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KAEK\IlacArastirma\rprBildirimKarar.resx">
+      <DependentUpon>rprBildirimKarar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprDuzeltmeAciklamaRaporu.resx">
       <DependentUpon>rprDuzeltmeAciklamaRaporu.cs</DependentUpon>

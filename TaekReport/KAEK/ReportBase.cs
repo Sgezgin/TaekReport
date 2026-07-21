@@ -194,7 +194,31 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
-        public byte[] RaportorDegerlendirmeForm(List<RaportorDegerlendirmeFormu> list)
+		public byte[] BildirimKararForm(List<BildirimKararFormu> list)
+		{
+			byte[] resultReport = null;
+			try
+			{
+				IlacArastirma.rprBildirimKarar rpr = new IlacArastirma.rprBildirimKarar(list);
+				using (MemoryStream ms = new MemoryStream())
+				{
+					rpr.DataSource = list;
+					rpr.ExportToPdf(ms);
+
+					resultReport = ms.ToArray();
+				}
+			}
+			catch (Exception ex)
+			{
+
+				var data = ex.Message;
+			}
+
+			return resultReport;
+		}
+
+
+		public byte[] RaportorDegerlendirmeForm(List<RaportorDegerlendirmeFormu> list)
         {
             byte[] resultReport = null;
             try
