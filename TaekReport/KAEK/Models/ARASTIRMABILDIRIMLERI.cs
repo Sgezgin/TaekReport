@@ -24,5 +24,6 @@ namespace TaekReport.KAEK.Models
         public string BILDIRIMTIPI { get; set; }
         public string UYGUN { get; set; }
         public string DIL { get; set; }
+        public string BILDIRIMTIPIADI { get; set; }
     }
 }
