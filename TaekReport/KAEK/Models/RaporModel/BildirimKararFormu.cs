@@ -13,5 +13,6 @@ namespace TaekReport.KAEK.Models.RaporModel
 		public BASVURUFORMU BASVURUFORMU { get; set; }
 		public KLINIKARASTIRMALARBASVURUFORMU KlinikFormu { get; set; }
 		public ARASTIRMADOSYALARI ARASTIRMADOSYALARI { get; set; }
-	}
+        public List<ARASTIRMABILDIRIMLERI> ARASTIRMABILDIRIMLERI { get; set; }
+    }
 }
