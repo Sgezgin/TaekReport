@@ -26,5 +26,6 @@ namespace TaekReport.KAEK.Models.RaporModel
         public List<DOSYABILGILERI> listDigerDokumanlar { get; set; }
         public List<DOSYABILGILERI> listArastirmayaIliskinDegerlendirme { get; set; }
         public List<KARARETIKKURULUYELER> listEtikKurulUyeleri { get; set; }
-    }
+		public List<KARARETIKKURULUYELER> listEtikKurulYedekUyeleri { get; set; }
+	}
 }

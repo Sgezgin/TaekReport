@@ -221,4 +221,7 @@ Revizyon talep edilen dokümanı belirtiniz.
 
 </value>
   </data>
+  <data name="xrTableCell446.Text" xml:space="preserve">
+    <value>Toplantıya katılım sağlayan yedek üye/üyeler varsa katılım gerekçesini (alanı ile ilgili görüş almak, zorunlu üyenin toplantıya katılım sağlayamaması, yeterli üye sayısına ulaşmak vb) belirtiniz. Yedek üye asil üye olarak atanmadığı sürece asil üyeler arasında ismi belirtilmemelidir.</value>
+  </data>
 </root>
