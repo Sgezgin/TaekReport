@@ -19,6 +19,11 @@ namespace TaekReport.OnayFormu
             lblFooterBaslanTckn.Text = form.BaskanTckn;
 
 
+            qrDogrulama.Text = "https://taek.ege.edu.tr/dgrulamavsvs";
+
+            labelPageFooterText.Text = "Belgeyi doğrulamak için karekodu okutunuz veya {site}/dogrula adresine " +
+            " Başvuru No: 2026 - 2076 ve Doğrulama Kodu: ABCD - EFGH - JKMN bilgilerini giriniz.";
+
             lblArastirmaAdi.Text = form.ArastirmaAdi;
             lblSorumluArastirmaci.Text = form.SorumluAtastirmaci;
             lblYardimciArastirmaci.Text = form.YardimciArastirmaci;
@@ -37,6 +42,8 @@ namespace TaekReport.OnayFormu
                 " ile karar verilmiştir.";
             if (form.BilgilendirmeNot.Length > 0)
                 lblKararMetni.Text = form.BilgilendirmeNot;
+
+     
         }
 
         private void chkiliskiEvet_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
@@ -50,6 +57,12 @@ namespace TaekReport.OnayFormu
             //    chkiliskiEvet.Checked = false;
 
      
+
+        }
+
+        private void rprOnayFormu_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+           
 
         }
     }

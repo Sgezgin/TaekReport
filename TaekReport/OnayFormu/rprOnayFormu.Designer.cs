@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rprOnayFormu));
+            DevExpress.XtraPrinting.BarCode.QRCodeGenerator qrCodeGenerator1 = new DevExpress.XtraPrinting.BarCode.QRCodeGenerator();
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
@@ -102,6 +103,11 @@
             this.xrTableCell15 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell22 = new DevExpress.XtraReports.UI.XRTableCell();
             this.PageFooter = new DevExpress.XtraReports.UI.PageFooterBand();
+            this.qrDogrulama = new DevExpress.XtraReports.UI.XRBarCode();
+            this.xrTable10 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow10 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.labelPageFooterText = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell27 = new DevExpress.XtraReports.UI.XRTableCell();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable7)).BeginInit();
@@ -112,6 +118,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsOnayFormu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -963,9 +970,62 @@
             // PageFooter
             // 
             this.PageFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrTable10,
             this.xrTable3});
-            this.PageFooter.HeightF = 50F;
+            this.PageFooter.HeightF = 147.5461F;
             this.PageFooter.Name = "PageFooter";
+            // 
+            // qrDogrulama
+            // 
+            this.qrDogrulama.AutoModule = true;
+            this.qrDogrulama.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.qrDogrulama.LocationFloat = new DevExpress.Utils.PointFloat(37.19653F, 2F);
+            this.qrDogrulama.Name = "qrDogrulama";
+            this.qrDogrulama.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 100F);
+            this.qrDogrulama.ShowText = false;
+            this.qrDogrulama.SizeF = new System.Drawing.SizeF(83.24371F, 69.95235F);
+            this.qrDogrulama.StylePriority.UseFont = false;
+            this.qrDogrulama.StylePriority.UsePadding = false;
+            qrCodeGenerator1.CompactionMode = DevExpress.XtraPrinting.BarCode.QRCodeCompactionMode.Byte;
+            qrCodeGenerator1.ErrorCorrectionLevel = DevExpress.XtraPrinting.BarCode.QRCodeErrorCorrectionLevel.M;
+            this.qrDogrulama.Symbology = qrCodeGenerator1;
+            // 
+            // xrTable10
+            // 
+            this.xrTable10.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable10.LocationFloat = new DevExpress.Utils.PointFloat(1.000228F, 63.61171F);
+            this.xrTable10.Name = "xrTable10";
+            this.xrTable10.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrTable10.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow10});
+            this.xrTable10.SizeF = new System.Drawing.SizeF(769.9995F, 77.2672F);
+            this.xrTable10.StylePriority.UseBorders = false;
+            // 
+            // xrTableRow10
+            // 
+            this.xrTableRow10.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.labelPageFooterText,
+            this.xrTableCell27});
+            this.xrTableRow10.Name = "xrTableRow10";
+            this.xrTableRow10.Weight = 1D;
+            // 
+            // labelPageFooterText
+            // 
+            this.labelPageFooterText.Multiline = true;
+            this.labelPageFooterText.Name = "labelPageFooterText";
+            this.labelPageFooterText.Padding = new DevExpress.XtraPrinting.PaddingInfo(15, 2, 20, 0, 100F);
+            this.labelPageFooterText.StylePriority.UsePadding = false;
+            this.labelPageFooterText.Weight = 1.6542527421448496D;
+            // 
+            // xrTableCell27
+            // 
+            this.xrTableCell27.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.qrDogrulama});
+            this.xrTableCell27.Multiline = true;
+            this.xrTableCell27.Name = "xrTableCell27";
+            this.xrTableCell27.Weight = 0.34574725785515031D;
             // 
             // rprOnayFormu
             // 
@@ -983,6 +1043,7 @@
             this.Font = new System.Drawing.Font("Arial", 9.75F);
             this.Margins = new System.Drawing.Printing.Margins(38, 40, 13, 29);
             this.Version = "20.2";
+            this.BeforePrint += new System.Drawing.Printing.PrintEventHandler(this.rprOnayFormu_BeforePrint);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable7)).EndInit();
@@ -993,6 +1054,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsOnayFormu1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -1072,5 +1134,10 @@
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell6;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell7;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell25;
+        private DevExpress.XtraReports.UI.XRBarCode qrDogrulama;
+        private DevExpress.XtraReports.UI.XRTable xrTable10;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow10;
+        private DevExpress.XtraReports.UI.XRTableCell labelPageFooterText;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell27;
     }
 }
