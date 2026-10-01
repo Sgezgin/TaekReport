@@ -16,8 +16,26 @@ namespace TaekReport.OnayFormu
             frData = form;
 
             lblFooterBaskan.Text = "Etik Kurul Başkanı "+Environment.NewLine + form.Baskan;
-            //lblFooterBaslanTckn.Text = 
+            lblFooterBaslanTckn.Text = form.BaskanTckn;
 
+
+
+            if (string.IsNullOrWhiteSpace(form.DogrulamaUrl))
+            {
+                qrDogrulama.Visible = false;
+                labelPageFooterText.Visible = false;
+            }
+            else
+            {
+                qrDogrulama.Text = form.DogrulamaUrl;
+
+                // Karekod adresinden sitenin kök adresini al (https://alanadi) ve elle doğrulama sayfasına çevir
+                string site = form.DogrulamaUrl;
+                try { site = new Uri(form.DogrulamaUrl).GetLeftPart(UriPartial.Authority) + "/dogrula"; } catch { }
+
+                labelPageFooterText.Text = "Belgeyi doğrulamak için karekodu okutunuz veya " + site + " adresine " +
+                    "Başvuru No: " + form.BasvuruNo + " ve Doğrulama Kodu: " + form.DogrulamaKodu + " bilgilerini giriniz.";
+            }
 
             lblArastirmaAdi.Text = form.ArastirmaAdi;
             lblSorumluArastirmaci.Text = form.SorumluAtastirmaci;
@@ -37,6 +55,8 @@ namespace TaekReport.OnayFormu
                 " ile karar verilmiştir.";
             if (form.BilgilendirmeNot.Length > 0)
                 lblKararMetni.Text = form.BilgilendirmeNot;
+
+     
         }
 
         private void chkiliskiEvet_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
@@ -50,6 +70,12 @@ namespace TaekReport.OnayFormu
             //    chkiliskiEvet.Checked = false;
 
      
+
+        }
+
+        private void rprOnayFormu_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+           
 
         }
     }

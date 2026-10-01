@@ -20,6 +20,10 @@ namespace TaekReport.Models
         public string DosyaNo { get; set; }
         public string ToplantiTarihi { get; set; }
         public string BilgilendirmeNot { get; set; }
+        // Belge doğrulama: karekoda basılacak adres, doğrulama kodu ve belgede yazılacak başvuru numarası
+        public string DogrulamaUrl { get; set; }
+        public string DogrulamaKodu { get; set; }
+        public string BasvuruNo { get; set; }
         public List<EtikKurulUyeler> EtikKurulUyeleri { get; set; }
     }
 
