@@ -19,10 +19,23 @@ namespace TaekReport.OnayFormu
             lblFooterBaslanTckn.Text = form.BaskanTckn;
 
 
-            qrDogrulama.Text = "https://taek.ege.edu.tr/dgrulamavsvs";
 
-            labelPageFooterText.Text = "Belgeyi doğrulamak için karekodu okutunuz veya {site}/dogrula adresine " +
-            " Başvuru No: 2026 - 2076 ve Doğrulama Kodu: ABCD - EFGH - JKMN bilgilerini giriniz.";
+            if (string.IsNullOrWhiteSpace(form.DogrulamaUrl))
+            {
+                qrDogrulama.Visible = false;
+                labelPageFooterText.Visible = false;
+            }
+            else
+            {
+                qrDogrulama.Text = form.DogrulamaUrl;
+
+                // Karekod adresinden sitenin kök adresini al (https://alanadi) ve elle doğrulama sayfasına çevir
+                string site = form.DogrulamaUrl;
+                try { site = new Uri(form.DogrulamaUrl).GetLeftPart(UriPartial.Authority) + "/dogrula"; } catch { }
+
+                labelPageFooterText.Text = "Belgeyi doğrulamak için karekodu okutunuz veya " + site + " adresine " +
+                    "Başvuru No: " + form.BasvuruNo + " ve Doğrulama Kodu: " + form.DogrulamaKodu + " bilgilerini giriniz.";
+            }
 
             lblArastirmaAdi.Text = form.ArastirmaAdi;
             lblSorumluArastirmaci.Text = form.SorumluAtastirmaci;
