@@ -312,6 +312,12 @@
     <Compile Include="OlurFormu\rprOlurFormu.Designer.cs">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
     </Compile>
+    <Compile Include="OnayFormuEng\OnayFormuEng.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OnayFormuEng\OnayFormuEng.Designer.cs">
+      <DependentUpon>OnayFormuEng.cs</DependentUpon>
+    </Compile>
     <Compile Include="OnayFormu\dsOnayFormu.cs">
       <DependentUpon>dsOnayFormu.xsd</DependentUpon>
     </Compile>
@@ -539,6 +545,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OlurFormu\rprOlurFormu.resx">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnayFormuEng\OnayFormuEng.resx">
+      <DependentUpon>OnayFormuEng.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OnayFormu\rprOnayFormu.resx">
       <DependentUpon>rprOnayFormu.cs</DependentUpon>
