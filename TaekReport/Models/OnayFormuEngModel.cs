@@ -1,6 +1,11 @@
-﻿namespace TaekReport.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TaekReport.Models
 {
-    // İngilizce kurul kararı (Approval Form) alanları
     public class OnayFormuEngModel
     {
         // "On November 30th 2023, ..." cümlesindeki toplantı tarihi

@@ -156,12 +156,26 @@ namespace TaekReport
         // İngilizce kurul kararı (Approval Form)
         public byte[] OnayFrmEng(OnayFormuEngModel form)
         {
-            using (OnayFormuEng.OnayFormuEng rpr = new OnayFormuEng.OnayFormuEng(form))
-            using (MemoryStream ms = new MemoryStream())
+            byte[] resultReport = null;
+            try
             {
-                rpr.ExportToPdf(ms);
-                return ms.ToArray();
+                using (OnayFormuEng.rprOnayFormuEng rpr = new OnayFormuEng.rprOnayFormuEng(form))
+                {
+                    using (MemoryStream ms = new MemoryStream())
+                    {
+                        rpr.ExportToPdf(ms);
+                        return ms.ToArray();
+                    }
+                }
             }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+            return resultReport;
+
         }
 
         public byte[] DegerlendirmeFrmDoc(Degerlendirme form)

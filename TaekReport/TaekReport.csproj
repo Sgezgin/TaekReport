@@ -284,6 +284,7 @@
     <Compile Include="Models\DuzeltmeBasvuruFormModel.cs" />
     <Compile Include="Models\GundemDetayList.cs" />
     <Compile Include="Models\OLURFORMU.cs" />
+    <Compile Include="Models\OnayFormuEngModel.cs" />
     <Compile Include="Models\OnayFormuModel.cs" />
     <Compile Include="Models\OzgecmisModel.cs" />
     <Compile Include="Models\SABITLER.cs" />
@@ -312,11 +313,11 @@
     <Compile Include="OlurFormu\rprOlurFormu.Designer.cs">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
     </Compile>
-    <Compile Include="OnayFormuEng\OnayFormuEng.cs">
+    <Compile Include="OnayFormuEng\rprOnayFormuEng.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="OnayFormuEng\OnayFormuEng.Designer.cs">
-      <DependentUpon>OnayFormuEng.cs</DependentUpon>
+    <Compile Include="OnayFormuEng\rprOnayFormuEng.Designer.cs">
+      <DependentUpon>rprOnayFormuEng.cs</DependentUpon>
     </Compile>
     <Compile Include="OnayFormu\dsOnayFormu.cs">
       <DependentUpon>dsOnayFormu.xsd</DependentUpon>
@@ -546,8 +547,8 @@
     <EmbeddedResource Include="OlurFormu\rprOlurFormu.resx">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OnayFormuEng\OnayFormuEng.resx">
-      <DependentUpon>OnayFormuEng.cs</DependentUpon>
+    <EmbeddedResource Include="OnayFormuEng\rprOnayFormuEng.resx">
+      <DependentUpon>rprOnayFormuEng.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OnayFormu\rprOnayFormu.resx">
       <DependentUpon>rprOnayFormu.cs</DependentUpon>
