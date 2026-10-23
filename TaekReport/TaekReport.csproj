@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>\\155.223.130.169\LotusData\ç\KAEKReportDll\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -284,6 +284,7 @@
     <Compile Include="Models\DuzeltmeBasvuruFormModel.cs" />
     <Compile Include="Models\GundemDetayList.cs" />
     <Compile Include="Models\OLURFORMU.cs" />
+    <Compile Include="Models\OnayFormuEngModel.cs" />
     <Compile Include="Models\OnayFormuModel.cs" />
     <Compile Include="Models\OzgecmisModel.cs" />
     <Compile Include="Models\SABITLER.cs" />
@@ -311,6 +312,12 @@
     </Compile>
     <Compile Include="OlurFormu\rprOlurFormu.Designer.cs">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnayFormuEng\rprOnayFormuEng.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OnayFormuEng\rprOnayFormuEng.Designer.cs">
+      <DependentUpon>rprOnayFormuEng.cs</DependentUpon>
     </Compile>
     <Compile Include="OnayFormu\dsOnayFormu.cs">
       <DependentUpon>dsOnayFormu.xsd</DependentUpon>
@@ -539,6 +546,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OlurFormu\rprOlurFormu.resx">
       <DependentUpon>rprOlurFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnayFormuEng\rprOnayFormuEng.resx">
+      <DependentUpon>rprOnayFormuEng.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OnayFormu\rprOnayFormu.resx">
       <DependentUpon>rprOnayFormu.cs</DependentUpon>

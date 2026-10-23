@@ -103,11 +103,11 @@
             this.xrTableCell15 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell22 = new DevExpress.XtraReports.UI.XRTableCell();
             this.PageFooter = new DevExpress.XtraReports.UI.PageFooterBand();
-            this.qrDogrulama = new DevExpress.XtraReports.UI.XRBarCode();
             this.xrTable10 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow10 = new DevExpress.XtraReports.UI.XRTableRow();
             this.labelPageFooterText = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell27 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.qrDogrulama = new DevExpress.XtraReports.UI.XRBarCode();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable7)).BeginInit();
@@ -607,11 +607,11 @@
             // 
             // xrLabel2
             // 
-            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 56.25F);
+            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(60.41667F, 56.25F);
             this.xrLabel2.Multiline = true;
             this.xrLabel2.Name = "xrLabel2";
             this.xrLabel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel2.SizeF = new System.Drawing.SizeF(770.9999F, 33.74999F);
+            this.xrLabel2.SizeF = new System.Drawing.SizeF(710.5832F, 33.74998F);
             this.xrLabel2.StylePriority.UseTextAlignment = false;
             this.xrLabel2.Text = "Ege Üniversitesi Tıp Fakültesi Dekanlığı 2.Kat.  Erzene Ankara Cad. 35100 Bornova" +
     " / İZMİR\r\n     Tel : 0 232 390 2134     e-mail: egetaek@gmail.com";
@@ -975,21 +975,6 @@
             this.PageFooter.HeightF = 147.5461F;
             this.PageFooter.Name = "PageFooter";
             // 
-            // qrDogrulama
-            // 
-            this.qrDogrulama.AutoModule = true;
-            this.qrDogrulama.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.qrDogrulama.LocationFloat = new DevExpress.Utils.PointFloat(37.19653F, 2F);
-            this.qrDogrulama.Name = "qrDogrulama";
-            this.qrDogrulama.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 100F);
-            this.qrDogrulama.ShowText = false;
-            this.qrDogrulama.SizeF = new System.Drawing.SizeF(83.24371F, 69.95235F);
-            this.qrDogrulama.StylePriority.UseFont = false;
-            this.qrDogrulama.StylePriority.UsePadding = false;
-            qrCodeGenerator1.CompactionMode = DevExpress.XtraPrinting.BarCode.QRCodeCompactionMode.Byte;
-            qrCodeGenerator1.ErrorCorrectionLevel = DevExpress.XtraPrinting.BarCode.QRCodeErrorCorrectionLevel.M;
-            this.qrDogrulama.Symbology = qrCodeGenerator1;
-            // 
             // xrTable10
             // 
             this.xrTable10.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
@@ -1026,6 +1011,21 @@
             this.xrTableCell27.Multiline = true;
             this.xrTableCell27.Name = "xrTableCell27";
             this.xrTableCell27.Weight = 0.34574725785515031D;
+            // 
+            // qrDogrulama
+            // 
+            this.qrDogrulama.AutoModule = true;
+            this.qrDogrulama.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.qrDogrulama.LocationFloat = new DevExpress.Utils.PointFloat(37.19653F, 2F);
+            this.qrDogrulama.Name = "qrDogrulama";
+            this.qrDogrulama.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 100F);
+            this.qrDogrulama.ShowText = false;
+            this.qrDogrulama.SizeF = new System.Drawing.SizeF(83.24371F, 69.95235F);
+            this.qrDogrulama.StylePriority.UseFont = false;
+            this.qrDogrulama.StylePriority.UsePadding = false;
+            qrCodeGenerator1.CompactionMode = DevExpress.XtraPrinting.BarCode.QRCodeCompactionMode.Byte;
+            qrCodeGenerator1.ErrorCorrectionLevel = DevExpress.XtraPrinting.BarCode.QRCodeErrorCorrectionLevel.M;
+            this.qrDogrulama.Symbology = qrCodeGenerator1;
             // 
             // rprOnayFormu
             // 
