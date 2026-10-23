@@ -1489,7 +1489,7 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell64.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[listArastirmaButceFormu].[EPOSTA]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[listArastirmaButceFormu].[EPOSTA2]")});
             this.xrTableCell64.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTableCell64.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell64.Multiline = true;
