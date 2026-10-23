@@ -29,6 +29,9 @@ namespace TaekReport.KAEK.Models
         public string ADSOYAD { get; set; }
         public string TELEFON { get; set; }
         public string EPOSTA { get; set; }
+        public string ADSOYAD2 { get; set; }
+        public string TELEFON2 { get; set; }
+        public string EPOSTA2 { get; set; }
         public string TARIH { get; set; }
     }
 }
