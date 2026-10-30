@@ -253,8 +253,10 @@
             // xrLabel4
             // 
             this.xrLabel4.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "\'Prof. Dr.\'\n+\n[BASKAN]\n")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASKAN]")});
             this.xrLabel4.Font = new System.Drawing.Font("Arial", 8.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel4.Text = "Prof. Dr.\r\nEtik Kurul Başkanı";
+            this.xrLabel4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(603F, 125F);
             this.xrLabel4.Multiline = true;
             this.xrLabel4.Name = "xrLabel4";

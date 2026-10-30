@@ -33,6 +33,29 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
+        public byte[] TCUstBasvuruFrm(List<TCUstBasvuruModel> form)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                KAEK.TibbiCihaz.rprUstBasvuruForm rpr = new KAEK.TibbiCihaz.rprUstBasvuruForm(form);
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.DataSource = form;
+                    rpr.ExportToPdf(ms);
+
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                var data = ex.Message;
+            }
+
+            return resultReport;
+        }
+
         public byte[] ArastirmaProtokolFormu(List<ArastirmaProtokolFormu> list)
         {
             byte[] resultReport = null;

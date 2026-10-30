@@ -13,5 +13,16 @@ namespace TaekReport.KAEK.TibbiCihaz
             InitializeComponent();
         }
 
+        public rprUstBasvuruForm(object obj)
+        {
+            InitializeComponent();
+            objectDataSource1.DataSource = obj;
+            this.DataSource = obj;
+        }
+
+        private void rprUstBasvuruForm_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+
+        }
     }
 }
