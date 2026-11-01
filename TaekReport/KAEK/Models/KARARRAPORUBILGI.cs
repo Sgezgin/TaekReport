@@ -74,6 +74,20 @@ namespace TaekReport.KAEK.Models
 
 
         public bool ARASTIRMAKISITLILARVARMI { get; set; }
+        public string ARASTIRMAKISITLILARVARMITEXT
+        {
+            get
+            {
+                if (ARASTIRMAKISITLILARVARMI)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                ARASTIRMAKISITLILARVARMI = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
         public bool KISITLILARIUYGUN { get; set; }
         public bool KISITLILARIUYGUNDEGIL
         {
@@ -91,6 +105,20 @@ namespace TaekReport.KAEK.Models
 
 
         public bool ARASTIRMAPEDIATRIKVARMI { get; set; }
+        public string ARASTIRMAPEDIATRIKVARMITEXT
+        {
+            get
+            {
+                if (ARASTIRMAPEDIATRIKVARMI)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                ARASTIRMAPEDIATRIKVARMI = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
         public bool PEDIATRIKCOCUK { get; set; }
         public string PEDIATRIKCOCUKTIPI { get; set; }
 
