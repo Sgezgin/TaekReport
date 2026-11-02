@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>\\155.223.130.169\LotusData\KAEK\KAEKReportDll\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -238,10 +238,20 @@
     <Compile Include="KAEK\IlacArastirma\rprUstBasvuruForm.Designer.cs">
       <DependentUpon>rprUstBasvuruForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\Models\LOKASYON.cs" />
     <Compile Include="KAEK\Models\ARASTIRMABILDIRIMLERI.cs" />
     <Compile Include="KAEK\Models\ARASTIRMADOSYALARI.cs" />
     <Compile Include="KAEK\Models\KARARETIKKURULUYELER.cs" />
     <Compile Include="KAEK\Models\HAKEMDUZELTMEDETAY.cs" />
+    <Compile Include="KAEK\Models\KARARRAPORUBILGI.cs" />
+    <Compile Include="KAEK\Models\RaporModel\TCUstBasvuruModel.cs" />
+    <Compile Include="KAEK\Models\TIBBICIHAZBASVURUFORMU.cs" />
+    <Compile Include="KAEK\TibbiCihaz\rprUstBasvuruForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\TibbiCihaz\rprUstBasvuruForm.Designer.cs">
+      <DependentUpon>rprUstBasvuruForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="KAEK\Models\RaporModel\DuzeltmeAciklamaRaporu.cs" />
     <Compile Include="KAEK\Models\RaporModel\BildirimKararFormu.cs" />
     <Compile Include="KAEK\Models\SIGORTABELGELERI.cs" />
@@ -534,6 +544,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprRaportorDegerlendirmeFormu.resx">
       <DependentUpon>rprRaportorDegerlendirmeFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KAEK\TibbiCihaz\rprUstBasvuruForm.resx">
+      <DependentUpon>rprUstBasvuruForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprUstBasvuruForm.resx">
       <DependentUpon>rprUstBasvuruForm.cs</DependentUpon>
