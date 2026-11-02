@@ -166,10 +166,49 @@ namespace TaekReport.KAEK.Models
 
 
 
+        public bool DANISMANVARMI { get; set; }
+
+        public string DANISMANVARMITEXT
+        {
+            get
+            {
+                if (DANISMANVARMI)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                DANISMANVARMI = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
+
+        public string DANISMANUZMANLIKALANI { get; set; }
+        public bool DANISMANCIKARCATISMASI { get; set; }
+
+        public string DANISMANCIKARCATISMASITEXT
+        {
+            get
+            {
+                if (DANISMANCIKARCATISMASI)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                DANISMANVARMI = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
+
+        public string DANISMANGORUSTIPI { get; set; }
+        public string DANISMANACIKLAMASI { get; set; }
 
 
 
 
-    
-}
+
+
+
+    }
 }
