@@ -10251,7 +10251,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell327.BorderWidth = 2F;
             this.xrTableCell327.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[DANISMANVARMI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[DANISMANVARMITEXT]")});
             this.xrTableCell327.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.xrTableCell327.ForeColor = System.Drawing.Color.Empty;
             this.xrTableCell327.Multiline = true;

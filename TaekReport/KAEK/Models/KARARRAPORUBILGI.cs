@@ -197,7 +197,7 @@ namespace TaekReport.KAEK.Models
             }
             set
             {
-                DANISMANVARMI = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+                DANISMANCIKARCATISMASI = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
             }
         }
 
