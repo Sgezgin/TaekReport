@@ -6887,7 +6887,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell109.BorderWidth = 2F;
             this.xrTableCell109.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[PLASEBOUYGUN]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[PLASEBOUYGUNTEXT]")});
             this.xrTableCell109.Multiline = true;
             this.xrTableCell109.Name = "xrTableCell109";
             this.xrTableCell109.RowSpan = 3;
@@ -7159,7 +7159,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell172.BorderWidth = 2F;
             this.xrTableCell172.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[DNAANALIZIVARMI]\n")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[DNAANALIZIVARMITEXT]\n")});
             this.xrTableCell172.Multiline = true;
             this.xrTableCell172.Name = "xrTableCell172";
             this.xrTableCell172.RowSpan = 3;
@@ -7431,7 +7431,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell188.BorderWidth = 2F;
             this.xrTableCell188.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[ARASTIRMAKISITLILARVARMI]\n")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[ARASTIRMAKISITLILARVARMITEXT]\n")});
             this.xrTableCell188.Multiline = true;
             this.xrTableCell188.Name = "xrTableCell188";
             this.xrTableCell188.RowSpan = 3;
@@ -7712,7 +7712,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell204.BorderWidth = 2F;
             this.xrTableCell204.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[ARASTIRMAPEDIATRIKVARMI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[ARASTIRMAPEDIATRIKVARMITEXT]")});
             this.xrTableCell204.Multiline = true;
             this.xrTableCell204.Name = "xrTableCell204";
             this.xrTableCell204.StylePriority.UseBorderColor = false;
@@ -7788,7 +7788,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell207.BorderWidth = 2F;
             this.xrTableCell207.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[PEDIATRIKCOCUK]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[PEDIATRIKCOCUKTEXT]")});
             this.xrTableCell207.Multiline = true;
             this.xrTableCell207.Name = "xrTableCell207";
             this.xrTableCell207.StylePriority.UseBorderColor = false;
@@ -7903,7 +7903,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell221.BorderWidth = 2F;
             this.xrTableCell221.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[COCUKSAGLIGIETIKMI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[COCUKSAGLIGIETIKMITEXT]")});
             this.xrTableCell221.Multiline = true;
             this.xrTableCell221.Name = "xrTableCell221";
             this.xrTableCell221.StylePriority.UseBorderColor = false;

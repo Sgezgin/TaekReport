@@ -120,9 +120,38 @@ namespace TaekReport.KAEK.Models
             }
         }
         public bool PEDIATRIKCOCUK { get; set; }
+        public string PEDIATRIKCOCUKTEXT
+        {
+            get
+            {
+                if (PEDIATRIKCOCUK)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                PEDIATRIKCOCUK = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
+
         public string PEDIATRIKCOCUKTIPI { get; set; }
 
         public bool COCUKSAGLIGIETIKMI { get; set; }
+        public string COCUKSAGLIGIETIKMITEXT
+        {
+            get
+            {
+                if (COCUKSAGLIGIETIKMI)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                COCUKSAGLIGIETIKMI = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
         public string COCUKSAGLIGIETIKMIACIKLAMA { get; set; }
 
         public bool YENIDOGANKILINIK { get; set; }
