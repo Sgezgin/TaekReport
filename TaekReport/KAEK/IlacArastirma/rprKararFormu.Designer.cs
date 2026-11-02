@@ -853,9 +853,9 @@
             this.xrTableCell119 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableRow49 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTable11 = new DevExpress.XtraReports.UI.XRTable();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.xrCheckBox20 = new DevExpress.XtraReports.UI.XRCheckBox();
             this.xrCheckBox19 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
@@ -10687,7 +10687,7 @@
             // xrTableCell494
             // 
             this.xrTableCell494.BorderColor = System.Drawing.Color.Red;
-            this.xrTableCell494.Borders = DevExpress.XtraPrinting.BorderSide.Right;
+            this.xrTableCell494.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Right | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell494.BorderWidth = 2F;
             this.xrTableCell494.Multiline = true;
             this.xrTableCell494.Name = "xrTableCell494";
@@ -10709,10 +10709,10 @@
             this.xrCheckBox42.Font = new System.Drawing.Font("Tahoma", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox42.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox42.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox42.LocationFloat = new DevExpress.Utils.PointFloat(14F, 0F);
+            this.xrCheckBox42.LocationFloat = new DevExpress.Utils.PointFloat(6.000006F, 3.999901F);
             this.xrCheckBox42.Name = "xrCheckBox42";
             this.xrCheckBox42.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox42.SizeF = new System.Drawing.SizeF(88.49992F, 50.00012F);
+            this.xrCheckBox42.SizeF = new System.Drawing.SizeF(88.49992F, 40F);
             this.xrCheckBox42.StylePriority.UseBorders = false;
             this.xrCheckBox42.StylePriority.UseFont = false;
             this.xrCheckBox42.Text = "Revizyon";
@@ -10720,7 +10720,7 @@
             // xrTableCell130
             // 
             this.xrTableCell130.BorderColor = System.Drawing.Color.Red;
-            this.xrTableCell130.Borders = DevExpress.XtraPrinting.BorderSide.Left;
+            this.xrTableCell130.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell130.BorderWidth = 2F;
             this.xrTableCell130.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrCheckBox42});
@@ -11537,7 +11537,7 @@
             // xrTableCell328
             // 
             this.xrTableCell328.BorderColor = System.Drawing.Color.Red;
-            this.xrTableCell328.Borders = DevExpress.XtraPrinting.BorderSide.Top;
+            this.xrTableCell328.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right)));
             this.xrTableCell328.BorderWidth = 2F;
             this.xrTableCell328.Multiline = true;
             this.xrTableCell328.Name = "xrTableCell328";
@@ -11774,11 +11774,6 @@
             this.xrTableRow57});
             this.xrTable11.SizeF = new System.Drawing.SizeF(774.9999F, 1459.907F);
             // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.KararFormu);
-            this.objectDataSource1.Name = "objectDataSource1";
-            // 
             // xrCheckBox20
             // 
             this.xrCheckBox20.Borders = DevExpress.XtraPrinting.BorderSide.None;
@@ -11810,6 +11805,11 @@
             this.xrCheckBox19.StylePriority.UseBorders = false;
             this.xrCheckBox19.StylePriority.UseFont = false;
             this.xrCheckBox19.Text = "Uygun";
+            // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.KararFormu);
+            this.objectDataSource1.Name = "objectDataSource1";
             // 
             // rprKararFormu
             // 
