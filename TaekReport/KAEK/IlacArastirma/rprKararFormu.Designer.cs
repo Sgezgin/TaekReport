@@ -8007,7 +8007,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell212.BorderWidth = 2F;
             this.xrTableCell212.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[YENIDOGANKILINIK]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[YENIDOGANKILINIKTEXT]")});
             this.xrTableCell212.Multiline = true;
             this.xrTableCell212.Name = "xrTableCell212";
             this.xrTableCell212.StylePriority.UseBorderColor = false;
@@ -8091,7 +8091,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell235.BorderWidth = 2F;
             this.xrTableCell235.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[YENIDOGANUZMANGORUSU]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[YENIDOGANUZMANGORUSUTEXT]")});
             this.xrTableCell235.Multiline = true;
             this.xrTableCell235.Name = "xrTableCell235";
             this.xrTableCell235.StylePriority.UseBorderColor = false;
@@ -8206,7 +8206,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell239.BorderWidth = 2F;
             this.xrTableCell239.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[YENIDOGANETIKMI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[YENIDOGANETIKMITEXT]")});
             this.xrTableCell239.Multiline = true;
             this.xrTableCell239.Name = "xrTableCell239";
             this.xrTableCell239.StylePriority.UseBorderColor = false;
@@ -8304,7 +8304,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell246.BorderWidth = 2F;
             this.xrTableCell246.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[DISHEKIMI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[DISHEKIMITEXT]")});
             this.xrTableCell246.Multiline = true;
             this.xrTableCell246.Name = "xrTableCell246";
             this.xrTableCell246.StylePriority.UseBorderColor = false;
@@ -8388,7 +8388,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell253.BorderWidth = 2F;
             this.xrTableCell253.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[DISHEKIMIUZMAN]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[DISHEKIMIUZMANTEXT]")});
             this.xrTableCell253.Multiline = true;
             this.xrTableCell253.Name = "xrTableCell253";
             this.xrTableCell253.StylePriority.UseBorderColor = false;
@@ -8503,7 +8503,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell257.BorderWidth = 2F;
             this.xrTableCell257.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[DISHEKIMIETIK]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[DISHEKIMIETIKTEXT]")});
             this.xrTableCell257.Multiline = true;
             this.xrTableCell257.Name = "xrTableCell257";
             this.xrTableCell257.StylePriority.UseBorderColor = false;

@@ -155,8 +155,37 @@ namespace TaekReport.KAEK.Models
         public string COCUKSAGLIGIETIKMIACIKLAMA { get; set; }
 
         public bool YENIDOGANKILINIK { get; set; }
+        public string YENIDOGANKILINIKTEXT
+        {
+            get
+            {
+                if (YENIDOGANKILINIK)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                YENIDOGANKILINIK = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
 
         public bool YENIDOGANUZMANGORUSU { get; set; }
+        public string YENIDOGANUZMANGORUSUTEXT
+        {
+            get
+            {
+                if (YENIDOGANUZMANGORUSU)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                YENIDOGANUZMANGORUSU = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
+
         public string YENIDOGANUZMANTIPI { get; set; }
         public string YENIDOGANETIKMI { get; set; }
         public string YENIDOGANETIKMIACK { get; set; }
@@ -164,9 +193,51 @@ namespace TaekReport.KAEK.Models
 
 
         public bool DISHEKIMI { get; set; }
+        public string DISHEKIMITEXT
+        {
+            get
+            {
+                if (DISHEKIMI)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                DISHEKIMI = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
         public bool DISHEKIMIUZMAN { get; set; }
+        public string DISHEKIMIUZMANTEXT
+        {
+            get
+            {
+                if (DISHEKIMIUZMAN)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                DISHEKIMIUZMAN = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
         public string DISHEKIMIUZMANTIPI { get; set; }
         public bool DISHEKIMIETIK { get; set; }
+        public string DISHEKIMIETIKTEXT
+        {
+            get
+            {
+                if (DISHEKIMIETIK)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                DISHEKIMIETIK = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
         public string DISHEKIMIETIKACK { get; set; }
 
         ///İlk Uygunluk Başvurusu:
