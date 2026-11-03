@@ -187,7 +187,22 @@ namespace TaekReport.KAEK.Models
         }
 
         public string YENIDOGANUZMANTIPI { get; set; }
-        public string YENIDOGANETIKMI { get; set; }
+        public bool YENIDOGANETIKMI { get; set; }
+
+        public string YENIDOGANETIKMITEXT
+        {
+            get
+            {
+                if (YENIDOGANETIKMI)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                YENIDOGANETIKMI = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
         public string YENIDOGANETIKMIACK { get; set; }
 
 

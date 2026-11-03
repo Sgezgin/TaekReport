@@ -8588,7 +8588,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell239.BorderWidth = 2F;
             this.xrTableCell239.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[YENIDOGANETIKMI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[YENIDOGANETIKMITEXT]")});
             this.xrTableCell239.Multiline = true;
             this.xrTableCell239.Name = "xrTableCell239";
             this.xrTableCell239.StylePriority.UseBorderColor = false;
