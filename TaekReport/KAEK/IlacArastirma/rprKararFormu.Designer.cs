@@ -3981,7 +3981,7 @@
             // 
             this.xrTableCell304.BackColor = System.Drawing.Color.LightSteelBlue;
             this.xrTableCell304.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "\'Ara Analiz Raporu (geçerli ise) - [ACIKLAMA]\'")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "\'Ara Analiz Raporu (geçerli ise)\' + [BELGETURU]")});
             this.xrTableCell304.Font = new System.Drawing.Font("Arial", 8.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell304.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell304.Multiline = true;
