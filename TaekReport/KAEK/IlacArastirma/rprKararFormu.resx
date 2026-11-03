@@ -168,6 +168,14 @@ olması nedeni ile çalışmanın başlatılabilmesi için etik kurul onayı al�
   <data name="xrTableCell484.Text" xml:space="preserve">
     <value>bulunan çalışmanın Sağlık Hizmetleri Genel Müdürlüğünün 5/4/2018 tarihinde yayımladığı 2018/10 sayılı Genelge kapsamında yer alan kök hücreler ile yapılan klinik araştırma olması nedeni ile araştırmanın başlatılabilmesi için Sağlık Hizmetleri Genel Müdürlüğü’nden izin alınması gerekmektedir.</value>
   </data>
+  <data name="xrTableCell902.Text" xml:space="preserve">
+    <value>bulunan çalışmanın 3359 sayılı Sağlık Hizmetleri Temel Kanunu Ek 10. Madde kapsamında yer alan
+• Geleneksel ve tamamlayıcı tıp uygulamalarına ilişkin araştırmalar dışındaki tedavi yöntemlerine ilişkin çalışma,
+• Özel tıbbi amaçlı gıdalarda kullanım amacına ilişkin çalışma,
+• Gıda ve takviye edici gıdalarda sağlık beyanı kullanımına ilişkin çalışma,
+• Düşük riskli bilimsel çalışma,
+olması nedeni ile çalışmanın başlatılabilmesi için Türkiye İlaç ve Tıbbi Cihaz Kurumu’na başvuru yapılması gerekmektedir.</value>
+  </data>
   <data name="xrTableCell488.Text" xml:space="preserve">
     <value>Yukarıda bilgileri verilen başvuru dosyası ile ilgili belgeler araştırmanın/çalışmanın gerekçe, amaç, yaklaşım ve yöntemleri dikkate alınarak incelenmiş ve araştırmanın/çalışmanın yürütülmesi uygun bulunmamıştır.</value>
   </data>
