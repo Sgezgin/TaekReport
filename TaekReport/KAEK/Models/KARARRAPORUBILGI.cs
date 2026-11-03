@@ -11,7 +11,22 @@ namespace TaekReport.KAEK.Models
 
 
         public bool PLASEBOVARMI { get; set; }
+        public string PLASEBOVARMITEXT
+        {
+            get
+            {
+                if (DNAANALIZIVARMI)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                PLASEBOVARMI = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
         public bool PLASEBOUYGUN { get; set; }
+
         public bool PLASEBOUYGUNDEGIL
         {
             get
@@ -324,7 +339,49 @@ namespace TaekReport.KAEK.Models
         public bool REVIZYON { get; set; }
 
 
+        public bool KARARIUYGUNBULMAYANUYE { get; set; }
+        public string KARARIUYGUNBULMAYANUYETEXT
+        {
+            get
+            {
+                if (KARARIUYGUNBULMAYANUYE)
+                    return "Evet";
+                else
+                    return "Hayır";
+            }
+            set
+            {
+                KARARIUYGUNBULMAYANUYE = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+            }
+        }
+        public string KARARIUYGUNBULMAYANUYEACIKLAMA { get; set; }
 
+        public string ARASTIRMAYENIDENBASLAMA { get; set; }
+        public bool ARASTIRMAYENIDENBASLAMAUYGUN { get; set; }
+        public bool ARASTIRMAYENIDENBASLAMAUYGUNDEGIL
+        {
+            get
+            {
+                return !ARASTIRMAYENIDENBASLAMAUYGUN;
+            }
+            set
+            {
+                ARASTIRMAYENIDENBASLAMAUYGUN = !value;
+            }
+        }
+        public string ARASTIRMAYENIDENDURDURMA { get; set; }
+        public bool ARASTIRMAYENIDENDURDURMAUYGUN { get; set; }
+        public bool ARASTIRMAYENIDENDURDURMAUYGUNDEGIL
+        {
+            get
+            {
+                return !ARASTIRMAYENIDENDURDURMAUYGUN;
+            }
+            set
+            {
+                ARASTIRMAYENIDENDURDURMAUYGUN = !value;
+            }
+        }
 
 
 
