@@ -865,9 +865,9 @@
             this.xrTableCell351 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell365 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell477 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.xrTableRow168 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell100 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
@@ -2327,7 +2327,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell61.BorderWidth = 2F;
             this.xrTableCell61.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[ARASTIRMANITELIGIFAZ]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[ARASTIRMANITELIGIFAZ]\n")});
             this.xrTableCell61.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell61.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell61.Multiline = true;
@@ -2427,8 +2427,6 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell64.BorderWidth = 2F;
-            this.xrTableCell64.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KlinikFormu].[YARDIMCIBESERITIBBIURUNTURU]")});
             this.xrTableCell64.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell64.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell64.Multiline = true;
@@ -3347,7 +3345,7 @@
             // 
             this.xrTableCell377.BackColor = System.Drawing.Color.LightSteelBlue;
             this.xrTableCell377.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", " \'Araştırmacı Broşürü (AB) - \' + [ACIKLAMA]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", " \'Araştırmacı Broşürü (AB) - \' + [BELGETURU]")});
             this.xrTableCell377.Font = new System.Drawing.Font("Arial", 8.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell377.ForeColor = System.Drawing.Color.MidnightBlue;
             this.xrTableCell377.Multiline = true;
@@ -11919,11 +11917,6 @@
             this.xrTableCell477.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             this.xrTableCell477.Weight = 2.0221775409805849D;
             // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.KararFormu);
-            this.objectDataSource1.Name = "objectDataSource1";
-            // 
             // xrTableRow168
             // 
             this.xrTableRow168.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
@@ -11952,6 +11945,11 @@
             this.xrTableCell100.StylePriority.UseTextAlignment = false;
             this.xrTableCell100.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             this.xrTableCell100.Weight = 2.8258066741594217D;
+            // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.KararFormu);
+            this.objectDataSource1.Name = "objectDataSource1";
             // 
             // rprKararFormu
             // 
