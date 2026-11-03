@@ -303,7 +303,20 @@ namespace TaekReport.KAEK.Models
 
         public string DANISMANGORUSTIPI { get; set; }
         public string DANISMANACIKLAMASI { get; set; }
-
+        public string DEGISIKLIKACIKLAMA { get; set; }
+        public bool DEGISIKLIKUYGUN { get; set; }
+        public bool DEGISIKLIKUYGUNDEGIL
+        {
+            get
+            {
+                return !DEGISIKLIKUYGUN;
+            }
+            set
+            {
+                DEGISIKLIKUYGUN = !value;
+            }
+        }
+        public bool REVIZYON { get; set; }
 
 
 
