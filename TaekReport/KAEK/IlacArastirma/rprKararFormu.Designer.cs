@@ -2768,7 +2768,8 @@
             // 
             this.xrCheckBox2.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False, [UYGUNDEGIL]), False)")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False," +
+                    " [UYGUNDEGIL]), False)")});
             this.xrCheckBox2.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox2.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox2.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -3344,7 +3345,8 @@
             // 
             this.xrCheckBox4.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox4.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False, [UYGUNDEGIL]), False)")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False," +
+                    " [UYGUNDEGIL]), False)")});
             this.xrCheckBox4.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox4.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox4.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -3787,7 +3789,8 @@
             // 
             this.xrCheckBox6.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox6.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False, [UYGUNDEGIL]), False)")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False," +
+                    " [UYGUNDEGIL]), False)")});
             this.xrCheckBox6.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox6.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox6.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -4018,7 +4021,8 @@
             // 
             this.xrCheckBox7.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox7.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([FaydaRiskDegerlendirmeForm].[UYGUN])), False, [FaydaRiskDegerlendirmeForm].[UYGUN])")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([FaydaRiskDegerlendirmeForm].[UYGUN])), False, [FaydaRisk" +
+                    "DegerlendirmeForm].[UYGUN])")});
             this.xrCheckBox7.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox7.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox7.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -4051,7 +4055,9 @@
             // 
             this.xrCheckBox8.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox8.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([FaydaRiskDegerlendirmeForm].[UYGUN])), Iif(IsNullOrEmpty(ToStr([FaydaRiskDegerlendirmeForm].[UYGUNDEGIL])), False, [FaydaRiskDegerlendirmeForm].[UYGUNDEGIL]), False)")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([FaydaRiskDegerlendirmeForm].[UYGUN])), Iif(IsNullOrEmpty" +
+                    "(ToStr([FaydaRiskDegerlendirmeForm].[UYGUNDEGIL])), False, [FaydaRiskDegerlendir" +
+                    "meForm].[UYGUNDEGIL]), False)")});
             this.xrCheckBox8.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox8.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox8.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -4419,7 +4425,8 @@
             // 
             this.xrCheckBox10.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox10.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False, [UYGUNDEGIL]), False)")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False," +
+                    " [UYGUNDEGIL]), False)")});
             this.xrCheckBox10.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox10.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox10.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -4675,7 +4682,8 @@
             // 
             this.xrCheckBox12.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox12.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False, [UYGUNDEGIL]), False)")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False," +
+                    " [UYGUNDEGIL]), False)")});
             this.xrCheckBox12.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox12.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox12.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -4931,7 +4939,8 @@
             // 
             this.xrCheckBox14.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox14.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False, [UYGUNDEGIL]), False)")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False," +
+                    " [UYGUNDEGIL]), False)")});
             this.xrCheckBox14.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox14.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox14.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -5187,7 +5196,8 @@
             // 
             this.xrCheckBox16.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox16.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False, [UYGUNDEGIL]), False)")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False," +
+                    " [UYGUNDEGIL]), False)")});
             this.xrCheckBox16.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox16.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox16.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -6593,7 +6603,8 @@
             // 
             this.xrCheckBox18.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox18.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False, [UYGUNDEGIL]), False)")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False," +
+                    " [UYGUNDEGIL]), False)")});
             this.xrCheckBox18.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox18.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox18.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -6852,7 +6863,8 @@
             // 
             this.xrCheckBox44.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox44.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False, [UYGUNDEGIL]), False)")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False," +
+                    " [UYGUNDEGIL]), False)")});
             this.xrCheckBox44.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox44.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox44.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -7133,7 +7145,8 @@
             // 
             this.xrCheckBox22.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox22.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False, [UYGUNDEGIL]), False)")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif(IsNullOrEmpty(ToStr([UYGUN])), Iif(IsNullOrEmpty(ToStr([UYGUNDEGIL])), False," +
+                    " [UYGUNDEGIL]), False)")});
             this.xrCheckBox22.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox22.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox22.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -7905,7 +7918,8 @@
             // 
             this.xrCheckBox28.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox28.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[KARARRAPORUBILGI].[ARASTIRMAKISITLILARVARMI] And [KARARRAPORUBILGI].[KISITLILARIUYGUN]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[KARARRAPORUBILGI].[ARASTIRMAKISITLILARVARMI] And [KARARRAPORUBILGI].[KISITLILARI" +
+                    "UYGUN]")});
             this.xrCheckBox28.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox28.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox28.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -7936,7 +7950,8 @@
             // 
             this.xrCheckBox27.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrCheckBox27.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[KARARRAPORUBILGI].[ARASTIRMAKISITLILARVARMI] And [KARARRAPORUBILGI].[KISITLILARIUYGUNDEGIL]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[KARARRAPORUBILGI].[ARASTIRMAKISITLILARVARMI] And [KARARRAPORUBILGI].[KISITLILARI" +
+                    "UYGUNDEGIL]")});
             this.xrCheckBox27.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox27.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox27.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
@@ -9265,11 +9280,15 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell125.BorderWidth = 2F;
+            this.xrTableCell125.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMADOSYALARI].[DOSYANO]")});
             this.xrTableCell125.Multiline = true;
             this.xrTableCell125.Name = "xrTableCell125";
             this.xrTableCell125.StylePriority.UseBorderColor = false;
             this.xrTableCell125.StylePriority.UseBorders = false;
             this.xrTableCell125.StylePriority.UseBorderWidth = false;
+            this.xrTableCell125.StylePriority.UseTextAlignment = false;
+            this.xrTableCell125.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell125.Weight = 0.65631641474567737D;
             // 
             // xrTableCell118
@@ -9310,6 +9329,8 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell123.BorderWidth = 2F;
+            this.xrTableCell123.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMADOSYALARI].[TOPLANTITARIH]")});
             this.xrTableCell123.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.xrTableCell123.Multiline = true;
             this.xrTableCell123.Name = "xrTableCell123";
@@ -9317,6 +9338,9 @@
             this.xrTableCell123.StylePriority.UseBorders = false;
             this.xrTableCell123.StylePriority.UseBorderWidth = false;
             this.xrTableCell123.StylePriority.UseFont = false;
+            this.xrTableCell123.StylePriority.UseTextAlignment = false;
+            this.xrTableCell123.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrTableCell123.TextFormatString = "{0:d.MM.yyyy}";
             this.xrTableCell123.Weight = 0.74747129097603737D;
             // 
             // xrTableRow52
