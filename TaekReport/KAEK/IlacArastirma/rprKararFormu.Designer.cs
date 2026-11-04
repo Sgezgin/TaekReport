@@ -6557,8 +6557,6 @@
             // 
             this.xrTableCell570.AllowMarkupText = true;
             this.xrTableCell570.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(214)))), ((int)(((byte)(238)))));
-            this.xrTableCell570.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Monitör]")});
             this.xrTableCell570.Font = new System.Drawing.Font("Arial", 8.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrTableCell570.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell570.Multiline = true;
@@ -6567,6 +6565,7 @@
             this.xrTableCell570.StylePriority.UseFont = false;
             this.xrTableCell570.StylePriority.UseForeColor = false;
             this.xrTableCell570.StylePriority.UseTextAlignment = false;
+            this.xrTableCell570.Text = "Monitör";
             this.xrTableCell570.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell570.TextFormatString = "{0:d.MM.yyyy}";
             this.xrTableCell570.Weight = 0.58372268845895492D;
