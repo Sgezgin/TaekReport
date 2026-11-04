@@ -101,6 +101,28 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
+        public byte[] GozlemselCalismalarBasvuruForm(List<GozlemselCalismalarBasvuruFormu> list)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                GozlemselIlac.rprGozlemselCalismalarBasvuruForm rpr = new GozlemselIlac.rprGozlemselCalismalarBasvuruForm(list);
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.DataSource = list;
+                    rpr.ExportToPdf(ms);
+
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception ex)
+            {
+                var data = ex.Message;
+            }
+
+            return resultReport;
+        }
+
         public byte[] FaydaRiskDegerlendirmeForm(List<FaydaRiskDegerlendirmeFormu> list)
         {
             byte[] resultReport = null;

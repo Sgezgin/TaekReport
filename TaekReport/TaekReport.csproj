@@ -214,6 +214,14 @@
     <Compile Include="KAEK\IlacArastirma\rprKararFormu.Designer.cs">
       <DependentUpon>rprKararFormu.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\GozlemselIlac\rprGozlemselCalismalarBasvuruForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\GozlemselIlac\rprGozlemselCalismalarBasvuruForm.Designer.cs">
+      <DependentUpon>rprGozlemselCalismalarBasvuruForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KAEK\Models\GOZLEMSELCALISMABASVURUFORMU.cs" />
+    <Compile Include="KAEK\Models\RaporModel\GozlemselCalismalarBasvuruFormu.cs" />
     <Compile Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruForm.cs">
       <SubType>Component</SubType>
     </Compile>
