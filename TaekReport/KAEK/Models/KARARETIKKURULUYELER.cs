@@ -13,7 +13,21 @@ namespace TaekReport.KAEK.Models
         public string UNVANADSOYAD { get; set; } = "";
         public string UZMANLIK { get; set; } = "";
         public string ZORUNLU { get; set; } = "";
-        public string KURUMDISI { get; set; } = "";
+        private string _kurumDisi = "H"; // Varsayılan değer
+
+        public string KURUMDISI
+        {
+            get
+            {
+                return _kurumDisi == "H" ? "Evet" : "Hayır";
+            }
+            set
+            {
+                // Gelen değer "Evet" ise "H", değilse "E" olarak kaydeder
+                bool isEvet = string.Equals(value?.Trim(), "Evet", StringComparison.OrdinalIgnoreCase);
+                _kurumDisi = isEvet ? "H" : "E";
+            }
+        }
         public string ILISKI { get; set; } = "";
         public string KATILIM { get; set; } = "";
         public string IMZA { get; set; } = "";
