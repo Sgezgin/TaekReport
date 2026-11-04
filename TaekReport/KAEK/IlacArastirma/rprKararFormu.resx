@@ -117,9 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>&lt;font color="red"&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/font&gt; Klinik araştırmalar etik kurullarına TİTCK tarafından verilen tanımlayıcı kod (Örn: 2024-KAEK-01)
+&lt;font color="red"&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/font&gt; Tek merkezli araştırmalarda sorumlu araştırmacı, çok merkezli araştırmalarda koordinatör bilgileri verilmelidir.</value>
+  </data>
   <metadata name="objectDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="xrLabel2.Text" xml:space="preserve">
+    <value>&lt;font color="red"&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/font&gt; "Uygun Değil" seçilen tüm dökümanlar için gerekçeleri karar bölümünde açıklanmalıdır.
+&lt;font color="red"&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/font&gt; Birden çok BGOF olması durumunda her birinin karar formuna ayrı ayrı eklenmesi ve değerlendirme durumunun belirtilmesi gerekmektedir.</value>
+  </data>
+  <data name="xrLabel3.Text" xml:space="preserve">
+    <value>&lt;font color="red"&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/font&gt; Çocuklarda yürütülen kinik araştırmalarda ve biyoteknolojik/biyobenzer ürünlerle yapılan klinik araştırmalarda yapılan sigorta çalışma tamamlandıktan sonraki en az 5 (beş) yılı kapsamalıdır.</value>
+  </data>
   <data name="xrTableCell186.Text" xml:space="preserve">
     <value>Araştırmaya kısıtlılar, çocuklar, gebeler, lohusalar ve emziren kadınlar, yoğun bakımdaki ve bilinci kapalı kişiler ile şahsen olur veremeyecek kişiler veya etkilenebilir özneler gibi hassas bir popülasyon dahil edilecek mi?</value>
   </data>
