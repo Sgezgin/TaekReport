@@ -816,7 +816,7 @@
             // 
             this.TopMargin.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable1});
-            this.TopMargin.HeightF = 108F;
+            this.TopMargin.HeightF = 113.787F;
             this.TopMargin.Name = "TopMargin";
             // 
             // xrTable1
@@ -1412,7 +1412,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell25.BorderWidth = 2F;
             this.xrTableCell25.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KlinikFormu].[EKLEMETARIH]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ARASTIRMADOSYALARI].[EKLEMETARIH]")});
             this.xrTableCell25.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell25.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell25.Multiline = true;
@@ -10666,7 +10666,7 @@
             this.PageFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable40,
             this.xrTable39});
-            this.PageFooter.HeightF = 140.3991F;
+            this.PageFooter.HeightF = 147.3034F;
             this.PageFooter.Name = "PageFooter";
             // 
             // xrTable40
@@ -11022,7 +11022,7 @@
             this.objectDataSource1});
             this.DataSource = this.objectDataSource1;
             this.Font = new System.Drawing.Font("Arial", 9F);
-            this.Margins = new System.Drawing.Printing.Margins(12, 14, 108, 0);
+            this.Margins = new System.Drawing.Printing.Margins(12, 14, 114, 0);
             this.PageHeight = 1169;
             this.PageWidth = 827;
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;
