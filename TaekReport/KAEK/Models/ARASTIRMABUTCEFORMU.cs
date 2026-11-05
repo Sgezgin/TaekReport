@@ -33,5 +33,23 @@ namespace TaekReport.KAEK.Models
         public string TELEFON2 { get; set; }
         public string EPOSTA2 { get; set; }
         public string TARIH { get; set; }
+        public bool UYGUN { get; set; }
+        public bool UYGUNDEGIL
+        {
+            get
+            {
+                return !UYGUN;
+            }
+            set
+            {
+                UYGUN = !value;
+            }
+        }
+        public string BELGEUYGUNLUK { get; set; } // Karar aşaması belge kontrolü: true=uygun, false=uygun değil, null=karar verilmedi
+        public string RAPORTORUYGUN { get; set; }
+        public string IADEACIKLAMA { get; set; }
+
+        public string BELGEYOLU { get; set; }
+        public string BELGEADI { get; set; }
     }
 }

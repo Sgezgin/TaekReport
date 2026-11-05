@@ -29,6 +29,7 @@ namespace TaekReport.KAEK.Models.RaporModel
         public List<KARARETIKKURULUYELER> listEtikKurulUyeleri { get; set; }
 		public List<KARARETIKKURULUYELER> listEtikKurulYedekUyeleri { get; set; }
         public KARARRAPORUBILGI KARARRAPORUBILGI { get; set; }
+        public ARASTIRMABUTCEFORMU ARASTIRMABUTCEFORMU { get; set; }
         public LOKASYON LOKASYON { get; set; }
     }
 }
