@@ -1827,7 +1827,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Hassas.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Hassas.Name = "xrLblDigerTitle_Hassas";
-            this.xrLblDigerTitle_Hassas.SizeF = new System.Drawing.SizeF(790F, 18F);
+            this.xrLblDigerTitle_Hassas.SizeF = new System.Drawing.SizeF(802F, 18F);
             this.xrLblDigerTitle_Hassas.Text = @"Hassas popülasyon/İncinebilir Grup (Vulnerable subjects)";
 
             // xrLblDigerDesc_Hassas
@@ -1836,7 +1836,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerDesc_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
             this.xrLblDigerDesc_Hassas.Multiline = true;
             this.xrLblDigerDesc_Hassas.Name = "xrLblDigerDesc_Hassas";
-            this.xrLblDigerDesc_Hassas.SizeF = new System.Drawing.SizeF(790F, 32F);
+            this.xrLblDigerDesc_Hassas.SizeF = new System.Drawing.SizeF(802F, 32F);
             this.xrLblDigerDesc_Hassas.Text = @"Çalışmaya kısıtlılar, çocuklar, gebeler, lohusalar ve emziren kadınlar, yoğun bakımdaki ve bilinci kapalı kişiler ile şahsen olur veremeyecek kişiler veya etkilenebilir özneler gibi hassas bir popülasyon dahil edilecekse, çalışmanın bu popülasyonda yapılmasına dair gerekçeyi ve seçilen bu popülasyonda bilgilendirilmiş gönüllü olur formu almak, gizlilik esasını korumak ve bu gruba yönelik alınacak tedbirleri açıklayınız";
 
             // xrLblDigerVal_Hassas
@@ -1848,7 +1848,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
             this.xrLblDigerVal_Hassas.Multiline = true;
             this.xrLblDigerVal_Hassas.Name = "xrLblDigerVal_Hassas";
-            this.xrLblDigerVal_Hassas.SizeF = new System.Drawing.SizeF(790F, 22F);
+            this.xrLblDigerVal_Hassas.SizeF = new System.Drawing.SizeF(802F, 22F);
 
             // xrRowDiger_Gizlilik
             this.xrRowDiger_Gizlilik.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
@@ -1873,7 +1873,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Gizlilik.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Gizlilik.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Gizlilik.Name = "xrLblDigerTitle_Gizlilik";
-            this.xrLblDigerTitle_Gizlilik.SizeF = new System.Drawing.SizeF(790F, 18F);
+            this.xrLblDigerTitle_Gizlilik.SizeF = new System.Drawing.SizeF(802F, 18F);
             this.xrLblDigerTitle_Gizlilik.Text = @"Gizlilik";
 
             // xrLblDigerDesc_Gizlilik
@@ -1882,7 +1882,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerDesc_Gizlilik.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
             this.xrLblDigerDesc_Gizlilik.Multiline = true;
             this.xrLblDigerDesc_Gizlilik.Name = "xrLblDigerDesc_Gizlilik";
-            this.xrLblDigerDesc_Gizlilik.SizeF = new System.Drawing.SizeF(790F, 32F);
+            this.xrLblDigerDesc_Gizlilik.SizeF = new System.Drawing.SizeF(802F, 32F);
             this.xrLblDigerDesc_Gizlilik.Text = @"Gönüllülere ait kimlik bilgileri/kişisel tanımlayıcı bilgiler toplanacak veya bunlara erişim sağlanacak (sağlık kayıtları, biyometrik kimlik tanımlayıcılar, ses kayıtları, görüntüler gibi) ise bunları açıklayınız. Gönüllülere ait kimlik bilgilerine/kişisel tanımlayıcı bilgilere kimlerin erişim hakkı olacağını ve yetkisi olmayan kişilerin kimlik tanımlayıcı verilere erişimini engellemek için alınan önlemleri açıklayınız.";
 
             // xrLblDigerVal_Gizlilik
@@ -1894,7 +1894,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Gizlilik.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
             this.xrLblDigerVal_Gizlilik.Multiline = true;
             this.xrLblDigerVal_Gizlilik.Name = "xrLblDigerVal_Gizlilik";
-            this.xrLblDigerVal_Gizlilik.SizeF = new System.Drawing.SizeF(790F, 22F);
+            this.xrLblDigerVal_Gizlilik.SizeF = new System.Drawing.SizeF(802F, 22F);
 
             // xrRowDiger_Odeme
             this.xrRowDiger_Odeme.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
@@ -1919,7 +1919,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Odeme.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Odeme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Odeme.Name = "xrLblDigerTitle_Odeme";
-            this.xrLblDigerTitle_Odeme.SizeF = new System.Drawing.SizeF(790F, 18F);
+            this.xrLblDigerTitle_Odeme.SizeF = new System.Drawing.SizeF(802F, 18F);
             this.xrLblDigerTitle_Odeme.Text = @"Gönüllülere ödeme";
 
             // xrLblDigerDesc_Odeme
@@ -1928,7 +1928,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerDesc_Odeme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
             this.xrLblDigerDesc_Odeme.Multiline = true;
             this.xrLblDigerDesc_Odeme.Name = "xrLblDigerDesc_Odeme";
-            this.xrLblDigerDesc_Odeme.SizeF = new System.Drawing.SizeF(790F, 32F);
+            this.xrLblDigerDesc_Odeme.SizeF = new System.Drawing.SizeF(802F, 32F);
             this.xrLblDigerDesc_Odeme.Text = @"Gönüllülerin çalışmaya iştiraki ile ortaya çıkacak masraflar (yol, konaklama ve yemek giderleri gibi) için ödeme yapılacak ise açıklayınız (miktarı, ödemenin nasıl gerçekleştirileceği vb.)";
 
             // xrLblDigerVal_Odeme
@@ -1940,7 +1940,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Odeme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
             this.xrLblDigerVal_Odeme.Multiline = true;
             this.xrLblDigerVal_Odeme.Name = "xrLblDigerVal_Odeme";
-            this.xrLblDigerVal_Odeme.SizeF = new System.Drawing.SizeF(790F, 22F);
+            this.xrLblDigerVal_Odeme.SizeF = new System.Drawing.SizeF(802F, 22F);
 
             // xrRowDiger_Dokuman
             this.xrRowDiger_Dokuman.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
@@ -1965,7 +1965,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Dokuman.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Dokuman.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Dokuman.Name = "xrLblDigerTitle_Dokuman";
-            this.xrLblDigerTitle_Dokuman.SizeF = new System.Drawing.SizeF(790F, 18F);
+            this.xrLblDigerTitle_Dokuman.SizeF = new System.Drawing.SizeF(802F, 18F);
             this.xrLblDigerTitle_Dokuman.Text = @"Çalışma / gönüllü dokümanları (additional documentation and recruitment procedure)";
 
             // xrLblDigerDesc_Dokuman
@@ -1974,7 +1974,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerDesc_Dokuman.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
             this.xrLblDigerDesc_Dokuman.Multiline = true;
             this.xrLblDigerDesc_Dokuman.Name = "xrLblDigerDesc_Dokuman";
-            this.xrLblDigerDesc_Dokuman.SizeF = new System.Drawing.SizeF(790F, 32F);
+            this.xrLblDigerDesc_Dokuman.SizeF = new System.Drawing.SizeF(802F, 32F);
             this.xrLblDigerDesc_Dokuman.Text = @"Çalışmada kullanılacak doküman ve materyallerin kullanım amaçlarını açıklayınız (anket, görüşme, odak grup taslağı, günlükler, hasta kartları vb.). Gönüllülerin çalışmaya dâhil edilmesinde kullanılacak araçları açıklayınız (poster, broşür, hekim sevk mektubu vb.)";
 
             // xrLblDigerVal_Dokuman
@@ -1986,7 +1986,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Dokuman.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
             this.xrLblDigerVal_Dokuman.Multiline = true;
             this.xrLblDigerVal_Dokuman.Name = "xrLblDigerVal_Dokuman";
-            this.xrLblDigerVal_Dokuman.SizeF = new System.Drawing.SizeF(790F, 22F);
+            this.xrLblDigerVal_Dokuman.SizeF = new System.Drawing.SizeF(802F, 22F);
 
             // xrRowDiger_Izleme
             this.xrRowDiger_Izleme.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
@@ -2011,7 +2011,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Izleme.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Izleme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Izleme.Name = "xrLblDigerTitle_Izleme";
-            this.xrLblDigerTitle_Izleme.SizeF = new System.Drawing.SizeF(790F, 18F);
+            this.xrLblDigerTitle_Izleme.SizeF = new System.Drawing.SizeF(802F, 18F);
             this.xrLblDigerTitle_Izleme.Text = @"Bağımsız veri izleme komitesi";
 
             // xrLblDigerDesc_Izleme
@@ -2020,7 +2020,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerDesc_Izleme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
             this.xrLblDigerDesc_Izleme.Multiline = true;
             this.xrLblDigerDesc_Izleme.Name = "xrLblDigerDesc_Izleme";
-            this.xrLblDigerDesc_Izleme.SizeF = new System.Drawing.SizeF(790F, 32F);
+            this.xrLblDigerDesc_Izleme.SizeF = new System.Drawing.SizeF(802F, 32F);
             this.xrLblDigerDesc_Izleme.Text = @"Çalışmada bağımsız veri izleme komitesi varsa komitenin yapısını ve iletişim bilgilerini belirtiniz.";
 
             // xrLblDigerVal_Izleme
@@ -2032,7 +2032,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Izleme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
             this.xrLblDigerVal_Izleme.Multiline = true;
             this.xrLblDigerVal_Izleme.Name = "xrLblDigerVal_Izleme";
-            this.xrLblDigerVal_Izleme.SizeF = new System.Drawing.SizeF(790F, 22F);
+            this.xrLblDigerVal_Izleme.SizeF = new System.Drawing.SizeF(802F, 22F);
 
             // xrRowDiger_Tesis
             this.xrRowDiger_Tesis.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
@@ -2057,7 +2057,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Tesis.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Tesis.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Tesis.Name = "xrLblDigerTitle_Tesis";
-            this.xrLblDigerTitle_Tesis.SizeF = new System.Drawing.SizeF(790F, 18F);
+            this.xrLblDigerTitle_Tesis.SizeF = new System.Drawing.SizeF(802F, 18F);
             this.xrLblDigerTitle_Tesis.Text = @"Tesis / laboratuvar";
 
             // xrLblDigerDesc_Tesis
@@ -2066,7 +2066,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerDesc_Tesis.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
             this.xrLblDigerDesc_Tesis.Multiline = true;
             this.xrLblDigerDesc_Tesis.Name = "xrLblDigerDesc_Tesis";
-            this.xrLblDigerDesc_Tesis.SizeF = new System.Drawing.SizeF(790F, 32F);
+            this.xrLblDigerDesc_Tesis.SizeF = new System.Drawing.SizeF(802F, 32F);
             this.xrLblDigerDesc_Tesis.Text = @"Çalışmanın gerçekleştirilmesinde kullanılacak olan merkezi teknik tesisler, temel değerlendirme kriterlerinin ölçümü veya değerlendirilmesinin merkezileştirildiği laboratuvar veya diğer teknik tesisleri açıklayınız. Kurum/kuruluşun adı, temasa geçilecek kişinin adı soyadı ve iletişim bilgilerini belirtiniz.";
 
             // xrLblDigerVal_Tesis
@@ -2078,7 +2078,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Tesis.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
             this.xrLblDigerVal_Tesis.Multiline = true;
             this.xrLblDigerVal_Tesis.Name = "xrLblDigerVal_Tesis";
-            this.xrLblDigerVal_Tesis.SizeF = new System.Drawing.SizeF(790F, 22F);
+            this.xrLblDigerVal_Tesis.SizeF = new System.Drawing.SizeF(802F, 22F);
 
             // xrRowDiger_Gorev
             this.xrRowDiger_Gorev.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
@@ -2103,7 +2103,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Gorev.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Gorev.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Gorev.Name = "xrLblDigerTitle_Gorev";
-            this.xrLblDigerTitle_Gorev.SizeF = new System.Drawing.SizeF(790F, 18F);
+            this.xrLblDigerTitle_Gorev.SizeF = new System.Drawing.SizeF(802F, 18F);
             this.xrLblDigerTitle_Gorev.Text = @"Görev devri";
 
             // xrLblDigerDesc_Gorev
@@ -2112,7 +2112,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerDesc_Gorev.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
             this.xrLblDigerDesc_Gorev.Multiline = true;
             this.xrLblDigerDesc_Gorev.Name = "xrLblDigerDesc_Gorev";
-            this.xrLblDigerDesc_Gorev.SizeF = new System.Drawing.SizeF(790F, 32F);
+            this.xrLblDigerDesc_Gorev.SizeF = new System.Drawing.SizeF(802F, 32F);
             this.xrLblDigerDesc_Gorev.Text = @"Destekleyici, çalışmaya ait temel görev veya işlerinden herhangi birini başka bir kurum/kuruluşa veya üçüncü taraflara devretmiş ise devredilen görevi açıklayınız. Kurum/kuruluşun adı, temasa geçilecek kişinin adı soyadı ve iletişim bilgilerini belirtiniz.";
 
             // xrLblDigerVal_Gorev
@@ -2124,7 +2124,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Gorev.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
             this.xrLblDigerVal_Gorev.Multiline = true;
             this.xrLblDigerVal_Gorev.Name = "xrLblDigerVal_Gorev";
-            this.xrLblDigerVal_Gorev.SizeF = new System.Drawing.SizeF(790F, 22F);
+            this.xrLblDigerVal_Gorev.SizeF = new System.Drawing.SizeF(802F, 22F);
 
             // xrRowDiger_Otorite
             this.xrRowDiger_Otorite.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
@@ -2149,7 +2149,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Otorite.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Otorite.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Otorite.Name = "xrLblDigerTitle_Otorite";
-            this.xrLblDigerTitle_Otorite.SizeF = new System.Drawing.SizeF(790F, 18F);
+            this.xrLblDigerTitle_Otorite.SizeF = new System.Drawing.SizeF(802F, 18F);
             this.xrLblDigerTitle_Otorite.Text = @"Diğer sağlık otoritelerine başvuru";
 
             // xrLblDigerDesc_Otorite
@@ -2158,7 +2158,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerDesc_Otorite.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
             this.xrLblDigerDesc_Otorite.Multiline = true;
             this.xrLblDigerDesc_Otorite.Name = "xrLblDigerDesc_Otorite";
-            this.xrLblDigerDesc_Otorite.SizeF = new System.Drawing.SizeF(790F, 32F);
+            this.xrLblDigerDesc_Otorite.SizeF = new System.Drawing.SizeF(802F, 32F);
             this.xrLblDigerDesc_Otorite.Text = @"Çalışma uluslararası bir araştırma ise aynı başvurunun sunulduğu diğer sağlık otoritelerinin bir listesini belirtiniz. Çalışmanın onaylandığı başka ülkeler var ise bu ülkeleri belirtiniz. Diğer ülkelerde uygulanacak protokol ve çalışmaya dair diğer hususlar ile ülkemizde uygulanacak protokol ve çalışmaya dair diğer hususlar arasında farklılıklar varsa gerekçeleri ile belirtiniz.";
 
             // xrLblDigerVal_Otorite
@@ -2170,7 +2170,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Otorite.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
             this.xrLblDigerVal_Otorite.Multiline = true;
             this.xrLblDigerVal_Otorite.Name = "xrLblDigerVal_Otorite";
-            this.xrLblDigerVal_Otorite.SizeF = new System.Drawing.SizeF(790F, 22F);
+            this.xrLblDigerVal_Otorite.SizeF = new System.Drawing.SizeF(802F, 22F);
 
             // ArastirmaEkibi
             this.ArastirmaEkibi.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {

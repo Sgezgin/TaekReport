@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="objectDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="xrLblDigerDesc_Tesis.Text" xml:space="preserve">
+    <value>Çalışmanın gerçekleştirilmesinde kullanılacak olan merkezi teknik tesisler, temel değerlendirme kriterlerinin ölçümü veya değerlendirilmesinin merkezileştirildiği laboratuvar veya diğer teknik tesisleri açıklayınız. Kurum/kuruluşun adı, temasa geçilecek kişinin adı soyadı ve iletişim bilgilerini belirtiniz.</value>
+  </data>
+  <data name="xrLblDigerDesc_Gorev.Text" xml:space="preserve">
+    <value>Destekleyici, çalışmaya ait temel görev veya işlerinden herhangi birini başka bir kurum/kuruluşa veya üçüncü taraflara devretmiş ise devredilen görevi açıklayınız. Kurum/kuruluşun adı, temasa geçilecek kişinin adı soyadı ve iletişim bilgilerini belirtiniz.</value>
+  </data>
+  <data name="xrLabelEkipNotlar.Text" xml:space="preserve">
+    <value>• Her merkez için ayrı olacak şekilde bir çalışma merkezinde yer alan tüm çalışma ekibi üyeleri yazılmalıdır.\r\n• Görevi: Katılımcı Hekim, Yardımcı Hekim, Veri Giriş Destek Görevlisi, Monitör ve diğer araştırma ekibi üyelerinin görevleri belirtilmelidir.\r\n• Unvan: Prof. Dr. ; Doç. Dr. ; Dr. Öğr. Üyesi ; Uzm. Dr. ; Dr. ; Doktora (Ph.D.) ; Yüksek Lisans vb. şekilde belirtilmelidir.\r\n• Eğitim: Tıp (Uzmanlık Alanı), Tıp, Eczacı, Hemşire, Biyolog vb. şekilde belirtilmelidir.</value>
+  </data>
+  <data name="xrRichText1.SerializableRtfString" xml:space="preserve">
+    <value>ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMABcAGYAYwBoAGEAcgBzAGUAdAAxADYAMgAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAXABmAGMAaABhAHIAcwBlAHQAMQA2ADIAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AewBcAGYAMgBcAGYAYwBoAGEAcgBzAGUAdAAxADYAMgAgAEEAcgBpAGEAbAA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXAAqAFwAYwBzADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAcwBiAGEAcwBlAGQAbwBuADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADMAXABmADEAXABmAHMAMgA0AFwAdQBsAFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANABcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA1AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAaAB0AG0AYQB1AHQAcwBwAFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABuAG8AZwByAG8AdwBhAHUAdABvAGYAaQB0AFwAdQB0AGkAbgBsAFwAbgBvAGIAcgBrAHcAcgBwAHQAYgBsAFwAZgB0AG4AbAB5AHQAdwBuAGkAbgBlAFwAZgBvAHIAbQBzAGgAYQBkAGUAXABwAGEAcgBkAFwAcABsAGEAaQBuAFwAcQBsAFwAZgAyAFwAZgBzADEAOABcAGMAZgAxAFwAcABhAHIAfQA=</value>
+  </data>
+  <data name="xrCellEtik1Text.Text" xml:space="preserve">
+    <value>Çalışmaya etik kurul tarafından daha önce verilmiş red kararı var\r\nEtik kurul kararının aslı veya aslı gibidir onaylı örneğini başvuru dosyasına ekleyiniz. Etik kurul karar formunun aslı gibidir onayı etik kurul başkanı veya etik kurul sekretaryası tarafından yapılmalıdır.</value>
+  </data>
+  <data name="xrCellEtik9Text.Text" xml:space="preserve">
+    <value>Çalışmaya ait etik kurul onayı var\r\nEtik kurul kararının aslı veya aslı gibidir onaylı örneğini başvuru dosyasına ekleyiniz. Etik kurul karar formunun aslı gibidir onayı etik kurul başkanı veya etik kurul sekretaryası tarafından yapılmalıdır.</value>
+  </data>
+  <data name="xrCellBelgeler1.Text" xml:space="preserve">
+    <value>Belgeler, Başvuru Kılavuzu (KAD-KLVZ-02) ve Etik Kurul Başvuru Kılavuzu (KAD-KALVZ-03) “İlk Başvuru Dosyasında Bulunması Gereken Belgeler” bölümlerinde belirtilen gerekliliklere uygun şekilde hazırlanır. Bu bölümde belirtilen belgeler sırası ile başvuru dosyasına eklenmelidir. İlgili mevzuat gereği başvuru ücreti yatırılması gereken başvurular için söz konusu ücretin yatırılması gerekmektedir. Eksik bilgi ve belge içeren başvurular değerlendirmeye alınmayacaktır.</value>
+  </data>
+  <data name="xrCellBelgeler2.Text" xml:space="preserve">
+    <value>• Çalışma protokolü\r\n• Protokol imza sayfası (çok merkezli araştırmalarda koordinatör, tek merkezli araştırmalarda sorumlu araştırmacı tarafından imzalanmış)\r\n• Bilgilendirilmiş gönüllü olur formu (BGOF)\r\n• Olgu rapor formu (ORF)\r\n• Araştırma bütçe formu\r\n• Özgeçmişler (katılımcı hekimlere ait)\r\n• Yetkilendirme belgeleri (geçerli ise) (noter veya yeminli tercümandan onaylı Türkçe tercümeleri ile birlikte)\r\n• Çalışma ekibi dokümanları (geçerli ise) (bilgilendirme metinleri, doktor mektupları gibi sadece araştırma ekibinin kullandığı veya araştırma ekibini bilgilendirmede kullanılan tüm dokümanlar)\r\n• Gönüllü dokümanları (geçerli ise) (hasta kartı, hasta günlüğü, anket, bilgilendirme metinleri, poster, broşür, gönüllülere verilecek olan materyaller için kullanım amaçlarını açıklayan bilgi dokümanları gibi)\r\n• Etik kurul kararı (aslı veya aslı gibidir onaylı örneği)\r\n• Çalışmada hakkında bilgi toplanan etkin maddeyi içeren tüm müstahzarların listesi\r\n• Çalışma akademik amaçlı ise; çalışmanın akademik amaçlı olduğuna dair başvuru sahibi dışında yetkili bir kişi tarafından onaylanan ıslak imzalı belge</value>
+  </data>
+  <data name="xrCellFiziki1.Text" xml:space="preserve">
+    <value>Bu bölüm sadece Türkiye İlaç ve Tıbbi Cihaz Kurumu’na başvuru yapılırken geçerlidir. Kurumun Elektronik Başvuru Sisteminde kullanıcı olan tüm ilgililer başvurularını sistem üzerinden yapmak zorundadır. Fiziksel olarak sunulması gerekmeyen belgeler sadece Elektronik Başvuru Sistemi üzerinden sunulur. Fiziksel olarak sunulması gereken belgelerin taranmış halleri Elektronik Başvuru Sistemi üzerinden; asılları ise Kurumun evrak birimine teslim edilerek sunulur. Kurumun Elektronik Başvuru Sisteminde kullanıcı olmayan gerçek kişiler tarafından yapılan başvurularda tüm belgeler fiziki olarak sunulmalıdır.</value>
+  </data>
+  <data name="xrCellFiziki2.Text" xml:space="preserve">
+    <value>• Islak imzalı başvuru formu (e-imza sahibi olmayan gerçek kişiler için)\r\n• Protokol imza sayfası (ıslak imzalı aslı)\r\n• Yetkilendirme belgeleri (aslı veya noter onaylı örneği, noter onaylı Türkçe tercümeleri ile birlikte)\r\n• Etik kurul kararı (aslı veya aslı gibidir onaylı örneği)\r\n• Akademik amaçlı çalışma onay belgesi (ıslak imzalı aslı)</value>
+  </data>
+  <data name="xrCellImza2.Text" xml:space="preserve">
+    <value>İşbu başvuru formuyla;\r\n• Başvuru dosyasına eklenen tüm dokümanların aslı ile birebir aynı olduğunu,\r\n• Başvuruda sağlanan bilgilerin doğru olduğunu,\r\n• Çalışmanın protokole, ilgili mevzuata, güncel Helsinki Bildirgesi ve iyi klinik uygulamaları ilkelerine uygun olarak gerçekleştirileceğini,\r\n• Çalışma ekibinin araştırma hakkında bilgilendirildiğini,\r\n• Önerilen gözlemsel çalışmanın gerçekleştirilebilir nitelikte olduğunu,\r\n• Çalışma başvurusunun ilgili Yönetmelik kapsamında kurulan etik kurullardan, aynı anda birden fazlasına yapılmadığını,\r\n• Çalışmaya ait ilerlemenin asgari yıllık olarak (yıllık bildirim formu ile) bildirileceğini,\r\n• Periyodik güvenlilik raporlarının mevzuatta belirtilen sürelere uygun şekilde sunulacağını,\r\n• Kişisel verilerin gizliliğine riayet edilmek kaydıyla araştırmanın kamuya açık bir veri tabanına kaydedildiğini,\r\n• Çalışmaya ait bilgilerin ve çalışma sonuçlarının Kurumun belirlediği şartlar dâhilinde ticari sır ve kişisel verilerin gizliliğine riayet edilmek kaydıyla Kurum tarafından kamuya açık bir veri tabanında yayımlanmasını,\r\n• Çalışma sona erdikten sonra (uluslararası bir çalışma ise, bütün ülkelerde), 1 (bir) yıllık azami süre içerisinde sonuç raporu özetinin bir kopyasını sunulacağını kabul ve taahhüt ederim.</value>
+  </data>
+</root>
