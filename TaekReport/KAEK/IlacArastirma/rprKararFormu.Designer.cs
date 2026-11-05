@@ -8128,10 +8128,10 @@
             this.xrCheckBox36.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox36.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Center;
             this.xrCheckBox36.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox36.LocationFloat = new DevExpress.Utils.PointFloat(14F, 0.143074F);
+            this.xrCheckBox36.LocationFloat = new DevExpress.Utils.PointFloat(14F, 4.143188F);
             this.xrCheckBox36.Name = "xrCheckBox36";
             this.xrCheckBox36.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox36.SizeF = new System.Drawing.SizeF(88.49992F, 68.60692F);
+            this.xrCheckBox36.SizeF = new System.Drawing.SizeF(80.49994F, 58.60559F);
             this.xrCheckBox36.StylePriority.UseBorders = false;
             this.xrCheckBox36.StylePriority.UseFont = false;
             this.xrCheckBox36.StylePriority.UseTextAlignment = false;
@@ -8188,10 +8188,10 @@
             this.xrCheckBox37.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox37.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Center;
             this.xrCheckBox37.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox37.LocationFloat = new DevExpress.Utils.PointFloat(14F, 0F);
+            this.xrCheckBox37.LocationFloat = new DevExpress.Utils.PointFloat(14F, 4.000122F);
             this.xrCheckBox37.Name = "xrCheckBox37";
             this.xrCheckBox37.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox37.SizeF = new System.Drawing.SizeF(88.49992F, 60.41699F);
+            this.xrCheckBox37.SizeF = new System.Drawing.SizeF(80.49994F, 50.41565F);
             this.xrCheckBox37.StylePriority.UseBorders = false;
             this.xrCheckBox37.StylePriority.UseFont = false;
             this.xrCheckBox37.StylePriority.UseTextAlignment = false;
