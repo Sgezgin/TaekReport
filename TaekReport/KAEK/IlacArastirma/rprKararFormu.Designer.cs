@@ -3314,7 +3314,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell308.BorderWidth = 2F;
             this.xrTableCell308.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASLAMATARIH] + \' \' + [BITISTARIH]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASLAMATARIH]")});
             this.xrTableCell308.Multiline = true;
             this.xrTableCell308.Name = "xrTableCell308";
             this.xrTableCell308.StylePriority.UseBorderColor = false;
@@ -3322,7 +3322,6 @@
             this.xrTableCell308.StylePriority.UseBorderWidth = false;
             this.xrTableCell308.StylePriority.UseTextAlignment = false;
             this.xrTableCell308.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            this.xrTableCell308.TextFormatString = "{0:d.MM.yyyy}";
             this.xrTableCell308.Weight = 0.44732711795463276D;
             // 
             // xrTableCell319
