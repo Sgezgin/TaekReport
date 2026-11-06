@@ -117,9 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>&lt;font color="red"&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/font&gt; Klinik araştırmalar etik kurullarına TİTCK tarafından verilen tanımlayıcı kod (Örn: 2024-KAEK-01)
+&lt;font color="red"&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/font&gt; Tek merkezli araştırmalarda sorumlu araştırmacı, çok merkezli araştırmalarda koordinatör bilgileri verilmelidir.</value>
+  </data>
+  <data name="xrLabel2.Text" xml:space="preserve">
+    <value>&lt;font color="red"&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/font&gt; "Uygun Değil" seçilen tüm dökümanlar için gerekçeleri karar bölümünde açıklanmalıdır.
+&lt;font color="red"&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/font&gt; Birden çok BGOF olması durumunda her birinin karar formuna ayrı ayrı eklenmesi ve değerlendirme durumunun belirtilmesi gerekmektedir.</value>
+  </data>
   <metadata name="objectDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="xrLabel3.Text" xml:space="preserve">
+    <value>&lt;font color="red"&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/font&gt; Çocuklarda yürütülen kinik araştırmalarda ve biyoteknolojik/biyobenzer ürünlerle yapılan klinik araştırmalarda yapılan sigorta çalışma tamamlandıktan sonraki en az 5 (beş) yılı kapsamalıdır.</value>
+  </data>
   <data name="xrTableCell186.Text" xml:space="preserve">
     <value>Araştırmaya kısıtlılar, çocuklar, gebeler, lohusalar ve emziren kadınlar, yoğun bakımdaki ve bilinci kapalı kişiler ile şahsen olur veremeyecek kişiler veya etkilenebilir özneler gibi hassas bir popülasyon dahil edilecek mi?</value>
   </data>
@@ -191,7 +202,17 @@ olması nedeni ile çalışmanın başlatılabilmesi için Türkiye İlaç ve T�
   <data name="xrTableCell494.Text" xml:space="preserve">
     <value>Yukarıda belirtilen bilgi/belge değişikliği/önemli değişikliği talebi/talepleri araştırmanın gerekçe, amaç, yaklaşım ve yöntemleri dikkate alınarak incelenmiş olup aşağıda belirtilen eksiklikler tespit edilmiştir;</value>
   </data>
+  <data name="xrLabel5.Text" xml:space="preserve">
+    <value>&lt;font color="red"&gt;&lt;sup&gt;9&lt;/sup&gt;&lt;/font&gt; Üyenin araştırma ile ilişkisi bulunması durumunda araştırmaya ilişkin görüşmelerin yapıldığı sırada tartışmalara katılamaz ve kararı imzalayamaz. Katılım durumunun da bu doğrultuda işaretlenmesi gerekmektedir.
+&lt;font color="red"&gt;&lt;sup&gt;10&lt;/sup&gt;&lt;/font&gt; SMMOÜ: Sağlık Meslek Mensubu Olmayan Üye</value>
+  </data>
   <data name="xrTableCell446.Text" xml:space="preserve">
     <value>Toplantıya katılım sağlayan yedek üye/üyeler varsa katılım gerekçesini (alanı ile ilgili görüş almak, zorunlu üyenin toplantıya katılım sağlayamaması, yeterli üye sayısına ulaşmak vb) belirtiniz. Yedek üye asil üye olarak atanmadığı sürece asil üyeler arasında ismi belirtilmemelidir.</value>
+  </data>
+  <data name="xrTableCell82.Text" xml:space="preserve">
+    <value>&lt;font color="red"&gt;&lt;sup&gt;11&lt;/sup&gt;&lt;/font&gt; Kararı uygun bulmayan üyenin gerekçesine/şerhine ilişkin imzalı beyanı alınmalı ancak bu beyan başvuru sahibine verilmemelidir. TİTCK tarafından talep edilmesi durumunda gönderilmek üzere arşivlenmelidir.</value>
+  </data>
+  <data name="xrTableCell97.Text" xml:space="preserve">
+    <value>&lt;color=#FF0000&gt;&lt;sup&gt;12&lt;/sup&gt;&lt;/color&gt;Danışman tarafından doldurulan görüş formu başvuru sahibine verilmemelidir. TİTCK tarafından talep edilmesi durumunda gönderilmek üzere arşivlenmelidir. Danışmanın gizliliği korunmalıdır.</value>
   </data>
 </root>

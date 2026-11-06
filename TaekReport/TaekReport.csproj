@@ -522,6 +522,9 @@
     <EmbeddedResource Include="KAEK\ArastirmaProtokolu\frmArastirmaProtokolu.resx">
       <DependentUpon>frmArastirmaProtokolu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KAEK\GozlemselIlac\rprGozlemselCalismalarBasvuruForm.resx">
+      <DependentUpon>rprGozlemselCalismalarBasvuruForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprArastirmaButceFormu.resx">
       <DependentUpon>rprArastirmaButceFormu.cs</DependentUpon>
     </EmbeddedResource>

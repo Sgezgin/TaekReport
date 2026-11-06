@@ -27,6 +27,7 @@ namespace TaekReport.KAEK.Models
         public string DOKUMANVERSIYON { get; set; }
         public string OZETBILGI { get; set; }
         public string TASARIMI { get; set; }
+        public string GONULLUACIKLAMA { get; set; }
     }
 
 }
