@@ -153,10 +153,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowSecDiger = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellSecDiger = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableDiger = new DevExpress.XtraReports.UI.XRTable();
-            this.xrRowDiger_Hassas = new DevExpress.XtraReports.UI.XRTableRow();
-            this.xrCellDiger_Hassas = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrLblDigerTitle_Hassas = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLblDigerVal_Hassas = new DevExpress.XtraReports.UI.XRLabel();
             this.xrRowDiger_Gizlilik = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Gizlilik = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLblDigerTitle_Gizlilik = new DevExpress.XtraReports.UI.XRLabel();
@@ -184,7 +180,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowDiger_Otorite = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Otorite = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLblDigerTitle_Otorite = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLblDigerVal_Otorite = new DevExpress.XtraReports.UI.XRLabel();
             this.ArastirmaEkibi = new DevExpress.XtraReports.UI.DetailReportBand();
             this.ArastirmaEkibiGroupHeader = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.xrTableSecEkip = new DevExpress.XtraReports.UI.XRTable();
@@ -312,6 +307,11 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellImza7Val = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
             this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
+            this.xrRichText2 = new DevExpress.XtraReports.UI.XRRichText();
+            this.xrLblDigerVal_Hassas = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLblDigerTitle_Hassas = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrCellDiger_Hassas = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrRowDiger_Hassas = new DevExpress.XtraReports.UI.XRTableRow();
             ((System.ComponentModel.ISupportInitialize)(this.xrTablePH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecCalisma)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableCalisma)).BeginInit();
@@ -332,6 +332,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableImza)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -1786,43 +1787,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowDiger_Otorite});
             this.xrTableDiger.SizeF = new System.Drawing.SizeF(802F, 685.0003F);
             // 
-            // xrRowDiger_Hassas
-            // 
-            this.xrRowDiger_Hassas.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.xrCellDiger_Hassas});
-            this.xrRowDiger_Hassas.Name = "xrRowDiger_Hassas";
-            this.xrRowDiger_Hassas.Weight = 1D;
-            // 
-            // xrCellDiger_Hassas
-            // 
-            this.xrCellDiger_Hassas.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrLblDigerTitle_Hassas,
-            this.xrLblDigerVal_Hassas});
-            this.xrCellDiger_Hassas.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrCellDiger_Hassas.Name = "xrCellDiger_Hassas";
-            this.xrCellDiger_Hassas.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 4, 4, 100F);
-            this.xrCellDiger_Hassas.Weight = 1D;
-            // 
-            // xrLblDigerTitle_Hassas
-            // 
-            this.xrLblDigerTitle_Hassas.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.xrLblDigerTitle_Hassas.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerTitle_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
-            this.xrLblDigerTitle_Hassas.Name = "xrLblDigerTitle_Hassas";
-            this.xrLblDigerTitle_Hassas.SizeF = new System.Drawing.SizeF(804F, 25.29166F);
-            this.xrLblDigerTitle_Hassas.Text = "Hassas popülasyon/İncinebilir Grup (Vulnerable subjects)";
-            // 
-            // xrLblDigerVal_Hassas
-            // 
-            this.xrLblDigerVal_Hassas.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[HASSASPOPULASYON]")});
-            this.xrLblDigerVal_Hassas.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrLblDigerVal_Hassas.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerVal_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(2.000046F, 25.2917F);
-            this.xrLblDigerVal_Hassas.Multiline = true;
-            this.xrLblDigerVal_Hassas.Name = "xrLblDigerVal_Hassas";
-            this.xrLblDigerVal_Hassas.SizeF = new System.Drawing.SizeF(799.9999F, 50.33334F);
-            // 
             // xrRowDiger_Gizlilik
             // 
             this.xrRowDiger_Gizlilik.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
@@ -1851,6 +1815,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             // xrLblDigerVal_Gizlilik
             // 
+            this.xrLblDigerVal_Gizlilik.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrLblDigerVal_Gizlilik.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[GIZLILIK]")});
             this.xrLblDigerVal_Gizlilik.Font = new System.Drawing.Font("Arial", 9F);
@@ -1859,6 +1824,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Gizlilik.Multiline = true;
             this.xrLblDigerVal_Gizlilik.Name = "xrLblDigerVal_Gizlilik";
             this.xrLblDigerVal_Gizlilik.SizeF = new System.Drawing.SizeF(799.9999F, 47.20828F);
+            this.xrLblDigerVal_Gizlilik.StylePriority.UseBorders = false;
             // 
             // xrRowDiger_Odeme
             // 
@@ -1963,6 +1929,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             // xrLblDigerVal_Izleme
             // 
+            this.xrLblDigerVal_Izleme.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrLblDigerVal_Izleme.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[BAGIMSIZVERIIZLEMEKOMITESI]")});
             this.xrLblDigerVal_Izleme.Font = new System.Drawing.Font("Arial", 9F);
@@ -1971,6 +1938,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Izleme.Multiline = true;
             this.xrLblDigerVal_Izleme.Name = "xrLblDigerVal_Izleme";
             this.xrLblDigerVal_Izleme.SizeF = new System.Drawing.SizeF(802F, 48.79169F);
+            this.xrLblDigerVal_Izleme.StylePriority.UseBorders = false;
             // 
             // xrRowDiger_Tesis
             // 
@@ -2000,6 +1968,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             // xrLblDigerVal_Tesis
             // 
+            this.xrLblDigerVal_Tesis.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrLblDigerVal_Tesis.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[TESISLABORATUVAR]")});
             this.xrLblDigerVal_Tesis.Font = new System.Drawing.Font("Arial", 9F);
@@ -2008,6 +1977,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Tesis.Multiline = true;
             this.xrLblDigerVal_Tesis.Name = "xrLblDigerVal_Tesis";
             this.xrLblDigerVal_Tesis.SizeF = new System.Drawing.SizeF(802F, 47.75F);
+            this.xrLblDigerVal_Tesis.StylePriority.UseBorders = false;
             // 
             // xrRowDiger_Gorev
             // 
@@ -2037,6 +2007,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             // xrLblDigerVal_Gorev
             // 
+            this.xrLblDigerVal_Gorev.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrLblDigerVal_Gorev.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[GOREVDEVRI]")});
             this.xrLblDigerVal_Gorev.Font = new System.Drawing.Font("Arial", 9F);
@@ -2045,6 +2016,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Gorev.Multiline = true;
             this.xrLblDigerVal_Gorev.Name = "xrLblDigerVal_Gorev";
             this.xrLblDigerVal_Gorev.SizeF = new System.Drawing.SizeF(802F, 48.79163F);
+            this.xrLblDigerVal_Gorev.StylePriority.UseBorders = false;
             // 
             // xrRowDiger_Otorite
             // 
@@ -2056,8 +2028,8 @@ namespace TaekReport.KAEK.GozlemselIlac
             // xrCellDiger_Otorite
             // 
             this.xrCellDiger_Otorite.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrLblDigerTitle_Otorite,
-            this.xrLblDigerVal_Otorite});
+            this.xrRichText2,
+            this.xrLblDigerTitle_Otorite});
             this.xrCellDiger_Otorite.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellDiger_Otorite.Name = "xrCellDiger_Otorite";
             this.xrCellDiger_Otorite.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 4, 4, 100F);
@@ -2071,17 +2043,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Otorite.Name = "xrLblDigerTitle_Otorite";
             this.xrLblDigerTitle_Otorite.SizeF = new System.Drawing.SizeF(802F, 27.37506F);
             this.xrLblDigerTitle_Otorite.Text = "Diğer sağlık otoritelerine başvuru";
-            // 
-            // xrLblDigerVal_Otorite
-            // 
-            this.xrLblDigerVal_Otorite.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[DIGERSAGLIKOTORITELERI]")});
-            this.xrLblDigerVal_Otorite.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrLblDigerVal_Otorite.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerVal_Otorite.LocationFloat = new DevExpress.Utils.PointFloat(0F, 27.37512F);
-            this.xrLblDigerVal_Otorite.Multiline = true;
-            this.xrLblDigerVal_Otorite.Name = "xrLblDigerVal_Otorite";
-            this.xrLblDigerVal_Otorite.SizeF = new System.Drawing.SizeF(802F, 44.62488F);
             // 
             // ArastirmaEkibi
             // 
@@ -3296,6 +3257,58 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.GozlemselCalismalarBasvuruFormu);
             this.objectDataSource1.Name = "objectDataSource1";
             // 
+            // xrRichText2
+            // 
+            this.xrRichText2.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrRichText2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Html", "[GozlemselFormu].[DIGERSAGLIKOTORITELERI]")});
+            this.xrRichText2.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrRichText2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 27.37506F);
+            this.xrRichText2.Name = "xrRichText2";
+            this.xrRichText2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrRichText2.SerializableRtfString = resources.GetString("xrRichText2.SerializableRtfString");
+            this.xrRichText2.SizeF = new System.Drawing.SizeF(804F, 58.87506F);
+            this.xrRichText2.StylePriority.UseBorders = false;
+            // 
+            // xrLblDigerVal_Hassas
+            // 
+            this.xrLblDigerVal_Hassas.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLblDigerVal_Hassas.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[HASSASPOPULASYON]")});
+            this.xrLblDigerVal_Hassas.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrLblDigerVal_Hassas.ForeColor = System.Drawing.Color.Black;
+            this.xrLblDigerVal_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 25.29166F);
+            this.xrLblDigerVal_Hassas.Multiline = true;
+            this.xrLblDigerVal_Hassas.Name = "xrLblDigerVal_Hassas";
+            this.xrLblDigerVal_Hassas.SizeF = new System.Drawing.SizeF(799.9999F, 38.87501F);
+            this.xrLblDigerVal_Hassas.StylePriority.UseBorders = false;
+            // 
+            // xrLblDigerTitle_Hassas
+            // 
+            this.xrLblDigerTitle_Hassas.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.xrLblDigerTitle_Hassas.ForeColor = System.Drawing.Color.Black;
+            this.xrLblDigerTitle_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrLblDigerTitle_Hassas.Name = "xrLblDigerTitle_Hassas";
+            this.xrLblDigerTitle_Hassas.SizeF = new System.Drawing.SizeF(804F, 25.29166F);
+            this.xrLblDigerTitle_Hassas.Text = "Hassas popülasyon/İncinebilir Grup (Vulnerable subjects)";
+            // 
+            // xrCellDiger_Hassas
+            // 
+            this.xrCellDiger_Hassas.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLblDigerTitle_Hassas,
+            this.xrLblDigerVal_Hassas});
+            this.xrCellDiger_Hassas.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrCellDiger_Hassas.Name = "xrCellDiger_Hassas";
+            this.xrCellDiger_Hassas.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 4, 4, 100F);
+            this.xrCellDiger_Hassas.Weight = 1D;
+            // 
+            // xrRowDiger_Hassas
+            // 
+            this.xrRowDiger_Hassas.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrCellDiger_Hassas});
+            this.xrRowDiger_Hassas.Name = "xrRowDiger_Hassas";
+            this.xrRowDiger_Hassas.Weight = 1D;
+            // 
             // rprGozlemselCalismalarBasvuruForm
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -3338,6 +3351,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableImza)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -3486,10 +3500,6 @@ namespace TaekReport.KAEK.GozlemselIlac
         private DevExpress.XtraReports.UI.XRTableRow xrRowSecDiger;
         private DevExpress.XtraReports.UI.XRTableCell xrCellSecDiger;
         private DevExpress.XtraReports.UI.XRTable xrTableDiger;
-        private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Hassas;
-        private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Hassas;
-        private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Hassas;
-        private DevExpress.XtraReports.UI.XRLabel xrLblDigerVal_Hassas;
         private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Gizlilik;
         private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Gizlilik;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Gizlilik;
@@ -3517,7 +3527,6 @@ namespace TaekReport.KAEK.GozlemselIlac
         private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Otorite;
         private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Otorite;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Otorite;
-        private DevExpress.XtraReports.UI.XRLabel xrLblDigerVal_Otorite;
         private DevExpress.XtraReports.UI.XRTable xrTableSecEkip;
         private DevExpress.XtraReports.UI.XRTableRow xrRowSecEkip;
         private DevExpress.XtraReports.UI.XRTableCell xrCellSecEkip;
@@ -3636,5 +3645,10 @@ namespace TaekReport.KAEK.GozlemselIlac
         private DevExpress.XtraReports.UI.XRTableCell xrCellImza7Lbl;
         private DevExpress.XtraReports.UI.XRTableCell xrCellImza7Val;
         private DevExpress.XtraReports.UI.XRRichText xrRichText1;
+        private DevExpress.XtraReports.UI.XRRichText xrRichText2;
+        private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Hassas;
+        private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Hassas;
+        private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Hassas;
+        private DevExpress.XtraReports.UI.XRLabel xrLblDigerVal_Hassas;
     }
 }
