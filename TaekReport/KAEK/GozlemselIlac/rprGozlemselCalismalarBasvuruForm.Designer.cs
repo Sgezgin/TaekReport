@@ -739,6 +739,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             // xrCellCO_StatusuVal
             // 
+            this.xrCellCO_StatusuVal.AllowMarkupText = true;
             this.xrCellCO_StatusuVal.BackColor = System.Drawing.Color.Transparent;
             this.xrCellCO_StatusuVal.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[ARASTIRMASTATUSU] + Iif(IsNullOrEmpty([GozlemselFormu].[ARASTIR" +
