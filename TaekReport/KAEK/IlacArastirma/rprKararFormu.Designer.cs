@@ -784,9 +784,9 @@
             this.xrTableRow106 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell213 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell214 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrPageBreak1 = new DevExpress.XtraReports.UI.XRPageBreak();
             this.xrPageBreak2 = new DevExpress.XtraReports.UI.XRPageBreak();
             this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
+            this.xrPageBreak1 = new DevExpress.XtraReports.UI.XRPageBreak();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).BeginInit();
@@ -5395,8 +5395,8 @@
             // Detail12
             // 
             this.Detail12.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrPageBreak2,
             this.xrPageBreak1,
+            this.xrPageBreak2,
             this.xrTable10,
             this.xrTable15,
             this.xrTable16,
@@ -11099,11 +11099,6 @@
             this.xrTableCell214.StylePriority.UseBorders = false;
             this.xrTableCell214.Weight = 1.9395162424014178D;
             // 
-            // xrPageBreak1
-            // 
-            this.xrPageBreak1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 208.7745F);
-            this.xrPageBreak1.Name = "xrPageBreak1";
-            // 
             // xrPageBreak2
             // 
             this.xrPageBreak2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 992.6495F);
@@ -11113,6 +11108,11 @@
             // 
             this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.KararFormu);
             this.objectDataSource1.Name = "objectDataSource1";
+            // 
+            // xrPageBreak1
+            // 
+            this.xrPageBreak1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 210.0662F);
+            this.xrPageBreak1.Name = "xrPageBreak1";
             // 
             // rprKararFormu
             // 
@@ -11931,7 +11931,7 @@
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow106;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell213;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell214;
-        private DevExpress.XtraReports.UI.XRPageBreak xrPageBreak1;
         private DevExpress.XtraReports.UI.XRPageBreak xrPageBreak2;
+        private DevExpress.XtraReports.UI.XRPageBreak xrPageBreak1;
     }
 }
