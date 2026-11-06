@@ -15,5 +15,6 @@ namespace TaekReport.KAEK.Models.RaporModel
 		public ARASTIRMADOSYALARI ARASTIRMADOSYALARI { get; set; }
         public List<ARASTIRMABILDIRIMLERI> ARASTIRMABILDIRIMLERI { get; set; }
         public LOKASYON LOKASYON { get; set; }
+        public string BILDIRIMSORUMLUUYELER { get; set; }
     }
 }

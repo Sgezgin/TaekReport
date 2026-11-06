@@ -821,7 +821,7 @@
             // 
             // TopMargin
             // 
-            this.TopMargin.HeightF = 38.70834F;
+            this.TopMargin.HeightF = 14.75F;
             this.TopMargin.Name = "TopMargin";
             // 
             // BottomMargin
@@ -835,7 +835,7 @@
             this.xrTable18,
             this.xrLabel1,
             this.xrTable2});
-            this.KlinikAitBilgiler.HeightF = 1027.56F;
+            this.KlinikAitBilgiler.HeightF = 1001.254F;
             this.KlinikAitBilgiler.Name = "KlinikAitBilgiler";
             // 
             // xrLabel1
@@ -843,7 +843,7 @@
             this.xrLabel1.AllowMarkupText = true;
             this.xrLabel1.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Bold);
             this.xrLabel1.ForeColor = System.Drawing.Color.DarkRed;
-            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 989.2684F);
+            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 966.4212F);
             this.xrLabel1.Multiline = true;
             this.xrLabel1.Name = "xrLabel1";
             this.xrLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -855,7 +855,7 @@
             // xrTable2
             // 
             this.xrTable2.Font = new System.Drawing.Font("Arial", 8F);
-            this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 124.5417F);
+            this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 112.5417F);
             this.xrTable2.Name = "xrTable2";
             this.xrTable2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable2.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -991,8 +991,6 @@
             this.xrTableCell10.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell10.BorderWidth = 2F;
-            this.xrTableCell10.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KlinikFormu].[ETIKKURULARARNO]")});
             this.xrTableCell10.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell10.Multiline = true;
             this.xrTableCell10.Name = "xrTableCell10";
@@ -1001,6 +999,7 @@
             this.xrTableCell10.StylePriority.UseBorderWidth = false;
             this.xrTableCell10.StylePriority.UseFont = false;
             this.xrTableCell10.StylePriority.UseTextAlignment = false;
+            this.xrTableCell10.Text = "2024-KAEK-04";
             this.xrTableCell10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell10.Weight = 1.9395163605339874D;
             // 
@@ -9759,13 +9758,13 @@
             // 
             this.Detail4.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable26});
-            this.Detail4.HeightF = 671.3531F;
+            this.Detail4.HeightF = 652.7247F;
             this.Detail4.Name = "Detail4";
             // 
             // xrTable26
             // 
             this.xrTable26.Font = new System.Drawing.Font("Arial", 8F);
-            this.xrTable26.LocationFloat = new DevExpress.Utils.PointFloat(0.7948558F, 31.97276F);
+            this.xrTable26.LocationFloat = new DevExpress.Utils.PointFloat(0.7948558F, 13F);
             this.xrTable26.Name = "xrTable26";
             this.xrTable26.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable26.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -11144,7 +11143,7 @@
             this.objectDataSource1});
             this.DataSource = this.objectDataSource1;
             this.Font = new System.Drawing.Font("Arial", 9F);
-            this.Margins = new System.Drawing.Printing.Margins(36, 28, 39, 0);
+            this.Margins = new System.Drawing.Printing.Margins(36, 28, 15, 0);
             this.PageHeight = 1169;
             this.PageWidth = 827;
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;
