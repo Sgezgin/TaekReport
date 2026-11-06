@@ -348,8 +348,6 @@
             this.xrTable22 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow129 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell400 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableRow130 = new DevExpress.XtraReports.UI.XRTableRow();
-            this.xrTableCell401 = new DevExpress.XtraReports.UI.XRTableCell();
             this.GonulluDokumanlari = new DevExpress.XtraReports.UI.DetailReportBand();
             this.GonulluKarti = new DevExpress.XtraReports.UI.DetailBand();
             this.xrTable6 = new DevExpress.XtraReports.UI.XRTable();
@@ -2383,7 +2381,7 @@
             // 
             this.Detail1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable3});
-            this.Detail1.HeightF = 47.88673F;
+            this.Detail1.HeightF = 56.29864F;
             this.Detail1.Name = "Detail1";
             // 
             // xrTable3
@@ -2626,10 +2624,10 @@
             this.xrCheckBox45.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox45.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox45.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox45.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox45.LocationFloat = new DevExpress.Utils.PointFloat(3.000122F, 2.000046F);
             this.xrCheckBox45.Name = "xrCheckBox45";
             this.xrCheckBox45.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox45.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox45.SizeF = new System.Drawing.SizeF(67.81006F, 22.99995F);
             this.xrCheckBox45.StylePriority.UseBorders = false;
             this.xrCheckBox45.StylePriority.UseFont = false;
             this.xrCheckBox45.Text = "Uygun";
@@ -2643,7 +2641,7 @@
             this.xrCheckBox46.LocationFloat = new DevExpress.Utils.PointFloat(3.999817F, 2.000046F);
             this.xrCheckBox46.Name = "xrCheckBox46";
             this.xrCheckBox46.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox46.SizeF = new System.Drawing.SizeF(105.2867F, 49.72687F);
+            this.xrCheckBox46.SizeF = new System.Drawing.SizeF(105.2867F, 22.99995F);
             this.xrCheckBox46.StylePriority.UseBorders = false;
             this.xrCheckBox46.StylePriority.UseFont = false;
             this.xrCheckBox46.Text = "Uygun Değil";
@@ -2654,10 +2652,10 @@
             this.xrCheckBox49.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox49.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox49.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox49.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox49.LocationFloat = new DevExpress.Utils.PointFloat(3F, 2.000046F);
             this.xrCheckBox49.Name = "xrCheckBox49";
             this.xrCheckBox49.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox49.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox49.SizeF = new System.Drawing.SizeF(67.81006F, 22.99995F);
             this.xrCheckBox49.StylePriority.UseBorders = false;
             this.xrCheckBox49.StylePriority.UseFont = false;
             this.xrCheckBox49.Text = "Uygun";
@@ -2668,10 +2666,10 @@
             this.xrCheckBox50.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox50.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox50.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox50.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox50.LocationFloat = new DevExpress.Utils.PointFloat(3.999817F, 2.000046F);
             this.xrCheckBox50.Name = "xrCheckBox50";
             this.xrCheckBox50.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox50.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox50.SizeF = new System.Drawing.SizeF(106.5434F, 22.99995F);
             this.xrCheckBox50.StylePriority.UseBorders = false;
             this.xrCheckBox50.StylePriority.UseFont = false;
             this.xrCheckBox50.Text = "Uygun Değil";
@@ -2682,10 +2680,10 @@
             this.xrCheckBox51.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox51.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox51.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox51.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox51.LocationFloat = new DevExpress.Utils.PointFloat(3.000122F, 1.999943F);
             this.xrCheckBox51.Name = "xrCheckBox51";
             this.xrCheckBox51.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox51.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox51.SizeF = new System.Drawing.SizeF(67.81006F, 28.00007F);
             this.xrCheckBox51.StylePriority.UseBorders = false;
             this.xrCheckBox51.StylePriority.UseFont = false;
             this.xrCheckBox51.Text = "Uygun";
@@ -2696,10 +2694,10 @@
             this.xrCheckBox52.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox52.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox52.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox52.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox52.LocationFloat = new DevExpress.Utils.PointFloat(3.999939F, 1.999943F);
             this.xrCheckBox52.Name = "xrCheckBox52";
             this.xrCheckBox52.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox52.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox52.SizeF = new System.Drawing.SizeF(106.5434F, 28.00007F);
             this.xrCheckBox52.StylePriority.UseBorders = false;
             this.xrCheckBox52.StylePriority.UseFont = false;
             this.xrCheckBox52.Text = "Uygun Değil";
@@ -2710,10 +2708,10 @@
             this.xrCheckBox53.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox53.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox53.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox53.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox53.LocationFloat = new DevExpress.Utils.PointFloat(3.000122F, 2.000023F);
             this.xrCheckBox53.Name = "xrCheckBox53";
             this.xrCheckBox53.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox53.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox53.SizeF = new System.Drawing.SizeF(67.81006F, 22.99998F);
             this.xrCheckBox53.StylePriority.UseBorders = false;
             this.xrCheckBox53.StylePriority.UseFont = false;
             this.xrCheckBox53.Text = "Uygun";
@@ -2724,10 +2722,10 @@
             this.xrCheckBox54.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox54.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox54.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox54.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox54.LocationFloat = new DevExpress.Utils.PointFloat(3.999939F, 2.000023F);
             this.xrCheckBox54.Name = "xrCheckBox54";
             this.xrCheckBox54.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox54.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox54.SizeF = new System.Drawing.SizeF(106.5434F, 22.99998F);
             this.xrCheckBox54.StylePriority.UseBorders = false;
             this.xrCheckBox54.StylePriority.UseFont = false;
             this.xrCheckBox54.Text = "Uygun Değil";
@@ -2740,10 +2738,10 @@
             this.xrCheckBox55.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox55.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox55.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox55.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox55.LocationFloat = new DevExpress.Utils.PointFloat(3.000122F, 1.999954F);
             this.xrCheckBox55.Name = "xrCheckBox55";
             this.xrCheckBox55.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox55.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox55.SizeF = new System.Drawing.SizeF(67.81006F, 23.00005F);
             this.xrCheckBox55.StylePriority.UseBorders = false;
             this.xrCheckBox55.StylePriority.UseFont = false;
             this.xrCheckBox55.Text = "Uygun";
@@ -2756,10 +2754,10 @@
             this.xrCheckBox56.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox56.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox56.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox56.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox56.LocationFloat = new DevExpress.Utils.PointFloat(3.999939F, 1.999954F);
             this.xrCheckBox56.Name = "xrCheckBox56";
             this.xrCheckBox56.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox56.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox56.SizeF = new System.Drawing.SizeF(106.5434F, 23.00005F);
             this.xrCheckBox56.StylePriority.UseBorders = false;
             this.xrCheckBox56.StylePriority.UseFont = false;
             this.xrCheckBox56.Text = "Uygun Değil";
@@ -2772,10 +2770,10 @@
             this.xrCheckBox57.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox57.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox57.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox57.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox57.LocationFloat = new DevExpress.Utils.PointFloat(3.000122F, 1.999969F);
             this.xrCheckBox57.Name = "xrCheckBox57";
             this.xrCheckBox57.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox57.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox57.SizeF = new System.Drawing.SizeF(67.81006F, 23.00003F);
             this.xrCheckBox57.StylePriority.UseBorders = false;
             this.xrCheckBox57.StylePriority.UseFont = false;
             this.xrCheckBox57.Text = "Uygun";
@@ -2788,10 +2786,10 @@
             this.xrCheckBox58.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox58.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox58.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox58.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox58.LocationFloat = new DevExpress.Utils.PointFloat(3.999939F, 1.999969F);
             this.xrCheckBox58.Name = "xrCheckBox58";
             this.xrCheckBox58.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox58.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox58.SizeF = new System.Drawing.SizeF(106.5434F, 23.00003F);
             this.xrCheckBox58.StylePriority.UseBorders = false;
             this.xrCheckBox58.StylePriority.UseFont = false;
             this.xrCheckBox58.Text = "Uygun Değil";
@@ -2804,10 +2802,10 @@
             this.xrCheckBox59.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox59.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox59.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox59.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox59.LocationFloat = new DevExpress.Utils.PointFloat(3.000122F, 2F);
             this.xrCheckBox59.Name = "xrCheckBox59";
             this.xrCheckBox59.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox59.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox59.SizeF = new System.Drawing.SizeF(67.81006F, 27.99998F);
             this.xrCheckBox59.StylePriority.UseBorders = false;
             this.xrCheckBox59.StylePriority.UseFont = false;
             this.xrCheckBox59.Text = "Uygun";
@@ -2820,10 +2818,10 @@
             this.xrCheckBox60.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox60.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox60.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox60.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox60.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 2F);
             this.xrCheckBox60.Name = "xrCheckBox60";
             this.xrCheckBox60.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox60.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox60.SizeF = new System.Drawing.SizeF(106.5434F, 28.00002F);
             this.xrCheckBox60.StylePriority.UseBorders = false;
             this.xrCheckBox60.StylePriority.UseFont = false;
             this.xrCheckBox60.Text = "Uygun Değil";
@@ -2834,10 +2832,10 @@
             this.xrCheckBox61.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox61.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox61.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox61.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox61.LocationFloat = new DevExpress.Utils.PointFloat(3.000122F, 1.999969F);
             this.xrCheckBox61.Name = "xrCheckBox61";
             this.xrCheckBox61.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox61.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox61.SizeF = new System.Drawing.SizeF(67.81006F, 28.00003F);
             this.xrCheckBox61.StylePriority.UseBorders = false;
             this.xrCheckBox61.StylePriority.UseFont = false;
             this.xrCheckBox61.Text = "Uygun";
@@ -2848,10 +2846,10 @@
             this.xrCheckBox62.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox62.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox62.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox62.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox62.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999969F);
             this.xrCheckBox62.Name = "xrCheckBox62";
             this.xrCheckBox62.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox62.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox62.SizeF = new System.Drawing.SizeF(106.5434F, 28.00003F);
             this.xrCheckBox62.StylePriority.UseBorders = false;
             this.xrCheckBox62.StylePriority.UseFont = false;
             this.xrCheckBox62.Text = "Uygun Değil";
@@ -2862,10 +2860,10 @@
             this.xrCheckBox63.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox63.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox63.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox63.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox63.LocationFloat = new DevExpress.Utils.PointFloat(3.000122F, 2.000031F);
             this.xrCheckBox63.Name = "xrCheckBox63";
             this.xrCheckBox63.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox63.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox63.SizeF = new System.Drawing.SizeF(67.81006F, 23F);
             this.xrCheckBox63.StylePriority.UseBorders = false;
             this.xrCheckBox63.StylePriority.UseFont = false;
             this.xrCheckBox63.Text = "Uygun";
@@ -2876,10 +2874,10 @@
             this.xrCheckBox64.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox64.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox64.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox64.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox64.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 2.000031F);
             this.xrCheckBox64.Name = "xrCheckBox64";
             this.xrCheckBox64.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox64.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox64.SizeF = new System.Drawing.SizeF(106.5434F, 22.99997F);
             this.xrCheckBox64.StylePriority.UseBorders = false;
             this.xrCheckBox64.StylePriority.UseFont = false;
             this.xrCheckBox64.Text = "Uygun Değil";
@@ -2892,10 +2890,10 @@
             this.xrCheckBox65.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox65.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox65.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox65.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox65.LocationFloat = new DevExpress.Utils.PointFloat(3.000122F, 1.999939F);
             this.xrCheckBox65.Name = "xrCheckBox65";
             this.xrCheckBox65.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox65.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox65.SizeF = new System.Drawing.SizeF(67.81006F, 23.00006F);
             this.xrCheckBox65.StylePriority.UseBorders = false;
             this.xrCheckBox65.StylePriority.UseFont = false;
             this.xrCheckBox65.Text = "Uygun";
@@ -2906,10 +2904,10 @@
             this.xrCheckBox66.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox66.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox66.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox66.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox66.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999939F);
             this.xrCheckBox66.Name = "xrCheckBox66";
             this.xrCheckBox66.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox66.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox66.SizeF = new System.Drawing.SizeF(106.5434F, 23.00006F);
             this.xrCheckBox66.StylePriority.UseBorders = false;
             this.xrCheckBox66.StylePriority.UseFont = false;
             this.xrCheckBox66.Text = "Uygun Değil";
@@ -2926,18 +2924,18 @@
             // 
             this.Detail8.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable19});
-            this.Detail8.HeightF = 71.61478F;
+            this.Detail8.HeightF = 42.77388F;
             this.Detail8.Name = "Detail8";
             // 
             // xrTable19
             // 
             this.xrTable19.Font = new System.Drawing.Font("Arial", 8F);
-            this.xrTable19.LocationFloat = new DevExpress.Utils.PointFloat(0F, 3.999964F);
+            this.xrTable19.LocationFloat = new DevExpress.Utils.PointFloat(0F, 8.999965F);
             this.xrTable19.Name = "xrTable19";
             this.xrTable19.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable19.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow91});
-            this.xrTable19.SizeF = new System.Drawing.SizeF(758F, 55F);
+            this.xrTable19.SizeF = new System.Drawing.SizeF(758F, 25F);
             this.xrTable19.StylePriority.UseFont = false;
             // 
             // xrTableRow91
@@ -2954,7 +2952,7 @@
             this.xrTableCell274,
             this.xrTableCell275});
             this.xrTableRow91.Name = "xrTableRow91";
-            this.xrTableRow91.Weight = 1.0718049528377487D;
+            this.xrTableRow91.Weight = 0.48718403568152924D;
             // 
             // xrTableCell266
             // 
@@ -3122,7 +3120,7 @@
             // 
             this.Detail10.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable20});
-            this.Detail10.HeightF = 80.62563F;
+            this.Detail10.HeightF = 40F;
             this.Detail10.Name = "Detail10";
             // 
             // xrTable20
@@ -3134,7 +3132,7 @@
             this.xrTable20.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow107,
             this.xrTableRow108});
-            this.xrTable20.SizeF = new System.Drawing.SizeF(757.2051F, 80F);
+            this.xrTable20.SizeF = new System.Drawing.SizeF(757.2051F, 40F);
             this.xrTable20.StylePriority.UseFont = false;
             // 
             // xrTableRow107
@@ -3151,7 +3149,7 @@
             this.xrTableCell352,
             this.xrTableCell363});
             this.xrTableRow107.Name = "xrTableRow107";
-            this.xrTableRow107.Weight = 1.0718049528377487D;
+            this.xrTableRow107.Weight = 0.48718408214302023D;
             // 
             // xrTableCell287
             // 
@@ -3272,10 +3270,10 @@
             this.xrCheckBox15.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox15.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox15.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox15.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox15.LocationFloat = new DevExpress.Utils.PointFloat(3F, 2.000046F);
             this.xrCheckBox15.Name = "xrCheckBox15";
             this.xrCheckBox15.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox15.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox15.SizeF = new System.Drawing.SizeF(67.81006F, 22.99995F);
             this.xrCheckBox15.StylePriority.UseBorders = false;
             this.xrCheckBox15.StylePriority.UseFont = false;
             this.xrCheckBox15.Text = "Uygun";
@@ -3306,10 +3304,10 @@
             this.xrCheckBox16.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox16.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox16.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox16.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox16.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 2.000046F);
             this.xrCheckBox16.Name = "xrCheckBox16";
             this.xrCheckBox16.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox16.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox16.SizeF = new System.Drawing.SizeF(106.5434F, 22.99995F);
             this.xrCheckBox16.StylePriority.UseBorders = false;
             this.xrCheckBox16.StylePriority.UseFont = false;
             this.xrCheckBox16.Text = "Uygun Değil";
@@ -3319,7 +3317,7 @@
             this.xrTableRow108.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell364});
             this.xrTableRow108.Name = "xrTableRow108";
-            this.xrTableRow108.Weight = 0.48718403568152746D;
+            this.xrTableRow108.Weight = 0.2923104121166179D;
             // 
             // xrTableCell364
             // 
@@ -3391,7 +3389,7 @@
             this.xrLabel3,
             this.xrTable30,
             this.xrTable21});
-            this.Detail11.HeightF = 779.7903F;
+            this.Detail11.HeightF = 422.4758F;
             this.Detail11.Name = "Detail11";
             // 
             // xrLabel3
@@ -3399,7 +3397,7 @@
             this.xrLabel3.AllowMarkupText = true;
             this.xrLabel3.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Bold);
             this.xrLabel3.ForeColor = System.Drawing.Color.DarkRed;
-            this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(0F, 252.1909F);
+            this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(0F, 125F);
             this.xrLabel3.Multiline = true;
             this.xrLabel3.Name = "xrLabel3";
             this.xrLabel3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -3420,7 +3418,7 @@
             this.xrTableRow155,
             this.xrTableRow156,
             this.xrTableRow157});
-            this.xrTable30.SizeF = new System.Drawing.SizeF(758F, 240F);
+            this.xrTable30.SizeF = new System.Drawing.SizeF(758F, 125F);
             // 
             // xrTableRow152
             // 
@@ -3436,7 +3434,7 @@
             this.xrTableCell541,
             this.xrTableCell542});
             this.xrTableRow152.Name = "xrTableRow152";
-            this.xrTableRow152.Weight = 1.071804878499361D;
+            this.xrTableRow152.Weight = 0.48718403907922858D;
             // 
             // xrTableCell533
             // 
@@ -3574,7 +3572,7 @@
             this.xrTableRow153.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell543});
             this.xrTableRow153.Name = "xrTableRow153";
-            this.xrTableRow153.Weight = 0.48718411001991568D;
+            this.xrTableRow153.Weight = 0.29231042254148765D;
             // 
             // xrTableCell543
             // 
@@ -3598,7 +3596,7 @@
             this.xrTableCell552,
             this.xrTableCell553});
             this.xrTableRow154.Name = "xrTableRow154";
-            this.xrTableRow154.Weight = 1.0718048041609727D;
+            this.xrTableRow154.Weight = 0.58462084564924632D;
             // 
             // xrTableCell544
             // 
@@ -3736,7 +3734,7 @@
             this.xrTableRow155.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell554});
             this.xrTableRow155.Name = "xrTableRow155";
-            this.xrTableRow155.Weight = 0.48718402079243006D;
+            this.xrTableRow155.Weight = 0.29231040765238592D;
             // 
             // xrTableCell554
             // 
@@ -3760,7 +3758,7 @@
             this.xrTableCell563,
             this.xrTableCell564});
             this.xrTableRow156.Name = "xrTableRow156";
-            this.xrTableRow156.Weight = 1.0718048784993588D;
+            this.xrTableRow156.Weight = 0.48718403907922614D;
             // 
             // xrTableCell555
             // 
@@ -3898,7 +3896,7 @@
             this.xrTableRow157.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell565});
             this.xrTableRow157.Name = "xrTableRow157";
-            this.xrTableRow157.Weight = 0.48718402338902156D;
+            this.xrTableRow157.Weight = 0.29231041024897753D;
             // 
             // xrTableCell565
             // 
@@ -3908,7 +3906,7 @@
             // 
             // xrTable21
             // 
-            this.xrTable21.LocationFloat = new DevExpress.Utils.PointFloat(0F, 299.6667F);
+            this.xrTable21.LocationFloat = new DevExpress.Utils.PointFloat(0F, 172.4758F);
             this.xrTable21.Name = "xrTable21";
             this.xrTable21.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable21.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -3924,7 +3922,7 @@
             this.xrTableRow124,
             this.xrTableRow125,
             this.xrTableRow126});
-            this.xrTable21.SizeF = new System.Drawing.SizeF(758F, 480F);
+            this.xrTable21.SizeF = new System.Drawing.SizeF(758F, 250F);
             // 
             // xrTableRow115
             // 
@@ -3936,7 +3934,7 @@
             this.xrTableCell406,
             this.xrTableCell407});
             this.xrTableRow115.Name = "xrTableRow115";
-            this.xrTableRow115.Weight = 1.0718049528377487D;
+            this.xrTableRow115.Weight = 0.48718399678884794D;
             // 
             // xrTableCell398
             // 
@@ -4025,7 +4023,7 @@
             this.xrTableRow116.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell408});
             this.xrTableRow116.Name = "xrTableRow116";
-            this.xrTableRow116.Weight = 0.48718403568152746D;
+            this.xrTableRow116.Weight = 0.29231043322414718D;
             // 
             // xrTableCell408
             // 
@@ -4053,7 +4051,7 @@
             this.xrTableCell417,
             this.xrTableCell418});
             this.xrTableRow117.Name = "xrTableRow117";
-            this.xrTableRow117.Weight = 1.071804878499361D;
+            this.xrTableRow117.Weight = 0.48718407112721995D;
             // 
             // xrTableCell409
             // 
@@ -4141,7 +4139,7 @@
             this.xrTableRow118.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell419});
             this.xrTableRow118.Name = "xrTableRow118";
-            this.xrTableRow118.Weight = 0.48718411001991568D;
+            this.xrTableRow118.Weight = 0.29231035888577561D;
             // 
             // xrTableCell419
             // 
@@ -4159,7 +4157,7 @@
             this.xrTableCell428,
             this.xrTableCell429});
             this.xrTableRow119.Name = "xrTableRow119";
-            this.xrTableRow119.Weight = 1.0718048041609727D;
+            this.xrTableRow119.Weight = 0.58462079801752154D;
             // 
             // xrTableCell420
             // 
@@ -4247,7 +4245,7 @@
             this.xrTableRow120.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell430});
             this.xrTableRow120.Name = "xrTableRow120";
-            this.xrTableRow120.Weight = 0.48718402079243006D;
+            this.xrTableRow120.Weight = 0.29231041833504978D;
             // 
             // xrTableCell430
             // 
@@ -4271,7 +4269,7 @@
             this.xrTableCell439,
             this.xrTableCell440});
             this.xrTableRow121.Name = "xrTableRow121";
-            this.xrTableRow121.Weight = 1.0718048784993588D;
+            this.xrTableRow121.Weight = 0.58462087235590809D;
             // 
             // xrTableCell431
             // 
@@ -4409,7 +4407,7 @@
             this.xrTableRow122.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell441});
             this.xrTableRow122.Name = "xrTableRow122";
-            this.xrTableRow122.Weight = 0.48718402338902156D;
+            this.xrTableRow122.Weight = 0.29231042093164117D;
             // 
             // xrTableCell441
             // 
@@ -4431,7 +4429,7 @@
             this.xrTableCell450,
             this.xrTableCell451});
             this.xrTableRow123.Name = "xrTableRow123";
-            this.xrTableRow123.Weight = 1.0718048784993588D;
+            this.xrTableRow123.Weight = 0.48718407112721751D;
             // 
             // xrTableCell442
             // 
@@ -4543,7 +4541,7 @@
             this.xrTableRow124.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell452});
             this.xrTableRow124.Name = "xrTableRow124";
-            this.xrTableRow124.Weight = 0.48718402521443538D;
+            this.xrTableRow124.Weight = 0.29231042275705521D;
             // 
             // xrTableCell452
             // 
@@ -4563,7 +4561,7 @@
             this.xrTableCell461,
             this.xrTableCell462});
             this.xrTableRow125.Name = "xrTableRow125";
-            this.xrTableRow125.Weight = 1.0718048784993588D;
+            this.xrTableRow125.Weight = 0.48718407112721795D;
             // 
             // xrTableCell453
             // 
@@ -4651,7 +4649,7 @@
             this.xrTableRow126.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell463});
             this.xrTableRow126.Name = "xrTableRow126";
-            this.xrTableRow126.Weight = 0.48718402656780557D;
+            this.xrTableRow126.Weight = 0.29231012675690593D;
             // 
             // xrTableCell463
             // 
@@ -4673,7 +4671,7 @@
             // 
             this.Detail13.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable31});
-            this.Detail13.HeightF = 80.04112F;
+            this.Detail13.HeightF = 40.74211F;
             this.Detail13.Name = "Detail13";
             // 
             // xrTable31
@@ -4684,7 +4682,7 @@
             this.xrTable31.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow162,
             this.xrTableRow163});
-            this.xrTable31.SizeF = new System.Drawing.SizeF(756.5271F, 80F);
+            this.xrTable31.SizeF = new System.Drawing.SizeF(756.5271F, 40F);
             // 
             // xrTableRow162
             // 
@@ -4696,7 +4694,7 @@
             this.xrTableCell574,
             this.xrTableCell575});
             this.xrTableRow162.Name = "xrTableRow162";
-            this.xrTableRow162.Weight = 1.0718048784993588D;
+            this.xrTableRow162.Weight = 0.48718403870787264D;
             // 
             // xrTableCell570
             // 
@@ -4770,10 +4768,10 @@
             this.xrCheckBox17.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox17.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox17.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox17.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox17.LocationFloat = new DevExpress.Utils.PointFloat(2.999939F, 1.999919F);
             this.xrCheckBox17.Name = "xrCheckBox17";
             this.xrCheckBox17.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox17.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox17.SizeF = new System.Drawing.SizeF(67.81006F, 23.00008F);
             this.xrCheckBox17.StylePriority.UseBorders = false;
             this.xrCheckBox17.StylePriority.UseFont = false;
             this.xrCheckBox17.Text = "Uygun";
@@ -4804,10 +4802,10 @@
             this.xrCheckBox18.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox18.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox18.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox18.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox18.LocationFloat = new DevExpress.Utils.PointFloat(3.999817F, 1.999919F);
             this.xrCheckBox18.Name = "xrCheckBox18";
             this.xrCheckBox18.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox18.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox18.SizeF = new System.Drawing.SizeF(106.5434F, 23.00008F);
             this.xrCheckBox18.StylePriority.UseBorders = false;
             this.xrCheckBox18.StylePriority.UseFont = false;
             this.xrCheckBox18.Text = "Uygun Değil";
@@ -4817,7 +4815,7 @@
             this.xrTableRow163.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell576});
             this.xrTableRow163.Name = "xrTableRow163";
-            this.xrTableRow163.Weight = 0.48718402761127078D;
+            this.xrTableRow163.Weight = 0.29231041434744209D;
             // 
             // xrTableCell576
             // 
@@ -4876,7 +4874,7 @@
             // 
             this.Detail9.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable23});
-            this.Detail9.HeightF = 84.00009F;
+            this.Detail9.HeightF = 44.2331F;
             this.Detail9.Name = "Detail9";
             // 
             // xrTable23
@@ -4887,7 +4885,7 @@
             this.xrTable23.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow131,
             this.xrTableRow132});
-            this.xrTable23.SizeF = new System.Drawing.SizeF(758F, 80F);
+            this.xrTable23.SizeF = new System.Drawing.SizeF(758F, 40F);
             // 
             // xrTableRow131
             // 
@@ -4903,7 +4901,7 @@
             this.xrTableCell424,
             this.xrTableCell425});
             this.xrTableRow131.Name = "xrTableRow131";
-            this.xrTableRow131.Weight = 1.0718048784993588D;
+            this.xrTableRow131.Weight = 0.48718403568152646D;
             // 
             // xrTableCell402
             // 
@@ -5030,10 +5028,10 @@
             this.xrCheckBox43.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox43.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox43.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox43.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox43.LocationFloat = new DevExpress.Utils.PointFloat(3F, 1.999918F);
             this.xrCheckBox43.Name = "xrCheckBox43";
             this.xrCheckBox43.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox43.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox43.SizeF = new System.Drawing.SizeF(67.81006F, 23.00008F);
             this.xrCheckBox43.StylePriority.UseBorders = false;
             this.xrCheckBox43.StylePriority.UseFont = false;
             this.xrCheckBox43.Text = "Uygun";
@@ -5064,10 +5062,10 @@
             this.xrCheckBox44.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox44.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox44.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox44.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox44.LocationFloat = new DevExpress.Utils.PointFloat(3.999817F, 1.999918F);
             this.xrCheckBox44.Name = "xrCheckBox44";
             this.xrCheckBox44.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox44.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox44.SizeF = new System.Drawing.SizeF(106.5434F, 23.00008F);
             this.xrCheckBox44.StylePriority.UseBorders = false;
             this.xrCheckBox44.StylePriority.UseFont = false;
             this.xrCheckBox44.Text = "Uygun Değil";
@@ -5077,7 +5075,7 @@
             this.xrTableRow132.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell445});
             this.xrTableRow132.Name = "xrTableRow132";
-            this.xrTableRow132.Weight = 0.48718403568152746D;
+            this.xrTableRow132.Weight = 0.29231042140891678D;
             // 
             // xrTableCell445
             // 
@@ -5089,7 +5087,7 @@
             // 
             this.GroupHeader6.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable22});
-            this.GroupHeader6.HeightF = 52.95798F;
+            this.GroupHeader6.HeightF = 26.04198F;
             this.GroupHeader6.Name = "GroupHeader6";
             // 
             // xrTable22
@@ -5098,9 +5096,8 @@
             this.xrTable22.Name = "xrTable22";
             this.xrTable22.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable22.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
-            this.xrTableRow129,
-            this.xrTableRow130});
-            this.xrTable22.SizeF = new System.Drawing.SizeF(758F, 50F);
+            this.xrTableRow129});
+            this.xrTable22.SizeF = new System.Drawing.SizeF(758F, 25F);
             // 
             // xrTableRow129
             // 
@@ -5124,27 +5121,6 @@
             this.xrTableCell400.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell400.Weight = 6.8499987792968753D;
             // 
-            // xrTableRow130
-            // 
-            this.xrTableRow130.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.xrTableCell401});
-            this.xrTableRow130.Name = "xrTableRow130";
-            this.xrTableRow130.Weight = 1D;
-            // 
-            // xrTableCell401
-            // 
-            this.xrTableCell401.BackColor = System.Drawing.Color.Transparent;
-            this.xrTableCell401.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.xrTableCell401.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(214)))), ((int)(((byte)(238)))));
-            this.xrTableCell401.Multiline = true;
-            this.xrTableCell401.Name = "xrTableCell401";
-            this.xrTableCell401.StylePriority.UseBackColor = false;
-            this.xrTableCell401.StylePriority.UseFont = false;
-            this.xrTableCell401.StylePriority.UseForeColor = false;
-            this.xrTableCell401.StylePriority.UseTextAlignment = false;
-            this.xrTableCell401.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell401.Weight = 6.8499987792968753D;
-            // 
             // GonulluDokumanlari
             // 
             this.GonulluDokumanlari.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -5158,7 +5134,7 @@
             // 
             this.GonulluKarti.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable6});
-            this.GonulluKarti.HeightF = 84.00009F;
+            this.GonulluKarti.HeightF = 44.00009F;
             this.GonulluKarti.Name = "GonulluKarti";
             // 
             // xrTable6
@@ -5169,7 +5145,7 @@
             this.xrTable6.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow39,
             this.xrTableRow41});
-            this.xrTable6.SizeF = new System.Drawing.SizeF(758F, 80F);
+            this.xrTable6.SizeF = new System.Drawing.SizeF(758F, 40F);
             // 
             // xrTableRow39
             // 
@@ -5185,7 +5161,7 @@
             this.xrTableCell91,
             this.xrTableCell92});
             this.xrTableRow39.Name = "xrTableRow39";
-            this.xrTableRow39.Weight = 1.0718048784993588D;
+            this.xrTableRow39.Weight = 0.48718403568152635D;
             // 
             // xrTableCell72
             // 
@@ -5312,10 +5288,10 @@
             this.xrCheckBox21.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox21.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox21.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox21.LocationFloat = new DevExpress.Utils.PointFloat(3.000061F, 1.999989F);
+            this.xrCheckBox21.LocationFloat = new DevExpress.Utils.PointFloat(3F, 1.999918F);
             this.xrCheckBox21.Name = "xrCheckBox21";
             this.xrCheckBox21.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox21.SizeF = new System.Drawing.SizeF(67.81006F, 50.6852F);
+            this.xrCheckBox21.SizeF = new System.Drawing.SizeF(67.81006F, 23.00008F);
             this.xrCheckBox21.StylePriority.UseBorders = false;
             this.xrCheckBox21.StylePriority.UseFont = false;
             this.xrCheckBox21.Text = "Uygun";
@@ -5346,10 +5322,10 @@
             this.xrCheckBox22.Font = new System.Drawing.Font("Arial", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.xrCheckBox22.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Far;
             this.xrCheckBox22.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.StandardBox2;
-            this.xrCheckBox22.LocationFloat = new DevExpress.Utils.PointFloat(3.999878F, 1.999989F);
+            this.xrCheckBox22.LocationFloat = new DevExpress.Utils.PointFloat(3.999817F, 1.999918F);
             this.xrCheckBox22.Name = "xrCheckBox22";
             this.xrCheckBox22.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox22.SizeF = new System.Drawing.SizeF(106.5434F, 49.72687F);
+            this.xrCheckBox22.SizeF = new System.Drawing.SizeF(106.5434F, 23.00008F);
             this.xrCheckBox22.StylePriority.UseBorders = false;
             this.xrCheckBox22.StylePriority.UseFont = false;
             this.xrCheckBox22.Text = "Uygun Değil";
@@ -5359,7 +5335,7 @@
             this.xrTableRow41.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrTableCell93});
             this.xrTableRow41.Name = "xrTableRow41";
-            this.xrTableRow41.Weight = 0.48718403568152746D;
+            this.xrTableRow41.Weight = 0.29231042140891672D;
             // 
             // xrTableCell93
             // 
@@ -11145,7 +11121,7 @@
             this.objectDataSource1});
             this.DataSource = this.objectDataSource1;
             this.Font = new System.Drawing.Font("Arial", 9F);
-            this.Margins = new System.Drawing.Printing.Margins(30, 28, 15, 0);
+            this.Margins = new System.Drawing.Printing.Margins(28, 28, 15, 0);
             this.PageHeight = 1169;
             this.PageWidth = 827;
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;
@@ -11430,8 +11406,6 @@
         private DevExpress.XtraReports.UI.XRTable xrTable22;
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow129;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell400;
-        private DevExpress.XtraReports.UI.XRTableRow xrTableRow130;
-        private DevExpress.XtraReports.UI.XRTableCell xrTableCell401;
         private DevExpress.XtraReports.UI.DetailReportBand ArastirmayaIliskinDegerlendirme;
         private DevExpress.XtraReports.UI.DetailBand Detail12;
         private DevExpress.XtraReports.UI.XRTable xrTable10;
