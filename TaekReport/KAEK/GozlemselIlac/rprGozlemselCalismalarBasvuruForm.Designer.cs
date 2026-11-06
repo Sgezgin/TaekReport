@@ -191,7 +191,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowDiger_Otorite = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Otorite = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLblDigerTitle_Otorite = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLblDigerDesc_Otorite = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLblDigerVal_Otorite = new DevExpress.XtraReports.UI.XRLabel();
             this.ArastirmaEkibi = new DevExpress.XtraReports.UI.DetailReportBand();
             this.ArastirmaEkibiGroupHeader = new DevExpress.XtraReports.UI.GroupHeaderBand();
@@ -320,6 +319,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellImza7Val = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
             this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
+            this.xrRichText2 = new DevExpress.XtraReports.UI.XRRichText();
             ((System.ComponentModel.ISupportInitialize)(this.xrTablePH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecCalisma)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableCalisma)).BeginInit();
@@ -340,6 +340,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableImza)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -1698,7 +1699,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             // xrCellMerkezNo
             // 
             this.xrCellMerkezNo.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ID]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumRecordNumber()")});
             this.xrCellMerkezNo.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellMerkezNo.Name = "xrCellMerkezNo";
             this.xrCellMerkezNo.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
@@ -2157,8 +2158,8 @@ namespace TaekReport.KAEK.GozlemselIlac
             // xrCellDiger_Otorite
             // 
             this.xrCellDiger_Otorite.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrRichText2,
             this.xrLblDigerTitle_Otorite,
-            this.xrLblDigerDesc_Otorite,
             this.xrLblDigerVal_Otorite});
             this.xrCellDiger_Otorite.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellDiger_Otorite.Name = "xrCellDiger_Otorite";
@@ -2173,18 +2174,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Otorite.Name = "xrLblDigerTitle_Otorite";
             this.xrLblDigerTitle_Otorite.SizeF = new System.Drawing.SizeF(802F, 18F);
             this.xrLblDigerTitle_Otorite.Text = "Diğer sağlık otoritelerine başvuru";
-            // 
-            // xrLblDigerDesc_Otorite
-            // 
-            this.xrLblDigerDesc_Otorite.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[DIGERSAGLIKOTORITELERI]")});
-            this.xrLblDigerDesc_Otorite.Font = new System.Drawing.Font("Arial", 8.5F, System.Drawing.FontStyle.Italic);
-            this.xrLblDigerDesc_Otorite.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.xrLblDigerDesc_Otorite.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
-            this.xrLblDigerDesc_Otorite.Multiline = true;
-            this.xrLblDigerDesc_Otorite.Name = "xrLblDigerDesc_Otorite";
-            this.xrLblDigerDesc_Otorite.SizeF = new System.Drawing.SizeF(802F, 32F);
-            this.xrLblDigerDesc_Otorite.Text = resources.GetString("xrLblDigerDesc_Otorite.Text");
             // 
             // xrLblDigerVal_Otorite
             // 
@@ -3084,6 +3073,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             // xrCellBelgeler2
             // 
+            this.xrCellBelgeler2.AllowMarkupText = true;
             this.xrCellBelgeler2.Font = new System.Drawing.Font("Arial", 8.5F);
             this.xrCellBelgeler2.Multiline = true;
             this.xrCellBelgeler2.Name = "xrCellBelgeler2";
@@ -3160,6 +3150,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             // xrCellFiziki2
             // 
+            this.xrCellFiziki2.AllowMarkupText = true;
             this.xrCellFiziki2.Font = new System.Drawing.Font("Arial", 8.5F);
             this.xrCellFiziki2.Multiline = true;
             this.xrCellFiziki2.Name = "xrCellFiziki2";
@@ -3243,6 +3234,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             // xrCellImza2
             // 
+            this.xrCellImza2.AllowMarkupText = true;
             this.xrCellImza2.Font = new System.Drawing.Font("Arial", 8F);
             this.xrCellImza2.Multiline = true;
             this.xrCellImza2.Name = "xrCellImza2";
@@ -3407,6 +3399,17 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.GozlemselCalismalarBasvuruFormu);
             this.objectDataSource1.Name = "objectDataSource1";
             // 
+            // xrRichText2
+            // 
+            this.xrRichText2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Html", "[GozlemselFormu].[DIGERSAGLIKOTORITELERI]")});
+            this.xrRichText2.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrRichText2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18.00003F);
+            this.xrRichText2.Name = "xrRichText2";
+            this.xrRichText2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrRichText2.SerializableRtfString = resources.GetString("xrRichText2.SerializableRtfString");
+            this.xrRichText2.SizeF = new System.Drawing.SizeF(802F, 29.49997F);
+            // 
             // rprGozlemselCalismalarBasvuruForm
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -3424,7 +3427,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.objectDataSource1});
             this.DataSource = this.objectDataSource1;
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(12, 12, 20, 25);
+            this.Margins = new System.Drawing.Printing.Margins(12, 11, 20, 25);
             this.PageHeight = 1169;
             this.PageWidth = 827;
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;
@@ -3449,6 +3452,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableImza)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -3635,7 +3639,6 @@ namespace TaekReport.KAEK.GozlemselIlac
         private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Otorite;
         private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Otorite;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Otorite;
-        private DevExpress.XtraReports.UI.XRLabel xrLblDigerDesc_Otorite;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerVal_Otorite;
         private DevExpress.XtraReports.UI.XRTable xrTableSecEkip;
         private DevExpress.XtraReports.UI.XRTableRow xrRowSecEkip;
@@ -3755,5 +3758,6 @@ namespace TaekReport.KAEK.GozlemselIlac
         private DevExpress.XtraReports.UI.XRTableCell xrCellImza7Lbl;
         private DevExpress.XtraReports.UI.XRTableCell xrCellImza7Val;
         private DevExpress.XtraReports.UI.XRRichText xrRichText1;
+        private DevExpress.XtraReports.UI.XRRichText xrRichText2;
     }
 }
