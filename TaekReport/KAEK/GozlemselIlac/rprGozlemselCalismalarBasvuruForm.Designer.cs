@@ -20,7 +20,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.components = new System.ComponentModel.Container();
             DevExpress.XtraReports.UI.XRSummary xrSummary1 = new DevExpress.XtraReports.UI.XRSummary();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rprGozlemselCalismalarBasvuruForm));
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
             this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
@@ -320,7 +319,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellImza7Lbl = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrCellImza7Val = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTablePH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecCalisma)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableCalisma)).BeginInit();
@@ -340,12 +339,8 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecImza)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableImza)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
-            // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.GozlemselCalismalarBasvuruFormu);
-            this.objectDataSource1.Name = "objectDataSource1";
             // 
             // TopMargin
             // 
@@ -647,7 +642,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             this.xrCellCO_YasalTemsilciVal.BackColor = System.Drawing.Color.Transparent;
             this.xrCellCO_YasalTemsilciVal.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[YASALTEMSILCI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU].[DESTEKLEYICITEMSILCI]")});
             this.xrCellCO_YasalTemsilciVal.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellCO_YasalTemsilciVal.ForeColor = System.Drawing.Color.Black;
             this.xrCellCO_YasalTemsilciVal.Multiline = true;
@@ -3401,10 +3396,15 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRichText1.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrRichText1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 59.99997F);
             this.xrRichText1.Name = "xrRichText1";
-            this.xrRichText1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrRichText1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrRichText1.SerializableRtfString = resources.GetString("xrRichText1.SerializableRtfString");
             this.xrRichText1.SizeF = new System.Drawing.SizeF(801.9999F, 59.79169F);
             this.xrRichText1.StylePriority.UseFont = false;
+            // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.GozlemselCalismalarBasvuruFormu);
+            this.objectDataSource1.Name = "objectDataSource1";
             // 
             // rprGozlemselCalismalarBasvuruForm
             // 
@@ -3428,7 +3428,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.PageWidth = 827;
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;
             this.Version = "20.2";
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTablePH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecCalisma)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableCalisma)).EndInit();
@@ -3448,6 +3447,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecImza)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableImza)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
