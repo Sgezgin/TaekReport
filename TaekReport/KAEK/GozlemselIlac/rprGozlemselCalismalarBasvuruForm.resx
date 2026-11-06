@@ -120,11 +120,20 @@
   <metadata name="objectDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="xrLblDigerDesc_Gizlilik.Text" xml:space="preserve">
+    <value>Gönüllülere ait kimlik bilgileri/kişisel tanımlayıcı bilgiler toplanacak veya bunlara erişim sağlanacak (sağlık kayıtları, biyometrik kimlik tanımlayıcılar, ses kayıtları, görüntüler gibi) ise bunları açıklayınız. Gönüllülere ait kimlik bilgilerine/kişisel tanımlayıcı bilgilere kimlerin erişim hakkı olacağını ve yetkisi olmayan kişilerin kimlik tanımlayıcı verilere erişimini engellemek için alınan önlemleri açıklayınız.</value>
+  </data>
+  <data name="xrLblDigerDesc_Dokuman.Text" xml:space="preserve">
+    <value>Çalışmada kullanılacak doküman ve materyallerin kullanım amaçlarını açıklayınız (anket, görüşme, odak grup taslağı, günlükler, hasta kartları vb.). Gönüllülerin çalışmaya dâhil edilmesinde kullanılacak araçları açıklayınız (poster, broşür, hekim sevk mektubu vb.)</value>
+  </data>
   <data name="xrLblDigerDesc_Tesis.Text" xml:space="preserve">
     <value>Çalışmanın gerçekleştirilmesinde kullanılacak olan merkezi teknik tesisler, temel değerlendirme kriterlerinin ölçümü veya değerlendirilmesinin merkezileştirildiği laboratuvar veya diğer teknik tesisleri açıklayınız. Kurum/kuruluşun adı, temasa geçilecek kişinin adı soyadı ve iletişim bilgilerini belirtiniz.</value>
   </data>
   <data name="xrLblDigerDesc_Gorev.Text" xml:space="preserve">
     <value>Destekleyici, çalışmaya ait temel görev veya işlerinden herhangi birini başka bir kurum/kuruluşa veya üçüncü taraflara devretmiş ise devredilen görevi açıklayınız. Kurum/kuruluşun adı, temasa geçilecek kişinin adı soyadı ve iletişim bilgilerini belirtiniz.</value>
+  </data>
+  <data name="xrLblDigerDesc_Otorite.Text" xml:space="preserve">
+    <value>Çalışma uluslararası bir araştırma ise aynı başvurunun sunulduğu diğer sağlık otoritelerinin bir listesini belirtiniz. Çalışmanın onaylandığı başka ülkeler var ise bu ülkeleri belirtiniz. Diğer ülkelerde uygulanacak protokol ve çalışmaya dair diğer hususlar ile ülkemizde uygulanacak protokol ve çalışmaya dair diğer hususlar arasında farklılıklar varsa gerekçeleri ile belirtiniz.</value>
   </data>
   <data name="xrLabelEkipNotlar.Text" xml:space="preserve">
     <value>• Her merkez için ayrı olacak şekilde bir çalışma merkezinde yer alan tüm çalışma ekibi üyeleri yazılmalıdır.\r\n• Görevi: Katılımcı Hekim, Yardımcı Hekim, Veri Giriş Destek Görevlisi, Monitör ve diğer araştırma ekibi üyelerinin görevleri belirtilmelidir.\r\n• Unvan: Prof. Dr. ; Doç. Dr. ; Dr. Öğr. Üyesi ; Uzm. Dr. ; Dr. ; Doktora (Ph.D.) ; Yüksek Lisans vb. şekilde belirtilmelidir.\r\n• Eğitim: Tıp (Uzmanlık Alanı), Tıp, Eczacı, Hemşire, Biyolog vb. şekilde belirtilmelidir.</value>
