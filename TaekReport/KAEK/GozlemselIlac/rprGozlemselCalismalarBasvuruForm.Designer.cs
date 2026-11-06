@@ -156,37 +156,30 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowDiger_Hassas = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Hassas = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLblDigerTitle_Hassas = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLblDigerDesc_Hassas = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLblDigerVal_Hassas = new DevExpress.XtraReports.UI.XRLabel();
             this.xrRowDiger_Gizlilik = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Gizlilik = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLblDigerTitle_Gizlilik = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLblDigerDesc_Gizlilik = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLblDigerVal_Gizlilik = new DevExpress.XtraReports.UI.XRLabel();
             this.xrRowDiger_Odeme = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Odeme = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLblDigerTitle_Odeme = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLblDigerDesc_Odeme = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLblDigerVal_Odeme = new DevExpress.XtraReports.UI.XRLabel();
             this.xrRowDiger_Dokuman = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Dokuman = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLblDigerTitle_Dokuman = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLblDigerDesc_Dokuman = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLblDigerVal_Dokuman = new DevExpress.XtraReports.UI.XRLabel();
             this.xrRowDiger_Izleme = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Izleme = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLblDigerTitle_Izleme = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLblDigerDesc_Izleme = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLblDigerVal_Izleme = new DevExpress.XtraReports.UI.XRLabel();
             this.xrRowDiger_Tesis = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Tesis = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLblDigerTitle_Tesis = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLblDigerDesc_Tesis = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLblDigerVal_Tesis = new DevExpress.XtraReports.UI.XRLabel();
             this.xrRowDiger_Gorev = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Gorev = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLblDigerTitle_Gorev = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLblDigerDesc_Gorev = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLblDigerVal_Gorev = new DevExpress.XtraReports.UI.XRLabel();
             this.xrRowDiger_Otorite = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Otorite = new DevExpress.XtraReports.UI.XRTableCell();
@@ -319,7 +312,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellImza7Val = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
             this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
-            this.xrRichText2 = new DevExpress.XtraReports.UI.XRRichText();
             ((System.ComponentModel.ISupportInitialize)(this.xrTablePH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecCalisma)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableCalisma)).BeginInit();
@@ -340,7 +332,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableImza)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -1745,7 +1736,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.DigerBilgilerDetay.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTableSecDiger,
             this.xrTableDiger});
-            this.DigerBilgilerDetay.HeightF = 420F;
+            this.DigerBilgilerDetay.HeightF = 725.6254F;
             this.DigerBilgilerDetay.Name = "DigerBilgilerDetay";
             // 
             // xrTableSecDiger
@@ -1782,7 +1773,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrTableDiger.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableDiger.LocationFloat = new DevExpress.Utils.PointFloat(0F, 40F);
+            this.xrTableDiger.LocationFloat = new DevExpress.Utils.PointFloat(0F, 40.00003F);
             this.xrTableDiger.Name = "xrTableDiger";
             this.xrTableDiger.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrRowDiger_Hassas,
@@ -1793,7 +1784,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowDiger_Tesis,
             this.xrRowDiger_Gorev,
             this.xrRowDiger_Otorite});
-            this.xrTableDiger.SizeF = new System.Drawing.SizeF(802F, 380F);
+            this.xrTableDiger.SizeF = new System.Drawing.SizeF(802F, 685.0003F);
             // 
             // xrRowDiger_Hassas
             // 
@@ -1806,7 +1797,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             this.xrCellDiger_Hassas.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLblDigerTitle_Hassas,
-            this.xrLblDigerDesc_Hassas,
             this.xrLblDigerVal_Hassas});
             this.xrCellDiger_Hassas.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellDiger_Hassas.Name = "xrCellDiger_Hassas";
@@ -1819,19 +1809,8 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Hassas.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Hassas.Name = "xrLblDigerTitle_Hassas";
-            this.xrLblDigerTitle_Hassas.SizeF = new System.Drawing.SizeF(802F, 18F);
+            this.xrLblDigerTitle_Hassas.SizeF = new System.Drawing.SizeF(804F, 25.29166F);
             this.xrLblDigerTitle_Hassas.Text = "Hassas popülasyon/İncinebilir Grup (Vulnerable subjects)";
-            // 
-            // xrLblDigerDesc_Hassas
-            // 
-            this.xrLblDigerDesc_Hassas.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[HASSASPOPULASYON]")});
-            this.xrLblDigerDesc_Hassas.Font = new System.Drawing.Font("Arial", 8.5F, System.Drawing.FontStyle.Italic);
-            this.xrLblDigerDesc_Hassas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.xrLblDigerDesc_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
-            this.xrLblDigerDesc_Hassas.Multiline = true;
-            this.xrLblDigerDesc_Hassas.Name = "xrLblDigerDesc_Hassas";
-            this.xrLblDigerDesc_Hassas.SizeF = new System.Drawing.SizeF(802F, 32F);
             // 
             // xrLblDigerVal_Hassas
             // 
@@ -1839,10 +1818,10 @@ namespace TaekReport.KAEK.GozlemselIlac
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[HASSASPOPULASYON]")});
             this.xrLblDigerVal_Hassas.Font = new System.Drawing.Font("Arial", 9F);
             this.xrLblDigerVal_Hassas.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerVal_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
+            this.xrLblDigerVal_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(2.000046F, 25.2917F);
             this.xrLblDigerVal_Hassas.Multiline = true;
             this.xrLblDigerVal_Hassas.Name = "xrLblDigerVal_Hassas";
-            this.xrLblDigerVal_Hassas.SizeF = new System.Drawing.SizeF(802F, 22F);
+            this.xrLblDigerVal_Hassas.SizeF = new System.Drawing.SizeF(799.9999F, 50.33334F);
             // 
             // xrRowDiger_Gizlilik
             // 
@@ -1855,7 +1834,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             this.xrCellDiger_Gizlilik.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLblDigerTitle_Gizlilik,
-            this.xrLblDigerDesc_Gizlilik,
             this.xrLblDigerVal_Gizlilik});
             this.xrCellDiger_Gizlilik.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellDiger_Gizlilik.Name = "xrCellDiger_Gizlilik";
@@ -1866,22 +1844,10 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             this.xrLblDigerTitle_Gizlilik.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.xrLblDigerTitle_Gizlilik.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerTitle_Gizlilik.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrLblDigerTitle_Gizlilik.LocationFloat = new DevExpress.Utils.PointFloat(0F, 3.814697E-05F);
             this.xrLblDigerTitle_Gizlilik.Name = "xrLblDigerTitle_Gizlilik";
-            this.xrLblDigerTitle_Gizlilik.SizeF = new System.Drawing.SizeF(802F, 18F);
+            this.xrLblDigerTitle_Gizlilik.SizeF = new System.Drawing.SizeF(802F, 28.41666F);
             this.xrLblDigerTitle_Gizlilik.Text = "Gizlilik";
-            // 
-            // xrLblDigerDesc_Gizlilik
-            // 
-            this.xrLblDigerDesc_Gizlilik.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[GIZLILIK]")});
-            this.xrLblDigerDesc_Gizlilik.Font = new System.Drawing.Font("Arial", 8.5F, System.Drawing.FontStyle.Italic);
-            this.xrLblDigerDesc_Gizlilik.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.xrLblDigerDesc_Gizlilik.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
-            this.xrLblDigerDesc_Gizlilik.Multiline = true;
-            this.xrLblDigerDesc_Gizlilik.Name = "xrLblDigerDesc_Gizlilik";
-            this.xrLblDigerDesc_Gizlilik.SizeF = new System.Drawing.SizeF(802F, 32F);
-            this.xrLblDigerDesc_Gizlilik.Text = resources.GetString("xrLblDigerDesc_Gizlilik.Text");
             // 
             // xrLblDigerVal_Gizlilik
             // 
@@ -1889,10 +1855,10 @@ namespace TaekReport.KAEK.GozlemselIlac
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[GIZLILIK]")});
             this.xrLblDigerVal_Gizlilik.Font = new System.Drawing.Font("Arial", 9F);
             this.xrLblDigerVal_Gizlilik.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerVal_Gizlilik.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
+            this.xrLblDigerVal_Gizlilik.LocationFloat = new DevExpress.Utils.PointFloat(2.000046F, 28.41673F);
             this.xrLblDigerVal_Gizlilik.Multiline = true;
             this.xrLblDigerVal_Gizlilik.Name = "xrLblDigerVal_Gizlilik";
-            this.xrLblDigerVal_Gizlilik.SizeF = new System.Drawing.SizeF(802F, 22F);
+            this.xrLblDigerVal_Gizlilik.SizeF = new System.Drawing.SizeF(799.9999F, 47.20828F);
             // 
             // xrRowDiger_Odeme
             // 
@@ -1905,7 +1871,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             this.xrCellDiger_Odeme.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLblDigerTitle_Odeme,
-            this.xrLblDigerDesc_Odeme,
             this.xrLblDigerVal_Odeme});
             this.xrCellDiger_Odeme.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellDiger_Odeme.Name = "xrCellDiger_Odeme";
@@ -1918,22 +1883,8 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Odeme.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Odeme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Odeme.Name = "xrLblDigerTitle_Odeme";
-            this.xrLblDigerTitle_Odeme.SizeF = new System.Drawing.SizeF(802F, 18F);
+            this.xrLblDigerTitle_Odeme.SizeF = new System.Drawing.SizeF(802F, 24.25F);
             this.xrLblDigerTitle_Odeme.Text = "Gönüllülere ödeme";
-            // 
-            // xrLblDigerDesc_Odeme
-            // 
-            this.xrLblDigerDesc_Odeme.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[GONULLULEREODEME]")});
-            this.xrLblDigerDesc_Odeme.Font = new System.Drawing.Font("Arial", 8.5F, System.Drawing.FontStyle.Italic);
-            this.xrLblDigerDesc_Odeme.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.xrLblDigerDesc_Odeme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
-            this.xrLblDigerDesc_Odeme.Multiline = true;
-            this.xrLblDigerDesc_Odeme.Name = "xrLblDigerDesc_Odeme";
-            this.xrLblDigerDesc_Odeme.SizeF = new System.Drawing.SizeF(802F, 32F);
-            this.xrLblDigerDesc_Odeme.Text = "Gönüllülerin çalışmaya iştiraki ile ortaya çıkacak masraflar (yol, konaklama ve y" +
-    "emek giderleri gibi) için ödeme yapılacak ise açıklayınız (miktarı, ödemenin nas" +
-    "ıl gerçekleştirileceği vb.)";
             // 
             // xrLblDigerVal_Odeme
             // 
@@ -1941,10 +1892,10 @@ namespace TaekReport.KAEK.GozlemselIlac
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[GONULLULEREODEME]")});
             this.xrLblDigerVal_Odeme.Font = new System.Drawing.Font("Arial", 9F);
             this.xrLblDigerVal_Odeme.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerVal_Odeme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
+            this.xrLblDigerVal_Odeme.LocationFloat = new DevExpress.Utils.PointFloat(2.000046F, 24.24997F);
             this.xrLblDigerVal_Odeme.Multiline = true;
             this.xrLblDigerVal_Odeme.Name = "xrLblDigerVal_Odeme";
-            this.xrLblDigerVal_Odeme.SizeF = new System.Drawing.SizeF(802F, 22F);
+            this.xrLblDigerVal_Odeme.SizeF = new System.Drawing.SizeF(799.9999F, 51.37508F);
             // 
             // xrRowDiger_Dokuman
             // 
@@ -1957,7 +1908,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             this.xrCellDiger_Dokuman.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLblDigerTitle_Dokuman,
-            this.xrLblDigerDesc_Dokuman,
             this.xrLblDigerVal_Dokuman});
             this.xrCellDiger_Dokuman.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellDiger_Dokuman.Name = "xrCellDiger_Dokuman";
@@ -1970,21 +1920,9 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Dokuman.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Dokuman.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Dokuman.Name = "xrLblDigerTitle_Dokuman";
-            this.xrLblDigerTitle_Dokuman.SizeF = new System.Drawing.SizeF(802F, 18F);
+            this.xrLblDigerTitle_Dokuman.SizeF = new System.Drawing.SizeF(802F, 24.25003F);
             this.xrLblDigerTitle_Dokuman.Text = "Çalışma / gönüllü dokümanları (additional documentation and recruitment procedure" +
     ")";
-            // 
-            // xrLblDigerDesc_Dokuman
-            // 
-            this.xrLblDigerDesc_Dokuman.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[ARASTIRMADOKUMANLARI]")});
-            this.xrLblDigerDesc_Dokuman.Font = new System.Drawing.Font("Arial", 8.5F, System.Drawing.FontStyle.Italic);
-            this.xrLblDigerDesc_Dokuman.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.xrLblDigerDesc_Dokuman.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
-            this.xrLblDigerDesc_Dokuman.Multiline = true;
-            this.xrLblDigerDesc_Dokuman.Name = "xrLblDigerDesc_Dokuman";
-            this.xrLblDigerDesc_Dokuman.SizeF = new System.Drawing.SizeF(802F, 32F);
-            this.xrLblDigerDesc_Dokuman.Text = resources.GetString("xrLblDigerDesc_Dokuman.Text");
             // 
             // xrLblDigerVal_Dokuman
             // 
@@ -1992,10 +1930,10 @@ namespace TaekReport.KAEK.GozlemselIlac
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[ARASTIRMADOKUMANLARI]")});
             this.xrLblDigerVal_Dokuman.Font = new System.Drawing.Font("Arial", 9F);
             this.xrLblDigerVal_Dokuman.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerVal_Dokuman.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
+            this.xrLblDigerVal_Dokuman.LocationFloat = new DevExpress.Utils.PointFloat(0F, 24.25F);
             this.xrLblDigerVal_Dokuman.Multiline = true;
             this.xrLblDigerVal_Dokuman.Name = "xrLblDigerVal_Dokuman";
-            this.xrLblDigerVal_Dokuman.SizeF = new System.Drawing.SizeF(802F, 22F);
+            this.xrLblDigerVal_Dokuman.SizeF = new System.Drawing.SizeF(802F, 47.74997F);
             // 
             // xrRowDiger_Izleme
             // 
@@ -2008,7 +1946,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             this.xrCellDiger_Izleme.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLblDigerTitle_Izleme,
-            this.xrLblDigerDesc_Izleme,
             this.xrLblDigerVal_Izleme});
             this.xrCellDiger_Izleme.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellDiger_Izleme.Name = "xrCellDiger_Izleme";
@@ -2019,23 +1956,10 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             this.xrLblDigerTitle_Izleme.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.xrLblDigerTitle_Izleme.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerTitle_Izleme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrLblDigerTitle_Izleme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 3.051758E-05F);
             this.xrLblDigerTitle_Izleme.Name = "xrLblDigerTitle_Izleme";
-            this.xrLblDigerTitle_Izleme.SizeF = new System.Drawing.SizeF(802F, 18F);
+            this.xrLblDigerTitle_Izleme.SizeF = new System.Drawing.SizeF(802F, 23.20831F);
             this.xrLblDigerTitle_Izleme.Text = "Bağımsız veri izleme komitesi";
-            // 
-            // xrLblDigerDesc_Izleme
-            // 
-            this.xrLblDigerDesc_Izleme.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[BAGIMSIZVERIIZLEMEKOMITESI]")});
-            this.xrLblDigerDesc_Izleme.Font = new System.Drawing.Font("Arial", 8.5F, System.Drawing.FontStyle.Italic);
-            this.xrLblDigerDesc_Izleme.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.xrLblDigerDesc_Izleme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
-            this.xrLblDigerDesc_Izleme.Multiline = true;
-            this.xrLblDigerDesc_Izleme.Name = "xrLblDigerDesc_Izleme";
-            this.xrLblDigerDesc_Izleme.SizeF = new System.Drawing.SizeF(802F, 32F);
-            this.xrLblDigerDesc_Izleme.Text = "Çalışmada bağımsız veri izleme komitesi varsa komitenin yapısını ve iletişim bilg" +
-    "ilerini belirtiniz.";
             // 
             // xrLblDigerVal_Izleme
             // 
@@ -2043,10 +1967,10 @@ namespace TaekReport.KAEK.GozlemselIlac
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[BAGIMSIZVERIIZLEMEKOMITESI]")});
             this.xrLblDigerVal_Izleme.Font = new System.Drawing.Font("Arial", 9F);
             this.xrLblDigerVal_Izleme.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerVal_Izleme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
+            this.xrLblDigerVal_Izleme.LocationFloat = new DevExpress.Utils.PointFloat(0F, 23.20834F);
             this.xrLblDigerVal_Izleme.Multiline = true;
             this.xrLblDigerVal_Izleme.Name = "xrLblDigerVal_Izleme";
-            this.xrLblDigerVal_Izleme.SizeF = new System.Drawing.SizeF(802F, 22F);
+            this.xrLblDigerVal_Izleme.SizeF = new System.Drawing.SizeF(802F, 48.79169F);
             // 
             // xrRowDiger_Tesis
             // 
@@ -2059,7 +1983,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             this.xrCellDiger_Tesis.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLblDigerTitle_Tesis,
-            this.xrLblDigerDesc_Tesis,
             this.xrLblDigerVal_Tesis});
             this.xrCellDiger_Tesis.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellDiger_Tesis.Name = "xrCellDiger_Tesis";
@@ -2072,20 +1995,8 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Tesis.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Tesis.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Tesis.Name = "xrLblDigerTitle_Tesis";
-            this.xrLblDigerTitle_Tesis.SizeF = new System.Drawing.SizeF(802F, 18F);
+            this.xrLblDigerTitle_Tesis.SizeF = new System.Drawing.SizeF(802F, 24.25003F);
             this.xrLblDigerTitle_Tesis.Text = "Tesis / laboratuvar";
-            // 
-            // xrLblDigerDesc_Tesis
-            // 
-            this.xrLblDigerDesc_Tesis.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[TESISLABORATUVAR]")});
-            this.xrLblDigerDesc_Tesis.Font = new System.Drawing.Font("Arial", 8.5F, System.Drawing.FontStyle.Italic);
-            this.xrLblDigerDesc_Tesis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.xrLblDigerDesc_Tesis.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
-            this.xrLblDigerDesc_Tesis.Multiline = true;
-            this.xrLblDigerDesc_Tesis.Name = "xrLblDigerDesc_Tesis";
-            this.xrLblDigerDesc_Tesis.SizeF = new System.Drawing.SizeF(802F, 32F);
-            this.xrLblDigerDesc_Tesis.Text = resources.GetString("xrLblDigerDesc_Tesis.Text");
             // 
             // xrLblDigerVal_Tesis
             // 
@@ -2093,10 +2004,10 @@ namespace TaekReport.KAEK.GozlemselIlac
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[TESISLABORATUVAR]")});
             this.xrLblDigerVal_Tesis.Font = new System.Drawing.Font("Arial", 9F);
             this.xrLblDigerVal_Tesis.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerVal_Tesis.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
+            this.xrLblDigerVal_Tesis.LocationFloat = new DevExpress.Utils.PointFloat(0F, 24.25003F);
             this.xrLblDigerVal_Tesis.Multiline = true;
             this.xrLblDigerVal_Tesis.Name = "xrLblDigerVal_Tesis";
-            this.xrLblDigerVal_Tesis.SizeF = new System.Drawing.SizeF(802F, 22F);
+            this.xrLblDigerVal_Tesis.SizeF = new System.Drawing.SizeF(802F, 47.75F);
             // 
             // xrRowDiger_Gorev
             // 
@@ -2109,7 +2020,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             this.xrCellDiger_Gorev.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLblDigerTitle_Gorev,
-            this.xrLblDigerDesc_Gorev,
             this.xrLblDigerVal_Gorev});
             this.xrCellDiger_Gorev.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellDiger_Gorev.Name = "xrCellDiger_Gorev";
@@ -2122,20 +2032,8 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Gorev.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Gorev.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Gorev.Name = "xrLblDigerTitle_Gorev";
-            this.xrLblDigerTitle_Gorev.SizeF = new System.Drawing.SizeF(802F, 18F);
+            this.xrLblDigerTitle_Gorev.SizeF = new System.Drawing.SizeF(802F, 23.20837F);
             this.xrLblDigerTitle_Gorev.Text = "Görev devri";
-            // 
-            // xrLblDigerDesc_Gorev
-            // 
-            this.xrLblDigerDesc_Gorev.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[GOREVDEVRI]")});
-            this.xrLblDigerDesc_Gorev.Font = new System.Drawing.Font("Arial", 8.5F, System.Drawing.FontStyle.Italic);
-            this.xrLblDigerDesc_Gorev.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.xrLblDigerDesc_Gorev.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18F);
-            this.xrLblDigerDesc_Gorev.Multiline = true;
-            this.xrLblDigerDesc_Gorev.Name = "xrLblDigerDesc_Gorev";
-            this.xrLblDigerDesc_Gorev.SizeF = new System.Drawing.SizeF(802F, 32F);
-            this.xrLblDigerDesc_Gorev.Text = resources.GetString("xrLblDigerDesc_Gorev.Text");
             // 
             // xrLblDigerVal_Gorev
             // 
@@ -2143,10 +2041,10 @@ namespace TaekReport.KAEK.GozlemselIlac
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[GOREVDEVRI]")});
             this.xrLblDigerVal_Gorev.Font = new System.Drawing.Font("Arial", 9F);
             this.xrLblDigerVal_Gorev.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerVal_Gorev.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
+            this.xrLblDigerVal_Gorev.LocationFloat = new DevExpress.Utils.PointFloat(0F, 23.20837F);
             this.xrLblDigerVal_Gorev.Multiline = true;
             this.xrLblDigerVal_Gorev.Name = "xrLblDigerVal_Gorev";
-            this.xrLblDigerVal_Gorev.SizeF = new System.Drawing.SizeF(802F, 22F);
+            this.xrLblDigerVal_Gorev.SizeF = new System.Drawing.SizeF(802F, 48.79163F);
             // 
             // xrRowDiger_Otorite
             // 
@@ -2158,7 +2056,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             // xrCellDiger_Otorite
             // 
             this.xrCellDiger_Otorite.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrRichText2,
             this.xrLblDigerTitle_Otorite,
             this.xrLblDigerVal_Otorite});
             this.xrCellDiger_Otorite.Font = new System.Drawing.Font("Arial", 9F);
@@ -2172,7 +2069,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerTitle_Otorite.ForeColor = System.Drawing.Color.Black;
             this.xrLblDigerTitle_Otorite.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLblDigerTitle_Otorite.Name = "xrLblDigerTitle_Otorite";
-            this.xrLblDigerTitle_Otorite.SizeF = new System.Drawing.SizeF(802F, 18F);
+            this.xrLblDigerTitle_Otorite.SizeF = new System.Drawing.SizeF(802F, 27.37506F);
             this.xrLblDigerTitle_Otorite.Text = "Diğer sağlık otoritelerine başvuru";
             // 
             // xrLblDigerVal_Otorite
@@ -2181,10 +2078,10 @@ namespace TaekReport.KAEK.GozlemselIlac
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[DIGERSAGLIKOTORITELERI]")});
             this.xrLblDigerVal_Otorite.Font = new System.Drawing.Font("Arial", 9F);
             this.xrLblDigerVal_Otorite.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerVal_Otorite.LocationFloat = new DevExpress.Utils.PointFloat(0F, 50F);
+            this.xrLblDigerVal_Otorite.LocationFloat = new DevExpress.Utils.PointFloat(0F, 27.37512F);
             this.xrLblDigerVal_Otorite.Multiline = true;
             this.xrLblDigerVal_Otorite.Name = "xrLblDigerVal_Otorite";
-            this.xrLblDigerVal_Otorite.SizeF = new System.Drawing.SizeF(802F, 22F);
+            this.xrLblDigerVal_Otorite.SizeF = new System.Drawing.SizeF(802F, 44.62488F);
             // 
             // ArastirmaEkibi
             // 
@@ -3399,17 +3296,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.GozlemselCalismalarBasvuruFormu);
             this.objectDataSource1.Name = "objectDataSource1";
             // 
-            // xrRichText2
-            // 
-            this.xrRichText2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Html", "[GozlemselFormu].[DIGERSAGLIKOTORITELERI]")});
-            this.xrRichText2.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrRichText2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 18.00003F);
-            this.xrRichText2.Name = "xrRichText2";
-            this.xrRichText2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
-            this.xrRichText2.SerializableRtfString = resources.GetString("xrRichText2.SerializableRtfString");
-            this.xrRichText2.SizeF = new System.Drawing.SizeF(802F, 29.49997F);
-            // 
             // rprGozlemselCalismalarBasvuruForm
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -3452,7 +3338,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableImza)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -3604,37 +3489,30 @@ namespace TaekReport.KAEK.GozlemselIlac
         private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Hassas;
         private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Hassas;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Hassas;
-        private DevExpress.XtraReports.UI.XRLabel xrLblDigerDesc_Hassas;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerVal_Hassas;
         private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Gizlilik;
         private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Gizlilik;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Gizlilik;
-        private DevExpress.XtraReports.UI.XRLabel xrLblDigerDesc_Gizlilik;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerVal_Gizlilik;
         private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Odeme;
         private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Odeme;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Odeme;
-        private DevExpress.XtraReports.UI.XRLabel xrLblDigerDesc_Odeme;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerVal_Odeme;
         private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Dokuman;
         private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Dokuman;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Dokuman;
-        private DevExpress.XtraReports.UI.XRLabel xrLblDigerDesc_Dokuman;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerVal_Dokuman;
         private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Izleme;
         private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Izleme;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Izleme;
-        private DevExpress.XtraReports.UI.XRLabel xrLblDigerDesc_Izleme;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerVal_Izleme;
         private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Tesis;
         private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Tesis;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Tesis;
-        private DevExpress.XtraReports.UI.XRLabel xrLblDigerDesc_Tesis;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerVal_Tesis;
         private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Gorev;
         private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Gorev;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Gorev;
-        private DevExpress.XtraReports.UI.XRLabel xrLblDigerDesc_Gorev;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerVal_Gorev;
         private DevExpress.XtraReports.UI.XRTableRow xrRowDiger_Otorite;
         private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Otorite;
@@ -3758,6 +3636,5 @@ namespace TaekReport.KAEK.GozlemselIlac
         private DevExpress.XtraReports.UI.XRTableCell xrCellImza7Lbl;
         private DevExpress.XtraReports.UI.XRTableCell xrCellImza7Val;
         private DevExpress.XtraReports.UI.XRRichText xrRichText1;
-        private DevExpress.XtraReports.UI.XRRichText xrRichText2;
     }
 }
