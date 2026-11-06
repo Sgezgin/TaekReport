@@ -9849,6 +9849,8 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell456.BorderWidth = 2F;
+            this.xrTableCell456.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KARARRAPORUBILGI].[TOPLANTIKATILIMASILYEDEK]")});
             this.xrTableCell456.Font = new System.Drawing.Font("Arial", 8F);
             this.xrTableCell456.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell456.Multiline = true;
