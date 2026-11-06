@@ -306,12 +306,12 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellImza7Lbl = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrCellImza7Val = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.xrRichText2 = new DevExpress.XtraReports.UI.XRRichText();
             this.xrLblDigerVal_Hassas = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLblDigerTitle_Hassas = new DevExpress.XtraReports.UI.XRLabel();
             this.xrCellDiger_Hassas = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrRowDiger_Hassas = new DevExpress.XtraReports.UI.XRTableRow();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTablePH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecCalisma)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableCalisma)).BeginInit();
@@ -331,8 +331,8 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecImza)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableImza)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -736,7 +736,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellCO_StatusuVal.BackColor = System.Drawing.Color.Transparent;
             this.xrCellCO_StatusuVal.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[ARASTIRMASTATUSU] + Iif(IsNullOrEmpty([GozlemselFormu].[ARASTIR" +
-                    "MASTATUSUACIKLAMA]), \'\', \'\\n\' + [GozlemselFormu].[ARASTIRMASTATUSUACIKLAMA])")});
+                    "MASTATUSUACIKLAMA]), \'\', \'<br>\' + [GozlemselFormu].[ARASTIRMASTATUSUACIKLAMA])")});
             this.xrCellCO_StatusuVal.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellCO_StatusuVal.ForeColor = System.Drawing.Color.Black;
             this.xrCellCO_StatusuVal.Multiline = true;
@@ -3252,11 +3252,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRichText1.SizeF = new System.Drawing.SizeF(801.9999F, 59.79169F);
             this.xrRichText1.StylePriority.UseFont = false;
             // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.GozlemselCalismalarBasvuruFormu);
-            this.objectDataSource1.Name = "objectDataSource1";
-            // 
             // xrRichText2
             // 
             this.xrRichText2.Borders = DevExpress.XtraPrinting.BorderSide.None;
@@ -3309,6 +3304,11 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowDiger_Hassas.Name = "xrRowDiger_Hassas";
             this.xrRowDiger_Hassas.Weight = 1D;
             // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.GozlemselCalismalarBasvuruFormu);
+            this.objectDataSource1.Name = "objectDataSource1";
+            // 
             // rprGozlemselCalismalarBasvuruForm
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -3350,8 +3350,8 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecImza)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableImza)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
