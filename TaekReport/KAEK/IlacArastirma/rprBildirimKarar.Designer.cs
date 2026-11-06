@@ -639,6 +639,7 @@
             // 
             // xrTableCell16
             // 
+            this.xrTableCell16.AllowMarkupText = true;
             this.xrTableCell16.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BILDIRIMSORUMLUUYELER]")});
             this.xrTableCell16.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
