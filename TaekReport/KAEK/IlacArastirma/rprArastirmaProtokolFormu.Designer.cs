@@ -363,7 +363,7 @@
             // xrTableCell76
             // 
             this.xrTableCell76.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KLINIKARASTIRMALARBASVURUFORMU].[CALISMATASARIMI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[listArastirmaProtokolFormu].[CALISMATASARIMI]")});
             this.xrTableCell76.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTableCell76.Multiline = true;
             this.xrTableCell76.Name = "xrTableCell76";
@@ -805,7 +805,7 @@
             // xrTableCell43
             // 
             this.xrTableCell43.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KLINIKARASTIRMALARBASVURUFORMU].[GONULLUGRUBU]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[listArastirmaProtokolFormu].[KATILIMCIGRUP]")});
             this.xrTableCell43.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTableCell43.Multiline = true;
             this.xrTableCell43.Name = "xrTableCell43";
@@ -854,7 +854,7 @@
             // xrTableCell45
             // 
             this.xrTableCell45.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KLINIKARASTIRMALARBASVURUFORMU].[GONULLUYASARALIGI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[listArastirmaProtokolFormu].[KATILIMCIYASARALIGI]")});
             this.xrTableCell45.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTableCell45.Multiline = true;
             this.xrTableCell45.Name = "xrTableCell45";
@@ -903,7 +903,7 @@
             // xrTableCell16
             // 
             this.xrTableCell16.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KLINIKARASTIRMALARBASVURUFORMU].[GONULLUSAYI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[listArastirmaProtokolFormu].[KATILIMCITOPSAYI]")});
             this.xrTableCell16.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTableCell16.Multiline = true;
             this.xrTableCell16.Name = "xrTableCell16";
@@ -1001,7 +1001,7 @@
             // xrTableCell18
             // 
             this.xrTableCell18.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KLINIKARASTIRMALARBASVURUFORMU].[DAHILEDILMEKRITERLERI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[listArastirmaProtokolFormu].[KATILIMCIDAHILEDILMEKRITER]")});
             this.xrTableCell18.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTableCell18.Multiline = true;
             this.xrTableCell18.Name = "xrTableCell18";
@@ -1050,7 +1050,7 @@
             // xrTableCell20
             // 
             this.xrTableCell20.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KLINIKARASTIRMALARBASVURUFORMU].[DAHILEDILMEMEKRITERLERI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[listArastirmaProtokolFormu].[KATILIMCIDAHILEDILMEMEKRITER]")});
             this.xrTableCell20.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTableCell20.Multiline = true;
             this.xrTableCell20.Name = "xrTableCell20";
