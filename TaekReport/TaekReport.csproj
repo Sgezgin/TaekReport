@@ -254,7 +254,14 @@
     <Compile Include="KAEK\Models\KARARRAPORUBILGI.cs" />
     <Compile Include="KAEK\Models\RaporModel\TCUstBasvuruModel.cs" />
     <Compile Include="KAEK\Models\TIBBICIHAZBASVURUFORMU.cs" />
-    <Compile Include="KAEK\TibbiCihaz\rprUstBasvuruForm.cs">
+        <Compile Include="KAEK\Models\RaporModel\TibbiCihazBasvuruFormu.cs" />
+    <Compile Include="KAEK\TibbiCihaz\rprTibbiCihazBasvuruForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\TibbiCihaz\rprTibbiCihazBasvuruForm.Designer.cs">
+      <DependentUpon>rprTibbiCihazBasvuruForm.cs</DependentUpon>
+    </Compile>
+<Compile Include="KAEK\TibbiCihaz\rprUstBasvuruForm.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="KAEK\TibbiCihaz\rprUstBasvuruForm.Designer.cs">
@@ -556,7 +563,10 @@
     <EmbeddedResource Include="KAEK\IlacArastirma\rprRaportorDegerlendirmeFormu.resx">
       <DependentUpon>rprRaportorDegerlendirmeFormu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KAEK\TibbiCihaz\rprUstBasvuruForm.resx">
+        <EmbeddedResource Include="KAEK\TibbiCihaz\rprTibbiCihazBasvuruForm.resx">
+      <DependentUpon>rprTibbiCihazBasvuruForm.cs</DependentUpon>
+    </EmbeddedResource>
+<EmbeddedResource Include="KAEK\TibbiCihaz\rprUstBasvuruForm.resx">
       <DependentUpon>rprUstBasvuruForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\IlacArastirma\rprUstBasvuruForm.resx">
