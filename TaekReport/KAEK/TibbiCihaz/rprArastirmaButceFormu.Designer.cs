@@ -459,7 +459,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             // 
             this.cKayn_Destekleyici_Val.BackColor = System.Drawing.Color.White;
             this.cKayn_Destekleyici_Val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "'Açıklayınız: ' + [DestekleyiciAciklama]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DestekleyiciAciklama]")});
             this.cKayn_Destekleyici_Val.Font = new System.Drawing.Font("Arial", 8.5F);
             this.cKayn_Destekleyici_Val.Multiline = true;
             this.cKayn_Destekleyici_Val.Name = "cKayn_Destekleyici_Val";
@@ -494,7 +494,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             // 
             this.cKayn_Fonlar_Val.BackColor = System.Drawing.Color.White;
             this.cKayn_Fonlar_Val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "'Açıklayınız: ' + [FonlarAciklama]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[FonlarAciklama]")});
             this.cKayn_Fonlar_Val.Font = new System.Drawing.Font("Arial", 8.5F);
             this.cKayn_Fonlar_Val.Multiline = true;
             this.cKayn_Fonlar_Val.Name = "cKayn_Fonlar_Val";
@@ -529,7 +529,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             // 
             this.cKayn_Diger_Val.BackColor = System.Drawing.Color.White;
             this.cKayn_Diger_Val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "'Açıklayınız: ' + [DigerAciklama]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DigerAciklama]")});
             this.cKayn_Diger_Val.Font = new System.Drawing.Font("Arial", 8.5F);
             this.cKayn_Diger_Val.Multiline = true;
             this.cKayn_Diger_Val.Name = "cKayn_Diger_Val";
