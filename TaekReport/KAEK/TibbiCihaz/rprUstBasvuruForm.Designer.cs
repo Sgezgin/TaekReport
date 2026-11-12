@@ -175,6 +175,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             // 
             // xrRichText1
             // 
+            this.xrRichText1.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrRichText1.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Html", "[GenelOzet]")});
             this.xrRichText1.Font = new System.Drawing.Font("Arial", 9.75F);
@@ -183,6 +184,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.xrRichText1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrRichText1.SerializableRtfString = resources.GetString("xrRichText1.SerializableRtfString");
             this.xrRichText1.SizeF = new System.Drawing.SizeF(764.0002F, 24.99997F);
+            this.xrRichText1.StylePriority.UseBorders = false;
             // 
             // xrTable2
             // 
