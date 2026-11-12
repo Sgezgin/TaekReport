@@ -93,5 +93,6 @@ namespace TaekReport.KAEK.Models.RaporModel
         public string RprEtikKurulAdresDetay { get; set; } = "";
         public string RprBasvuruSahibiUnvanAd { get; set; } = "";
         public string RprBasvuruSahibiIletisim { get; set; } = "";
+        public string RprTibbiDurumDetay { get; set; } = "";
     }
 }

@@ -1778,7 +1778,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.c_r_cip_1_5_val.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 4, 3, 3, 100F);
             this.c_r_cip_1_5_val.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.c_r_cip_1_5_val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.KATILIMCIULKELER]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.KATILIMCIULKELER_IC]")});
             this.c_r_cip_1_5_val.Weight = 0.72D;
             // 
             // r_cip_1_6
@@ -1809,7 +1809,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.c_r_cip_1_6_val.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 4, 3, 3, 100F);
             this.c_r_cip_1_6_val.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.c_r_cip_1_6_val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.ABDISIKATILIMCIULKELER]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.KATILIMCIULKELER_DIS]")});
             this.c_r_cip_1_6_val.Weight = 0.72D;
             // 
             // r_cip_prot
@@ -1844,7 +1844,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.c_r_cip_prot_v1.Padding = new DevExpress.XtraPrinting.PaddingInfo(3, 3, 3, 3, 100F);
             this.c_r_cip_prot_v1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.c_r_cip_prot_v1.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU.PROTOKOLKODU]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.CIPKODU]")});
             this.c_r_cip_prot_v1.Weight = 0.21D;
             // 
             // c_r_cip_prot_l2
@@ -1921,7 +1921,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.c_r_cip_tam_val.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 4, 3, 3, 100F);
             this.c_r_cip_tam_val.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.c_r_cip_tam_val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[BASVURUFORMU.ARASTIRMAADI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.TAMBASLIK]")});
             this.c_r_cip_tam_val.Weight = 0.72D;
             // 
             // r_cip_kisa
@@ -1983,7 +1983,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.c_r_cip_halk_val.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 4, 3, 3, 100F);
             this.c_r_cip_halk_val.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.c_r_cip_halk_val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.HALKADONUKBASLIK]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.MESLEKTENOLMAYANBASLIK]")});
             this.c_r_cip_halk_val.Weight = 0.72D;
             // 
             // tblSec_B2
@@ -2301,7 +2301,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.c_r_b2_amd_val.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 4, 3, 3, 100F);
             this.c_r_b2_amd_val.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.c_r_b2_amd_val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.DIGERAMACLAR]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.DIGERAMAC]")});
             this.c_r_b2_amd_val.Weight = 0.72D;
             // 
             // r_b2_sn1
@@ -2605,7 +2605,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.c_r_b2_tdur_val.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 4, 3, 3, 100F);
             this.c_r_b2_tdur_val.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.c_r_b2_tdur_val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.TIBBIDURUM]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[RprTibbiDurumDetay]")});
             this.c_r_b2_tdur_val.Weight = 0.72D;
             // 
             // r_b2_ted
@@ -2692,7 +2692,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.c_r_b2_dah_val.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 4, 3, 3, 100F);
             this.c_r_b2_dah_val.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.c_r_b2_dah_val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.DAHILEDILMEKRITERLERI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.DAHILEDILMEKRITER]")});
             this.c_r_b2_dah_val.Weight = 0.72D;
             // 
             // r_b2_har
@@ -2723,7 +2723,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.c_r_b2_har_val.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 4, 3, 3, 100F);
             this.c_r_b2_har_val.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.c_r_b2_har_val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.HARICTUTULMAKRITERLERI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.HARICILMEKRITER]")});
             this.c_r_b2_har_val.Weight = 0.72D;
             // 
             // r_b2_grup
@@ -3402,7 +3402,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.c_r_b3_kod_v1.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
             this.c_r_b3_kod_v1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.c_r_b3_kod_v1.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.CIHAZEMDN]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.EMDNKODU]")});
             this.c_r_b3_kod_v1.Weight = 0.28D;
             // 
             // c_r_b3_kod_l2
@@ -3425,7 +3425,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.c_r_b3_kod_v2.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
             this.c_r_b3_kod_v2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.c_r_b3_kod_v2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.CIHAZJENERIKAD]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.EMDNKODU]")});
             this.c_r_b3_kod_v2.Weight = 0.3D;
             // 
             // r_b3_tanim
