@@ -12,6 +12,8 @@ namespace TaekReport.KAEK.Models.RaporModel
         public BASVURUFORMU BASVURUFORMU { get; set; }
         public List<ARASTIRMAEKIBI> listArastirmaEkibi { get; set; }
         public List<HAKEMDUZELTMEDETAY> ListGorus { get; set; }
+        public ARASTIRMADOSYALARI ARASTIRMADOSYALARI { get; set; }
+        public ARASTIRMABUTCEFORMU ARASTIRMABUTCEFORMU { get; set; }
     }
 }
 

@@ -383,6 +383,8 @@ namespace TaekReport.KAEK.Models
             }
         }
 
+        public string TOPLANTIKATILIMASILYEDEK { get; set; }
+
 
 
     }
