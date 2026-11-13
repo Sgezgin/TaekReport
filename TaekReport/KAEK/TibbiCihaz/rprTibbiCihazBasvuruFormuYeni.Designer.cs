@@ -9115,7 +9115,7 @@
             this.lbl525.BorderWidth = 1F;
             this.lbl525.CanGrow = false;
             this.lbl525.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl525.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 35.54F);
+            this.lbl525.LocationFloat = new DevExpress.Utils.PointFloat(101.76F, 35.54F);
             this.lbl525.Multiline = true;
             this.lbl525.Name = "lbl525";
             this.lbl525.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -9271,7 +9271,7 @@
             // ln538
             // 
             this.ln538.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln538.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 186.29F);
+            this.ln538.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 194.29F);
             this.ln538.Name = "ln538";
             this.ln538.SizeF = new System.Drawing.SizeF(634.25F, 2F);
             // 
