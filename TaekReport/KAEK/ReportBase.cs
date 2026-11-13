@@ -38,7 +38,7 @@ namespace TaekReport.KAEK
             byte[] resultReport = null;
             try
             {
-                KAEK.TibbiCihaz.rprTibbiCihazBasvuruForm rpr = new KAEK.TibbiCihaz.rprTibbiCihazBasvuruForm(list);
+                KAEK.TibbiCihaz.rprTibbiCihazBasvuruFormuYeni rpr = new KAEK.TibbiCihaz.rprTibbiCihazBasvuruFormuYeni(list);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.DataSource = list;

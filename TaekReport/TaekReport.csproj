@@ -269,6 +269,12 @@
     <Compile Include="KAEK\TibbiCihaz\rprTibbiCihazBasvuruForm.Designer.cs">
       <DependentUpon>rprTibbiCihazBasvuruForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\TibbiCihaz\rprTibbiCihazBasvuruFormuYeni.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\TibbiCihaz\rprTibbiCihazBasvuruFormuYeni.Designer.cs">
+      <DependentUpon>rprTibbiCihazBasvuruFormuYeni.cs</DependentUpon>
+    </Compile>
 <Compile Include="KAEK\TibbiCihaz\rprUstBasvuruForm.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -576,6 +582,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\TibbiCihaz\rprTibbiCihazBasvuruForm.resx">
       <DependentUpon>rprTibbiCihazBasvuruForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KAEK\TibbiCihaz\rprTibbiCihazBasvuruFormuYeni.resx">
+      <DependentUpon>rprTibbiCihazBasvuruFormuYeni.cs</DependentUpon>
     </EmbeddedResource>
 <EmbeddedResource Include="KAEK\TibbiCihaz\rprUstBasvuruForm.resx">
       <DependentUpon>rprUstBasvuruForm.cs</DependentUpon>
