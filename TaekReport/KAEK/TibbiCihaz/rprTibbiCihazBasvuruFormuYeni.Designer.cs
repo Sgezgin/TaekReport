@@ -74,7 +74,6 @@
             this.lbl48 = new DevExpress.XtraReports.UI.XRLabel();
             this.lbl49 = new DevExpress.XtraReports.UI.XRLabel();
             this.lbl50 = new DevExpress.XtraReports.UI.XRLabel();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.lbl51 = new DevExpress.XtraReports.UI.XRLabel();
             this.lbl52 = new DevExpress.XtraReports.UI.XRLabel();
             this.ln53 = new DevExpress.XtraReports.UI.XRLine();
@@ -1012,9 +1011,10 @@
             this.DetailReport24 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.dd24 = new DevExpress.XtraReports.UI.DetailBand();
             this.lbl273 = new DevExpress.XtraReports.UI.XRLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.tblTeam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblDocs)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -1798,11 +1798,6 @@
             this.lbl50.Text = "<sup>1</sup>Akademik amaçlı yapılan araştırmalarda Sponsor/Destekleyici tanımlama" +
     "sı Koordinatör/Sorumlu araştırmacıyı tanımlar";
             this.lbl50.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopJustify;
-            // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.TibbiCihazBasvuruFormu);
-            this.objectDataSource1.Name = "objectDataSource1";
             // 
             // lbl51
             // 
@@ -6393,7 +6388,7 @@
             this.lbl356.BorderWidth = 1F;
             this.lbl356.CanGrow = false;
             this.lbl356.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl356.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 138.91F);
+            this.lbl356.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 138.91F);
             this.lbl356.Multiline = true;
             this.lbl356.Name = "lbl356";
             this.lbl356.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -6451,11 +6446,11 @@
             this.lbl361.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl361.CanGrow = false;
             this.lbl361.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl361.LocationFloat = new DevExpress.Utils.PointFloat(123.83F, 177.68F);
+            this.lbl361.LocationFloat = new DevExpress.Utils.PointFloat(120.6F, 177.6805F);
             this.lbl361.Multiline = true;
             this.lbl361.Name = "lbl361";
             this.lbl361.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
-            this.lbl361.SizeF = new System.Drawing.SizeF(624.56F, 19.38F);
+            this.lbl361.SizeF = new System.Drawing.SizeF(607.33F, 19.37999F);
             this.lbl361.StylePriority.UseTextAlignment = false;
             this.lbl361.Text = "Evet ise, lütfen ilgili IVD performans çalışması tanımlama numarasını giriniz";
             this.lbl361.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
@@ -6469,7 +6464,7 @@
             this.lbl362.BorderWidth = 2F;
             this.lbl362.CanGrow = false;
             this.lbl362.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.INVITROPERFORMANSNO]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu].[IVDPERFORMANSNO]")});
             this.lbl362.Font = new System.Drawing.Font("Calibri", 10F);
             this.lbl362.LocationFloat = new DevExpress.Utils.PointFloat(120.6F, 208.9F);
             this.lbl362.Multiline = true;
@@ -6502,7 +6497,7 @@
             this.lbl364.BorderWidth = 1F;
             this.lbl364.CanGrow = false;
             this.lbl364.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl364.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 309.05F);
+            this.lbl364.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 309.05F);
             this.lbl364.Multiline = true;
             this.lbl364.Name = "lbl364";
             this.lbl364.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -6560,11 +6555,11 @@
             this.lbl369.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl369.CanGrow = false;
             this.lbl369.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl369.LocationFloat = new DevExpress.Utils.PointFloat(107.68F, 348.89F);
+            this.lbl369.LocationFloat = new DevExpress.Utils.PointFloat(117.91F, 348.8902F);
             this.lbl369.Multiline = true;
             this.lbl369.Name = "lbl369";
             this.lbl369.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
-            this.lbl369.SizeF = new System.Drawing.SizeF(624.56F, 19.38F);
+            this.lbl369.SizeF = new System.Drawing.SizeF(614.33F, 19.38F);
             this.lbl369.StylePriority.UseTextAlignment = false;
             this.lbl369.Text = "Evet ise, lütfen ilgili klinik çalışma numarasını yazınız:";
             this.lbl369.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
@@ -6578,7 +6573,7 @@
             this.lbl370.BorderWidth = 2F;
             this.lbl370.CanGrow = false;
             this.lbl370.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.BESERIKLINIKNO]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu].[BESERIURUNTANIMLAMANO]")});
             this.lbl370.Font = new System.Drawing.Font("Calibri", 10F);
             this.lbl370.LocationFloat = new DevExpress.Utils.PointFloat(118.45F, 369.35F);
             this.lbl370.Multiline = true;
@@ -15280,6 +15275,11 @@
             this.lbl273.StylePriority.UsePadding = false;
             this.lbl273.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.TibbiCihazBasvuruFormu);
+            this.objectDataSource1.Name = "objectDataSource1";
+            // 
             // rprTibbiCihazBasvuruFormuYeni
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -15319,9 +15319,9 @@
             this.PageWidth = 827;
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;
             this.Version = "20.2";
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblTeam)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblDocs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }

@@ -54,6 +54,48 @@ namespace TaekReport.KAEK
             return resultReport;
         }
 
+        public byte[] InVitroBasvuruForm(List<TaekReport.KAEK.Models.RaporModel.InVitroBasvuruFormu> list)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                KAEK.InVitro.rprInVitroBasvuruForm rpr = new KAEK.InVitro.rprInVitroBasvuruForm(list);
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.DataSource = list;
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception ex)
+            {
+                var data = ex.Message;
+            }
+
+            return resultReport;
+        }
+
+        public byte[] DokuHucreBasvuruForm(List<TaekReport.KAEK.Models.RaporModel.DokuHucreBasvuruFormu> list)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                KAEK.DokuHucre.rprDokuHucreBasvuruForm rpr = new KAEK.DokuHucre.rprDokuHucreBasvuruForm(list);
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.DataSource = list;
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception ex)
+            {
+                var data = ex.Message;
+            }
+
+            return resultReport;
+        }
+
         
         public byte[] TCArastirmaButceForm(List<TaekReport.KAEK.Models.RaporModel.TCArastirmaButceFormModel> list)
         {
