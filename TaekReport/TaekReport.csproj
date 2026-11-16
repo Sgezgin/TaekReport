@@ -220,6 +220,10 @@
     <Compile Include="KAEK\GozlemselIlac\rprGozlemselCalismalarBasvuruForm.Designer.cs">
       <DependentUpon>rprGozlemselCalismalarBasvuruForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KAEK\InVitro\rprInVitroBasvuruForm.cs" />
+    <Compile Include="KAEK\InVitro\rprInVitroBasvuruForm.Designer.cs">
+      <DependentUpon>rprInVitroBasvuruForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="KAEK\Models\GOZLEMSELCALISMABASVURUFORMU.cs" />
     <Compile Include="KAEK\Models\RaporModel\GozlemselCalismalarBasvuruFormu.cs" />
     <Compile Include="KAEK\IlacArastirma\rprKlinikArastirmaBasvuruForm.cs">
@@ -256,9 +260,11 @@
     <Compile Include="KAEK\Models\DOKUHUCREBASVURUFORMU.cs" />
     <Compile Include="KAEK\Models\RaporModel\InVitroBasvuruFormu.cs" />
     <Compile Include="KAEK\Models\RaporModel\DokuHucreBasvuruFormu.cs" />
-    <Compile Include="KAEK\InVitro\rprInVitroBasvuruForm.cs" />
-    <Compile Include="KAEK\InVitro\rprInVitroBasvuruForm.Designer.cs">
-      <DependentUpon>rprInVitroBasvuruForm.cs</DependentUpon>
+    <Compile Include="KAEK\InVitro\rprInvitroFormu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KAEK\InVitro\rprInvitroFormu.Designer.cs">
+      <DependentUpon>rprInvitroFormu.cs</DependentUpon>
     </Compile>
     <Compile Include="KAEK\DokuHucre\rprDokuHucreBasvuruForm.cs">
       <SubType>Component</SubType>
@@ -591,11 +597,14 @@
     <EmbeddedResource Include="KAEK\IlacArastirma\rprRaportorDegerlendirmeFormu.resx">
       <DependentUpon>rprRaportorDegerlendirmeFormu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KAEK\InVitro\rprInVitroBasvuruForm.resx">
+      <DependentUpon>rprInVitroBasvuruForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="KAEK\TibbiCihaz\rprArastirmaButceFormu.resx">
       <DependentUpon>rprArastirmaButceFormu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KAEK\InVitro\rprInVitroBasvuruForm.resx">
-      <DependentUpon>rprInVitroBasvuruForm.cs</DependentUpon>
+    <EmbeddedResource Include="KAEK\InVitro\rprInvitroFormu.resx">
+      <DependentUpon>rprInvitroFormu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KAEK\DokuHucre\rprDokuHucreBasvuruForm.resx">
       <DependentUpon>rprDokuHucreBasvuruForm.cs</DependentUpon>

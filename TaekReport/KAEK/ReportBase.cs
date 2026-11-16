@@ -59,7 +59,7 @@ namespace TaekReport.KAEK
             byte[] resultReport = null;
             try
             {
-                KAEK.InVitro.rprInVitroBasvuruForm rpr = new KAEK.InVitro.rprInVitroBasvuruForm(list);
+                KAEK.InVitro.rprInvitroFormu rpr = new KAEK.InVitro.rprInvitroFormu(list);
                 using (MemoryStream ms = new MemoryStream())
                 {
                     rpr.DataSource = list;
