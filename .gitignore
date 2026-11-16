@@ -259,3 +259,5 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/TaekReport/KAEK/InVitro/eski
+/TaekReport/KAEK/InVitro/2
