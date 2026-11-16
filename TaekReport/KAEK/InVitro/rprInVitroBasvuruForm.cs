@@ -1,218 +1,26 @@
-﻿using System;
+using System;
+using System.Drawing;
+using System.Collections;
+using System.ComponentModel;
+using DevExpress.XtraReports.UI;
 using System.Collections.Generic;
+using TaekReport.KAEK.Models.RaporModel;
 
-namespace TaekReport.KAEK.Models.RaporModel
+namespace TaekReport.KAEK.InVitro
 {
-    /// <summary>rprInVitroBasvuruForm (TCOKKA-FR-13) rapor modeli. Rapor DataSource: List&lt;InVitroBasvuruFormu&gt;.</summary>
-    public class InVitroBasvuruFormu
+    public partial class rprInVitroBasvuruForm : DevExpress.XtraReports.UI.XtraReport
     {
-        public InVitroBasvuruFormu() { InVitroForm = new InVitroForm(); }
-        /// <summary>Rapordaki tüm [InVitroForm.ALAN] ifadelerinin bağlandığı nesne.</summary>
-        public InVitroForm InVitroForm { get; set; }
-    }
+        public rprInVitroBasvuruForm()
+        {
+            InitializeComponent();
+        }
 
-    /// <summary>Alan değer sözleşmesi: Evet/Hayır = "1"/"0"; seçimli alanlar kod alır (ör. BASVURUTIPI = MADDE_60 | MADDE_72 | MADDE_60_2);
-    /// çoklu seçimli alanlar kodları birleştirir (ör. CIHAZTIPI = "T01T05", YASARALIGI = "Y1Y7").</summary>
-    public class InVitroForm
-    {
-        public string AEADISIULKELER { get; set; }
-        public string BASVURUDURUMU { get; set; }
-        public string BASVURUTIPI { get; set; }
-        public string BESERIURUNBIRLIKTE { get; set; }
-        public string BESERIURUNCALISMANO { get; set; }
-        public string BILIMSELGORUSATIF { get; set; }
-        public string BILIMSELGORUSVARMI { get; set; }
-        public string BIRINCILAMAC { get; set; }
-        public string BIRINCILSONLANIM { get; set; }
-        public string CEISARETILIMI { get; set; }
-        public string CEKAPSAMI { get; set; }
-        public string CERRAHIINVAZIVNUMUNE { get; set; }
-        public string CIHAZACIKLAMASI { get; set; }
-        public string CIHAZADI { get; set; }
-        public string CIHAZAMACI { get; set; }
-        public string CIHAZEMDN { get; set; }
-        public string CIHAZINSANKAYNAKLI { get; set; }
-        public string CIHAZINSANKAYNAKLIBILGI { get; set; }
-        public string CIHAZJENERIKAD { get; set; }
-        public string CIHAZKULLANIMAMACI { get; set; }
-        public string CIHAZMODEL { get; set; }
-        public string CIHAZSINIFI { get; set; }
-        public string CIHAZTICARIAD { get; set; }
-        public string CIHAZTIPI { get; set; }
-        public string CINSIYET { get; set; }
-        public string CIVID { get; set; }
-        public string CIVID_YENIDEN { get; set; }
-        public string DAHILEDILMEKRITER { get; set; }
-        public string DESTEKTANICIHAZLARI { get; set; }
-        public string DESTEKTANIMADDE { get; set; }
-        public string DIGERAMAC { get; set; }
-        public string DIGERIRTIBATKISIAD { get; set; }
-        public string DIGERIRTIBATKISIADRES { get; set; }
-        public string DIGERIRTIBATKISIEMAIL { get; set; }
-        public string DIGERIRTIBATKISIILCE { get; set; }
-        public string DIGERIRTIBATKISISEHIR { get; set; }
-        public string DIGERIRTIBATKISITEL { get; set; }
-        public string DIGEROZELLIKLER { get; set; }
-        public string DIGERSONLANIM { get; set; }
-        public string ETIKKURULADI { get; set; }
-        public string ETIKKURULADRES { get; set; }
-        public string ETIKKURULBEYAN { get; set; }
-        public string ETIKKURULDURUMU { get; set; }
-        public string ETIKKURULEMAIL { get; set; }
-        public string ETIKKURULILCE { get; set; }
-        public string ETIKKURULKARARNO { get; set; }
-        public string ETIKKURULKARARTARIHI { get; set; }
-        public string ETIKKURULSEHIR { get; set; }
-        public string ETIKKURULTEL { get; set; }
-        public string GELISTIRMEEVRESI { get; set; }
-        public string GENELOZET { get; set; }
-        public string GONULLUAF { get; set; }
-        public string GONULLUAS { get; set; }
-        public string GONULLUEU { get; set; }
-        public string GONULLUGRUBU { get; set; }
-        public string GONULLUGRUBUDIGER { get; set; }
-        public string GONULLUNA { get; set; }
-        public string GONULLUOC { get; set; }
-        public string GONULLUSA { get; set; }
-        public string GONULLUSAYISITOPLAM { get; set; }
-        public string GONULLUTOPLAM { get; set; }
-        public string GONULLUTR { get; set; }
-        public string HARICTUTULMAKRITER { get; set; }
-        public string HASTALIKLAILGILIMI { get; set; }
-        public string IKINCILAMAC { get; set; }
-        public string IKINCILSONLANIM { get; set; }
-        public string ILAVEINVAZIV { get; set; }
-        public string ILAVEINVAZIVACIKLAMA { get; set; }
-        public string ILAVEINVAZIVMI { get; set; }
-        public string IMALATCIAD { get; set; }
-        public string IMALATCIADRES { get; set; }
-        public string IMALATCIEMAIL { get; set; }
-        public string IMALATCIILCE { get; set; }
-        public string IMALATCIIRTIBATKISIAD { get; set; }
-        public string IMALATCIIRTIBATKISIEMAIL { get; set; }
-        public string IMALATCIIRTIBATKISITEL { get; set; }
-        public string IMALATCISEHIR { get; set; }
-        public string IMALATCISPONSORAYNIMI { get; set; }
-        public string IMALATCITEL { get; set; }
-        public string IRTIBATKISICHECK { get; set; }
-        public string KARSILASTIRMACIHAZ_ACIKLAMA { get; set; }
-        public string KARSILASTIRMACIHAZ_ADI { get; set; }
-        public string KARSILASTIRMACIHAZ_CEKAPSAMI { get; set; }
-        public string KARSILASTIRMACIHAZ_CEVARMI { get; set; }
-        public string KARSILASTIRMACIHAZ_EMDN { get; set; }
-        public string KARSILASTIRMACIHAZ_INSANKAYNAKLI { get; set; }
-        public string KARSILASTIRMACIHAZ_INSANKAYNAKLIBILGI { get; set; }
-        public string KARSILASTIRMACIHAZ_JENERIKAD { get; set; }
-        public string KARSILASTIRMACIHAZ_KULLANIMAMACI { get; set; }
-        public string KARSILASTIRMACIHAZ_KURAL { get; set; }
-        public string KARSILASTIRMACIHAZ_MODEL { get; set; }
-        public string KARSILASTIRMACIHAZ_SINIF { get; set; }
-        public string KARSILASTIRMACIHAZ_TICARIAD { get; set; }
-        public string KARSILASTIRMACIHAZ_UTSKURESELNO { get; set; }
-        public string KARSILASTIRMACIHAZ_UTSVARMI { get; set; }
-        public string KARSILASTIRMATURU { get; set; }
-        public string KARSILASTIRMATURUDIGER { get; set; }
-        public string KARSILASTIRMAVARMI { get; set; }
-        public string KISABASLIK { get; set; }
-        public string KOORDINATORAD { get; set; }
-        public string KOORDINATORADRES { get; set; }
-        public string KOORDINATOREMAIL { get; set; }
-        public string KOORDINATORGOREVYERI { get; set; }
-        public string KOORDINATORGOREVYERIADRES { get; set; }
-        public string KOORDINATORILCE { get; set; }
-        public string KOORDINATORSEHIR { get; set; }
-        public string KOORDINATORTEL { get; set; }
-        public string KOORDINATORUZMANLIK { get; set; }
-        public string MAJORKLINIKRISK { get; set; }
-        public string MAJORKLINIKRISKGEREKCE { get; set; }
-        public string MERKEZ1ADI { get; set; }
-        public string MERKEZ1ADRES { get; set; }
-        public string MERKEZ1ARASTIRMACILAR { get; set; }
-        public string MERKEZ1ILETISIM { get; set; }
-        public string MERKEZ2ADI { get; set; }
-        public string MERKEZ2ADRES { get; set; }
-        public string MERKEZ2ARASTIRMACILAR { get; set; }
-        public string MERKEZ2ILETISIM { get; set; }
-        public string MERKEZ3ADI { get; set; }
-        public string MERKEZ3ADRES { get; set; }
-        public string MERKEZ3ARASTIRMACILAR { get; set; }
-        public string MERKEZ3ILETISIM { get; set; }
-        public string MERKEZ4ADI { get; set; }
-        public string MERKEZ4ADRES { get; set; }
-        public string MERKEZ4ARASTIRMACILAR { get; set; }
-        public string MERKEZ4ILETISIM { get; set; }
-        public string MERKEZ5ADI { get; set; }
-        public string MERKEZ5ADRES { get; set; }
-        public string MERKEZ5ARASTIRMACILAR { get; set; }
-        public string MERKEZ5ILETISIM { get; set; }
-        public string MERKEZ6ADI { get; set; }
-        public string MERKEZ6ADRES { get; set; }
-        public string MERKEZ6ARASTIRMACILAR { get; set; }
-        public string MERKEZ6ILETISIM { get; set; }
-        public string MESLEKTENOLMAYANBASLIK { get; set; }
-        public string MUDAHALELIKLINIK { get; set; }
-        public string NADIRHASTALIKMI { get; set; }
-        public string NUMUNEAF { get; set; }
-        public string NUMUNEAS { get; set; }
-        public string NUMUNEEU { get; set; }
-        public string NUMUNENA { get; set; }
-        public string NUMUNEOC { get; set; }
-        public string NUMUNESA { get; set; }
-        public string NUMUNETOPLAM { get; set; }
-        public string NUMUNETR { get; set; }
-        public string ONAYLANMISKURULUSAD { get; set; }
-        public string ONAYLANMISKURULUSNO { get; set; }
-        public string ONCEKICALISMANO { get; set; }
-        public string ONCEKICALISMAVARMI { get; set; }
-        public string PMPFILAVEPROSEDUR { get; set; }
-        public string PSID { get; set; }
-        public string PSPKODU { get; set; }
-        public string PSPTARIHI { get; set; }
-        public string PSPVERSIYONU { get; set; }
-        public string SADECEARTIKNUMUNE { get; set; }
-        public string SINIFLANDIRMAKURALI { get; set; }
-        public string SPONSORAD { get; set; }
-        public string SPONSORADRES { get; set; }
-        public string SPONSOREMAIL { get; set; }
-        public string SPONSORILCE { get; set; }
-        public string SPONSORIRTIBATKISIAD { get; set; }
-        public string SPONSORIRTIBATKISIEMAIL { get; set; }
-        public string SPONSORIRTIBATKISITEL { get; set; }
-        public string SPONSORSEHIR { get; set; }
-        public string SPONSORSTATU { get; set; }
-        public string SPONSORTEL { get; set; }
-        public string TAAHHUTADRES { get; set; }
-        public string TAAHHUTADSOYAD { get; set; }
-        public string TAAHHUTEMAIL { get; set; }
-        public string TAAHHUTGOREV { get; set; }
-        public string TAAHHUTTARIH { get; set; }
-        public string TAAHHUTTEL { get; set; }
-        public string TAHMINIBASLANGIC { get; set; }
-        public string TAHMINIBITIS { get; set; }
-        public string TAMBASLIK { get; set; }
-        public string TIBBICIHAZBIRLIKTE { get; set; }
-        public string TIBBICIHAZCALISMANO { get; set; }
-        public string UTSKAYITLIMI { get; set; }
-        public string UTSKURESELNO { get; set; }
-        public string YASALTEMSILCIAD { get; set; }
-        public string YASALTEMSILCIADRES { get; set; }
-        public string YASALTEMSILCIEMAIL { get; set; }
-        public string YASALTEMSILCIILCE { get; set; }
-        public string YASALTEMSILCIIRTIBATKISIAD { get; set; }
-        public string YASALTEMSILCIIRTIBATKISIEMAIL { get; set; }
-        public string YASALTEMSILCIIRTIBATKISITEL { get; set; }
-        public string YASALTEMSILCISEHIR { get; set; }
-        public string YASALTEMSILCITEL { get; set; }
-        public string YASALTEMSILCIVARMI { get; set; }
-        public string YASARALIGI { get; set; }
-        public string YETKILITEMSILCIAD { get; set; }
-        public string YETKILITEMSILCIADRES { get; set; }
-        public string YETKILITEMSILCIEMAIL { get; set; }
-        public string YETKILITEMSILCIILCE { get; set; }
-        public string YETKILITEMSILCIIRTIBATKISIAD { get; set; }
-        public string YETKILITEMSILCIIRTIBATKISIEMAIL { get; set; }
-        public string YETKILITEMSILCIIRTIBATKISITEL { get; set; }
-        public string YETKILITEMSILCISEHIR { get; set; }
-        public string YETKILITEMSILCITEL { get; set; }
+        public rprInVitroBasvuruForm(List<InVitroBasvuruFormu> o)
+        {
+            InitializeComponent();
+            if (objectDataSource1 != null)
+                objectDataSource1.DataSource = o;
+            this.DataSource = o;
+        }
     }
 }
