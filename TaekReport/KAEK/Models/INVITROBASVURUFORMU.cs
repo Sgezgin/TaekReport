@@ -27,7 +27,7 @@ namespace TaekReport.KAEK.Models
         public string SPONSORIRTIBATKISITEL { get; set; }
         public string SPONSORIRTIBATKISIEMAIL { get; set; }
 
-        public string YASALTEMSILCIVARMI { get; set; }
+        public int? YASALTEMSILCIVARMI { get; set; }
         public string YASALTEMSILCIAD { get; set; }
         public string YASALTEMSILCIADRES { get; set; }
         public string YASALTEMSILCIILCE { get; set; }
@@ -38,6 +38,11 @@ namespace TaekReport.KAEK.Models
         public string YASALTEMSILCIIRTIBATKISIAD { get; set; }
         public string YASALTEMSILCIIRTIBATKISITEL { get; set; }
         public string YASALTEMSILCIIRTIBATKISIEMAIL { get; set; }
+        public string YASALTEMSILCIIRTIBAT_EMAIL
+        {
+            get => YASALTEMSILCIIRTIBATKISIEMAIL;
+            set => YASALTEMSILCIIRTIBATKISIEMAIL = value;
+        }
 
         public string IRTIATKISICHECK { get; set; }
         public string DIGERIRTIBATKISIAD { get; set; }

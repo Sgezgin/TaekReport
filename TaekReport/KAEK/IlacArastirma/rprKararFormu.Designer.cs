@@ -10850,7 +10850,7 @@
             this.xrTableRow38,
             this.xrTableRow90,
             this.xrTableRow94});
-            this.xrTable40.SizeF = new System.Drawing.SizeF(365.1039F, 62.5F);
+            this.xrTable40.SizeF = new System.Drawing.SizeF(750.2051F, 62.5F);
             this.xrTable40.StylePriority.UseFont = false;
             this.xrTable40.StylePriority.UseForeColor = false;
             this.xrTable40.StylePriority.UseTextAlignment = false;
@@ -10887,7 +10887,7 @@
             this.xrTableCell296.Name = "xrTableCell296";
             this.xrTableCell296.StylePriority.UseFont = false;
             this.xrTableCell296.Text = "Unvanı/Adı/Soyadı:";
-            this.xrTableCell296.Weight = 0.68693738900885826D;
+            this.xrTableCell296.Weight = 0.30648594835879517D;
             // 
             // xrTableCell497
             // 
@@ -10897,7 +10897,7 @@
             this.xrTableCell497.Multiline = true;
             this.xrTableCell497.Name = "xrTableCell497";
             this.xrTableCell497.StylePriority.UseFont = false;
-            this.xrTableCell497.Weight = 1.3130626109911416D;
+            this.xrTableCell497.Weight = 1.6935140516412046D;
             // 
             // xrTableRow94
             // 
@@ -10914,7 +10914,7 @@
             this.xrTableCell79.Name = "xrTableCell79";
             this.xrTableCell79.StylePriority.UseFont = false;
             this.xrTableCell79.Text = "İmza";
-            this.xrTableCell79.Weight = 0.68693738900885826D;
+            this.xrTableCell79.Weight = 0.30648594835879517D;
             // 
             // xrTableCell499
             // 
@@ -10927,7 +10927,7 @@
             this.xrTableCell499.StylePriority.UseFont = false;
             this.xrTableCell499.StylePriority.UseForeColor = false;
             this.xrTableCell499.Text = "baskanimza";
-            this.xrTableCell499.Weight = 1.3130626109911416D;
+            this.xrTableCell499.Weight = 1.6935140516412046D;
             // 
             // xrTable39
             // 
