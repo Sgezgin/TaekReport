@@ -2661,12 +2661,14 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             // xrChkEtikBasvuru
             // 
+            this.xrChkEtikBasvuru.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrChkEtikBasvuru.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif([GozlemselFormu].[ETIKKURULBASVURU] == 1, \'Checked\', \'Unchecked\')")});
             this.xrChkEtikBasvuru.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Center;
             this.xrChkEtikBasvuru.LocationFloat = new DevExpress.Utils.PointFloat(12F, 10F);
             this.xrChkEtikBasvuru.Name = "xrChkEtikBasvuru";
             this.xrChkEtikBasvuru.SizeF = new System.Drawing.SizeF(18F, 18F);
+            this.xrChkEtikBasvuru.StylePriority.UseBorders = false;
             // 
             // xrCellEtik6Text
             // 
@@ -2769,16 +2771,19 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrChkEtikOnay.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif([GozlemselFormu].[ETIKKURULONAY] == 1, \'Checked\', \'Unchecked\')")});
             this.xrChkEtikOnay.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Center;
-            this.xrChkEtikOnay.LocationFloat = new DevExpress.Utils.PointFloat(12.00002F, 339.0001F);
+            this.xrChkEtikOnay.LocationFloat = new DevExpress.Utils.PointFloat(12.00002F, 332F);
             this.xrChkEtikOnay.Name = "xrChkEtikOnay";
             this.xrChkEtikOnay.SizeF = new System.Drawing.SizeF(18F, 18F);
             // 
             // xrCellEtik9Text
             // 
+            this.xrCellEtik9Text.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right)));
             this.xrCellEtik9Text.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.xrCellEtik9Text.Multiline = true;
             this.xrCellEtik9Text.Name = "xrCellEtik9Text";
             this.xrCellEtik9Text.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
+            this.xrCellEtik9Text.StylePriority.UseBorders = false;
             this.xrCellEtik9Text.Text = "Çalışmaya ait etik kurul onayı var\r\n";
             this.xrCellEtik9Text.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             this.xrCellEtik9Text.Weight = 0.94D;
@@ -3295,11 +3300,14 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             // xrTableCell2
             // 
+            this.xrTableCell2.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.xrTableCell2.ForeColor = System.Drawing.Color.Red;
             this.xrTableCell2.Multiline = true;
             this.xrTableCell2.Name = "xrTableCell2";
             this.xrTableCell2.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
+            this.xrTableCell2.StylePriority.UseBorders = false;
             this.xrTableCell2.StylePriority.UseFont = false;
             this.xrTableCell2.StylePriority.UseForeColor = false;
             this.xrTableCell2.Text = resources.GetString("xrTableCell2.Text");
@@ -3308,10 +3316,13 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             // xrCellEtik1Text
             // 
+            this.xrCellEtik1Text.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right)));
             this.xrCellEtik1Text.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.xrCellEtik1Text.Multiline = true;
             this.xrCellEtik1Text.Name = "xrCellEtik1Text";
             this.xrCellEtik1Text.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
+            this.xrCellEtik1Text.StylePriority.UseBorders = false;
             this.xrCellEtik1Text.Text = "Çalışmaya etik kurul tarafından daha önce verilmiş red kararı var \r\n";
             this.xrCellEtik1Text.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             this.xrCellEtik1Text.Weight = 0.94D;
@@ -3359,11 +3370,14 @@ namespace TaekReport.KAEK.GozlemselIlac
             // 
             // xrTableCell4
             // 
+            this.xrTableCell4.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.xrTableCell4.ForeColor = System.Drawing.Color.Red;
             this.xrTableCell4.Multiline = true;
             this.xrTableCell4.Name = "xrTableCell4";
             this.xrTableCell4.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
+            this.xrTableCell4.StylePriority.UseBorders = false;
             this.xrTableCell4.StylePriority.UseFont = false;
             this.xrTableCell4.StylePriority.UseForeColor = false;
             this.xrTableCell4.Text = resources.GetString("xrTableCell4.Text");
