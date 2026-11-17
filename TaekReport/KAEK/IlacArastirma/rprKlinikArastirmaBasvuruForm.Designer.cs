@@ -4304,7 +4304,7 @@
             // xrCheckBox1
             // 
             this.xrCheckBox1.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[KlinikFormu].[ETIKKURULRED]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif([KlinikFormu].[ETIKKURULRED] == 1, True, False)")});
             this.xrCheckBox1.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Center;
             this.xrCheckBox1.LocationFloat = new DevExpress.Utils.PointFloat(5.000015F, 4F);
             this.xrCheckBox1.Name = "xrCheckBox1";
@@ -4715,7 +4715,7 @@
             // xrCheckBox2
             // 
             this.xrCheckBox2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[KlinikFormu].[ETIKKURULBASVURU]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif([KlinikFormu].[ETIKKURULBASVURU] == 1, True, False)\n")});
             this.xrCheckBox2.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Center;
             this.xrCheckBox2.LocationFloat = new DevExpress.Utils.PointFloat(4.000051F, 5F);
             this.xrCheckBox2.Name = "xrCheckBox2";
@@ -4951,7 +4951,7 @@
             // xrCheckBox3
             // 
             this.xrCheckBox3.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[KlinikFormu].[ETIKKURULONAY]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif([KlinikFormu].[ETIKKURULONAY] == 1, True, False)")});
             this.xrCheckBox3.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Center;
             this.xrCheckBox3.LocationFloat = new DevExpress.Utils.PointFloat(4.000092F, 4F);
             this.xrCheckBox3.Name = "xrCheckBox3";
