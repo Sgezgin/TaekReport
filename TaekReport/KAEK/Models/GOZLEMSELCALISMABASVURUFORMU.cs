@@ -60,6 +60,7 @@ namespace TaekReport.KAEK.Models
         public string ETIKKURULBASVURUTARIH { get; set; }
 
         public int? ETIKKURULONAY { get; set; }
+        public string ETIKKURULONAYADI { get; set; }
         public string ETIKKURULKARARTARIH { get; set; }
         public string ETIKKURULARARNO { get; set; }
     }

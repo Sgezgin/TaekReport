@@ -153,6 +153,10 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowSecDiger = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellSecDiger = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableDiger = new DevExpress.XtraReports.UI.XRTable();
+            this.xrRowDiger_Hassas = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrCellDiger_Hassas = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrLblDigerTitle_Hassas = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLblDigerVal_Hassas = new DevExpress.XtraReports.UI.XRLabel();
             this.xrRowDiger_Gizlilik = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Gizlilik = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLblDigerTitle_Gizlilik = new DevExpress.XtraReports.UI.XRLabel();
@@ -179,6 +183,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrLblDigerVal_Gorev = new DevExpress.XtraReports.UI.XRLabel();
             this.xrRowDiger_Otorite = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellDiger_Otorite = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrRichText2 = new DevExpress.XtraReports.UI.XRRichText();
             this.xrLblDigerTitle_Otorite = new DevExpress.XtraReports.UI.XRLabel();
             this.ArastirmaEkibi = new DevExpress.XtraReports.UI.DetailReportBand();
             this.ArastirmaEkibiGroupHeader = new DevExpress.XtraReports.UI.GroupHeaderBand();
@@ -209,6 +214,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellEkipRowGCP = new DevExpress.XtraReports.UI.XRTableCell();
             this.DegerlendirmeCizelgesi = new DevExpress.XtraReports.UI.DetailReportBand();
             this.DegerlendirmeCizelgesiDetay = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
             this.xrTableSecCizelge = new DevExpress.XtraReports.UI.XRTable();
             this.xrRowSecCizelge = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellSecCizelge = new DevExpress.XtraReports.UI.XRTableCell();
@@ -219,10 +225,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowSecEtik = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellSecEtik = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableEtik = new DevExpress.XtraReports.UI.XRTable();
-            this.xrRowEtik1 = new DevExpress.XtraReports.UI.XRTableRow();
-            this.xrCellEtik1Chk = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrChkEtikRed = new DevExpress.XtraReports.UI.XRCheckBox();
-            this.xrCellEtik1Text = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrRowEtik2 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellEtik2Empty = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrCellEtik2Lbl = new DevExpress.XtraReports.UI.XRTableCell();
@@ -305,12 +307,16 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowImza7 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrCellImza7Lbl = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrCellImza7Val = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
-            this.xrRichText2 = new DevExpress.XtraReports.UI.XRRichText();
-            this.xrLblDigerVal_Hassas = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLblDigerTitle_Hassas = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrCellDiger_Hassas = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrRowDiger_Hassas = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableRow1 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell1 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell2 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrCellEtik1Text = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrRowEtik1 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrCellEtik1Chk = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrChkEtikRed = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.xrTableRow2 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell3 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell4 = new DevExpress.XtraReports.UI.XRTableCell();
             this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTablePH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecCalisma)).BeginInit();
@@ -318,9 +324,11 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableMerkezDetay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecDiger)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableDiger)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecEkip)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableEkipHeader)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableEkipDetay)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecCizelge)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecEtik)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableEtik)).BeginInit();
@@ -330,8 +338,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableFiziki)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecImza)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableImza)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
@@ -1787,6 +1793,45 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowDiger_Otorite});
             this.xrTableDiger.SizeF = new System.Drawing.SizeF(802F, 685.0003F);
             // 
+            // xrRowDiger_Hassas
+            // 
+            this.xrRowDiger_Hassas.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrCellDiger_Hassas});
+            this.xrRowDiger_Hassas.Name = "xrRowDiger_Hassas";
+            this.xrRowDiger_Hassas.Weight = 1D;
+            // 
+            // xrCellDiger_Hassas
+            // 
+            this.xrCellDiger_Hassas.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLblDigerTitle_Hassas,
+            this.xrLblDigerVal_Hassas});
+            this.xrCellDiger_Hassas.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrCellDiger_Hassas.Name = "xrCellDiger_Hassas";
+            this.xrCellDiger_Hassas.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 4, 4, 100F);
+            this.xrCellDiger_Hassas.Weight = 1D;
+            // 
+            // xrLblDigerTitle_Hassas
+            // 
+            this.xrLblDigerTitle_Hassas.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.xrLblDigerTitle_Hassas.ForeColor = System.Drawing.Color.Black;
+            this.xrLblDigerTitle_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrLblDigerTitle_Hassas.Name = "xrLblDigerTitle_Hassas";
+            this.xrLblDigerTitle_Hassas.SizeF = new System.Drawing.SizeF(804F, 25.29166F);
+            this.xrLblDigerTitle_Hassas.Text = "Hassas popülasyon/İncinebilir Grup (Vulnerable subjects)";
+            // 
+            // xrLblDigerVal_Hassas
+            // 
+            this.xrLblDigerVal_Hassas.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLblDigerVal_Hassas.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[HASSASPOPULASYON]")});
+            this.xrLblDigerVal_Hassas.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrLblDigerVal_Hassas.ForeColor = System.Drawing.Color.Black;
+            this.xrLblDigerVal_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 25.29166F);
+            this.xrLblDigerVal_Hassas.Multiline = true;
+            this.xrLblDigerVal_Hassas.Name = "xrLblDigerVal_Hassas";
+            this.xrLblDigerVal_Hassas.SizeF = new System.Drawing.SizeF(799.9999F, 38.87501F);
+            this.xrLblDigerVal_Hassas.StylePriority.UseBorders = false;
+            // 
             // xrRowDiger_Gizlilik
             // 
             this.xrRowDiger_Gizlilik.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
@@ -2034,6 +2079,19 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellDiger_Otorite.Name = "xrCellDiger_Otorite";
             this.xrCellDiger_Otorite.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 4, 4, 100F);
             this.xrCellDiger_Otorite.Weight = 1D;
+            // 
+            // xrRichText2
+            // 
+            this.xrRichText2.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrRichText2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Html", "[GozlemselFormu].[DIGERSAGLIKOTORITELERI]")});
+            this.xrRichText2.Font = new System.Drawing.Font("Arial", 9F);
+            this.xrRichText2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 27.37506F);
+            this.xrRichText2.Name = "xrRichText2";
+            this.xrRichText2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrRichText2.SerializableRtfString = resources.GetString("xrRichText2.SerializableRtfString");
+            this.xrRichText2.SizeF = new System.Drawing.SizeF(804F, 58.87506F);
+            this.xrRichText2.StylePriority.UseBorders = false;
             // 
             // xrLblDigerTitle_Otorite
             // 
@@ -2339,6 +2397,18 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.DegerlendirmeCizelgesiDetay.HeightF = 132.9168F;
             this.DegerlendirmeCizelgesiDetay.Name = "DegerlendirmeCizelgesiDetay";
             // 
+            // xrRichText1
+            // 
+            this.xrRichText1.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Html", "[GozlemselFormu].[DEGERLENDIRMESEMASI]")});
+            this.xrRichText1.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrRichText1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 59.99997F);
+            this.xrRichText1.Name = "xrRichText1";
+            this.xrRichText1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrRichText1.SerializableRtfString = resources.GetString("xrRichText1.SerializableRtfString");
+            this.xrRichText1.SizeF = new System.Drawing.SizeF(801.9999F, 59.79169F);
+            this.xrRichText1.StylePriority.UseFont = false;
+            // 
             // xrTableSecCizelge
             // 
             this.xrTableSecCizelge.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
@@ -2388,9 +2458,11 @@ namespace TaekReport.KAEK.GozlemselIlac
             // EtikKurulDetay
             // 
             this.EtikKurulDetay.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrChkEtikOnay,
+            this.xrChkEtikRed,
             this.xrTableSecEtik,
             this.xrTableEtik});
-            this.EtikKurulDetay.HeightF = 380F;
+            this.EtikKurulDetay.HeightF = 473.9575F;
             this.EtikKurulDetay.Name = "EtikKurulDetay";
             // 
             // xrTableSecEtik
@@ -2427,10 +2499,11 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrTableEtik.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableEtik.LocationFloat = new DevExpress.Utils.PointFloat(0F, 40F);
+            this.xrTableEtik.LocationFloat = new DevExpress.Utils.PointFloat(0F, 63.9999F);
             this.xrTableEtik.Name = "xrTableEtik";
             this.xrTableEtik.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrRowEtik1,
+            this.xrTableRow1,
             this.xrRowEtik2,
             this.xrRowEtik3,
             this.xrRowEtik4,
@@ -2439,46 +2512,11 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowEtik7,
             this.xrRowEtik8,
             this.xrRowEtik9,
+            this.xrTableRow2,
             this.xrRowEtik10,
             this.xrRowEtik11,
             this.xrRowEtik12});
-            this.xrTableEtik.SizeF = new System.Drawing.SizeF(802F, 340F);
-            // 
-            // xrRowEtik1
-            // 
-            this.xrRowEtik1.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.xrCellEtik1Chk,
-            this.xrCellEtik1Text});
-            this.xrRowEtik1.Name = "xrRowEtik1";
-            this.xrRowEtik1.Weight = 1.3D;
-            // 
-            // xrCellEtik1Chk
-            // 
-            this.xrCellEtik1Chk.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrChkEtikRed});
-            this.xrCellEtik1Chk.Name = "xrCellEtik1Chk";
-            this.xrCellEtik1Chk.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
-            this.xrCellEtik1Chk.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrCellEtik1Chk.Weight = 0.06D;
-            // 
-            // xrChkEtikRed
-            // 
-            this.xrChkEtikRed.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif([GozlemselFormu].[ETIKKURULRED] == 1, \'Checked\', \'Unchecked\')")});
-            this.xrChkEtikRed.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Center;
-            this.xrChkEtikRed.LocationFloat = new DevExpress.Utils.PointFloat(12F, 10F);
-            this.xrChkEtikRed.Name = "xrChkEtikRed";
-            this.xrChkEtikRed.SizeF = new System.Drawing.SizeF(18F, 18F);
-            // 
-            // xrCellEtik1Text
-            // 
-            this.xrCellEtik1Text.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.xrCellEtik1Text.Multiline = true;
-            this.xrCellEtik1Text.Name = "xrCellEtik1Text";
-            this.xrCellEtik1Text.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
-            this.xrCellEtik1Text.Text = resources.GetString("xrCellEtik1Text.Text");
-            this.xrCellEtik1Text.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
-            this.xrCellEtik1Text.Weight = 0.94D;
+            this.xrTableEtik.SizeF = new System.Drawing.SizeF(802F, 406.5001F);
             // 
             // xrRowEtik2
             // 
@@ -2487,7 +2525,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellEtik2Lbl,
             this.xrCellEtik2Val});
             this.xrRowEtik2.Name = "xrRowEtik2";
-            this.xrRowEtik2.Weight = 0.9D;
+            this.xrRowEtik2.Weight = 0.86764699529972655D;
             // 
             // xrCellEtik2Empty
             // 
@@ -2522,7 +2560,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellEtik3Lbl,
             this.xrCellEtik3Val});
             this.xrRowEtik3.Name = "xrRowEtik3";
-            this.xrRowEtik3.Weight = 0.9D;
+            this.xrRowEtik3.Weight = 0.86764706149594151D;
             // 
             // xrCellEtik3Empty
             // 
@@ -2557,7 +2595,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellEtik4Lbl,
             this.xrCellEtik4Val});
             this.xrRowEtik4.Name = "xrRowEtik4";
-            this.xrRowEtik4.Weight = 0.9D;
+            this.xrRowEtik4.Weight = 0.86764706149594151D;
             // 
             // xrCellEtik4Empty
             // 
@@ -2590,7 +2628,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrRowEtik5.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
             this.xrCellEtik5Titck});
             this.xrRowEtik5.Name = "xrRowEtik5";
-            this.xrRowEtik5.Weight = 0.9D;
+            this.xrRowEtik5.Weight = 1.2653184392680197D;
             // 
             // xrCellEtik5Titck
             // 
@@ -2610,7 +2648,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellEtik6Chk,
             this.xrCellEtik6Text});
             this.xrRowEtik6.Name = "xrRowEtik6";
-            this.xrRowEtik6.Weight = 1.1D;
+            this.xrRowEtik6.Weight = 1.2147059330564061D;
             // 
             // xrCellEtik6Chk
             // 
@@ -2647,7 +2685,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellEtik7Lbl,
             this.xrCellEtik7Val});
             this.xrRowEtik7.Name = "xrRowEtik7";
-            this.xrRowEtik7.Weight = 0.9D;
+            this.xrRowEtik7.Weight = 0.86764706149594151D;
             // 
             // xrCellEtik7Empty
             // 
@@ -2682,7 +2720,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellEtik8Lbl,
             this.xrCellEtik8Val});
             this.xrRowEtik8.Name = "xrRowEtik8";
-            this.xrRowEtik8.Weight = 0.9D;
+            this.xrRowEtik8.Weight = 0.86764706149594162D;
             // 
             // xrCellEtik8Empty
             // 
@@ -2716,14 +2754,13 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellEtik9Chk,
             this.xrCellEtik9Text});
             this.xrRowEtik9.Name = "xrRowEtik9";
-            this.xrRowEtik9.Weight = 1.3D;
+            this.xrRowEtik9.Weight = 0.97176468710525654D;
             // 
             // xrCellEtik9Chk
             // 
-            this.xrCellEtik9Chk.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrChkEtikOnay});
             this.xrCellEtik9Chk.Name = "xrCellEtik9Chk";
             this.xrCellEtik9Chk.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
+            this.xrCellEtik9Chk.RowSpan = 2;
             this.xrCellEtik9Chk.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrCellEtik9Chk.Weight = 0.06D;
             // 
@@ -2732,7 +2769,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrChkEtikOnay.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif([GozlemselFormu].[ETIKKURULONAY] == 1, \'Checked\', \'Unchecked\')")});
             this.xrChkEtikOnay.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Center;
-            this.xrChkEtikOnay.LocationFloat = new DevExpress.Utils.PointFloat(12F, 10F);
+            this.xrChkEtikOnay.LocationFloat = new DevExpress.Utils.PointFloat(12.00002F, 339.0001F);
             this.xrChkEtikOnay.Name = "xrChkEtikOnay";
             this.xrChkEtikOnay.SizeF = new System.Drawing.SizeF(18F, 18F);
             // 
@@ -2742,7 +2779,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellEtik9Text.Multiline = true;
             this.xrCellEtik9Text.Name = "xrCellEtik9Text";
             this.xrCellEtik9Text.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
-            this.xrCellEtik9Text.Text = resources.GetString("xrCellEtik9Text.Text");
+            this.xrCellEtik9Text.Text = "Çalışmaya ait etik kurul onayı var\r\n";
             this.xrCellEtik9Text.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             this.xrCellEtik9Text.Weight = 0.94D;
             // 
@@ -2753,7 +2790,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellEtik10Lbl,
             this.xrCellEtik10Val});
             this.xrRowEtik10.Name = "xrRowEtik10";
-            this.xrRowEtik10.Weight = 0.9D;
+            this.xrRowEtik10.Weight = 0.86764706149758042D;
             // 
             // xrCellEtik10Empty
             // 
@@ -2773,7 +2810,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             // xrCellEtik10Val
             // 
             this.xrCellEtik10Val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[ETIKKURULADI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[ETIKKURULONAYADI]")});
             this.xrCellEtik10Val.Font = new System.Drawing.Font("Arial", 9F);
             this.xrCellEtik10Val.Multiline = true;
             this.xrCellEtik10Val.Name = "xrCellEtik10Val";
@@ -2788,7 +2825,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellEtik11Lbl,
             this.xrCellEtik11Val});
             this.xrRowEtik11.Name = "xrRowEtik11";
-            this.xrRowEtik11.Weight = 0.9D;
+            this.xrRowEtik11.Weight = 0.86764706149758042D;
             // 
             // xrCellEtik11Empty
             // 
@@ -2823,7 +2860,7 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellEtik12Lbl,
             this.xrCellEtik12Val});
             this.xrRowEtik12.Name = "xrRowEtik12";
-            this.xrRowEtik12.Weight = 0.9D;
+            this.xrRowEtik12.Weight = 0.86764712769381513D;
             // 
             // xrCellEtik12Empty
             // 
@@ -3240,69 +3277,98 @@ namespace TaekReport.KAEK.GozlemselIlac
             this.xrCellImza7Val.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrCellImza7Val.Weight = 0.68D;
             // 
-            // xrRichText1
+            // xrTableRow1
             // 
-            this.xrRichText1.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Html", "[GozlemselFormu].[DEGERLENDIRMESEMASI]")});
-            this.xrRichText1.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.xrRichText1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 59.99997F);
-            this.xrRichText1.Name = "xrRichText1";
-            this.xrRichText1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrRichText1.SerializableRtfString = resources.GetString("xrRichText1.SerializableRtfString");
-            this.xrRichText1.SizeF = new System.Drawing.SizeF(801.9999F, 59.79169F);
-            this.xrRichText1.StylePriority.UseFont = false;
+            this.xrTableRow1.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell1,
+            this.xrTableCell2});
+            this.xrTableRow1.Name = "xrTableRow1";
+            this.xrTableRow1.Weight = 1.407035733858564D;
             // 
-            // xrRichText2
+            // xrTableCell1
             // 
-            this.xrRichText2.Borders = DevExpress.XtraPrinting.BorderSide.None;
-            this.xrRichText2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Html", "[GozlemselFormu].[DIGERSAGLIKOTORITELERI]")});
-            this.xrRichText2.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrRichText2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 27.37506F);
-            this.xrRichText2.Name = "xrRichText2";
-            this.xrRichText2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrRichText2.SerializableRtfString = resources.GetString("xrRichText2.SerializableRtfString");
-            this.xrRichText2.SizeF = new System.Drawing.SizeF(804F, 58.87506F);
-            this.xrRichText2.StylePriority.UseBorders = false;
+            this.xrTableCell1.Multiline = true;
+            this.xrTableCell1.Name = "xrTableCell1";
+            this.xrTableCell1.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
+            this.xrTableCell1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell1.Weight = 0.06D;
             // 
-            // xrLblDigerVal_Hassas
+            // xrTableCell2
             // 
-            this.xrLblDigerVal_Hassas.Borders = DevExpress.XtraPrinting.BorderSide.None;
-            this.xrLblDigerVal_Hassas.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[GozlemselFormu].[HASSASPOPULASYON]")});
-            this.xrLblDigerVal_Hassas.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrLblDigerVal_Hassas.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerVal_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 25.29166F);
-            this.xrLblDigerVal_Hassas.Multiline = true;
-            this.xrLblDigerVal_Hassas.Name = "xrLblDigerVal_Hassas";
-            this.xrLblDigerVal_Hassas.SizeF = new System.Drawing.SizeF(799.9999F, 38.87501F);
-            this.xrLblDigerVal_Hassas.StylePriority.UseBorders = false;
+            this.xrTableCell2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrTableCell2.ForeColor = System.Drawing.Color.Red;
+            this.xrTableCell2.Multiline = true;
+            this.xrTableCell2.Name = "xrTableCell2";
+            this.xrTableCell2.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
+            this.xrTableCell2.StylePriority.UseFont = false;
+            this.xrTableCell2.StylePriority.UseForeColor = false;
+            this.xrTableCell2.Text = resources.GetString("xrTableCell2.Text");
+            this.xrTableCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            this.xrTableCell2.Weight = 0.94D;
             // 
-            // xrLblDigerTitle_Hassas
+            // xrCellEtik1Text
             // 
-            this.xrLblDigerTitle_Hassas.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.xrLblDigerTitle_Hassas.ForeColor = System.Drawing.Color.Black;
-            this.xrLblDigerTitle_Hassas.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
-            this.xrLblDigerTitle_Hassas.Name = "xrLblDigerTitle_Hassas";
-            this.xrLblDigerTitle_Hassas.SizeF = new System.Drawing.SizeF(804F, 25.29166F);
-            this.xrLblDigerTitle_Hassas.Text = "Hassas popülasyon/İncinebilir Grup (Vulnerable subjects)";
+            this.xrCellEtik1Text.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.xrCellEtik1Text.Multiline = true;
+            this.xrCellEtik1Text.Name = "xrCellEtik1Text";
+            this.xrCellEtik1Text.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
+            this.xrCellEtik1Text.Text = "Çalışmaya etik kurul tarafından daha önce verilmiş red kararı var \r\n";
+            this.xrCellEtik1Text.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            this.xrCellEtik1Text.Weight = 0.94D;
             // 
-            // xrCellDiger_Hassas
+            // xrRowEtik1
             // 
-            this.xrCellDiger_Hassas.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrLblDigerTitle_Hassas,
-            this.xrLblDigerVal_Hassas});
-            this.xrCellDiger_Hassas.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrCellDiger_Hassas.Name = "xrCellDiger_Hassas";
-            this.xrCellDiger_Hassas.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 4, 4, 100F);
-            this.xrCellDiger_Hassas.Weight = 1D;
+            this.xrRowEtik1.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrCellEtik1Chk,
+            this.xrCellEtik1Text});
+            this.xrRowEtik1.Name = "xrRowEtik1";
+            this.xrRowEtik1.Weight = 0.971767055997367D;
             // 
-            // xrRowDiger_Hassas
+            // xrCellEtik1Chk
             // 
-            this.xrRowDiger_Hassas.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.xrCellDiger_Hassas});
-            this.xrRowDiger_Hassas.Name = "xrRowDiger_Hassas";
-            this.xrRowDiger_Hassas.Weight = 1D;
+            this.xrCellEtik1Chk.Name = "xrCellEtik1Chk";
+            this.xrCellEtik1Chk.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
+            this.xrCellEtik1Chk.RowSpan = 2;
+            this.xrCellEtik1Chk.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrCellEtik1Chk.Weight = 0.06D;
+            // 
+            // xrChkEtikRed
+            // 
+            this.xrChkEtikRed.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "Iif([GozlemselFormu].[ETIKKURULRED] == 1, \'Checked\', \'Unchecked\')")});
+            this.xrChkEtikRed.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Center;
+            this.xrChkEtikRed.LocationFloat = new DevExpress.Utils.PointFloat(12.00002F, 74F);
+            this.xrChkEtikRed.Name = "xrChkEtikRed";
+            this.xrChkEtikRed.SizeF = new System.Drawing.SizeF(18F, 18F);
+            // 
+            // xrTableRow2
+            // 
+            this.xrTableRow2.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell3,
+            this.xrTableCell4});
+            this.xrTableRow2.Name = "xrTableRow2";
+            this.xrTableRow2.Weight = 1.3361767071785009D;
+            // 
+            // xrTableCell3
+            // 
+            this.xrTableCell3.Multiline = true;
+            this.xrTableCell3.Name = "xrTableCell3";
+            this.xrTableCell3.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
+            this.xrTableCell3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell3.Weight = 0.06D;
+            // 
+            // xrTableCell4
+            // 
+            this.xrTableCell4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrTableCell4.ForeColor = System.Drawing.Color.Red;
+            this.xrTableCell4.Multiline = true;
+            this.xrTableCell4.Name = "xrTableCell4";
+            this.xrTableCell4.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 3, 3, 100F);
+            this.xrTableCell4.StylePriority.UseFont = false;
+            this.xrTableCell4.StylePriority.UseForeColor = false;
+            this.xrTableCell4.Text = resources.GetString("xrTableCell4.Text");
+            this.xrTableCell4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            this.xrTableCell4.Weight = 0.94D;
             // 
             // objectDataSource1
             // 
@@ -3337,9 +3403,11 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableMerkezDetay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecDiger)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableDiger)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecEkip)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableEkipHeader)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableEkipDetay)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecCizelge)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecEtik)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableEtik)).EndInit();
@@ -3349,8 +3417,6 @@ namespace TaekReport.KAEK.GozlemselIlac
             ((System.ComponentModel.ISupportInitialize)(this.xrTableFiziki)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableSecImza)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableImza)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
@@ -3559,10 +3625,6 @@ namespace TaekReport.KAEK.GozlemselIlac
         private DevExpress.XtraReports.UI.XRTableRow xrRowSecEtik;
         private DevExpress.XtraReports.UI.XRTableCell xrCellSecEtik;
         private DevExpress.XtraReports.UI.XRTable xrTableEtik;
-        private DevExpress.XtraReports.UI.XRTableRow xrRowEtik1;
-        private DevExpress.XtraReports.UI.XRTableCell xrCellEtik1Chk;
-        private DevExpress.XtraReports.UI.XRCheckBox xrChkEtikRed;
-        private DevExpress.XtraReports.UI.XRTableCell xrCellEtik1Text;
         private DevExpress.XtraReports.UI.XRTableRow xrRowEtik2;
         private DevExpress.XtraReports.UI.XRTableCell xrCellEtik2Empty;
         private DevExpress.XtraReports.UI.XRTableCell xrCellEtik2Lbl;
@@ -3650,5 +3712,15 @@ namespace TaekReport.KAEK.GozlemselIlac
         private DevExpress.XtraReports.UI.XRTableCell xrCellDiger_Hassas;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerTitle_Hassas;
         private DevExpress.XtraReports.UI.XRLabel xrLblDigerVal_Hassas;
+        private DevExpress.XtraReports.UI.XRCheckBox xrChkEtikRed;
+        private DevExpress.XtraReports.UI.XRTableRow xrRowEtik1;
+        private DevExpress.XtraReports.UI.XRTableCell xrCellEtik1Chk;
+        private DevExpress.XtraReports.UI.XRTableCell xrCellEtik1Text;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow1;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell1;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell2;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow2;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell3;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell4;
     }
 }
