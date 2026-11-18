@@ -719,6 +719,9 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl666 = new DevExpress.XtraReports.UI.XRLabel();
             this.lbl667 = new DevExpress.XtraReports.UI.XRLabel();
             this.lbl668 = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblKarsilastirmaDurumuBaslik = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblKarsilastirmaDurumuDeger = new DevExpress.XtraReports.UI.XRLabel();
+            this.lnKarsilastirmaDurumu = new DevExpress.XtraReports.UI.XRLine();
             this.lbl669 = new DevExpress.XtraReports.UI.XRLabel();
             this.chk670 = new DevExpress.XtraReports.UI.XRCheckBox();
             this.lbl671 = new DevExpress.XtraReports.UI.XRLabel();

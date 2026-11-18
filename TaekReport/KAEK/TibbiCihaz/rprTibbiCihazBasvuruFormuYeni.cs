@@ -67,7 +67,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             { "TDA007", "Nöroloji" },
             { "TDA008", "Doğurganlık dâhil obstetrik & jinekoloji" },
             { "TDA009", "Oftalmoloji" },
-            { "TDA010", "Ortopedi, travmaloji, rehabilitasyon" },
+            { "TDA010", "Ortopedi, travmatoloji, rehabilitasyon" },
             { "TDA011", "Solunum, anesteziyoloji, yoğun bakım" },
             { "TDA012", "Diğer" }
         };
@@ -207,6 +207,16 @@ namespace TaekReport.KAEK.TibbiCihaz
                     lbl704.Text = FormatSelected(data?.TibbiCihazFormu?.KARSILASTIRMACIHAZ_SINIF, data?.KarsilastirmaCihazSinifMetin, CihazSiniflari);
                 };
             }
+
+            if (lblKarsilastirmaDurumuDeger != null)
+            {
+                lblKarsilastirmaDurumuDeger.BeforePrint += (s, e) =>
+                {
+                    var data = GetCurrentFormData();
+                    var val = data?.TibbiCihazFormu?.KARSILASTIRMACIHAZ_DURUMU;
+                    lblKarsilastirmaDurumuDeger.Text = !string.IsNullOrWhiteSpace(val) ? val : "-";
+                };
+            }
         }
 
         private TibbiCihazBasvuruFormu GetCurrentFormData()
@@ -228,59 +238,89 @@ namespace TaekReport.KAEK.TibbiCihaz
             if (string.IsNullOrWhiteSpace(rawValue) && string.IsNullOrWhiteSpace(resolvedMetin))
                 return "-";
 
-            var tokens = new List<string>();
+            var selectedItems = new List<string>();
+
+            // 1. If rawValue is present, parse it exclusively to avoid comma-splitting and duplicates
             if (!string.IsNullOrWhiteSpace(rawValue))
             {
-                tokens.AddRange(rawValue.Split(new[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries).Select(t => t.Trim()));
+                var rawTokens = rawValue.Split(new[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries)
+                                        .Select(t => t.Trim());
+                foreach (var rawToken in rawTokens)
+                {
+                    if (string.IsNullOrWhiteSpace(rawToken)) continue;
+
+                    string token = rawToken;
+                    string extra = "";
+                    int colonIdx = token.IndexOf(':');
+                    if (colonIdx >= 0)
+                    {
+                        extra = token.Substring(colonIdx + 1).Trim();
+                        token = token.Substring(0, colonIdx).Trim();
+                    }
+
+                    // 1a. Direct dictionary key match (e.g. TDA001, SKR001, CKA005)
+                    if (dict != null && dict.TryGetValue(token, out var desc))
+                    {
+                        if (!string.IsNullOrWhiteSpace(extra))
+                            desc += " (" + extra + ")";
+                        if (!selectedItems.Contains(desc))
+                            selectedItems.Add(desc);
+                        continue;
+                    }
+
+                    // 1b. Value exact or starts-with match
+                    if (dict != null)
+                    {
+                        var matchedVal = dict.Values.FirstOrDefault(v => string.Equals(v, token, StringComparison.OrdinalIgnoreCase)
+                                                                      || v.StartsWith(token + " ", StringComparison.OrdinalIgnoreCase)
+                                                                      || v.StartsWith(token + " -", StringComparison.OrdinalIgnoreCase));
+                        if (matchedVal != null)
+                        {
+                            if (!string.IsNullOrWhiteSpace(extra))
+                                matchedVal += " (" + extra + ")";
+                            if (!selectedItems.Contains(matchedVal))
+                                selectedItems.Add(matchedVal);
+                            continue;
+                        }
+                    }
+
+                    // 1c. Fallback if not an unmapped GUID
+                    if (!Guid.TryParse(token, out _))
+                    {
+                        string fallback = token;
+                        if (!string.IsNullOrWhiteSpace(extra))
+                            fallback += " (" + extra + ")";
+                        if (!selectedItems.Contains(fallback))
+                            selectedItems.Add(fallback);
+                    }
+                }
             }
-            if (!string.IsNullOrWhiteSpace(resolvedMetin))
+
+            // 2. Only if rawValue yielded nothing, fallback to resolvedMetin
+            if (selectedItems.Count == 0 && !string.IsNullOrWhiteSpace(resolvedMetin))
             {
-                tokens.AddRange(resolvedMetin.Split(new[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries).Select(t => t.Trim()));
-            }
-
-            var selectedItems = new List<string>();
-            foreach (var rawToken in tokens)
-            {
-                if (string.IsNullOrWhiteSpace(rawToken)) continue;
-
-                string token = rawToken;
-                string extra = "";
-                int colonIdx = token.IndexOf(':');
-                if (colonIdx >= 0)
+                string remaining = resolvedMetin.Trim();
+                if (dict != null)
                 {
-                    extra = token.Substring(colonIdx + 1).Trim();
-                    token = token.Substring(0, colonIdx).Trim();
+                    // Match longest values first so phrases with commas match as a whole
+                    foreach (var val in dict.Values.OrderByDescending(v => v.Length))
+                    {
+                        if (remaining.IndexOf(val, StringComparison.OrdinalIgnoreCase) >= 0)
+                        {
+                            if (!selectedItems.Contains(val))
+                                selectedItems.Add(val);
+                        }
+                    }
                 }
 
-                // 1. Direct dictionary key match (e.g. SKR001, CKA005)
-                if (dict.TryGetValue(token, out var desc))
+                if (selectedItems.Count == 0)
                 {
-                    if (!string.IsNullOrWhiteSpace(extra))
-                        desc += " (" + extra + ")";
-                    if (!selectedItems.Contains(desc))
-                        selectedItems.Add(desc);
-                    continue;
-                }
-
-                // 2. Value exact or starts-with match
-                var matchedVal = dict.Values.FirstOrDefault(v => string.Equals(v, token, StringComparison.OrdinalIgnoreCase)
-                                                              || v.StartsWith(token + " ", StringComparison.OrdinalIgnoreCase)
-                                                              || v.StartsWith(token + " -", StringComparison.OrdinalIgnoreCase));
-                if (matchedVal != null)
-                {
-                    if (!string.IsNullOrWhiteSpace(extra))
-                        matchedVal += " (" + extra + ")";
-                    if (!selectedItems.Contains(matchedVal))
-                        selectedItems.Add(matchedVal);
-                    continue;
-                }
-
-                // 3. Fallback to raw text if it's descriptive (not an unmapped GUID)
-                if (!Guid.TryParse(token, out _))
-                {
-                    string fallback = rawToken;
-                    if (!selectedItems.Contains(fallback))
-                        selectedItems.Add(fallback);
+                    var tokens = resolvedMetin.Split(new[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries).Select(t => t.Trim());
+                    foreach (var t in tokens)
+                    {
+                        if (!string.IsNullOrWhiteSpace(t) && !selectedItems.Contains(t))
+                            selectedItems.Add(t);
+                    }
                 }
             }
 
