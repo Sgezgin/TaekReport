@@ -208,13 +208,19 @@ namespace TaekReport.KAEK.TibbiCihaz
                 };
             }
 
-            if (lblKarsilastirmaDurumuDeger != null)
+            if (lblKarsilastirmaDurumuDeger != null) lblKarsilastirmaDurumuDeger.Visible = false;
+            if (lblKarsilastirmaDurumuBaslik != null) lblKarsilastirmaDurumuBaslik.Visible = false;
+            if (lnKarsilastirmaDurumu != null) lnKarsilastirmaDurumu.Visible = false;
+
+            if (lbl826 != null)
             {
-                lblKarsilastirmaDurumuDeger.BeforePrint += (s, e) =>
+                lbl826.BeforePrint += (s, e) =>
                 {
                     var data = GetCurrentFormData();
-                    var val = data?.TibbiCihazFormu?.KARSILASTIRMACIHAZ_DURUMU;
-                    lblKarsilastirmaDurumuDeger.Text = !string.IsNullOrWhiteSpace(val) ? val : "-";
+                    var val = data?.TibbiCihazFormu?.PLANLANANGONULLUSAYISI;
+                    if (string.IsNullOrWhiteSpace(val))
+                        val = data?.TibbiCihazFormu?.GONULLUSAYISITOPLAM ?? "-";
+                    lbl826.Text = val;
                 };
             }
         }
@@ -239,98 +245,122 @@ namespace TaekReport.KAEK.TibbiCihaz
                 return "-";
 
             var selectedItems = new List<string>();
+            string combinedInput = ((rawValue ?? "") + " " + (resolvedMetin ?? "")).Trim();
 
-            // 1. If rawValue is present, parse it exclusively to avoid comma-splitting and duplicates
-            if (!string.IsNullOrWhiteSpace(rawValue))
+            // Extract extra text for "Diğer" (e.g. "Diğer: xxx", "TDA012: xxx", "Diğer (xxx)")
+            string otherExtra = "";
+            var colonMatch = System.Text.RegularExpressions.Regex.Match(combinedInput, @"(?:TDA012|SKR\d+|CKA\d+|CSN\d+|Diğer|Diger)[^:]*:\s*([^,;\r\n]+)", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+            if (colonMatch.Success)
             {
-                var rawTokens = rawValue.Split(new[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries)
-                                        .Select(t => t.Trim());
-                foreach (var rawToken in rawTokens)
+                otherExtra = colonMatch.Groups[1].Value.Trim();
+            }
+            else
+            {
+                var parenMatch = System.Text.RegularExpressions.Regex.Match(combinedInput, @"(?:Diğer|Diger)\s*\(([^)]+)\)", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+                if (parenMatch.Success)
                 {
-                    if (string.IsNullOrWhiteSpace(rawToken)) continue;
+                    otherExtra = parenMatch.Groups[1].Value.Trim();
+                }
+            }
 
-                    string token = rawToken;
-                    string extra = "";
-                    int colonIdx = token.IndexOf(':');
-                    if (colonIdx >= 0)
+            // 1. Check direct dictionary keys in rawValue (e.g. TDA001, SKR001, CKA005)
+            bool foundKeys = false;
+            if (dict != null && !string.IsNullOrWhiteSpace(rawValue))
+            {
+                foreach (var kvp in dict)
+                {
+                    if (System.Text.RegularExpressions.Regex.IsMatch(rawValue, @"\b" + System.Text.RegularExpressions.Regex.Escape(kvp.Key) + @"\b", System.Text.RegularExpressions.RegexOptions.IgnoreCase))
                     {
-                        extra = token.Substring(colonIdx + 1).Trim();
-                        token = token.Substring(0, colonIdx).Trim();
-                    }
-
-                    // 1a. Direct dictionary key match (e.g. TDA001, SKR001, CKA005)
-                    if (dict != null && dict.TryGetValue(token, out var desc))
-                    {
-                        if (!string.IsNullOrWhiteSpace(extra))
-                            desc += " (" + extra + ")";
+                        foundKeys = true;
+                        string desc = kvp.Value;
+                        if (kvp.Value.IndexOf("Diğer", StringComparison.OrdinalIgnoreCase) >= 0 && !string.IsNullOrWhiteSpace(otherExtra))
+                        {
+                            desc = "Diğer (" + otherExtra + ")";
+                        }
                         if (!selectedItems.Contains(desc))
                             selectedItems.Add(desc);
-                        continue;
-                    }
-
-                    // 1b. Value exact or starts-with match
-                    if (dict != null)
-                    {
-                        var matchedVal = dict.Values.FirstOrDefault(v => string.Equals(v, token, StringComparison.OrdinalIgnoreCase)
-                                                                      || v.StartsWith(token + " ", StringComparison.OrdinalIgnoreCase)
-                                                                      || v.StartsWith(token + " -", StringComparison.OrdinalIgnoreCase));
-                        if (matchedVal != null)
-                        {
-                            if (!string.IsNullOrWhiteSpace(extra))
-                                matchedVal += " (" + extra + ")";
-                            if (!selectedItems.Contains(matchedVal))
-                                selectedItems.Add(matchedVal);
-                            continue;
-                        }
-                    }
-
-                    // 1c. Fallback if not an unmapped GUID
-                    if (!Guid.TryParse(token, out _))
-                    {
-                        string fallback = token;
-                        if (!string.IsNullOrWhiteSpace(extra))
-                            fallback += " (" + extra + ")";
-                        if (!selectedItems.Contains(fallback))
-                            selectedItems.Add(fallback);
                     }
                 }
             }
 
-            // 2. Only if rawValue yielded nothing, fallback to resolvedMetin
-            if (selectedItems.Count == 0 && !string.IsNullOrWhiteSpace(resolvedMetin))
+            // 2. If no keys matched (or to ensure full phrase matching), match against dictionary values from longest to shortest
+            if (!foundKeys && dict != null)
             {
-                string remaining = resolvedMetin.Trim();
-                if (dict != null)
+                var sortedKvp = dict.OrderByDescending(x => x.Value.Length).ToList();
+                string textToSearch = combinedInput;
+
+                foreach (var kvp in sortedKvp)
                 {
-                    // Match longest values first so phrases with commas match as a whole
-                    foreach (var val in dict.Values.OrderByDescending(v => v.Length))
+                    var val = kvp.Value;
+                    bool isMatch = false;
+
+                    if (val.IndexOf("travmatoloji", StringComparison.OrdinalIgnoreCase) >= 0)
                     {
-                        if (remaining.IndexOf(val, StringComparison.OrdinalIgnoreCase) >= 0)
+                        if (textToSearch.IndexOf("travmatoloji", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                            textToSearch.IndexOf("travmaloji", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                            textToSearch.IndexOf("Ortopedi", StringComparison.OrdinalIgnoreCase) >= 0)
                         {
-                            if (!selectedItems.Contains(val))
-                                selectedItems.Add(val);
+                            isMatch = true;
                         }
                     }
-                }
-
-                if (selectedItems.Count == 0)
-                {
-                    var tokens = resolvedMetin.Split(new[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries).Select(t => t.Trim());
-                    foreach (var t in tokens)
+                    else if (val.IndexOf("Diğer", StringComparison.OrdinalIgnoreCase) >= 0)
                     {
-                        if (!string.IsNullOrWhiteSpace(t) && !selectedItems.Contains(t))
-                            selectedItems.Add(t);
+                        if (textToSearch.IndexOf("Diğer", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                            textToSearch.IndexOf("Diger", StringComparison.OrdinalIgnoreCase) >= 0)
+                        {
+                            isMatch = true;
+                        }
+                    }
+                    else
+                    {
+                        if (textToSearch.IndexOf(val, StringComparison.OrdinalIgnoreCase) >= 0)
+                        {
+                            isMatch = true;
+                        }
+                    }
+
+                    if (isMatch)
+                    {
+                        string desc = val;
+                        if (val.IndexOf("Diğer", StringComparison.OrdinalIgnoreCase) >= 0)
+                        {
+                            desc = !string.IsNullOrWhiteSpace(otherExtra) ? "Diğer (" + otherExtra + ")" : "Diğer";
+                        }
+                        if (!selectedItems.Contains(desc))
+                            selectedItems.Add(desc);
                     }
                 }
+            }
+
+            // 3. Remove accidental partial splits:
+            // If "Ortopedi, travmatoloji, rehabilitasyon" exists, remove any single "Ortopedi", "travmatoloji", "travmaloji", "rehabilitasyon"
+            if (selectedItems.Any(x => x.StartsWith("Ortopedi", StringComparison.OrdinalIgnoreCase)))
+            {
+                selectedItems.RemoveAll(x => x.Equals("Ortopedi", StringComparison.OrdinalIgnoreCase) ||
+                                             x.Equals("travmatoloji", StringComparison.OrdinalIgnoreCase) ||
+                                             x.Equals("travmaloji", StringComparison.OrdinalIgnoreCase) ||
+                                             x.Equals("rehabilitasyon", StringComparison.OrdinalIgnoreCase));
+            }
+
+            // If "Diğer (...)" exists, remove bare "Diğer" or "Diğer Tedavi Alanı"
+            if (selectedItems.Any(x => x.StartsWith("Diğer (", StringComparison.OrdinalIgnoreCase)))
+            {
+                selectedItems.RemoveAll(x => x.Equals("Diğer", StringComparison.OrdinalIgnoreCase) ||
+                                             x.Equals("Diğer Tedavi Alanı", StringComparison.OrdinalIgnoreCase) ||
+                                             x.Equals("Diğer Metodoloji", StringComparison.OrdinalIgnoreCase) ||
+                                             x.Equals("Diğer Grup", StringComparison.OrdinalIgnoreCase));
             }
 
             if (selectedItems.Count == 0)
-                return "-";
+            {
+                var cleanFallback = !string.IsNullOrWhiteSpace(resolvedMetin) ? resolvedMetin.Trim() : (rawValue ?? "").Trim();
+                return !string.IsNullOrWhiteSpace(cleanFallback) ? cleanFallback : "-";
+            }
 
             if (selectedItems.Count == 1)
                 return selectedItems[0];
 
-            return string.Join("\r\n", selectedItems.Select(x => "• " + x));
+            return string.Join(Environment.NewLine, selectedItems.Select(x => "• " + x));
         }
     }
 }
