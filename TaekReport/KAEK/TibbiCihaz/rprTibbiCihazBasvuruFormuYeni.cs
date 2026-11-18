@@ -98,6 +98,7 @@ namespace TaekReport.KAEK.TibbiCihaz
         {
             HideUnselectedLabels();
             ConfigureContainers();
+            ConfigureKoordinatorSection();
             AttachBeforePrintEvents();
         }
 
@@ -218,6 +219,93 @@ namespace TaekReport.KAEK.TibbiCihaz
                         val = data?.TibbiCihazFormu?.GONULLUSAYISITOPLAM ?? "-";
                     lbl826.Text = val;
                 };
+            }
+
+            // 2.11 Koordinatör Adı ve Telefonunu Başvuru Üst Yazı veya modelden bağla
+            if (lbl379 != null)
+            {
+                lbl379.BeforePrint += (s, e) =>
+                {
+                    var data = GetCurrentFormData();
+                    var val = !string.IsNullOrWhiteSpace(data?.TibbiCihazFormu?.KOORDINATORAD)
+                        ? data.TibbiCihazFormu.KOORDINATORAD
+                        : (!string.IsNullOrWhiteSpace(data?.KoordinatorAdiSoyadi)
+                            ? data.KoordinatorAdiSoyadi
+                            : (data?.BASVURUFORMU?.SORUMLUARASTIRMACI ?? ""));
+                    if (!string.IsNullOrWhiteSpace(val))
+                    {
+                        lbl379.Text = val;
+                    }
+                };
+            }
+
+            if (lbl389 != null)
+            {
+                lbl389.BeforePrint += (s, e) =>
+                {
+                    var data = GetCurrentFormData();
+                    var val = !string.IsNullOrWhiteSpace(data?.TibbiCihazFormu?.KOORDINATORTEL)
+                        ? data.TibbiCihazFormu.KOORDINATORTEL
+                        : (!string.IsNullOrWhiteSpace(data?.KoordinatorTelefon)
+                            ? data.KoordinatorTelefon
+                            : (data?.BASVURUFORMU?.SORUMLUARASTIRMACITEL ?? ""));
+                    if (!string.IsNullOrWhiteSpace(val))
+                    {
+                        lbl389.Text = val;
+                    }
+                };
+            }
+        }
+
+        private void ConfigureKoordinatorSection()
+        {
+            // 2.11 Koordinatör/Sorumlu Araştırmacı:
+            // Sadece Adı Soyadı ve Telefon numarası gösterilecek.
+            // Gizlenecek alanlar: Adres, İlçe, Şehir, Ülke, Email, Uzmanlık Alanı, Görev Yeri, Görev Yeri Adresi ve çizgiler
+            XRControl[] hiddenControls = {
+                lbl380, lbl381, // Adresi
+                lbl382, lbl383, // İlçe
+                lbl384, lbl385, // Şehir
+                lbl386, lbl387, // Ülke
+                lbl390, lbl391, // Email
+                lbl392, lbl393, // Uzmanlık Alanı
+                lbl394, lbl395, // Görev Yeri
+                lbl396, lbl397, // Görev Yeri Adresi
+                ln374, ln375, ln376, ln377 // Kullanılmayan iç ayraç çizgileri
+            };
+
+            foreach (var ctrl in hiddenControls)
+            {
+                if (ctrl != null)
+                {
+                    ctrl.Visible = false;
+                }
+            }
+
+            // Telefon alanını 2. satır olarak Adı Soyadı (ln373) altına hizala
+            if (lbl388 != null)
+            {
+                lbl388.LocationFloat = new DevExpress.Utils.PointFloat(104.45F, 506F);
+                lbl388.SizeF = new System.Drawing.SizeF(120F, 25F);
+                lbl388.Visible = true;
+            }
+            if (lbl389 != null)
+            {
+                lbl389.LocationFloat = new DevExpress.Utils.PointFloat(228F, 502F);
+                lbl389.SizeF = new System.Drawing.SizeF(505F, 33F);
+                lbl389.Visible = true;
+            }
+
+            // Dış çerçeveyi (lbl372) Adı Soyadı ve Telefon satırlarına göre yeniden boyutlandır
+            if (lbl372 != null)
+            {
+                lbl372.SizeF = new System.Drawing.SizeF(634.25F, 96F);
+            }
+
+            // dd10 bandının yüksekliğini ayarla
+            if (dd10 != null)
+            {
+                dd10.HeightF = 560F;
             }
         }
 
