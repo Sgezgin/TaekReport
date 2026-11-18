@@ -1,4 +1,4 @@
-﻿namespace TaekReport.KAEK.TibbiCihaz
+namespace TaekReport.KAEK.TibbiCihaz
 {
     partial class rprTibbiCihazBasvuruFormuYeni
     {
@@ -5364,7 +5364,7 @@
             this.lbl292.Multiline = true;
             this.lbl292.Name = "lbl292";
             this.lbl292.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
-            this.lbl292.SizeF = new System.Drawing.SizeF(390.89F, 161.52F);
+            this.lbl292.SizeF = new System.Drawing.SizeF(390.89F, 65F);
             this.lbl292.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // lbl293
@@ -5612,7 +5612,7 @@
             this.lbl305.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl305.CanGrow = false;
             this.lbl305.Font = new System.Drawing.Font("Calibri", 9.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.lbl305.LocationFloat = new DevExpress.Utils.PointFloat(155.06F, 687.01F);
+            this.lbl305.LocationFloat = new DevExpress.Utils.PointFloat(155.06F, 599.01F);
             this.lbl305.Multiline = true;
             this.lbl305.Name = "lbl305";
             this.lbl305.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5630,7 +5630,7 @@
             this.lbl306.BorderWidth = 1F;
             this.lbl306.CanGrow = false;
             this.lbl306.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl306.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 709.63F);
+            this.lbl306.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 621.63F);
             this.lbl306.Multiline = true;
             this.lbl306.Name = "lbl306";
             this.lbl306.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5642,7 +5642,7 @@
             this.chk307.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk307.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CINSIYET], \'CPT001\')")});
-            this.chk307.LocationFloat = new DevExpress.Utils.PointFloat(137.29F, 722.01F);
+            this.chk307.LocationFloat = new DevExpress.Utils.PointFloat(137.29F, 634.01F);
             this.chk307.Name = "chk307";
             this.chk307.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -5651,7 +5651,7 @@
             this.lbl308.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl308.CanGrow = false;
             this.lbl308.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl308.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 719.32F);
+            this.lbl308.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 631.32F);
             this.lbl308.Multiline = true;
             this.lbl308.Name = "lbl308";
             this.lbl308.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5665,7 +5665,7 @@
             this.chk309.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk309.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CINSIYET], \'CPT002\')")});
-            this.chk309.LocationFloat = new DevExpress.Utils.PointFloat(388.19F, 722.01F);
+            this.chk309.LocationFloat = new DevExpress.Utils.PointFloat(388.19F, 634.01F);
             this.chk309.Name = "chk309";
             this.chk309.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -5674,7 +5674,7 @@
             this.lbl310.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl310.CanGrow = false;
             this.lbl310.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl310.LocationFloat = new DevExpress.Utils.PointFloat(410.27F, 719.32F);
+            this.lbl310.LocationFloat = new DevExpress.Utils.PointFloat(410.27F, 631.32F);
             this.lbl310.Multiline = true;
             this.lbl310.Name = "lbl310";
             this.lbl310.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5688,7 +5688,7 @@
             this.lbl311.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl311.CanGrow = false;
             this.lbl311.Font = new System.Drawing.Font("Calibri", 9.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.lbl311.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 750.55F);
+            this.lbl311.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 662.55F);
             this.lbl311.Multiline = true;
             this.lbl311.Name = "lbl311";
             this.lbl311.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5707,7 +5707,7 @@
             this.lbl312.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.DAHILEDILMEKRITER]")});
             this.lbl312.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl312.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 772.08F);
+            this.lbl312.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 684.08F);
             this.lbl312.Multiline = true;
             this.lbl312.Name = "lbl312";
             this.lbl312.Padding = new DevExpress.XtraPrinting.PaddingInfo(7, 7, 4, 4, 100F);
@@ -5791,7 +5791,7 @@
             this.lbl310,
             this.lbl311,
             this.lbl312});
-            this.dd8.HeightF = 1066.05F;
+            this.dd8.HeightF = 978.05F;
             this.dd8.Name = "dd8";
             this.dd8.PageBreak = DevExpress.XtraReports.UI.PageBreak.BeforeBand;
             // 
@@ -7092,7 +7092,7 @@
             this.lbl401.Multiline = true;
             this.lbl401.Name = "lbl401";
             this.lbl401.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
-            this.lbl401.SizeF = new System.Drawing.SizeF(628.86F, 242.93F);
+            this.lbl401.SizeF = new System.Drawing.SizeF(628.86F, 65F);
             this.lbl401.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // lbl402
@@ -7465,7 +7465,7 @@
             this.lbl420.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl420.CanGrow = false;
             this.lbl420.Font = new System.Drawing.Font("Calibri", 9.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.lbl420.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 391.96F);
+            this.lbl420.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 221.96F);
             this.lbl420.Multiline = true;
             this.lbl420.Name = "lbl420";
             this.lbl420.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7483,7 +7483,7 @@
             this.lbl421.BorderWidth = 1F;
             this.lbl421.CanGrow = false;
             this.lbl421.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl421.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 415.65F);
+            this.lbl421.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 245.65F);
             this.lbl421.Multiline = true;
             this.lbl421.Name = "lbl421";
             this.lbl421.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7495,7 +7495,7 @@
             this.chk422.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk422.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CIHAZTIPI], \'CHT001\')")});
-            this.chk422.LocationFloat = new DevExpress.Utils.PointFloat(136.22F, 420.5F);
+            this.chk422.LocationFloat = new DevExpress.Utils.PointFloat(136.22F, 250.5F);
             this.chk422.Name = "chk422";
             this.chk422.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -7504,7 +7504,7 @@
             this.lbl423.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl423.CanGrow = false;
             this.lbl423.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lbl423.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 417.81F);
+            this.lbl423.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 247.81F);
             this.lbl423.Multiline = true;
             this.lbl423.Name = "lbl423";
             this.lbl423.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7518,7 +7518,7 @@
             this.chk424.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk424.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CIHAZTIPI], \'CHT002\')")});
-            this.chk424.LocationFloat = new DevExpress.Utils.PointFloat(136.22F, 454.96F);
+            this.chk424.LocationFloat = new DevExpress.Utils.PointFloat(136.22F, 284.96F);
             this.chk424.Name = "chk424";
             this.chk424.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -7527,7 +7527,7 @@
             this.lbl425.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl425.CanGrow = false;
             this.lbl425.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lbl425.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 452.27F);
+            this.lbl425.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 282.27F);
             this.lbl425.Multiline = true;
             this.lbl425.Name = "lbl425";
             this.lbl425.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7541,7 +7541,7 @@
             this.chk426.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk426.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CIHAZTIPI], \'CHT004\')")});
-            this.chk426.LocationFloat = new DevExpress.Utils.PointFloat(136.22F, 487.26F);
+            this.chk426.LocationFloat = new DevExpress.Utils.PointFloat(136.22F, 317.26F);
             this.chk426.Name = "chk426";
             this.chk426.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -7550,7 +7550,7 @@
             this.lbl427.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl427.CanGrow = false;
             this.lbl427.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lbl427.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 484.57F);
+            this.lbl427.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 314.57F);
             this.lbl427.Multiline = true;
             this.lbl427.Name = "lbl427";
             this.lbl427.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7564,7 +7564,7 @@
             this.chk428.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk428.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CIHAZTIPI], \'CHT006\')")});
-            this.chk428.LocationFloat = new DevExpress.Utils.PointFloat(136.22F, 522.8F);
+            this.chk428.LocationFloat = new DevExpress.Utils.PointFloat(136.22F, 352.8F);
             this.chk428.Name = "chk428";
             this.chk428.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -7573,7 +7573,7 @@
             this.lbl429.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl429.CanGrow = false;
             this.lbl429.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lbl429.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 520.11F);
+            this.lbl429.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 350.11F);
             this.lbl429.Multiline = true;
             this.lbl429.Name = "lbl429";
             this.lbl429.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7587,7 +7587,7 @@
             this.chk430.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk430.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CIHAZTIPI], \'CHT008\')")});
-            this.chk430.LocationFloat = new DevExpress.Utils.PointFloat(136.22F, 555.1F);
+            this.chk430.LocationFloat = new DevExpress.Utils.PointFloat(136.22F, 385.1F);
             this.chk430.Name = "chk430";
             this.chk430.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -7596,7 +7596,7 @@
             this.lbl431.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl431.CanGrow = false;
             this.lbl431.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lbl431.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 552.41F);
+            this.lbl431.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 382.41F);
             this.lbl431.Multiline = true;
             this.lbl431.Name = "lbl431";
             this.lbl431.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7610,7 +7610,7 @@
             this.chk432.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk432.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CIHAZTIPI], \'CHT003\')")});
-            this.chk432.LocationFloat = new DevExpress.Utils.PointFloat(533.57F, 420.5F);
+            this.chk432.LocationFloat = new DevExpress.Utils.PointFloat(533.57F, 250.5F);
             this.chk432.Name = "chk432";
             this.chk432.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -7619,7 +7619,7 @@
             this.lbl433.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl433.CanGrow = false;
             this.lbl433.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lbl433.LocationFloat = new DevExpress.Utils.PointFloat(555.64F, 417.81F);
+            this.lbl433.LocationFloat = new DevExpress.Utils.PointFloat(555.64F, 247.81F);
             this.lbl433.Multiline = true;
             this.lbl433.Name = "lbl433";
             this.lbl433.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7633,7 +7633,7 @@
             this.chk434.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk434.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CIHAZTIPI], \'CHT005\')")});
-            this.chk434.LocationFloat = new DevExpress.Utils.PointFloat(533.57F, 452.8F);
+            this.chk434.LocationFloat = new DevExpress.Utils.PointFloat(533.57F, 282.8F);
             this.chk434.Name = "chk434";
             this.chk434.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -7642,7 +7642,7 @@
             this.lbl435.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl435.CanGrow = false;
             this.lbl435.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lbl435.LocationFloat = new DevExpress.Utils.PointFloat(555.64F, 450.11F);
+            this.lbl435.LocationFloat = new DevExpress.Utils.PointFloat(555.64F, 280.11F);
             this.lbl435.Multiline = true;
             this.lbl435.Name = "lbl435";
             this.lbl435.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7656,7 +7656,7 @@
             this.chk436.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk436.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CIHAZTIPI], \'CHT007\')")});
-            this.chk436.LocationFloat = new DevExpress.Utils.PointFloat(533.57F, 487.26F);
+            this.chk436.LocationFloat = new DevExpress.Utils.PointFloat(533.57F, 317.26F);
             this.chk436.Name = "chk436";
             this.chk436.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -7665,7 +7665,7 @@
             this.lbl437.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl437.CanGrow = false;
             this.lbl437.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lbl437.LocationFloat = new DevExpress.Utils.PointFloat(555.64F, 484.57F);
+            this.lbl437.LocationFloat = new DevExpress.Utils.PointFloat(555.64F, 314.57F);
             this.lbl437.Multiline = true;
             this.lbl437.Name = "lbl437";
             this.lbl437.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7679,7 +7679,7 @@
             this.chk438.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk438.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CIHAZTIPI], \'CHT009\')")});
-            this.chk438.LocationFloat = new DevExpress.Utils.PointFloat(533.57F, 520.64F);
+            this.chk438.LocationFloat = new DevExpress.Utils.PointFloat(533.57F, 350.64F);
             this.chk438.Name = "chk438";
             this.chk438.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -7688,7 +7688,7 @@
             this.lbl439.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl439.CanGrow = false;
             this.lbl439.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lbl439.LocationFloat = new DevExpress.Utils.PointFloat(555.64F, 517.95F);
+            this.lbl439.LocationFloat = new DevExpress.Utils.PointFloat(555.64F, 347.95F);
             this.lbl439.Multiline = true;
             this.lbl439.Name = "lbl439";
             this.lbl439.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7702,7 +7702,7 @@
             this.lbl440.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl440.CanGrow = false;
             this.lbl440.Font = new System.Drawing.Font("Calibri", 9.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.lbl440.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 584.71F);
+            this.lbl440.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 414.71F);
             this.lbl440.Multiline = true;
             this.lbl440.Name = "lbl440";
             this.lbl440.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7720,7 +7720,7 @@
             this.lbl441.BorderWidth = 1F;
             this.lbl441.CanGrow = false;
             this.lbl441.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl441.LocationFloat = new DevExpress.Utils.PointFloat(99.07F, 610.56F);
+            this.lbl441.LocationFloat = new DevExpress.Utils.PointFloat(99.07F, 440.56F);
             this.lbl441.Multiline = true;
             this.lbl441.Name = "lbl441";
             this.lbl441.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7732,7 +7732,7 @@
             this.lbl442.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl442.CanGrow = false;
             this.lbl442.Font = new System.Drawing.Font("Calibri", 9.5F);
-            this.lbl442.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 625.63F);
+            this.lbl442.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 455.63F);
             this.lbl442.Multiline = true;
             this.lbl442.Name = "lbl442";
             this.lbl442.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7745,7 +7745,7 @@
             // 
             this.shp443.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.shp443.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp443.LocationFloat = new DevExpress.Utils.PointFloat(111.45F, 654.17F);
+            this.shp443.LocationFloat = new DevExpress.Utils.PointFloat(111.45F, 484.17F);
             this.shp443.Name = "shp443";
             this.shp443.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -7756,7 +7756,7 @@
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "[TibbiCihazFormu.INVAZIVMI] == \'1\'")});
             this.shp444.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.shp444.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp444.LocationFloat = new DevExpress.Utils.PointFloat(114.68F, 657.4F);
+            this.shp444.LocationFloat = new DevExpress.Utils.PointFloat(114.68F, 487.4F);
             this.shp444.Name = "shp444";
             this.shp444.SizeF = new System.Drawing.SizeF(7.54F, 7.54F);
             // 
@@ -7765,7 +7765,7 @@
             this.lbl445.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl445.CanGrow = false;
             this.lbl445.Font = new System.Drawing.Font("Calibri", 9.5F);
-            this.lbl445.LocationFloat = new DevExpress.Utils.PointFloat(134.6F, 651.48F);
+            this.lbl445.LocationFloat = new DevExpress.Utils.PointFloat(134.6F, 481.48F);
             this.lbl445.Multiline = true;
             this.lbl445.Name = "lbl445";
             this.lbl445.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7778,7 +7778,7 @@
             // 
             this.shp446.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.shp446.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp446.LocationFloat = new DevExpress.Utils.PointFloat(183.6F, 654.17F);
+            this.shp446.LocationFloat = new DevExpress.Utils.PointFloat(183.6F, 484.17F);
             this.shp446.Name = "shp446";
             this.shp446.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -7789,7 +7789,7 @@
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif([TibbiCihazFormu.INVAZIVMI] == \'1\', False, True)")});
             this.shp447.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.shp447.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp447.LocationFloat = new DevExpress.Utils.PointFloat(186.83F, 657.4F);
+            this.shp447.LocationFloat = new DevExpress.Utils.PointFloat(186.83F, 487.4F);
             this.shp447.Name = "shp447";
             this.shp447.SizeF = new System.Drawing.SizeF(7.54F, 7.54F);
             // 
@@ -7798,7 +7798,7 @@
             this.lbl448.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl448.CanGrow = false;
             this.lbl448.Font = new System.Drawing.Font("Calibri", 9.5F);
-            this.lbl448.LocationFloat = new DevExpress.Utils.PointFloat(202.44F, 651.48F);
+            this.lbl448.LocationFloat = new DevExpress.Utils.PointFloat(202.44F, 481.48F);
             this.lbl448.Multiline = true;
             this.lbl448.Name = "lbl448";
             this.lbl448.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7812,7 +7812,7 @@
             this.lbl449.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl449.CanGrow = false;
             this.lbl449.Font = new System.Drawing.Font("Calibri", 9.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.lbl449.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 697.78F);
+            this.lbl449.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 527.78F);
             this.lbl449.Multiline = true;
             this.lbl449.Name = "lbl449";
             this.lbl449.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7830,7 +7830,7 @@
             this.lbl450.BorderWidth = 1F;
             this.lbl450.CanGrow = false;
             this.lbl450.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl450.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 721.47F);
+            this.lbl450.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 551.47F);
             this.lbl450.Multiline = true;
             this.lbl450.Name = "lbl450";
             this.lbl450.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7840,28 +7840,28 @@
             // ln451
             // 
             this.ln451.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln451.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 809.77F);
+            this.ln451.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 639.77F);
             this.ln451.Name = "ln451";
             this.ln451.SizeF = new System.Drawing.SizeF(634.25F, 2F);
             // 
             // ln452
             // 
             this.ln452.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln452.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 874.38F);
+            this.ln452.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 704.38F);
             this.ln452.Name = "ln452";
             this.ln452.SizeF = new System.Drawing.SizeF(634.25F, 2F);
             // 
             // ln453
             // 
             this.ln453.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln453.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 904.53F);
+            this.ln453.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 734.53F);
             this.ln453.Name = "ln453";
             this.ln453.SizeF = new System.Drawing.SizeF(634.25F, 2F);
             // 
             // ln454
             // 
             this.ln454.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln454.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 1005.75F);
+            this.ln454.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 835.75F);
             this.ln454.Name = "ln454";
             this.ln454.SizeF = new System.Drawing.SizeF(634.25F, 2F);
             // 
@@ -7869,7 +7869,7 @@
             // 
             this.ln455.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
             this.ln455.LineDirection = DevExpress.XtraReports.UI.LineDirection.Vertical;
-            this.ln455.LocationFloat = new DevExpress.Utils.PointFloat(250.9F, 809.77F);
+            this.ln455.LocationFloat = new DevExpress.Utils.PointFloat(250.9F, 639.77F);
             this.ln455.Name = "ln455";
             this.ln455.SizeF = new System.Drawing.SizeF(2F, 64.61F);
             // 
@@ -7878,7 +7878,7 @@
             this.lbl456.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl456.CanGrow = false;
             this.lbl456.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl456.LocationFloat = new DevExpress.Utils.PointFloat(109.84F, 727.93F);
+            this.lbl456.LocationFloat = new DevExpress.Utils.PointFloat(109.84F, 557.93F);
             this.lbl456.Multiline = true;
             this.lbl456.Name = "lbl456";
             this.lbl456.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7898,7 +7898,7 @@
             this.lbl457.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.EMDNKODU]")});
             this.lbl457.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl457.LocationFloat = new DevExpress.Utils.PointFloat(251.98F, 724.7F);
+            this.lbl457.LocationFloat = new DevExpress.Utils.PointFloat(251.98F, 554.7F);
             this.lbl457.Multiline = true;
             this.lbl457.Name = "lbl457";
             this.lbl457.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 3, 1, 1, 100F);
@@ -7910,7 +7910,7 @@
             this.lbl458.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl458.CanGrow = false;
             this.lbl458.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl458.LocationFloat = new DevExpress.Utils.PointFloat(115.22F, 819.46F);
+            this.lbl458.LocationFloat = new DevExpress.Utils.PointFloat(115.22F, 649.46F);
             this.lbl458.Multiline = true;
             this.lbl458.Name = "lbl458";
             this.lbl458.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7930,7 +7930,7 @@
             this.lbl459.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.CIHAZTICARIAD]")});
             this.lbl459.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl459.LocationFloat = new DevExpress.Utils.PointFloat(256.28F, 813F);
+            this.lbl459.LocationFloat = new DevExpress.Utils.PointFloat(256.28F, 643F);
             this.lbl459.Multiline = true;
             this.lbl459.Name = "lbl459";
             this.lbl459.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 3, 1, 1, 100F);
@@ -7942,7 +7942,7 @@
             this.lbl460.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl460.CanGrow = false;
             this.lbl460.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl460.LocationFloat = new DevExpress.Utils.PointFloat(542.72F, 814.08F);
+            this.lbl460.LocationFloat = new DevExpress.Utils.PointFloat(542.72F, 644.08F);
             this.lbl460.Multiline = true;
             this.lbl460.Name = "lbl460";
             this.lbl460.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7962,7 +7962,7 @@
             this.lbl461.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.CIHAZMODEL]")});
             this.lbl461.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl461.LocationFloat = new DevExpress.Utils.PointFloat(601.94F, 813F);
+            this.lbl461.LocationFloat = new DevExpress.Utils.PointFloat(601.94F, 643F);
             this.lbl461.Multiline = true;
             this.lbl461.Name = "lbl461";
             this.lbl461.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 3, 1, 1, 100F);
@@ -7974,7 +7974,7 @@
             this.lbl462.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl462.CanGrow = false;
             this.lbl462.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl462.LocationFloat = new DevExpress.Utils.PointFloat(134.6F, 876.53F);
+            this.lbl462.LocationFloat = new DevExpress.Utils.PointFloat(134.6F, 706.53F);
             this.lbl462.Multiline = true;
             this.lbl462.Name = "lbl462";
             this.lbl462.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -7994,7 +7994,7 @@
             this.lbl463.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.CIHAZADI]")});
             this.lbl463.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl463.LocationFloat = new DevExpress.Utils.PointFloat(255.21F, 878.69F);
+            this.lbl463.LocationFloat = new DevExpress.Utils.PointFloat(255.21F, 708.69F);
             this.lbl463.Multiline = true;
             this.lbl463.Name = "lbl463";
             this.lbl463.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 3, 1, 1, 100F);
@@ -8006,7 +8006,7 @@
             this.lbl464.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl464.CanGrow = false;
             this.lbl464.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl464.LocationFloat = new DevExpress.Utils.PointFloat(109.84F, 912.07F);
+            this.lbl464.LocationFloat = new DevExpress.Utils.PointFloat(109.84F, 742.07F);
             this.lbl464.Multiline = true;
             this.lbl464.Name = "lbl464";
             this.lbl464.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8020,7 +8020,7 @@
             this.lbl465.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl465.CanGrow = false;
             this.lbl465.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl465.LocationFloat = new DevExpress.Utils.PointFloat(402.73F, 912.07F);
+            this.lbl465.LocationFloat = new DevExpress.Utils.PointFloat(402.73F, 742.07F);
             this.lbl465.Multiline = true;
             this.lbl465.Name = "lbl465";
             this.lbl465.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8040,7 +8040,7 @@
             this.lbl466.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.EMDNWEBLINK]")});
             this.lbl466.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl466.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 936.84F);
+            this.lbl466.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 766.84F);
             this.lbl466.Multiline = true;
             this.lbl466.Name = "lbl466";
             this.lbl466.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 3, 1, 1, 100F);
@@ -8052,7 +8052,7 @@
             this.lbl467.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl467.CanGrow = false;
             this.lbl467.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl467.LocationFloat = new DevExpress.Utils.PointFloat(110.91F, 1013.29F);
+            this.lbl467.LocationFloat = new DevExpress.Utils.PointFloat(110.91F, 843.29F);
             this.lbl467.Multiline = true;
             this.lbl467.Name = "lbl467";
             this.lbl467.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8070,7 +8070,7 @@
             this.lbl468.BorderWidth = 2F;
             this.lbl468.CanGrow = false;
             this.lbl468.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl468.LocationFloat = new DevExpress.Utils.PointFloat(300.43F, 1010.06F);
+            this.lbl468.LocationFloat = new DevExpress.Utils.PointFloat(300.43F, 840.06F);
             this.lbl468.Multiline = true;
             this.lbl468.Name = "lbl468";
             this.lbl468.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8087,7 +8087,7 @@
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.CIHAZSINIFI], \'CSN001\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl469.Font = new System.Drawing.Font("Arial", 9F);
-            this.lbl469.LocationFloat = new DevExpress.Utils.PointFloat(302.59F, 1013.29F);
+            this.lbl469.LocationFloat = new DevExpress.Utils.PointFloat(302.59F, 843.29F);
             this.lbl469.Multiline = true;
             this.lbl469.Name = "lbl469";
             this.lbl469.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -8107,7 +8107,7 @@
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.CIHAZSINIFI], \'CSN002\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl470.Font = new System.Drawing.Font("Arial", 9F);
-            this.lbl470.LocationFloat = new DevExpress.Utils.PointFloat(302.59F, 1029.44F);
+            this.lbl470.LocationFloat = new DevExpress.Utils.PointFloat(302.59F, 859.44F);
             this.lbl470.Multiline = true;
             this.lbl470.Name = "lbl470";
             this.lbl470.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -8127,7 +8127,7 @@
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.CIHAZSINIFI], \'CSN003\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl471.Font = new System.Drawing.Font("Arial", 9F);
-            this.lbl471.LocationFloat = new DevExpress.Utils.PointFloat(302.59F, 1045.6F);
+            this.lbl471.LocationFloat = new DevExpress.Utils.PointFloat(302.59F, 875.6F);
             this.lbl471.Multiline = true;
             this.lbl471.Name = "lbl471";
             this.lbl471.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -8147,7 +8147,7 @@
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.CIHAZSINIFI], \'CSN004\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl472.Font = new System.Drawing.Font("Arial", 9F);
-            this.lbl472.LocationFloat = new DevExpress.Utils.PointFloat(302.59F, 1061.75F);
+            this.lbl472.LocationFloat = new DevExpress.Utils.PointFloat(302.59F, 891.75F);
             this.lbl472.Multiline = true;
             this.lbl472.Name = "lbl472";
             this.lbl472.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -8242,7 +8242,7 @@
             this.lbl470,
             this.lbl471,
             this.lbl472});
-            this.dd11.HeightF = 1114.51F;
+            this.dd11.HeightF = 944.51F;
             this.dd11.Name = "dd11";
             this.dd11.PageBreak = DevExpress.XtraReports.UI.PageBreak.BeforeBand;
             // 
@@ -8259,7 +8259,7 @@
             this.lbl473.Multiline = true;
             this.lbl473.Name = "lbl473";
             this.lbl473.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
-            this.lbl473.SizeF = new System.Drawing.SizeF(634.25F, 1002.52F);
+            this.lbl473.SizeF = new System.Drawing.SizeF(634.25F, 817.52F);
             this.lbl473.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // lbl474
@@ -8289,7 +8289,7 @@
             this.lbl475.Multiline = true;
             this.lbl475.Name = "lbl475";
             this.lbl475.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
-            this.lbl475.SizeF = new System.Drawing.SizeF(629.94F, 256.07F);
+            this.lbl475.SizeF = new System.Drawing.SizeF(629.94F, 65F);
             this.lbl475.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // lbl476
@@ -8690,7 +8690,7 @@
             // ln495
             // 
             this.ln495.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln495.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 389.59F);
+            this.ln495.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 204.59F);
             this.ln495.Name = "ln495";
             this.ln495.SizeF = new System.Drawing.SizeF(634.25F, 2F);
             // 
@@ -8699,7 +8699,7 @@
             this.lbl496.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl496.CanGrow = false;
             this.lbl496.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl496.LocationFloat = new DevExpress.Utils.PointFloat(109.84F, 394.98F);
+            this.lbl496.LocationFloat = new DevExpress.Utils.PointFloat(109.84F, 209.98F);
             this.lbl496.Multiline = true;
             this.lbl496.Name = "lbl496";
             this.lbl496.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8712,7 +8712,7 @@
             // ln497
             // 
             this.ln497.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln497.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 607.11F);
+            this.ln497.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 422.11F);
             this.ln497.Name = "ln497";
             this.ln497.SizeF = new System.Drawing.SizeF(634.25F, 2F);
             // 
@@ -8722,7 +8722,7 @@
             this.lbl498.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.CIHAZTANIMI]")});
             this.lbl498.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl498.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 438.05F);
+            this.lbl498.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 253.05F);
             this.lbl498.Multiline = true;
             this.lbl498.Name = "lbl498";
             this.lbl498.Padding = new DevExpress.XtraPrinting.PaddingInfo(7, 7, 3, 3, 100F);
@@ -8734,7 +8734,7 @@
             this.lbl499.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl499.CanGrow = false;
             this.lbl499.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl499.LocationFloat = new DevExpress.Utils.PointFloat(108.76F, 609.27F);
+            this.lbl499.LocationFloat = new DevExpress.Utils.PointFloat(108.76F, 424.27F);
             this.lbl499.Multiline = true;
             this.lbl499.Name = "lbl499";
             this.lbl499.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8749,7 +8749,7 @@
             this.lbl500.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.CIHAZAMACI]")});
             this.lbl500.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl500.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 635.11F);
+            this.lbl500.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 450.11F);
             this.lbl500.Multiline = true;
             this.lbl500.Name = "lbl500";
             this.lbl500.Padding = new DevExpress.XtraPrinting.PaddingInfo(7, 7, 3, 3, 100F);
@@ -8759,7 +8759,7 @@
             // ln501
             // 
             this.ln501.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln501.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 723.41F);
+            this.ln501.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 538.41F);
             this.ln501.Name = "ln501";
             this.ln501.SizeF = new System.Drawing.SizeF(634.25F, 2F);
             // 
@@ -8768,7 +8768,7 @@
             this.lbl502.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl502.CanGrow = false;
             this.lbl502.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl502.LocationFloat = new DevExpress.Utils.PointFloat(108.76F, 728.79F);
+            this.lbl502.LocationFloat = new DevExpress.Utils.PointFloat(108.76F, 543.79F);
             this.lbl502.Multiline = true;
             this.lbl502.Name = "lbl502";
             this.lbl502.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8781,7 +8781,7 @@
             // 
             this.shp503.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.shp503.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp503.LocationFloat = new DevExpress.Utils.PointFloat(197.6F, 759.48F);
+            this.shp503.LocationFloat = new DevExpress.Utils.PointFloat(197.6F, 574.48F);
             this.shp503.Name = "shp503";
             this.shp503.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -8792,7 +8792,7 @@
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "[TibbiCihazFormu.TIBBIMADDEICERIYORMU] == \'1\'")});
             this.shp504.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.shp504.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp504.LocationFloat = new DevExpress.Utils.PointFloat(200.83F, 762.71F);
+            this.shp504.LocationFloat = new DevExpress.Utils.PointFloat(200.83F, 577.71F);
             this.shp504.Name = "shp504";
             this.shp504.SizeF = new System.Drawing.SizeF(7.54F, 7.54F);
             // 
@@ -8801,7 +8801,7 @@
             this.lbl505.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl505.CanGrow = false;
             this.lbl505.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl505.LocationFloat = new DevExpress.Utils.PointFloat(222.9F, 756.79F);
+            this.lbl505.LocationFloat = new DevExpress.Utils.PointFloat(222.9F, 571.79F);
             this.lbl505.Multiline = true;
             this.lbl505.Name = "lbl505";
             this.lbl505.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8814,7 +8814,7 @@
             // 
             this.shp506.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.shp506.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp506.LocationFloat = new DevExpress.Utils.PointFloat(274.05F, 759.48F);
+            this.shp506.LocationFloat = new DevExpress.Utils.PointFloat(274.05F, 574.48F);
             this.shp506.Name = "shp506";
             this.shp506.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -8825,7 +8825,7 @@
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif([TibbiCihazFormu.TIBBIMADDEICERIYORMU] == \'1\', False, True)")});
             this.shp507.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.shp507.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp507.LocationFloat = new DevExpress.Utils.PointFloat(277.28F, 762.71F);
+            this.shp507.LocationFloat = new DevExpress.Utils.PointFloat(277.28F, 577.71F);
             this.shp507.Name = "shp507";
             this.shp507.SizeF = new System.Drawing.SizeF(7.54F, 7.54F);
             // 
@@ -8834,7 +8834,7 @@
             this.lbl508.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl508.CanGrow = false;
             this.lbl508.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl508.LocationFloat = new DevExpress.Utils.PointFloat(301.51F, 756.79F);
+            this.lbl508.LocationFloat = new DevExpress.Utils.PointFloat(301.51F, 571.79F);
             this.lbl508.Multiline = true;
             this.lbl508.Name = "lbl508";
             this.lbl508.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8848,7 +8848,7 @@
             this.lbl509.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl509.CanGrow = false;
             this.lbl509.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl509.LocationFloat = new DevExpress.Utils.PointFloat(108.76F, 780.48F);
+            this.lbl509.LocationFloat = new DevExpress.Utils.PointFloat(108.76F, 595.48F);
             this.lbl509.Multiline = true;
             this.lbl509.Name = "lbl509";
             this.lbl509.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8868,7 +8868,7 @@
             this.lbl510.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.TIBBIMADDEADLARI]")});
             this.lbl510.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl510.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 806.33F);
+            this.lbl510.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 621.33F);
             this.lbl510.Multiline = true;
             this.lbl510.Name = "lbl510";
             this.lbl510.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 3, 1, 1, 100F);
@@ -8878,7 +8878,7 @@
             // ln511
             // 
             this.ln511.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln511.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 890.32F);
+            this.ln511.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 705.32F);
             this.ln511.Name = "ln511";
             this.ln511.SizeF = new System.Drawing.SizeF(634.25F, 2F);
             // 
@@ -8887,7 +8887,7 @@
             this.lbl512.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl512.CanGrow = false;
             this.lbl512.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lbl512.LocationFloat = new DevExpress.Utils.PointFloat(108.76F, 896.78F);
+            this.lbl512.LocationFloat = new DevExpress.Utils.PointFloat(108.76F, 711.78F);
             this.lbl512.Multiline = true;
             this.lbl512.Name = "lbl512";
             this.lbl512.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8902,7 +8902,7 @@
             this.chk513.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk513.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.BUTUNLESIKPARCA], \'BLP001\')")});
-            this.chk513.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 947.93F);
+            this.chk513.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 762.93F);
             this.chk513.Name = "chk513";
             this.chk513.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -8911,7 +8911,7 @@
             this.lbl514.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl514.CanGrow = false;
             this.lbl514.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl514.LocationFloat = new DevExpress.Utils.PointFloat(175.52F, 945.24F);
+            this.lbl514.LocationFloat = new DevExpress.Utils.PointFloat(175.52F, 760.24F);
             this.lbl514.Multiline = true;
             this.lbl514.Name = "lbl514";
             this.lbl514.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8925,7 +8925,7 @@
             this.chk515.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk515.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.BUTUNLESIKPARCA], \'BLP002\')")});
-            this.chk515.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 967.31F);
+            this.chk515.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 782.31F);
             this.chk515.Name = "chk515";
             this.chk515.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -8934,7 +8934,7 @@
             this.lbl516.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl516.CanGrow = false;
             this.lbl516.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl516.LocationFloat = new DevExpress.Utils.PointFloat(175.52F, 964.62F);
+            this.lbl516.LocationFloat = new DevExpress.Utils.PointFloat(175.52F, 779.62F);
             this.lbl516.Multiline = true;
             this.lbl516.Name = "lbl516";
             this.lbl516.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8948,7 +8948,7 @@
             this.chk517.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk517.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.BUTUNLESIKPARCA], \'BLP003\')")});
-            this.chk517.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 986.69F);
+            this.chk517.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 801.69F);
             this.chk517.Name = "chk517";
             this.chk517.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -8957,7 +8957,7 @@
             this.lbl518.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl518.CanGrow = false;
             this.lbl518.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl518.LocationFloat = new DevExpress.Utils.PointFloat(175.52F, 984F);
+            this.lbl518.LocationFloat = new DevExpress.Utils.PointFloat(175.52F, 799F);
             this.lbl518.Multiline = true;
             this.lbl518.Name = "lbl518";
             this.lbl518.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8971,7 +8971,7 @@
             this.chk519.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk519.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.BUTUNLESIKPARCA], \'BLP004\')")});
-            this.chk519.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 1006.08F);
+            this.chk519.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 821.08F);
             this.chk519.Name = "chk519";
             this.chk519.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -8980,7 +8980,7 @@
             this.lbl520.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl520.CanGrow = false;
             this.lbl520.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl520.LocationFloat = new DevExpress.Utils.PointFloat(175.52F, 1003.38F);
+            this.lbl520.LocationFloat = new DevExpress.Utils.PointFloat(175.52F, 818.38F);
             this.lbl520.Multiline = true;
             this.lbl520.Name = "lbl520";
             this.lbl520.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -8994,7 +8994,7 @@
             this.chk521.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk521.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.BUTUNLESIKPARCA], \'BLP005\')")});
-            this.chk521.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 1025.46F);
+            this.chk521.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 840.46F);
             this.chk521.Name = "chk521";
             this.chk521.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -9003,7 +9003,7 @@
             this.lbl522.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl522.CanGrow = false;
             this.lbl522.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl522.LocationFloat = new DevExpress.Utils.PointFloat(175.52F, 1022.77F);
+            this.lbl522.LocationFloat = new DevExpress.Utils.PointFloat(175.52F, 837.77F);
             this.lbl522.Multiline = true;
             this.lbl522.Name = "lbl522";
             this.lbl522.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -9017,7 +9017,7 @@
             this.chk523.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk523.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.BUTUNLESIKPARCA], \'BLP006\')")});
-            this.chk523.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 1044.84F);
+            this.chk523.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 859.84F);
             this.chk523.Name = "chk523";
             this.chk523.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -9026,7 +9026,7 @@
             this.lbl524.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl524.CanGrow = false;
             this.lbl524.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl524.LocationFloat = new DevExpress.Utils.PointFloat(175.52F, 1042.15F);
+            this.lbl524.LocationFloat = new DevExpress.Utils.PointFloat(175.52F, 857.15F);
             this.lbl524.Multiline = true;
             this.lbl524.Name = "lbl524";
             this.lbl524.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -9097,7 +9097,7 @@
             this.lbl522,
             this.chk523,
             this.lbl524});
-            this.dd12.HeightF = 1114.3F;
+            this.dd12.HeightF = 929.3F;
             this.dd12.Name = "dd12";
             this.dd12.PageBreak = DevExpress.XtraReports.UI.PageBreak.BeforeBand;
             // 
@@ -11865,7 +11865,7 @@
             this.lbl710.Multiline = true;
             this.lbl710.Name = "lbl710";
             this.lbl710.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
-            this.lbl710.SizeF = new System.Drawing.SizeF(629.94F, 231.52F);
+            this.lbl710.SizeF = new System.Drawing.SizeF(629.94F, 65F);
             this.lbl710.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // lbl711
@@ -12280,7 +12280,7 @@
             // ln731
             // 
             this.ln731.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln731.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 363.97F);
+            this.ln731.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 203.97F);
             this.ln731.Name = "ln731";
             this.ln731.SizeF = new System.Drawing.SizeF(634.25F, 2F);
             // 
@@ -12289,7 +12289,7 @@
             this.lbl732.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl732.CanGrow = false;
             this.lbl732.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl732.LocationFloat = new DevExpress.Utils.PointFloat(109.84F, 368.27F);
+            this.lbl732.LocationFloat = new DevExpress.Utils.PointFloat(109.84F, 208.27F);
             this.lbl732.Multiline = true;
             this.lbl732.Name = "lbl732";
             this.lbl732.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12309,7 +12309,7 @@
             this.lbl733.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.KARSILASTIRMACIHAZ_TANIM]")});
             this.lbl733.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl733.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 409.19F);
+            this.lbl733.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 249.19F);
             this.lbl733.Multiline = true;
             this.lbl733.Name = "lbl733";
             this.lbl733.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 3, 1, 1, 100F);
@@ -12319,7 +12319,7 @@
             // ln734
             // 
             this.ln734.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln734.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 521.18F);
+            this.ln734.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 361.18F);
             this.ln734.Name = "ln734";
             this.ln734.SizeF = new System.Drawing.SizeF(634.25F, 2F);
             // 
@@ -12328,7 +12328,7 @@
             this.lbl735.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl735.CanGrow = false;
             this.lbl735.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl735.LocationFloat = new DevExpress.Utils.PointFloat(108.76F, 524.41F);
+            this.lbl735.LocationFloat = new DevExpress.Utils.PointFloat(108.76F, 364.41F);
             this.lbl735.Multiline = true;
             this.lbl735.Name = "lbl735";
             this.lbl735.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12347,7 +12347,7 @@
             this.lbl736.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.KARSILASTIRMACIHAZ_AMAC]")});
             this.lbl736.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl736.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 544.87F);
+            this.lbl736.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 384.87F);
             this.lbl736.Multiline = true;
             this.lbl736.Name = "lbl736";
             this.lbl736.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 3, 1, 1, 100F);
@@ -12357,7 +12357,7 @@
             // ln737
             // 
             this.ln737.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln737.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 624.56F);
+            this.ln737.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 464.56F);
             this.ln737.Name = "ln737";
             this.ln737.SizeF = new System.Drawing.SizeF(634.25F, 2F);
             // 
@@ -12366,7 +12366,7 @@
             this.lbl738.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl738.CanGrow = false;
             this.lbl738.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl738.LocationFloat = new DevExpress.Utils.PointFloat(114.14F, 632.1F);
+            this.lbl738.LocationFloat = new DevExpress.Utils.PointFloat(114.14F, 472.1F);
             this.lbl738.Multiline = true;
             this.lbl738.Name = "lbl738";
             this.lbl738.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12380,7 +12380,7 @@
             this.chk739.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk739.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "[TibbiCihazFormu.KARSICIHAZ_TIBBIMADDEVARMI] == \'1\'")});
-            this.chk739.LocationFloat = new DevExpress.Utils.PointFloat(243.9F, 658.48F);
+            this.chk739.LocationFloat = new DevExpress.Utils.PointFloat(243.9F, 498.48F);
             this.chk739.Name = "chk739";
             this.chk739.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -12389,7 +12389,7 @@
             this.lbl740.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl740.CanGrow = false;
             this.lbl740.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl740.LocationFloat = new DevExpress.Utils.PointFloat(264.9F, 655.79F);
+            this.lbl740.LocationFloat = new DevExpress.Utils.PointFloat(264.9F, 495.79F);
             this.lbl740.Multiline = true;
             this.lbl740.Name = "lbl740";
             this.lbl740.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12403,7 +12403,7 @@
             this.chk741.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk741.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Iif([TibbiCihazFormu.KARSICIHAZ_TIBBIMADDEVARMI] == \'1\', False, True)")});
-            this.chk741.LocationFloat = new DevExpress.Utils.PointFloat(333.28F, 658.48F);
+            this.chk741.LocationFloat = new DevExpress.Utils.PointFloat(333.28F, 498.48F);
             this.chk741.Name = "chk741";
             this.chk741.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -12412,7 +12412,7 @@
             this.lbl742.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl742.CanGrow = false;
             this.lbl742.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl742.LocationFloat = new DevExpress.Utils.PointFloat(353.2F, 655.79F);
+            this.lbl742.LocationFloat = new DevExpress.Utils.PointFloat(353.2F, 495.79F);
             this.lbl742.Multiline = true;
             this.lbl742.Name = "lbl742";
             this.lbl742.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12426,7 +12426,7 @@
             this.lbl743.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl743.CanGrow = false;
             this.lbl743.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl743.LocationFloat = new DevExpress.Utils.PointFloat(114.14F, 685.94F);
+            this.lbl743.LocationFloat = new DevExpress.Utils.PointFloat(114.14F, 525.94F);
             this.lbl743.Multiline = true;
             this.lbl743.Name = "lbl743";
             this.lbl743.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12446,7 +12446,7 @@
             this.lbl744.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.KARSICIHAZ_TIBBIMADDEADLARI]")});
             this.lbl744.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl744.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 712.86F);
+            this.lbl744.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 552.86F);
             this.lbl744.Multiline = true;
             this.lbl744.Name = "lbl744";
             this.lbl744.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 3, 1, 1, 100F);
@@ -12458,7 +12458,7 @@
             this.lbl745.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl745.CanGrow = false;
             this.lbl745.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lbl745.LocationFloat = new DevExpress.Utils.PointFloat(110.91F, 781.77F);
+            this.lbl745.LocationFloat = new DevExpress.Utils.PointFloat(110.91F, 621.77F);
             this.lbl745.Multiline = true;
             this.lbl745.Name = "lbl745";
             this.lbl745.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12473,7 +12473,7 @@
             this.chk746.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk746.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.KARSILASTIRMACIHAZ_BUTUNLESIK], \'BLP001\')")});
-            this.chk746.LocationFloat = new DevExpress.Utils.PointFloat(151.29F, 824.31F);
+            this.chk746.LocationFloat = new DevExpress.Utils.PointFloat(151.29F, 664.31F);
             this.chk746.Name = "chk746";
             this.chk746.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -12482,7 +12482,7 @@
             this.lbl747.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl747.CanGrow = false;
             this.lbl747.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl747.LocationFloat = new DevExpress.Utils.PointFloat(174.45F, 821.62F);
+            this.lbl747.LocationFloat = new DevExpress.Utils.PointFloat(174.45F, 661.62F);
             this.lbl747.Multiline = true;
             this.lbl747.Name = "lbl747";
             this.lbl747.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12496,7 +12496,7 @@
             this.chk748.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk748.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.KARSILASTIRMACIHAZ_BUTUNLESIK], \'BLP002\')")});
-            this.chk748.LocationFloat = new DevExpress.Utils.PointFloat(151.29F, 843.69F);
+            this.chk748.LocationFloat = new DevExpress.Utils.PointFloat(151.29F, 683.69F);
             this.chk748.Name = "chk748";
             this.chk748.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -12505,7 +12505,7 @@
             this.lbl749.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl749.CanGrow = false;
             this.lbl749.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl749.LocationFloat = new DevExpress.Utils.PointFloat(174.45F, 841F);
+            this.lbl749.LocationFloat = new DevExpress.Utils.PointFloat(174.45F, 681F);
             this.lbl749.Multiline = true;
             this.lbl749.Name = "lbl749";
             this.lbl749.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12519,7 +12519,7 @@
             this.chk750.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk750.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.KARSILASTIRMACIHAZ_BUTUNLESIK], \'BLP003\')")});
-            this.chk750.LocationFloat = new DevExpress.Utils.PointFloat(151.29F, 863.07F);
+            this.chk750.LocationFloat = new DevExpress.Utils.PointFloat(151.29F, 703.07F);
             this.chk750.Name = "chk750";
             this.chk750.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -12528,7 +12528,7 @@
             this.lbl751.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl751.CanGrow = false;
             this.lbl751.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl751.LocationFloat = new DevExpress.Utils.PointFloat(174.45F, 860.38F);
+            this.lbl751.LocationFloat = new DevExpress.Utils.PointFloat(174.45F, 700.38F);
             this.lbl751.Multiline = true;
             this.lbl751.Name = "lbl751";
             this.lbl751.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12542,7 +12542,7 @@
             this.chk752.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk752.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.KARSILASTIRMACIHAZ_BUTUNLESIK], \'BLP004\')")});
-            this.chk752.LocationFloat = new DevExpress.Utils.PointFloat(151.29F, 882.46F);
+            this.chk752.LocationFloat = new DevExpress.Utils.PointFloat(151.29F, 722.46F);
             this.chk752.Name = "chk752";
             this.chk752.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -12551,7 +12551,7 @@
             this.lbl753.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl753.CanGrow = false;
             this.lbl753.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl753.LocationFloat = new DevExpress.Utils.PointFloat(174.45F, 879.76F);
+            this.lbl753.LocationFloat = new DevExpress.Utils.PointFloat(174.45F, 719.76F);
             this.lbl753.Multiline = true;
             this.lbl753.Name = "lbl753";
             this.lbl753.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12565,7 +12565,7 @@
             this.chk754.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk754.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.KARSILASTIRMACIHAZ_BUTUNLESIK], \'BLP005\')")});
-            this.chk754.LocationFloat = new DevExpress.Utils.PointFloat(151.29F, 901.84F);
+            this.chk754.LocationFloat = new DevExpress.Utils.PointFloat(151.29F, 741.84F);
             this.chk754.Name = "chk754";
             this.chk754.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -12574,7 +12574,7 @@
             this.lbl755.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl755.CanGrow = false;
             this.lbl755.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl755.LocationFloat = new DevExpress.Utils.PointFloat(174.45F, 899.15F);
+            this.lbl755.LocationFloat = new DevExpress.Utils.PointFloat(174.45F, 739.15F);
             this.lbl755.Multiline = true;
             this.lbl755.Name = "lbl755";
             this.lbl755.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12588,7 +12588,7 @@
             this.chk756.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk756.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.KARSILASTIRMACIHAZ_BUTUNLESIK], \'BLP006\')")});
-            this.chk756.LocationFloat = new DevExpress.Utils.PointFloat(151.29F, 921.22F);
+            this.chk756.LocationFloat = new DevExpress.Utils.PointFloat(151.29F, 761.22F);
             this.chk756.Name = "chk756";
             this.chk756.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -12597,7 +12597,7 @@
             this.lbl757.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl757.CanGrow = false;
             this.lbl757.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl757.LocationFloat = new DevExpress.Utils.PointFloat(174.45F, 918.53F);
+            this.lbl757.LocationFloat = new DevExpress.Utils.PointFloat(174.45F, 758.53F);
             this.lbl757.Multiline = true;
             this.lbl757.Name = "lbl757";
             this.lbl757.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -12619,7 +12619,7 @@
             this.lbl758.Multiline = true;
             this.lbl758.Name = "lbl758";
             this.lbl758.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
-            this.lbl758.SizeF = new System.Drawing.SizeF(634.25F, 847.46F);
+            this.lbl758.SizeF = new System.Drawing.SizeF(634.25F, 687.46F);
             this.lbl758.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // lbl759
@@ -12631,7 +12631,7 @@
             this.lbl759.BorderWidth = 1F;
             this.lbl759.CanGrow = false;
             this.lbl759.Font = new System.Drawing.Font("Calibri", 8.5F);
-            this.lbl759.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 962.68F);
+            this.lbl759.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 802.68F);
             this.lbl759.Multiline = true;
             this.lbl759.Name = "lbl759";
             this.lbl759.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 2, 0, 0, 100F);
@@ -12700,7 +12700,7 @@
             this.lbl757,
             this.lbl758,
             this.lbl759});
-            this.dd17.HeightF = 1007.91F;
+            this.dd17.HeightF = 847.91F;
             this.dd17.Name = "dd17";
             this.dd17.PageBreak = DevExpress.XtraReports.UI.PageBreak.BeforeBand;
             // 
