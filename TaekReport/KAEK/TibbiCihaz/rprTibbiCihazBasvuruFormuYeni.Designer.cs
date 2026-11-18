@@ -5326,49 +5326,42 @@ namespace TaekReport.KAEK.TibbiCihaz
             // 
             // lbl290
             // 
-            this.lbl290.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.lbl290.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.lbl290.BorderWidth = 1F;
+            this.lbl290.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl290.CanGrow = false;
-            this.lbl290.Font = new System.Drawing.Font("Calibri", 10F);
             this.lbl290.LocationFloat = new DevExpress.Utils.PointFloat(90.45F, 489.95F);
-            this.lbl290.Multiline = true;
             this.lbl290.Name = "lbl290";
-            this.lbl290.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             this.lbl290.SizeF = new System.Drawing.SizeF(656.86F, 188.44F);
-            this.lbl290.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.lbl290.Visible = false;
             // 
             // lbl291
             // 
             this.lbl291.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl291.CanGrow = false;
             this.lbl291.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl291.LocationFloat = new DevExpress.Utils.PointFloat(103.38F, 494.26F);
+            this.lbl291.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 493F);
             this.lbl291.Multiline = true;
             this.lbl291.Name = "lbl291";
             this.lbl291.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
-            this.lbl291.SizeF = new System.Drawing.SizeF(624.56F, 19.38F);
+            this.lbl291.SizeF = new System.Drawing.SizeF(634.25F, 19.38F);
             this.lbl291.StylePriority.UseTextAlignment = false;
             this.lbl291.Text = "Klinik araştırmanın kapsamına girdiği tedavi alanını seçiniz";
             this.lbl291.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // lbl292
             // 
-            this.lbl292.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lbl292.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
             this.lbl292.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.lbl292.BorderWidth = 2F;
-            this.lbl292.CanGrow = false;
-            this.lbl292.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl292.LocationFloat = new DevExpress.Utils.PointFloat(100.14F, 515.8F);
+            this.lbl292.BorderWidth = 1F;
+            this.lbl292.CanGrow = true;
+            this.lbl292.Font = new System.Drawing.Font("Arial", 9F);
+            this.lbl292.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 515.8F);
             this.lbl292.Multiline = true;
             this.lbl292.Name = "lbl292";
-            this.lbl292.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
-            this.lbl292.SizeF = new System.Drawing.SizeF(390.89F, 65F);
-            this.lbl292.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.lbl292.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 6, 4, 4, 100F);
+            this.lbl292.SizeF = new System.Drawing.SizeF(634.25F, 50F);
+            this.lbl292.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             // 
             // lbl293
             // 
