@@ -208,10 +208,6 @@ namespace TaekReport.KAEK.TibbiCihaz
                 };
             }
 
-            if (lblKarsilastirmaDurumuDeger != null) lblKarsilastirmaDurumuDeger.Visible = false;
-            if (lblKarsilastirmaDurumuBaslik != null) lblKarsilastirmaDurumuBaslik.Visible = false;
-            if (lnKarsilastirmaDurumu != null) lnKarsilastirmaDurumu.Visible = false;
-
             if (lbl826 != null)
             {
                 lbl826.BeforePrint += (s, e) =>
