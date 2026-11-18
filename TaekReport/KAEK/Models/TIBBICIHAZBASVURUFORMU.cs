@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,8 +21,18 @@ namespace TaekReport.KAEK.Models
         public string DURUMU { get; set; }
 
         // Bolum 1: Sponsor/Destekleyici
-        
-        public string SPONSORADI { get; set; }
+        private string _sponsorAdi;
+        public string SPONSORADI 
+        { 
+            get => _sponsorAdi; 
+            set { _sponsorAdi = value; if (string.IsNullOrEmpty(_sponsorAd)) _sponsorAd = value; } 
+        }
+        private string _sponsorAd;
+        public string SPONSORAD 
+        { 
+            get => !string.IsNullOrEmpty(_sponsorAd) ? _sponsorAd : _sponsorAdi; 
+            set { _sponsorAd = value; if (string.IsNullOrEmpty(_sponsorAdi)) _sponsorAdi = value; } 
+        }
         
         public string SPONSORADRES { get; set; }
         
