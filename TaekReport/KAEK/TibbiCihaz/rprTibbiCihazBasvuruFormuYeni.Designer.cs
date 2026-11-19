@@ -1010,8 +1010,8 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl903 = new DevExpress.XtraReports.UI.XRLabel();
             this.DetailReport24 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.dd24 = new DevExpress.XtraReports.UI.DetailBand();
-            this.lbl273 = new DevExpress.XtraReports.UI.XRLabel();
             this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
+            this.lbl273 = new DevExpress.XtraReports.UI.XRLabel();
             ((System.ComponentModel.ISupportInitialize)(this.tblTeam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblDocs)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
@@ -5119,7 +5119,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             // ln274
             // 
             this.ln274.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
-            this.ln274.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 421.04F);
+            this.ln274.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 435.04F);
             this.ln274.Name = "ln274";
             this.ln274.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
             this.ln274.SizeF = new System.Drawing.SizeF(634.25F, 2F);
@@ -5144,10 +5144,11 @@ namespace TaekReport.KAEK.TibbiCihaz
             // 
             this.shp276.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.shp276.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp276.LocationFloat = new DevExpress.Utils.PointFloat(148.06F, 398.96F);
+            this.shp276.LocationFloat = new DevExpress.Utils.PointFloat(146.99F, 407.8802F);
             this.shp276.Name = "shp276";
-            this.shp276.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
-            this.shp276.SizeF = new System.Drawing.SizeF(14F, 14F);
+            this.shp276.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.shp276.SizeF = new System.Drawing.SizeF(15.06995F, 13.99985F);
+            this.shp276.Stretch = true;
             this.shp276.StylePriority.UsePadding = false;
             // 
             // shp277
@@ -5168,7 +5169,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl278.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl278.CanGrow = false;
             this.lbl278.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl278.LocationFloat = new DevExpress.Utils.PointFloat(169.06F, 396.27F);
+            this.lbl278.LocationFloat = new DevExpress.Utils.PointFloat(169.06F, 405.19F);
             this.lbl278.Multiline = true;
             this.lbl278.Name = "lbl278";
             this.lbl278.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
@@ -5182,9 +5183,9 @@ namespace TaekReport.KAEK.TibbiCihaz
             // 
             this.shp279.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.shp279.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp279.LocationFloat = new DevExpress.Utils.PointFloat(236.36F, 398.96F);
+            this.shp279.LocationFloat = new DevExpress.Utils.PointFloat(237.98F, 407.88F);
             this.shp279.Name = "shp279";
-            this.shp279.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
+            this.shp279.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             this.shp279.SizeF = new System.Drawing.SizeF(14F, 14F);
             this.shp279.StylePriority.UsePadding = false;
             // 
@@ -5206,7 +5207,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl281.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl281.CanGrow = false;
             this.lbl281.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl281.LocationFloat = new DevExpress.Utils.PointFloat(255.21F, 396.27F);
+            this.lbl281.LocationFloat = new DevExpress.Utils.PointFloat(255.21F, 405.19F);
             this.lbl281.Multiline = true;
             this.lbl281.Name = "lbl281";
             this.lbl281.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
@@ -5221,7 +5222,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl282.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl282.CanGrow = false;
             this.lbl282.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl282.LocationFloat = new DevExpress.Utils.PointFloat(107.68F, 425.3499F);
+            this.lbl282.LocationFloat = new DevExpress.Utils.PointFloat(107.68F, 444.73F);
             this.lbl282.Multiline = true;
             this.lbl282.Name = "lbl282";
             this.lbl282.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
@@ -5235,9 +5236,9 @@ namespace TaekReport.KAEK.TibbiCihaz
             // 
             this.shp283.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.shp283.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp283.LocationFloat = new DevExpress.Utils.PointFloat(149.14F, 442.04F);
+            this.shp283.LocationFloat = new DevExpress.Utils.PointFloat(149.14F, 472.3501F);
             this.shp283.Name = "shp283";
-            this.shp283.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
+            this.shp283.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             this.shp283.SizeF = new System.Drawing.SizeF(14F, 14F);
             this.shp283.StylePriority.UsePadding = false;
             // 
@@ -5248,7 +5249,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "[TibbiCihazFormu.NADIRHASTALIKMI] == \'1\'")});
             this.shp284.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.shp284.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp284.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 445.27F);
+            this.shp284.LocationFloat = new DevExpress.Utils.PointFloat(152.37F, 464.6501F);
             this.shp284.Name = "shp284";
             this.shp284.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
             this.shp284.SizeF = new System.Drawing.SizeF(7.54F, 7.54F);
@@ -5259,7 +5260,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl285.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl285.CanGrow = false;
             this.lbl285.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl285.LocationFloat = new DevExpress.Utils.PointFloat(173.37F, 439.34F);
+            this.lbl285.LocationFloat = new DevExpress.Utils.PointFloat(170.14F, 469.6501F);
             this.lbl285.Multiline = true;
             this.lbl285.Name = "lbl285";
             this.lbl285.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
@@ -5273,9 +5274,9 @@ namespace TaekReport.KAEK.TibbiCihaz
             // 
             this.shp286.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.shp286.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp286.LocationFloat = new DevExpress.Utils.PointFloat(237.44F, 442.04F);
+            this.shp286.LocationFloat = new DevExpress.Utils.PointFloat(237.44F, 472.3501F);
             this.shp286.Name = "shp286";
-            this.shp286.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
+            this.shp286.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             this.shp286.SizeF = new System.Drawing.SizeF(14F, 14F);
             this.shp286.StylePriority.UsePadding = false;
             // 
@@ -5286,7 +5287,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif([TibbiCihazFormu.NADIRHASTALIKMI] == \'1\', False, True)")});
             this.shp287.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.shp287.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.shp287.LocationFloat = new DevExpress.Utils.PointFloat(240.67F, 445.27F);
+            this.shp287.LocationFloat = new DevExpress.Utils.PointFloat(240.67F, 464.6501F);
             this.shp287.Name = "shp287";
             this.shp287.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
             this.shp287.SizeF = new System.Drawing.SizeF(7.54F, 7.54F);
@@ -5297,7 +5298,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl288.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl288.CanGrow = false;
             this.lbl288.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl288.LocationFloat = new DevExpress.Utils.PointFloat(265.98F, 439.34F);
+            this.lbl288.LocationFloat = new DevExpress.Utils.PointFloat(257.9F, 469.6501F);
             this.lbl288.Multiline = true;
             this.lbl288.Name = "lbl288";
             this.lbl288.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
@@ -5312,7 +5313,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl289.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl289.CanGrow = false;
             this.lbl289.Font = new System.Drawing.Font("Calibri", 9.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.lbl289.LocationFloat = new DevExpress.Utils.PointFloat(151.83F, 467.34F);
+            this.lbl289.LocationFloat = new DevExpress.Utils.PointFloat(151.83F, 509.0252F);
             this.lbl289.Multiline = true;
             this.lbl289.Name = "lbl289";
             this.lbl289.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5325,7 +5326,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             // 
             this.lbl290.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl290.CanGrow = false;
-            this.lbl290.LocationFloat = new DevExpress.Utils.PointFloat(90.45F, 489.95F);
+            this.lbl290.LocationFloat = new DevExpress.Utils.PointFloat(90.45F, 531.6352F);
             this.lbl290.Name = "lbl290";
             this.lbl290.SizeF = new System.Drawing.SizeF(656.86F, 188.44F);
             this.lbl290.Visible = false;
@@ -5335,7 +5336,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl291.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl291.CanGrow = false;
             this.lbl291.Font = new System.Drawing.Font("Calibri", 10.5F);
-            this.lbl291.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 493F);
+            this.lbl291.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 534.6852F);
             this.lbl291.Multiline = true;
             this.lbl291.Name = "lbl291";
             this.lbl291.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5351,9 +5352,8 @@ namespace TaekReport.KAEK.TibbiCihaz
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.lbl292.BorderWidth = 1F;
-            this.lbl292.CanGrow = true;
             this.lbl292.Font = new System.Drawing.Font("Arial", 9F);
-            this.lbl292.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 515.8F);
+            this.lbl292.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 557.4852F);
             this.lbl292.Multiline = true;
             this.lbl292.Name = "lbl292";
             this.lbl292.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 6, 4, 4, 100F);
@@ -5370,7 +5370,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.TEDAVIALANI], \'TDA001\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl293.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl293.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 519.03F);
+            this.lbl293.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 560.7152F);
             this.lbl293.Multiline = true;
             this.lbl293.Name = "lbl293";
             this.lbl293.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -5390,7 +5390,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.TEDAVIALANI], \'TDA002\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl294.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl294.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 531.95F);
+            this.lbl294.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 573.6352F);
             this.lbl294.Multiline = true;
             this.lbl294.Name = "lbl294";
             this.lbl294.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -5410,7 +5410,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.TEDAVIALANI], \'TDA003\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl295.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl295.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 544.87F);
+            this.lbl295.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 586.5552F);
             this.lbl295.Multiline = true;
             this.lbl295.Name = "lbl295";
             this.lbl295.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -5430,7 +5430,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.TEDAVIALANI], \'TDA004\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl296.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl296.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 557.79F);
+            this.lbl296.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 599.4752F);
             this.lbl296.Multiline = true;
             this.lbl296.Name = "lbl296";
             this.lbl296.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -5450,7 +5450,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.TEDAVIALANI], \'TDA005\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl297.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl297.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 570.72F);
+            this.lbl297.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 612.4052F);
             this.lbl297.Multiline = true;
             this.lbl297.Name = "lbl297";
             this.lbl297.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -5470,7 +5470,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.TEDAVIALANI], \'TDA006\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl298.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl298.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 583.64F);
+            this.lbl298.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 625.3252F);
             this.lbl298.Multiline = true;
             this.lbl298.Name = "lbl298";
             this.lbl298.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -5490,7 +5490,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.TEDAVIALANI], \'TDA007\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl299.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl299.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 596.56F);
+            this.lbl299.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 638.2452F);
             this.lbl299.Multiline = true;
             this.lbl299.Name = "lbl299";
             this.lbl299.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -5510,7 +5510,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.TEDAVIALANI], \'TDA008\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl300.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl300.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 609.48F);
+            this.lbl300.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 651.1652F);
             this.lbl300.Multiline = true;
             this.lbl300.Name = "lbl300";
             this.lbl300.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -5530,7 +5530,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.TEDAVIALANI], \'TDA009\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl301.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl301.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 622.4F);
+            this.lbl301.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 664.0852F);
             this.lbl301.Multiline = true;
             this.lbl301.Name = "lbl301";
             this.lbl301.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -5550,7 +5550,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.TEDAVIALANI], \'TDA010\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl302.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl302.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 635.33F);
+            this.lbl302.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 677.0152F);
             this.lbl302.Multiline = true;
             this.lbl302.Name = "lbl302";
             this.lbl302.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -5570,7 +5570,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.TEDAVIALANI], \'TDA011\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl303.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl303.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 648.25F);
+            this.lbl303.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 689.9352F);
             this.lbl303.Multiline = true;
             this.lbl303.Name = "lbl303";
             this.lbl303.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -5590,7 +5590,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "ForeColor", "Iif(Contains([TibbiCihazFormu.TEDAVIALANI], \'TDA012\'), Rgb(255,255,255), Rgb(0,0," +
                     "0))")});
             this.lbl304.Font = new System.Drawing.Font("Arial", 8F);
-            this.lbl304.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 661.17F);
+            this.lbl304.LocationFloat = new DevExpress.Utils.PointFloat(102.3F, 702.8552F);
             this.lbl304.Multiline = true;
             this.lbl304.Name = "lbl304";
             this.lbl304.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 0, 0, 0, 100F);
@@ -5605,7 +5605,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl305.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl305.CanGrow = false;
             this.lbl305.Font = new System.Drawing.Font("Calibri", 9.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.lbl305.LocationFloat = new DevExpress.Utils.PointFloat(155.06F, 599.01F);
+            this.lbl305.LocationFloat = new DevExpress.Utils.PointFloat(155.06F, 640.6952F);
             this.lbl305.Multiline = true;
             this.lbl305.Name = "lbl305";
             this.lbl305.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5623,7 +5623,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl306.BorderWidth = 1F;
             this.lbl306.CanGrow = false;
             this.lbl306.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl306.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 621.63F);
+            this.lbl306.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 663.3152F);
             this.lbl306.Multiline = true;
             this.lbl306.Name = "lbl306";
             this.lbl306.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5635,7 +5635,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.chk307.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk307.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CINSIYET], \'CPT001\')")});
-            this.chk307.LocationFloat = new DevExpress.Utils.PointFloat(137.29F, 634.01F);
+            this.chk307.LocationFloat = new DevExpress.Utils.PointFloat(137.29F, 675.6952F);
             this.chk307.Name = "chk307";
             this.chk307.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -5644,7 +5644,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl308.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl308.CanGrow = false;
             this.lbl308.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl308.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 631.32F);
+            this.lbl308.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 673.0052F);
             this.lbl308.Multiline = true;
             this.lbl308.Name = "lbl308";
             this.lbl308.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5658,7 +5658,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.chk309.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.chk309.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Checked", "Contains([TibbiCihazFormu.CINSIYET], \'CPT002\')")});
-            this.chk309.LocationFloat = new DevExpress.Utils.PointFloat(388.19F, 634.01F);
+            this.chk309.LocationFloat = new DevExpress.Utils.PointFloat(388.19F, 675.6952F);
             this.chk309.Name = "chk309";
             this.chk309.SizeF = new System.Drawing.SizeF(14F, 14F);
             // 
@@ -5667,7 +5667,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl310.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl310.CanGrow = false;
             this.lbl310.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl310.LocationFloat = new DevExpress.Utils.PointFloat(410.27F, 631.32F);
+            this.lbl310.LocationFloat = new DevExpress.Utils.PointFloat(410.27F, 673.0052F);
             this.lbl310.Multiline = true;
             this.lbl310.Name = "lbl310";
             this.lbl310.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5681,7 +5681,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl311.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl311.CanGrow = false;
             this.lbl311.Font = new System.Drawing.Font("Calibri", 9.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.lbl311.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 662.55F);
+            this.lbl311.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 704.2352F);
             this.lbl311.Multiline = true;
             this.lbl311.Name = "lbl311";
             this.lbl311.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5700,7 +5700,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl312.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.DAHILEDILMEKRITER]")});
             this.lbl312.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl312.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 684.08F);
+            this.lbl312.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 725.7652F);
             this.lbl312.Multiline = true;
             this.lbl312.Name = "lbl312";
             this.lbl312.Padding = new DevExpress.XtraPrinting.PaddingInfo(7, 7, 4, 4, 100F);
@@ -5784,7 +5784,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl310,
             this.lbl311,
             this.lbl312});
-            this.dd8.HeightF = 978.05F;
+            this.dd8.HeightF = 1022.195F;
             this.dd8.Name = "dd8";
             this.dd8.PageBreak = DevExpress.XtraReports.UI.PageBreak.BeforeBand;
             // 
@@ -5793,7 +5793,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl313.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.lbl313.CanGrow = false;
             this.lbl313.Font = new System.Drawing.Font("Calibri", 9.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.lbl313.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 93.68F);
+            this.lbl313.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 135.3652F);
             this.lbl313.Multiline = true;
             this.lbl313.Name = "lbl313";
             this.lbl313.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -5812,7 +5812,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl314.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TibbiCihazFormu.HARICILMEKRITER]")});
             this.lbl314.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl314.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 119.53F);
+            this.lbl314.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 161.2152F);
             this.lbl314.Multiline = true;
             this.lbl314.Name = "lbl314";
             this.lbl314.Padding = new DevExpress.XtraPrinting.PaddingInfo(7, 7, 4, 4, 100F);
@@ -13653,8 +13653,8 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl826.BorderWidth = 2F;
             this.lbl826.CanGrow = false;
             this.lbl826.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif(!IsNullOrEmpty([TibbiCihazFormu.PLANLANANGONULLUSAYISI]), [TibbiCihazFormu.PLAN" +
-                    "LANANGONULLUSAYISI], [TibbiCihazFormu.GONULLUSAYISITOPLAM])")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif(!IsNullOrEmpty([TibbiCihazFormu.PLANLANANGONULLUSAYISI]), [TibbiCihazFormu.PL" +
+                    "ANLANANGONULLUSAYISI], [TibbiCihazFormu.GONULLUSAYISITOPLAM])")});
             this.lbl826.Font = new System.Drawing.Font("Calibri", 10F);
             this.lbl826.LocationFloat = new DevExpress.Utils.PointFloat(91.53F, 961.6F);
             this.lbl826.Multiline = true;
@@ -15251,6 +15251,11 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.dd24.Name = "dd24";
             this.dd24.PageBreak = DevExpress.XtraReports.UI.PageBreak.BeforeBand;
             // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.TibbiCihazBasvuruFormu);
+            this.objectDataSource1.Name = "objectDataSource1";
+            // 
             // lbl273
             // 
             this.lbl273.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(110)))));
@@ -15260,18 +15265,13 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.lbl273.BorderWidth = 1F;
             this.lbl273.CanGrow = false;
             this.lbl273.Font = new System.Drawing.Font("Calibri", 10F);
-            this.lbl273.LocationFloat = new DevExpress.Utils.PointFloat(100.15F, 376.89F);
+            this.lbl273.LocationFloat = new DevExpress.Utils.PointFloat(97.99007F, 376.89F);
             this.lbl273.Multiline = true;
             this.lbl273.Name = "lbl273";
             this.lbl273.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100F);
-            this.lbl273.SizeF = new System.Drawing.SizeF(634.25F, 87.22F);
+            this.lbl273.SizeF = new System.Drawing.SizeF(634.2499F, 120F);
             this.lbl273.StylePriority.UsePadding = false;
             this.lbl273.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.TibbiCihazBasvuruFormu);
-            this.objectDataSource1.Name = "objectDataSource1";
             // 
             // rprTibbiCihazBasvuruFormuYeni
             // 
