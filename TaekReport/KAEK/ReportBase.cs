@@ -395,5 +395,27 @@ namespace TaekReport.KAEK
 
 
 
-    }
+
+        public byte[] KlinikArastirmaPlani(List<TaekReport.KAEK.Models.RaporModel.KlinikArastirmaPlaniRaporModel> list)
+        {
+            byte[] resultReport = null;
+            try
+            {
+                TibbiCihaz.rprKlinikArastirmaPlani rpr = new TibbiCihaz.rprKlinikArastirmaPlani(list);
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    rpr.DataSource = list;
+                    rpr.ExportToPdf(ms);
+                    resultReport = ms.ToArray();
+                }
+            }
+            catch (Exception ex)
+            {
+                var data = ex.Message;
+            }
+
+            return resultReport;
+        }
+
+    }
 }
