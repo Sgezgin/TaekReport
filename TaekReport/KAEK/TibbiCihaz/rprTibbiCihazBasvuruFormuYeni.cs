@@ -312,6 +312,47 @@ namespace TaekReport.KAEK.TibbiCihaz
             }
         }
 
+        private void AdjustTedaviAlaniLayout(string formattedText)
+        {
+            if (lbl292 == null) return;
+
+            int lines = string.IsNullOrWhiteSpace(formattedText) 
+                ? 1 
+                : formattedText.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries).Length;
+
+            // Her satır yaklaşık 16F yükseklik alır, kenarlık ve iç dolgu için 14F eklenir
+            float neededH = Math.Max(50F, (lines * 16F) + 14F);
+            float deltaY = neededH - 50F;
+
+            lbl292.SizeF = new System.Drawing.SizeF(634.25F, neededH);
+
+            if (deltaY > 0)
+            {
+                // Aşağıdaki kontrolleri deltaY kadar aşağı kaydır
+                if (lbl305 != null) lbl305.LocationFloat = new DevExpress.Utils.PointFloat(155.06F, 640.6952F + deltaY);
+                if (lbl306 != null) lbl306.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 663.3152F + deltaY);
+                if (chk307 != null) chk307.LocationFloat = new DevExpress.Utils.PointFloat(137.29F, 675.6952F + deltaY);
+                if (lbl308 != null) lbl308.LocationFloat = new DevExpress.Utils.PointFloat(158.29F, 673.0052F + deltaY);
+                if (chk309 != null) chk309.LocationFloat = new DevExpress.Utils.PointFloat(388.19F, 675.6952F + deltaY);
+                if (lbl310 != null) lbl310.LocationFloat = new DevExpress.Utils.PointFloat(410.27F, 673.0052F + deltaY);
+                if (lbl311 != null) lbl311.LocationFloat = new DevExpress.Utils.PointFloat(159.37F, 704.24F + deltaY);
+
+                if (lbl312 != null)
+                {
+                    lbl312.LocationFloat = new DevExpress.Utils.PointFloat(101.22F, 725.7652F + deltaY);
+                    // lbl312 yüksekliğini deltaY kadar daraltıp CanGrow=true yapıyoruz, böylece dd8 bandı taşmaz
+                    float newH312 = Math.Max(120F, 286.43F - deltaY);
+                    lbl312.SizeF = new System.Drawing.SizeF(634.25F, newH312);
+                    lbl312.CanGrow = true;
+                }
+
+                if (dd8 != null)
+                {
+                    dd8.HeightF = Math.Max(1022.195F, (725.7652F + deltaY) + (lbl312?.HeightF ?? 150F) + 20F);
+                }
+            }
+        }
+
         private TibbiCihazBasvuruFormu GetCurrentFormData()
         {
             var row = GetCurrentRow() as TibbiCihazBasvuruFormu;
@@ -421,7 +462,7 @@ namespace TaekReport.KAEK.TibbiCihaz
 
             // 3. Remove accidental partial splits:
             // If "Ortopedi, travmatoloji, rehabilitasyon" exists, remove any single "Ortopedi", "travmatoloji", "travmaloji", "rehabilitasyon"
-            if (selectedItems.Any(x => x.StartsWith("Ortopedi", StringComparison.OrdinalIgnoreCase)))
+            if (selectedItems.Any(x => x.IndexOf("Ortopedi", StringComparison.OrdinalIgnoreCase) >= 0))
             {
                 selectedItems.RemoveAll(x => x.Equals("Ortopedi", StringComparison.OrdinalIgnoreCase) ||
                                              x.Equals("travmatoloji", StringComparison.OrdinalIgnoreCase) ||
@@ -429,7 +470,16 @@ namespace TaekReport.KAEK.TibbiCihaz
                                              x.Equals("rehabilitasyon", StringComparison.OrdinalIgnoreCase));
             }
 
-            // If "Diğer (...)" exists, remove bare "Diğer" or "Diğer Tedavi Alanı"
+            // Always resolve "Diğer Tedavi Alanı" to "Diğer (açıklama)" or "Diğer"
+            if (selectedItems.Any(x => string.Equals(x, "Diğer Tedavi Alanı", StringComparison.OrdinalIgnoreCase)))
+            {
+                selectedItems.RemoveAll(x => string.Equals(x, "Diğer Tedavi Alanı", StringComparison.OrdinalIgnoreCase));
+                string dVal = !string.IsNullOrWhiteSpace(otherExtra) ? "Diğer (" + otherExtra + ")" : "Diğer";
+                if (!selectedItems.Contains(dVal, StringComparer.OrdinalIgnoreCase))
+                    selectedItems.Add(dVal);
+            }
+
+            // If "Diğer (...)" exists, remove bare "Diğer"
             if (selectedItems.Any(x => x.StartsWith("Diğer (", StringComparison.OrdinalIgnoreCase)))
             {
                 selectedItems.RemoveAll(x => x.Equals("Diğer", StringComparison.OrdinalIgnoreCase) ||
