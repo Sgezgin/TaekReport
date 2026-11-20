@@ -128,6 +128,7 @@ namespace TaekReport.KAEK.TibbiCihaz
                 {
                     l.Visible = false;
                     l.ExpressionBindings.Clear();
+                    l.Text = string.Empty;
                 }
             }
         }
@@ -187,7 +188,9 @@ namespace TaekReport.KAEK.TibbiCihaz
                 lbl292.BeforePrint += (s, e) =>
                 {
                     var data = GetCurrentFormData();
-                    lbl292.Text = FormatSelected(data?.TibbiCihazFormu?.TEDAVIALANI, data?.TedaviAlaniMetin, TedaviAlanlari);
+                    string formatted = FormatSelected(data?.TibbiCihazFormu?.TEDAVIALANI, data?.TedaviAlaniMetin, TedaviAlanlari);
+                    lbl292.Text = formatted;
+                    AdjustTedaviAlaniLayout(formatted);
                 };
             }
 
