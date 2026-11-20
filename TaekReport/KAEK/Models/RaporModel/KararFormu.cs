@@ -31,5 +31,17 @@ namespace TaekReport.KAEK.Models.RaporModel
         public KARARRAPORUBILGI KARARRAPORUBILGI { get; set; }
         public ARASTIRMABUTCEFORMU ARASTIRMABUTCEFORMU { get; set; }
         public LOKASYON LOKASYON { get; set; }
+
+   
+        public List<KARARISLAKIMZABELGE> listIslakImzaBelgeleri { get; set; }
+    }
+
+    /// <summary>Karar raporunda gösterilecek ıslak imzalı belge (KARARISLAKIMZA kaydının BELGESI alanı).</summary>
+    public class KARARISLAKIMZABELGE
+    {
+        public string DOSYAADI { get; set; }
+        public byte[] BELGE { get; set; }
+
+        public bool PdfMi { get; set; }
     }
 }
