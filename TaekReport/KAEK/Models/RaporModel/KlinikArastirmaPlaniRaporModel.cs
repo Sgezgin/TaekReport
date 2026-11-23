@@ -22,6 +22,8 @@ namespace TaekReport.KAEK.Models.RaporModel
         public string SorumluArastirmaci { get; set; } = "";
         public string Sponsor { get; set; } = "";
         public string Tarih { get; set; } = "";
+        public string Versiyon { get; set; } = "";
+        public string Dil { get; set; } = "";
 
         public List<CipRaporMaddeItem> Maddeler { get; set; } = new List<CipRaporMaddeItem>();
 
