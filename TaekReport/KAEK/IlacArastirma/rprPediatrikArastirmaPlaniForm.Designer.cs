@@ -114,7 +114,6 @@
             this.xrTableCell14 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell15 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrPageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
-            this.PageFooter = new DevExpress.XtraReports.UI.PageFooterBand();
             this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
             this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
@@ -135,8 +134,9 @@
             // Detail
             // 
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel1,
             this.xrTable2});
-            this.Detail.HeightF = 1440F;
+            this.Detail.HeightF = 1430F;
             this.Detail.Name = "Detail";
             // 
             // xrTable2
@@ -211,7 +211,7 @@
             this.xrTableCell5.Name = "xrTableCell5";
             this.xrTableCell5.StylePriority.UseFont = false;
             this.xrTableCell5.StylePriority.UseTextAlignment = false;
-            this.xrTableCell5.Text = "Araştırmanın açık adı";
+            this.xrTableCell5.Text = "Araştırmanın/Çalışmanın Açık Adı ";
             this.xrTableCell5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             this.xrTableCell5.Weight = 0.6675027461942602D;
             // 
@@ -365,7 +365,7 @@
             // xrTableCell24
             // 
             this.xrTableCell24.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KlinikFormu].[KARSILASTIRMAURUNUVEYONTEMI]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KlinikFormu].[ARASTIRMAYONTEMI]")});
             this.xrTableCell24.Multiline = true;
             this.xrTableCell24.Name = "xrTableCell24";
             this.xrTableCell24.StylePriority.UseTextAlignment = false;
@@ -1043,17 +1043,10 @@
             this.xrPageInfo1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             this.xrPageInfo1.TextFormatString = "{0} / {1}";
             // 
-            // PageFooter
-            // 
-            this.PageFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrLabel1});
-            this.PageFooter.HeightF = 55.41738F;
-            this.PageFooter.Name = "PageFooter";
-            // 
             // xrLabel1
             // 
             this.xrLabel1.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(9.999974F, 9.999974F);
+            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(10.00013F, 1367.375F);
             this.xrLabel1.Multiline = true;
             this.xrLabel1.Name = "xrLabel1";
             this.xrLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -1072,8 +1065,7 @@
             this.TopMargin,
             this.BottomMargin,
             this.Detail,
-            this.PageHeader,
-            this.PageFooter});
+            this.PageHeader});
             this.ComponentStorage.AddRange(new System.ComponentModel.IComponent[] {
             this.objectDataSource1});
             this.DataSource = this.objectDataSource1;
@@ -1173,7 +1165,6 @@
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell14;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell15;
         private DevExpress.XtraReports.UI.XRPageInfo xrPageInfo1;
-        private DevExpress.XtraReports.UI.PageFooterBand PageFooter;
         private DevExpress.XtraReports.UI.XRLabel xrLabel1;
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow29;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell53;
