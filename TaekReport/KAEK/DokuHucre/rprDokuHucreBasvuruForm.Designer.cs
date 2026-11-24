@@ -165,7 +165,6 @@ namespace TaekReport.KAEK.DokuHucre
             this.c_tblUrunTanimi_29 = new DevExpress.XtraReports.UI.XRTableCell();
             this.r_tblUrunTanimi_30 = new DevExpress.XtraReports.UI.XRTableRow();
             this.c_tblUrunTanimi_30_lbl = new DevExpress.XtraReports.UI.XRTableCell();
-            this.c_tblUrunTanimi_30_val = new DevExpress.XtraReports.UI.XRTableCell();
             this.r_tblUrunTanimi_31 = new DevExpress.XtraReports.UI.XRTableRow();
             this.c_tblUrunTanimi_31_q = new DevExpress.XtraReports.UI.XRTableCell();
             this.c_tblUrunTanimi_31_y = new DevExpress.XtraReports.UI.XRTableCell();
@@ -2117,8 +2116,7 @@ namespace TaekReport.KAEK.DokuHucre
             // r_tblUrunTanimi_30
             // 
             this.r_tblUrunTanimi_30.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.c_tblUrunTanimi_30_lbl,
-            this.c_tblUrunTanimi_30_val});
+            this.c_tblUrunTanimi_30_lbl});
             this.r_tblUrunTanimi_30.Name = "r_tblUrunTanimi_30";
             this.r_tblUrunTanimi_30.Weight = 1D;
             // 
@@ -2132,20 +2130,7 @@ namespace TaekReport.KAEK.DokuHucre
             this.c_tblUrunTanimi_30_lbl.Name = "c_tblUrunTanimi_30_lbl";
             this.c_tblUrunTanimi_30_lbl.Text = "İlgilenilen gen(ler):";
             this.c_tblUrunTanimi_30_lbl.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            this.c_tblUrunTanimi_30_lbl.Weight = 1D;
-            // 
-            // c_tblUrunTanimi_30_val
-            // 
-            this.c_tblUrunTanimi_30_val.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.c_tblUrunTanimi_30_val.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DokuHucreFormu.GEN_ILGILENILEN]")});
-            this.c_tblUrunTanimi_30_val.Font = new System.Drawing.Font("Arial", 9F);
-            this.c_tblUrunTanimi_30_val.Multiline = true;
-            this.c_tblUrunTanimi_30_val.Name = "c_tblUrunTanimi_30_val";
-            this.c_tblUrunTanimi_30_val.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            this.c_tblUrunTanimi_30_val.Weight = 2D;
+            this.c_tblUrunTanimi_30_lbl.Weight = 3D;
             // 
             // r_tblUrunTanimi_31
             // 
@@ -3753,7 +3738,7 @@ namespace TaekReport.KAEK.DokuHucre
             this.xrTableCell1.Font = new System.Drawing.Font("Arial", 9.5F, System.Drawing.FontStyle.Bold);
             this.xrTableCell1.Multiline = true;
             this.xrTableCell1.Name = "xrTableCell1";
-            this.xrTableCell1.Text = "Uygulamayı Yapacak   Hekim (Gerektiğinde bu bölümü tekrar ediniz)";
+            this.xrTableCell1.Text = "Uygulamayı Yapacak Hekim (Gerektiğinde bu bölümü tekrar ediniz)";
             this.xrTableCell1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell1.Weight = 3D;
             // 
@@ -4932,7 +4917,6 @@ namespace TaekReport.KAEK.DokuHucre
         private DevExpress.XtraReports.UI.XRTableCell c_tblUrunTanimi_29;
         private DevExpress.XtraReports.UI.XRTableRow r_tblUrunTanimi_30;
         private DevExpress.XtraReports.UI.XRTableCell c_tblUrunTanimi_30_lbl;
-        private DevExpress.XtraReports.UI.XRTableCell c_tblUrunTanimi_30_val;
         private DevExpress.XtraReports.UI.XRTableRow r_tblUrunTanimi_31;
         private DevExpress.XtraReports.UI.XRTableCell c_tblUrunTanimi_31_q;
         private DevExpress.XtraReports.UI.XRTableCell c_tblUrunTanimi_31_y;
