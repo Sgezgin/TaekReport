@@ -795,7 +795,7 @@
             this.xrTableCell41.Name = "xrTableCell41";
             this.xrTableCell41.StylePriority.UseFont = false;
             this.xrTableCell41.StylePriority.UseTextAlignment = false;
-            this.xrTableCell41.Text = "Belge  Kodu\tRev. Tarihi / No.su:";
+            this.xrTableCell41.Text = "Rev. Tarihi / No.su:";
             this.xrTableCell41.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell41.Weight = 0.27613158547198835D;
             // 
