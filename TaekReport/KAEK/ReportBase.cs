@@ -18,7 +18,7 @@ namespace TaekReport.KAEK
                 KAEK.IlacArastirma.rprUstBasvuruForm rpr = new KAEK.IlacArastirma.rprUstBasvuruForm(form);
                 using (MemoryStream ms = new MemoryStream())
                 {
-                    rpr.DataSource = form; UstBasvuruFrm
+                    rpr.DataSource = form;
                     rpr.ExportToPdf(ms);
 
                     resultReport = ms.ToArray();
