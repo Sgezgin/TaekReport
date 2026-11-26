@@ -863,7 +863,7 @@
             this.xrTableCell212.Name = "xrTableCell212";
             this.xrTableCell212.StylePriority.UseBorders = false;
             this.xrTableCell212.StylePriority.UseFont = false;
-            this.xrTableCell212.Text = "Araştırm Statü Açıklaması";
+            this.xrTableCell212.Text = "Araştırma Statüsü Açıklaması";
             this.xrTableCell212.Weight = 0.555229144987758D;
             // 
             // xrTableCell254
@@ -5953,7 +5953,7 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell309.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Tarih]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[KlinikFormu].[EKLEMETARIH]")});
             this.xrTableCell309.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTableCell309.ForeColor = System.Drawing.Color.Black;
             this.xrTableCell309.Multiline = true;
