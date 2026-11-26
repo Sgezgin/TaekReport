@@ -212,7 +212,6 @@
             this.xrTableCell86 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell87 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrPageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.xrTable4 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow3 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell5 = new DevExpress.XtraReports.UI.XRTableCell();
@@ -220,6 +219,7 @@
             this.xrTableRow4 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell7 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell8 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).BeginInit();
@@ -255,8 +255,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable37)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -304,7 +304,7 @@
             this.xrTable36,
             this.xrTable37,
             this.xrTable3});
-            this.Detail.HeightF = 1858.912F;
+            this.Detail.HeightF = 1848.01F;
             this.Detail.Name = "Detail";
             // 
             // xrTable5
@@ -1853,7 +1853,7 @@
             // 
             // xrTable3
             // 
-            this.xrTable3.LocationFloat = new DevExpress.Utils.PointFloat(10.00002F, 20.00001F);
+            this.xrTable3.LocationFloat = new DevExpress.Utils.PointFloat(10.00002F, 10F);
             this.xrTable3.Name = "xrTable3";
             this.xrTable3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable3.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -1912,7 +1912,7 @@
             this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable4,
             this.xrTable2});
-            this.PageHeader.HeightF = 179.5833F;
+            this.PageHeader.HeightF = 165.5347F;
             this.PageHeader.Name = "PageHeader";
             // 
             // xrTable2
@@ -2128,11 +2128,6 @@
             this.xrPageInfo1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrPageInfo1.TextFormatString = "{0} / {1}";
             // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.ArastirmaProtokolFormu);
-            this.objectDataSource1.Name = "objectDataSource1";
-            // 
             // xrTable4
             // 
             this.xrTable4.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
@@ -2144,7 +2139,7 @@
             this.xrTable4.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow3,
             this.xrTableRow4});
-            this.xrTable4.SizeF = new System.Drawing.SizeF(769.0002F, 74.99999F);
+            this.xrTable4.SizeF = new System.Drawing.SizeF(769.0002F, 50F);
             this.xrTable4.StylePriority.UseBorders = false;
             // 
             // xrTableRow3
@@ -2173,7 +2168,7 @@
             this.xrTableCell6.Multiline = true;
             this.xrTableCell6.Name = "xrTableCell6";
             this.xrTableCell6.StylePriority.UseTextAlignment = false;
-            this.xrTableCell6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            this.xrTableCell6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell6.Weight = 2.1045633758428886D;
             // 
             // xrTableRow4
@@ -2182,7 +2177,7 @@
             this.xrTableCell7,
             this.xrTableCell8});
             this.xrTableRow4.Name = "xrTableRow4";
-            this.xrTableRow4.Weight = 2D;
+            this.xrTableRow4.Weight = 1.0000002034505415D;
             // 
             // xrTableCell7
             // 
@@ -2202,8 +2197,13 @@
             this.xrTableCell8.Multiline = true;
             this.xrTableCell8.Name = "xrTableCell8";
             this.xrTableCell8.StylePriority.UseTextAlignment = false;
-            this.xrTableCell8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            this.xrTableCell8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell8.Weight = 2.1045631437700503D;
+            // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.ArastirmaProtokolFormu);
+            this.objectDataSource1.Name = "objectDataSource1";
             // 
             // rprArastirmaProtokolFormu
             // 
@@ -2256,8 +2256,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable37)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
