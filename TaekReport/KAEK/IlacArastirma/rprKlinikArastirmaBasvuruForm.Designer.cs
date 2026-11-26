@@ -519,7 +519,7 @@
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable2,
             this.xrLabel1});
-            this.Detail.HeightF = 2605.717F;
+            this.Detail.HeightF = 2489.124F;
             this.Detail.Name = "Detail";
             // 
             // xrTable2
