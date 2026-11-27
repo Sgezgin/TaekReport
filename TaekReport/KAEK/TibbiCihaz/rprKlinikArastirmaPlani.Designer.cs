@@ -51,7 +51,6 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.xrCellPF_KoordinasyonUnvan = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrCellPF_OnaylayanUnvan = new DevExpress.XtraReports.UI.XRTableCell();
             this.ReportHeader = new DevExpress.XtraReports.UI.ReportHeaderBand();
-            this.xrLabelPreamble1 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabelPreamble2 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrTableInfo = new DevExpress.XtraReports.UI.XRTable();
             this.rInfo1 = new DevExpress.XtraReports.UI.XRTableRow();
@@ -66,6 +65,12 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.rInfo4 = new DevExpress.XtraReports.UI.XRTableRow();
             this.cInfo4_Lbl = new DevExpress.XtraReports.UI.XRTableCell();
             this.cInfo4_Val = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableRow6 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell6 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell7 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableRow7 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell8 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell9 = new DevExpress.XtraReports.UI.XRTableCell();
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
             this.DetailReportMaddeler = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail1 = new DevExpress.XtraReports.UI.DetailBand();
@@ -76,24 +81,18 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.cAltMaddeler = new DevExpress.XtraReports.UI.XRTableCell();
             this.rYanit = new DevExpress.XtraReports.UI.XRTableRow();
             this.cYanit = new DevExpress.XtraReports.UI.XRTableCell();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.ReportFooter = new DevExpress.XtraReports.UI.ReportFooterBand();
             this.xrPageBreakOzet = new DevExpress.XtraReports.UI.XRPageBreak();
             this.xrLabelOzetBaslik = new DevExpress.XtraReports.UI.XRLabel();
             this.xrRichTextOzet = new DevExpress.XtraReports.UI.XRRichText();
-            this.xrTableRow6 = new DevExpress.XtraReports.UI.XRTableRow();
-            this.xrTableCell6 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableCell7 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableRow7 = new DevExpress.XtraReports.UI.XRTableRow();
-            this.xrTableCell8 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableCell9 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTablePH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTablePF)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableInfo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableMadde)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrRichTextOzet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichTextOzet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -156,7 +155,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.xrCellPHTitle.Multiline = true;
             this.xrCellPHTitle.Name = "xrCellPHTitle";
             this.xrCellPHTitle.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 4, 4, 100F);
-            this.xrCellPHTitle.Text = "ASGARİ TIBBİ CİHAZ\r\nKLİNİK ARAŞTIRMA PLANI (CIP) \r\nÖRNEĞİ";
+            this.xrCellPHTitle.Text = "ASGARİ TIBBİ CİHAZ\r\nKLİNİK ARAŞTIRMA PLANI (CIP)";
             this.xrCellPHTitle.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrCellPHTitle.Weight = 0.50259999255535315D;
             // 
@@ -358,25 +357,15 @@ namespace TaekReport.KAEK.TibbiCihaz
             // ReportHeader
             // 
             this.ReportHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrLabelPreamble1,
             this.xrLabelPreamble2,
             this.xrTableInfo});
-            this.ReportHeader.HeightF = 216F;
+            this.ReportHeader.HeightF = 201.6689F;
             this.ReportHeader.Name = "ReportHeader";
-            // 
-            // xrLabelPreamble1
-            // 
-            this.xrLabelPreamble1.Font = new System.Drawing.Font("Arial", 9.5F, System.Drawing.FontStyle.Italic);
-            this.xrLabelPreamble1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 5F);
-            this.xrLabelPreamble1.Name = "xrLabelPreamble1";
-            this.xrLabelPreamble1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabelPreamble1.SizeF = new System.Drawing.SizeF(669F, 18F);
-            this.xrLabelPreamble1.Text = "Bu form bir örnektir.";
             // 
             // xrLabelPreamble2
             // 
             this.xrLabelPreamble2.Font = new System.Drawing.Font("Arial", 9F);
-            this.xrLabelPreamble2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 26F);
+            this.xrLabelPreamble2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 10F);
             this.xrLabelPreamble2.Multiline = true;
             this.xrLabelPreamble2.Name = "xrLabelPreamble2";
             this.xrLabelPreamble2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -390,7 +379,7 @@ namespace TaekReport.KAEK.TibbiCihaz
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableInfo.BorderWidth = 1F;
-            this.xrTableInfo.LocationFloat = new DevExpress.Utils.PointFloat(0F, 72F);
+            this.xrTableInfo.LocationFloat = new DevExpress.Utils.PointFloat(0F, 56F);
             this.xrTableInfo.Name = "xrTableInfo";
             this.xrTableInfo.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.rInfo1,
@@ -506,6 +495,63 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.cInfo4_Val.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 4, 3, 3, 100F);
             this.cInfo4_Val.Weight = 0.72D;
             // 
+            // xrTableRow6
+            // 
+            this.xrTableRow6.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell6,
+            this.xrTableCell7});
+            this.xrTableRow6.Name = "xrTableRow6";
+            this.xrTableRow6.Weight = 1D;
+            // 
+            // xrTableCell6
+            // 
+            this.xrTableCell6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.xrTableCell6.Font = new System.Drawing.Font("Arial", 8.5F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell6.Multiline = true;
+            this.xrTableCell6.Name = "xrTableCell6";
+            this.xrTableCell6.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 4, 3, 3, 100F);
+            this.xrTableCell6.Text = "Versiyon";
+            this.xrTableCell6.Weight = 0.28D;
+            // 
+            // xrTableCell7
+            // 
+            this.xrTableCell7.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Versiyon]")});
+            this.xrTableCell7.Font = new System.Drawing.Font("Arial", 8.5F);
+            this.xrTableCell7.Multiline = true;
+            this.xrTableCell7.Name = "xrTableCell7";
+            this.xrTableCell7.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 4, 3, 3, 100F);
+            this.xrTableCell7.Weight = 0.72D;
+            // 
+            // xrTableRow7
+            // 
+            this.xrTableRow7.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell8,
+            this.xrTableCell9});
+            this.xrTableRow7.Name = "xrTableRow7";
+            this.xrTableRow7.Weight = 1D;
+            // 
+            // xrTableCell8
+            // 
+            this.xrTableCell8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.xrTableCell8.Font = new System.Drawing.Font("Arial", 8.5F, System.Drawing.FontStyle.Bold);
+            this.xrTableCell8.Multiline = true;
+            this.xrTableCell8.Name = "xrTableCell8";
+            this.xrTableCell8.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 4, 3, 3, 100F);
+            this.xrTableCell8.Text = "Dil";
+            this.xrTableCell8.Weight = 0.28D;
+            // 
+            // xrTableCell9
+            // 
+            this.xrTableCell9.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Dil]")});
+            this.xrTableCell9.Font = new System.Drawing.Font("Arial", 8.5F);
+            this.xrTableCell9.Multiline = true;
+            this.xrTableCell9.Name = "xrTableCell9";
+            this.xrTableCell9.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 4, 3, 3, 100F);
+            this.xrTableCell9.Text = "xrTableCell9";
+            this.xrTableCell9.Weight = 0.72D;
+            // 
             // Detail
             // 
             this.Detail.HeightF = 0F;
@@ -603,6 +649,11 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.cYanit.Padding = new DevExpress.XtraPrinting.PaddingInfo(8, 8, 6, 8, 100F);
             this.cYanit.Weight = 1D;
             // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.KlinikArastirmaPlaniRaporModel);
+            this.objectDataSource1.Name = "objectDataSource1";
+            // 
             // ReportFooter
             // 
             this.ReportFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
@@ -639,68 +690,6 @@ namespace TaekReport.KAEK.TibbiCihaz
             this.xrRichTextOzet.Padding = new DevExpress.XtraPrinting.PaddingInfo(4, 4, 4, 4, 100F);
             this.xrRichTextOzet.SizeF = new System.Drawing.SizeF(669F, 50F);
             // 
-            // xrTableRow6
-            // 
-            this.xrTableRow6.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.xrTableCell6,
-            this.xrTableCell7});
-            this.xrTableRow6.Name = "xrTableRow6";
-            this.xrTableRow6.Weight = 1D;
-            // 
-            // xrTableCell6
-            // 
-            this.xrTableCell6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
-            this.xrTableCell6.Font = new System.Drawing.Font("Arial", 8.5F, System.Drawing.FontStyle.Bold);
-            this.xrTableCell6.Multiline = true;
-            this.xrTableCell6.Name = "xrTableCell6";
-            this.xrTableCell6.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 4, 3, 3, 100F);
-            this.xrTableCell6.Text = "Versiyon";
-            this.xrTableCell6.Weight = 0.28D;
-            // 
-            // xrTableCell7
-            // 
-            this.xrTableCell7.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Versiyon]")});
-            this.xrTableCell7.Font = new System.Drawing.Font("Arial", 8.5F);
-            this.xrTableCell7.Multiline = true;
-            this.xrTableCell7.Name = "xrTableCell7";
-            this.xrTableCell7.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 4, 3, 3, 100F);
-            this.xrTableCell7.Weight = 0.72D;
-            // 
-            // xrTableRow7
-            // 
-            this.xrTableRow7.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.xrTableCell8,
-            this.xrTableCell9});
-            this.xrTableRow7.Name = "xrTableRow7";
-            this.xrTableRow7.Weight = 1D;
-            // 
-            // xrTableCell8
-            // 
-            this.xrTableCell8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
-            this.xrTableCell8.Font = new System.Drawing.Font("Arial", 8.5F, System.Drawing.FontStyle.Bold);
-            this.xrTableCell8.Multiline = true;
-            this.xrTableCell8.Name = "xrTableCell8";
-            this.xrTableCell8.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 4, 3, 3, 100F);
-            this.xrTableCell8.Text = "Dil";
-            this.xrTableCell8.Weight = 0.28D;
-            // 
-            // xrTableCell9
-            // 
-            this.xrTableCell9.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Dil]")});
-            this.xrTableCell9.Font = new System.Drawing.Font("Arial", 8.5F);
-            this.xrTableCell9.Multiline = true;
-            this.xrTableCell9.Name = "xrTableCell9";
-            this.xrTableCell9.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 4, 3, 3, 100F);
-            this.xrTableCell9.Text = "xrTableCell9";
-            this.xrTableCell9.Weight = 0.72D;
-            // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(TaekReport.KAEK.Models.RaporModel.KlinikArastirmaPlaniRaporModel);
-            this.objectDataSource1.Name = "objectDataSource1";
-            // 
             // rprKlinikArastirmaPlani
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -725,8 +714,8 @@ namespace TaekReport.KAEK.TibbiCihaz
             ((System.ComponentModel.ISupportInitialize)(this.xrTablePF)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableInfo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTableMadde)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrRichTextOzet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichTextOzet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -753,7 +742,6 @@ namespace TaekReport.KAEK.TibbiCihaz
         private DevExpress.XtraReports.UI.XRTableCell xrCellPF_KoordinasyonUnvan;
         private DevExpress.XtraReports.UI.XRTableCell xrCellPF_OnaylayanUnvan;
         private DevExpress.XtraReports.UI.ReportHeaderBand ReportHeader;
-        private DevExpress.XtraReports.UI.XRLabel xrLabelPreamble1;
         private DevExpress.XtraReports.UI.XRLabel xrLabelPreamble2;
         private DevExpress.XtraReports.UI.XRTable xrTableInfo;
         private DevExpress.XtraReports.UI.XRTableRow rInfo1;
